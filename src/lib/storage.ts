@@ -1,8 +1,22 @@
 import { ListProgress, WordProgress, SessionResult } from "./types";
 import { getInitialProgress } from "./leitner";
+import { pushProgress, getToken } from "./sync";
 
 const PROGRESS_KEY = "woordjes-leren-progress";
 const SESSIONS_KEY = "woordjes-leren-sessions";
+
+// Debounced server sync — max once per 5 seconds
+let syncTimer: ReturnType<typeof setTimeout> | null = null;
+
+function scheduleSync() {
+  if (typeof window === "undefined") return;
+  if (!getToken()) return; // not logged in
+  if (syncTimer) clearTimeout(syncTimer);
+  syncTimer = setTimeout(() => {
+    pushProgress().catch(() => {});
+    syncTimer = null;
+  }, 5_000);
+}
 
 function getStorage(): Record<string, ListProgress> {
   if (typeof window === "undefined") return {};
@@ -13,6 +27,7 @@ function getStorage(): Record<string, ListProgress> {
 function saveStorage(data: Record<string, ListProgress>) {
   if (typeof window === "undefined") return;
   localStorage.setItem(PROGRESS_KEY, JSON.stringify(data));
+  scheduleSync();
 }
 
 export function getListProgress(listId: string): ListProgress | null {
@@ -62,6 +77,7 @@ export function saveSessionResult(result: SessionResult) {
   // Keep last 100 sessions
   if (sessions.length > 100) sessions.splice(0, sessions.length - 100);
   localStorage.setItem(SESSIONS_KEY, JSON.stringify(sessions));
+  scheduleSync();
 }
 
 export function getSessionHistory(listId?: string): SessionResult[] {
