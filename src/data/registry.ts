@@ -193,7 +193,6 @@ export const ALL_LISTS: WordList[] = [
   placeholder("bb-de-voc", "Duits - Bovenbouw Woordenschat", "de", "bovenbouw", undefined, "vocabulary"),
   placeholder("bb-la-voc", "Latijn - Bovenbouw Woordenschat", "la", "bovenbouw", undefined, "vocabulary"),
   placeholder("bb-gr-voc", "Grieks - Bovenbouw Woordenschat", "gr", "bovenbouw", undefined, "vocabulary"),
-  placeholder("bb-nl-voc", "Nederlands - Bovenbouw Woordenschat", "nl", "bovenbouw", undefined, "vocabulary"),
 ];
 
 // ============================================================
