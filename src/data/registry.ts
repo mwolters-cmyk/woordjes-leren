@@ -219,7 +219,7 @@ export function isPlaceholder(list: WordList): boolean {
 
 export function getAvailableJaarlagen(): Jaarlaag[] {
   const set = new Set(ALL_LISTS.map((l) => l.jaarlaag));
-  return [1, 2, 3, "bovenbouw"].filter((j) => set.has(j)) as Jaarlaag[];
+  return ([1, 2, 3, "bovenbouw"] as Jaarlaag[]).filter((j) => set.has(j));
 }
 
 export function getLanguagesForModule(
