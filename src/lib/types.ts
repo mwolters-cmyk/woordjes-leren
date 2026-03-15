@@ -14,7 +14,7 @@ export const LANGUAGE_EMOJI: Record<Language, string> = {
   en: "\u{1F1EC}\u{1F1E7}",
   de: "\u{1F1E9}\u{1F1EA}",
   la: "\u{1F3DB}\u{FE0F}",
-  gr: "\u{1F3DB}\u{FE0F}",
+  gr: "\u{03A9}",
   nl: "\u{1F1F3}\u{1F1F1}",
 };
 

@@ -95,12 +95,16 @@ export const ALL_LISTS: WordList[] = [
 
   // Klas 1 - Module 3
   placeholder("k1-m3-fr-voc-u4", "Frans - Vocabulaire Unit 4", "fr", 1, 3, "vocabulary", "Grandes Lignes"),
-  placeholder("k1-m3-fr-delf-a1", "Frans - DELF A1 Voorbereiding", "fr", 1, 3, "sentences", "Grandes Lignes"),
-  placeholder("k1-m3-en-ch6", "Engels - Chapter 6", "en", 1, 3, "vocabulary", "Stepping Stones"),
-  placeholder("k1-m3-gr-w6plus", "Grieks - Woorden Les 6+", "gr", 1, 3, "vocabulary"),
-  placeholder("k1-m3-gr-thema2-3", "Grieks - Thema 2-3", "gr", 1, 3, "grammar"),
-  placeholder("k1-m3-la-les11-15b", "Latijn - Les 11-15 (herhaling)", "la", 1, 3, "vocabulary"),
-  placeholder("k1-m3-la-vert-gram", "Latijn - Vertaling + Grammatica", "la", 1, 3, "grammar"),
+  placeholder("k1-m3-fr-gram-u4", "Frans - Grammaire Unit 4", "fr", 1, 3, "grammar", "Grandes Lignes"),
+  placeholder("k1-m3-en-ch6", "Engels - Chapter 6 (Health & Sport)", "en", 1, 3, "vocabulary", "Stepping Stones"),
+  placeholder("k1-m3-en-ch7", "Engels - Chapter 7 (Travel)", "en", 1, 3, "vocabulary", "Stepping Stones"),
+  placeholder("k1-m3-en-ch8", "Engels - Chapter 8 (Nature)", "en", 1, 3, "vocabulary", "Stepping Stones"),
+  placeholder("k1-m3-gr-w6-7", "Grieks - Woorden Les 6-7", "gr", 1, 3, "vocabulary", "Argo"),
+  placeholder("k1-m3-gr-w8-9", "Grieks - Woorden Les 8-9", "gr", 1, 3, "vocabulary", "Argo"),
+  placeholder("k1-m3-gr-gram-thema2", "Grieks - Grammatica Thema 2 (dativus, genitivus)", "gr", 1, 3, "grammar", "Argo"),
+  placeholder("k1-m3-la-w16-19", "Latijn - Woorden Les 16-19", "la", 1, 3, "vocabulary", "SPQR"),
+  placeholder("k1-m3-la-w-tm20", "Latijn - Woorden t/m Les 20 (PW)", "la", 1, 3, "vocabulary", "SPQR"),
+  placeholder("k1-m3-la-gram-thema3", "Latijn - Grammatica Thema 3", "la", 1, 3, "grammar", "SPQR"),
 
   // ── KLAS 2 ─────────────────────────────────────────────────
 
@@ -128,12 +132,17 @@ export const ALL_LISTS: WordList[] = [
   placeholder("k2-m2-nl-wws", "Nederlands - Werkwoordspelling", "nl", 2, 2, "spelling"),
 
   // Klas 2 - Module 3
-  placeholder("k2-m3-de-kap7-8", "Duits - Kapitel 7-8", "de", 2, 3, "vocabulary"),
-  placeholder("k2-m3-de-gram-ges", "Duits - Gesamtwiederholung", "de", 2, 3, "grammar"),
-  placeholder("k2-m3-en-u6-7", "Engels - Unit 6-7", "en", 2, 3, "vocabulary", "Stepping Stones"),
+  placeholder("k2-m3-de-kap7", "Duits - Kapitel 7 Wortschatz", "de", 2, 3, "vocabulary", "Deutsch macht Spass"),
+  placeholder("k2-m3-de-kap8", "Duits - Kapitel 8 Wortschatz", "de", 2, 3, "vocabulary", "Deutsch macht Spass"),
+  placeholder("k2-m3-de-gram-k789", "Duits - Grammatik K7+8 + Dativ K9", "de", 2, 3, "grammar", "Deutsch macht Spass"),
+  placeholder("k2-m3-en-u6", "Engels - Unit 6", "en", 2, 3, "vocabulary", "Focus on the Wider World"),
+  placeholder("k2-m3-en-u7", "Engels - Unit 7", "en", 2, 3, "vocabulary", "Focus on the Wider World"),
+  placeholder("k2-m3-en-u8", "Engels - Unit 8", "en", 2, 3, "vocabulary", "Focus on the Wider World"),
   placeholder("k2-m3-fr-voc-m3", "Frans - Vocabulaire Module 3", "fr", 2, 3, "vocabulary", "Grandes Lignes"),
   placeholder("k2-m3-gr-w-m3", "Grieks - Woorden Module 3", "gr", 2, 3, "vocabulary"),
-  placeholder("k2-m3-la-les-m3", "Latijn - Woorden Module 3", "la", 2, 3, "vocabulary"),
+  placeholder("k2-m3-la-w30-31", "Latijn - Woorden Les 30-31", "la", 2, 3, "vocabulary", "SPQR"),
+  placeholder("k2-m3-la-w30-36", "Latijn - Woorden Les 30-36 (PW)", "la", 2, 3, "vocabulary", "SPQR"),
+  placeholder("k2-m3-la-gram-32-36", "Latijn - Grammatica Les 32-36", "la", 2, 3, "grammar", "SPQR"),
 
   // ── KLAS 3 ─────────────────────────────────────────────────
 
@@ -161,12 +170,19 @@ export const ALL_LISTS: WordList[] = [
   placeholder("k3-m2-nl-schrijven", "Nederlands - Creatief Schrijven", "nl", 3, 2, "sentences"),
 
   // Klas 3 - Module 3
-  placeholder("k3-m3-de-gesamt", "Duits - Gesamtwiederholung", "de", 3, 3, "grammar"),
-  placeholder("k3-m3-en-ch6-8", "Engels - Chapter 6-8", "en", 3, 3, "vocabulary", "Stepping Stones"),
+  placeholder("k3-m3-de-kap4", "Duits - Kapitel 4 Wortschatz", "de", 3, 3, "vocabulary", "Deutsch macht Spass"),
+  placeholder("k3-m3-de-kap6", "Duits - Kapitel 6 Wortschatz", "de", 3, 3, "vocabulary", "Deutsch macht Spass"),
+  placeholder("k3-m3-de-gram-k46", "Duits - Grammatik K4+6 (Fälle, Wechselpräpositionen)", "de", 3, 3, "grammar", "Deutsch macht Spass"),
+  placeholder("k3-m3-en-ch6", "Engels - Chapter 6 (Good Health)", "en", 3, 3, "vocabulary", "Focus on the Wider World"),
+  placeholder("k3-m3-en-ch7", "Engels - Chapter 7 (Entertain Me)", "en", 3, 3, "vocabulary", "Focus on the Wider World"),
+  placeholder("k3-m3-en-ch8", "Engels - Chapter 8 (Modern Society)", "en", 3, 3, "vocabulary", "Focus on the Wider World"),
   placeholder("k3-m3-fr-delf-a2", "Frans - DELF A2 Voorbereiding", "fr", 3, 3, "sentences", "Grandes Lignes"),
-  placeholder("k3-m3-gr-odyssee", "Grieks - Odyssee Receptie", "gr", 3, 3, "sentences"),
-  placeholder("k3-m3-la-w41-48", "Latijn - Woorden 41-48", "la", 3, 3, "vocabulary"),
-  placeholder("k3-m3-la-conjunct", "Latijn - Conjunctivus", "la", 3, 3, "grammar"),
+  placeholder("k3-m3-gr-w19-20", "Grieks - Woorden Les 19-20", "gr", 3, 3, "vocabulary", "Argo"),
+  placeholder("k3-m3-gr-gram-t20", "Grieks - Grammatica t/m Les 20", "gr", 3, 3, "grammar", "Argo"),
+  placeholder("k3-m3-gr-odyssee", "Grieks - Odyssee Receptie", "gr", 3, 3, "sentences", "Argo"),
+  placeholder("k3-m3-la-w44-45", "Latijn - Woorden Les 44-45", "la", 3, 3, "vocabulary", "SPQR"),
+  placeholder("k3-m3-la-w41-48", "Latijn - Woorden Les 41-48 (PW)", "la", 3, 3, "vocabulary", "SPQR"),
+  placeholder("k3-m3-la-conjunct", "Latijn - Conjunctivus", "la", 3, 3, "grammar", "SPQR"),
   placeholder("k3-m3-nl-betoog", "Nederlands - Betoog", "nl", 3, 3, "sentences"),
 
   // ── BOVENBOUW ──────────────────────────────────────────────

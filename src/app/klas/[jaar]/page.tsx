@@ -97,6 +97,23 @@ export default function KlasPage() {
         {JAARLAAG_LABELS[String(jaarlaag)]}
       </h2>
 
+      {/* Rekentoets link for Klas 1 */}
+      {jaarlaag === 1 && (
+        <Link
+          href="/rekentoets"
+          className="card p-4 mb-6 hover:shadow-lg transition-shadow flex items-center gap-4"
+        >
+          <span className="text-3xl">🧮</span>
+          <div>
+            <h3 className="font-bold text-text">Rekentoets oefenen</h3>
+            <p className="text-sm text-text-light">
+              Oefen gehele getallen, decimalen, breuken en maateenheden
+            </p>
+          </div>
+          <span className="ml-auto text-primary-light text-xl">&rarr;</span>
+        </Link>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {modules.map((mod) => {
           const modLists = getListsByModule(jaarlaag, mod);
