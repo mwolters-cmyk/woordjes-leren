@@ -8,18 +8,10 @@ import { getListProgress, updateWordProgress, incrementSessionCount, saveSession
 import { getWordsForSession, promoteWord, demoteWord, getInitialProgress } from "@/lib/leitner";
 import { Word, WordList, ExerciseResult } from "@/lib/types";
 import { checkAnswer } from "@/lib/fuzzyMatch";
+import { getSmartOptions } from "@/lib/distractors";
 import AccentHelper from "@/components/AccentHelper";
 import ProgressBar from "@/components/ProgressBar";
 import SessionSummary from "@/components/SessionSummary";
-
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 
 type QuestionType = "schrijven" | "meerkeuze";
 
@@ -35,11 +27,7 @@ function buildQuestions(sessionWords: Word[], allWords: Word[]): Question[] {
     const type: QuestionType = i % 2 === 0 ? "schrijven" : "meerkeuze";
 
     if (type === "meerkeuze") {
-      const others = allWords
-        .filter((w) => w.id !== word.id)
-        .map((w) => w.definition);
-      const shuffledOthers = shuffle(others).slice(0, 3);
-      const options = shuffle([word.definition, ...shuffledOthers]);
+      const options = getSmartOptions(word, allWords);
       return { word, type, options };
     }
 

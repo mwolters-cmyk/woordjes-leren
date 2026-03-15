@@ -7,26 +7,9 @@ import { getListById } from "@/data/registry";
 import { getListProgress, updateWordProgress, incrementSessionCount, saveSessionResult } from "@/lib/storage";
 import { getWordsForSession, promoteWord, demoteWord, getInitialProgress } from "@/lib/leitner";
 import { Word, WordList, ExerciseResult } from "@/lib/types";
+import { getSmartOptions } from "@/lib/distractors";
 import ProgressBar from "@/components/ProgressBar";
 import SessionSummary from "@/components/SessionSummary";
-
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-function getOptions(currentWord: Word, allWords: Word[], count: number = 4): string[] {
-  const others = allWords
-    .filter((w) => w.id !== currentWord.id)
-    .map((w) => w.definition);
-
-  const shuffledOthers = shuffle(others).slice(0, count - 1);
-  return shuffle([currentWord.definition, ...shuffledOthers]);
-}
 
 export default function MeerkeuzePage() {
   const params = useParams();
@@ -53,7 +36,7 @@ export default function MeerkeuzePage() {
 
   const options = useMemo(() => {
     if (!list || !currentWord) return [];
-    return getOptions(currentWord, list.words);
+    return getSmartOptions(currentWord, list.words);
   }, [list, currentWord]);
 
   const handleSelect = (option: string) => {
