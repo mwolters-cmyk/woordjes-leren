@@ -61,8 +61,8 @@ export function getWordsForSession(
   maxWords: number = 20
 ): Word[] {
   if (!listProgress) {
-    // First time: take first batch
-    return words.slice(0, maxWords);
+    // First time: shuffle and take first batch
+    return shuffle(words).slice(0, maxWords);
   }
 
   // Priority: due words first, then new words
@@ -78,14 +78,24 @@ export function getWordsForSession(
     }
   }
 
-  // Sort due words by box (lowest first = most urgent)
+  // Sort due words by box (lowest first = most urgent), then shuffle within same box
   dueWords.sort((a, b) => {
     const boxA = listProgress.wordProgress[a.id]?.box ?? 1;
     const boxB = listProgress.wordProgress[b.id]?.box ?? 1;
-    return boxA - boxB;
+    return boxA - boxB || Math.random() - 0.5;
   });
 
-  return [...dueWords, ...newWords].slice(0, maxWords);
+  // Shuffle new words too
+  return shuffle([...dueWords, ...shuffle(newWords)].slice(0, maxWords));
+}
+
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
 export function getListStats(words: Word[], listProgress: ListProgress | null) {
