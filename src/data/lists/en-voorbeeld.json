@@ -1,0 +1,29 @@
+{
+  "id": "en-voorbeeld",
+  "title": "Engels - Voorbeeldlijst",
+  "description": "Basiswoordenschat Engels (voorbeeld)",
+  "language": { "from": "en", "to": "nl" },
+  "tags": ["engels", "voorbeeld"],
+  "words": [
+    { "id": "en1", "term": "however", "definition": "echter; toch" },
+    { "id": "en2", "term": "although", "definition": "hoewel" },
+    { "id": "en3", "term": "to achieve", "definition": "bereiken; behalen" },
+    { "id": "en4", "term": "environment", "definition": "omgeving; milieu" },
+    { "id": "en5", "term": "therefore", "definition": "daarom" },
+    { "id": "en6", "term": "opportunity", "definition": "kans; gelegenheid" },
+    { "id": "en7", "term": "to improve", "definition": "verbeteren" },
+    { "id": "en8", "term": "to require", "definition": "vereisen" },
+    { "id": "en9", "term": "knowledge", "definition": "kennis" },
+    { "id": "en10", "term": "behaviour", "definition": "gedrag" },
+    { "id": "en11", "term": "to increase", "definition": "toenemen; verhogen" },
+    { "id": "en12", "term": "society", "definition": "maatschappij; samenleving" },
+    { "id": "en13", "term": "research", "definition": "onderzoek" },
+    { "id": "en14", "term": "government", "definition": "regering; overheid" },
+    { "id": "en15", "term": "to maintain", "definition": "onderhouden; handhaven" },
+    { "id": "en16", "term": "obvious", "definition": "duidelijk; voor de hand liggend" },
+    { "id": "en17", "term": "to afford", "definition": "zich veroorloven" },
+    { "id": "en18", "term": "available", "definition": "beschikbaar" },
+    { "id": "en19", "term": "ancient", "definition": "oud; antiek" },
+    { "id": "en20", "term": "approximately", "definition": "ongeveer" }
+  ]
+}

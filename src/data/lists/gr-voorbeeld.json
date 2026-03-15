@@ -1,0 +1,29 @@
+{
+  "id": "gr-voorbeeld",
+  "title": "Grieks - Voorbeeldlijst",
+  "description": "Basiswoordenschat Klassiek Grieks (voorbeeld)",
+  "language": { "from": "gr", "to": "nl" },
+  "tags": ["grieks", "voorbeeld"],
+  "words": [
+    { "id": "gr1", "term": "\u1F00\u03BD\u03B8\u03C1\u03C9\u03C0\u03BF\u03C2", "definition": "mens", "extra": "\u1F00\u03BD\u03B8\u03C1\u03C9\u03C0\u03BF\u03C2, -\u03BF\u03C5 (m.) - 2e declinatie" },
+    { "id": "gr2", "term": "\u03BB\u03BF\u03B3\u03BF\u03C2", "definition": "woord; verhaal; rede", "extra": "\u03BB\u03BF\u03B3\u03BF\u03C2, -\u03BF\u03C5 (m.) - 2e declinatie" },
+    { "id": "gr3", "term": "\u03B8\u03B5\u03BF\u03C2", "definition": "god", "extra": "\u03B8\u03B5\u03BF\u03C2, -\u03BF\u03C5 (m.) - 2e declinatie" },
+    { "id": "gr4", "term": "\u03C0\u03BF\u03BB\u03B9\u03C2", "definition": "stad; staat", "extra": "\u03C0\u03BF\u03BB\u03B9\u03C2, -\u03B5\u03C9\u03C2 (v.) - 3e declinatie" },
+    { "id": "gr5", "term": "\u03B2\u03B1\u03C3\u03B9\u03BB\u03B5\u03C5\u03C2", "definition": "koning", "extra": "\u03B2\u03B1\u03C3\u03B9\u03BB\u03B5\u03C5\u03C2, -\u03B5\u03C9\u03C2 (m.) - 3e declinatie" },
+    { "id": "gr6", "term": "\u03C3\u03BF\u03C6\u03BF\u03C2", "definition": "wijs", "extra": "\u03C3\u03BF\u03C6\u03BF\u03C2, -\u03B7, -\u03BF\u03BD" },
+    { "id": "gr7", "term": "\u03B1\u03B3\u03B1\u03B8\u03BF\u03C2", "definition": "goed; dapper", "extra": "\u03B1\u03B3\u03B1\u03B8\u03BF\u03C2, -\u03B7, -\u03BF\u03BD" },
+    { "id": "gr8", "term": "\u03BC\u03B5\u03B3\u03B1\u03C2", "definition": "groot", "extra": "\u03BC\u03B5\u03B3\u03B1\u03C2, \u03BC\u03B5\u03B3\u03B1\u03BB\u03B7, \u03BC\u03B5\u03B3\u03B1 - onregelmatig" },
+    { "id": "gr9", "term": "\u03BB\u03B5\u03B3\u03B5\u03B9\u03BD", "definition": "zeggen; spreken", "extra": "\u03BB\u03B5\u03B3\u03C9 - stam \u03BB\u03B5\u03B3-" },
+    { "id": "gr10", "term": "\u03B5\u03B9\u03BD\u03B1\u03B9", "definition": "zijn", "extra": "\u03B5\u03B9\u03BC\u03B9 - onregelmatig" },
+    { "id": "gr11", "term": "\u03B3\u03C1\u03B1\u03C6\u03B5\u03B9\u03BD", "definition": "schrijven", "extra": "\u03B3\u03C1\u03B1\u03C6\u03C9 - stam \u03B3\u03C1\u03B1\u03C6-" },
+    { "id": "gr12", "term": "\u03C0\u03B1\u03B9\u03B4\u03B5\u03C5\u03B5\u03B9\u03BD", "definition": "opvoeden; onderwijzen", "extra": "\u03C0\u03B1\u03B9\u03B4\u03B5\u03C5\u03C9 - stam \u03C0\u03B1\u03B9\u03B4\u03B5\u03C5-" },
+    { "id": "gr13", "term": "\u03B4\u03B9\u03B4\u03B1\u03C3\u03BA\u03B1\u03BB\u03BF\u03C2", "definition": "leraar", "extra": "\u03B4\u03B9\u03B4\u03B1\u03C3\u03BA\u03B1\u03BB\u03BF\u03C2, -\u03BF\u03C5 (m.)" },
+    { "id": "gr14", "term": "\u03BC\u03B1\u03B8\u03B7\u03C4\u03B7\u03C2", "definition": "leerling", "extra": "\u03BC\u03B1\u03B8\u03B7\u03C4\u03B7\u03C2, -\u03BF\u03C5 (m.) - 1e declinatie" },
+    { "id": "gr15", "term": "\u03B2\u03B9\u03B2\u03BB\u03B9\u03BF\u03BD", "definition": "boek", "extra": "\u03B2\u03B9\u03B2\u03BB\u03B9\u03BF\u03BD, -\u03BF\u03C5 (o.) - 2e declinatie" },
+    { "id": "gr16", "term": "\u03C8\u03C5\u03C7\u03B7", "definition": "ziel; geest", "extra": "\u03C8\u03C5\u03C7\u03B7, -\u03B7\u03C2 (v.) - 1e declinatie" },
+    { "id": "gr17", "term": "\u03C3\u03C9\u03BC\u03B1", "definition": "lichaam", "extra": "\u03C3\u03C9\u03BC\u03B1, -\u03B1\u03C4\u03BF\u03C2 (o.) - 3e declinatie" },
+    { "id": "gr18", "term": "\u03BA\u03B1\u03BB\u03BF\u03C2", "definition": "mooi; goed", "extra": "\u03BA\u03B1\u03BB\u03BF\u03C2, -\u03B7, -\u03BF\u03BD" },
+    { "id": "gr19", "term": "\u03BA\u03B1\u03B9", "definition": "en" },
+    { "id": "gr20", "term": "\u03B1\u03BB\u03BB\u03B1", "definition": "maar" }
+  ]
+}

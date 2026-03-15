@@ -1,0 +1,29 @@
+{
+  "id": "la-voorbeeld",
+  "title": "Latijn - Voorbeeldlijst",
+  "description": "Basiswoordenschat Latijn (voorbeeld)",
+  "language": { "from": "la", "to": "nl" },
+  "tags": ["latijn", "voorbeeld"],
+  "words": [
+    { "id": "la1", "term": "aqua", "definition": "water", "extra": "aqua, -ae (v.) - 1e declinatie" },
+    { "id": "la2", "term": "terra", "definition": "aarde; land", "extra": "terra, -ae (v.) - 1e declinatie" },
+    { "id": "la3", "term": "bellum", "definition": "oorlog", "extra": "bellum, -i (o.) - 2e declinatie" },
+    { "id": "la4", "term": "dominus", "definition": "heer; meester", "extra": "dominus, -i (m.) - 2e declinatie" },
+    { "id": "la5", "term": "puer", "definition": "jongen", "extra": "puer, pueri (m.) - 2e declinatie" },
+    { "id": "la6", "term": "rex", "definition": "koning", "extra": "rex, regis (m.) - 3e declinatie" },
+    { "id": "la7", "term": "miles", "definition": "soldaat", "extra": "miles, militis (m.) - 3e declinatie" },
+    { "id": "la8", "term": "urbs", "definition": "stad", "extra": "urbs, urbis (v.) - 3e declinatie" },
+    { "id": "la9", "term": "senatus", "definition": "senaat", "extra": "senatus, -us (m.) - 4e declinatie" },
+    { "id": "la10", "term": "res", "definition": "zaak; ding", "extra": "res, rei (v.) - 5e declinatie" },
+    { "id": "la11", "term": "amare", "definition": "houden van; beminnen", "extra": "amo, amavi, amatum - 1e conjugatie" },
+    { "id": "la12", "term": "videre", "definition": "zien", "extra": "video, vidi, visum - 2e conjugatie" },
+    { "id": "la13", "term": "ducere", "definition": "leiden; aanvoeren", "extra": "duco, duxi, ductum - 3e conjugatie" },
+    { "id": "la14", "term": "audire", "definition": "horen", "extra": "audio, audivi, auditum - 4e conjugatie" },
+    { "id": "la15", "term": "esse", "definition": "zijn", "extra": "sum, fui - onregelmatig" },
+    { "id": "la16", "term": "magnus", "definition": "groot", "extra": "magnus, -a, -um" },
+    { "id": "la17", "term": "bonus", "definition": "goed", "extra": "bonus, -a, -um" },
+    { "id": "la18", "term": "fortis", "definition": "dapper; sterk", "extra": "fortis, -e" },
+    { "id": "la19", "term": "semper", "definition": "altijd" },
+    { "id": "la20", "term": "tamen", "definition": "toch; desondanks" }
+  ]
+}

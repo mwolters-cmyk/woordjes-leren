@@ -1,0 +1,29 @@
+{
+  "id": "fr-voorbeeld",
+  "title": "Frans - Voorbeeldlijst",
+  "description": "Basiswoordenschat Frans (voorbeeld)",
+  "language": { "from": "fr", "to": "nl" },
+  "tags": ["frans", "voorbeeld"],
+  "words": [
+    { "id": "fr1", "term": "la maison", "definition": "het huis" },
+    { "id": "fr2", "term": "l'école", "definition": "de school" },
+    { "id": "fr3", "term": "le livre", "definition": "het boek" },
+    { "id": "fr4", "term": "la rue", "definition": "de straat" },
+    { "id": "fr5", "term": "le jardin", "definition": "de tuin" },
+    { "id": "fr6", "term": "la fenêtre", "definition": "het raam" },
+    { "id": "fr7", "term": "le chat", "definition": "de kat" },
+    { "id": "fr8", "term": "le chien", "definition": "de hond" },
+    { "id": "fr9", "term": "la voiture", "definition": "de auto" },
+    { "id": "fr10", "term": "le soleil", "definition": "de zon" },
+    { "id": "fr11", "term": "la lune", "definition": "de maan" },
+    { "id": "fr12", "term": "l'eau", "definition": "het water" },
+    { "id": "fr13", "term": "le pain", "definition": "het brood" },
+    { "id": "fr14", "term": "le fromage", "definition": "de kaas" },
+    { "id": "fr15", "term": "la fleur", "definition": "de bloem" },
+    { "id": "fr16", "term": "l'arbre", "definition": "de boom" },
+    { "id": "fr17", "term": "la mer", "definition": "de zee" },
+    { "id": "fr18", "term": "le ciel", "definition": "de lucht; de hemel" },
+    { "id": "fr19", "term": "la porte", "definition": "de deur" },
+    { "id": "fr20", "term": "le temps", "definition": "de tijd; het weer" }
+  ]
+}

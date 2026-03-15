@@ -1,0 +1,29 @@
+{
+  "id": "nl-voorbeeld",
+  "title": "Nederlands - Voorbeeldlijst",
+  "description": "Basiswoordenschat Nederlands (voorbeeld)",
+  "language": { "from": "nl", "to": "nl" },
+  "tags": ["nederlands", "voorbeeld"],
+  "words": [
+    { "id": "nl1", "term": "ambivalent", "definition": "tegenstrijdige gevoelens hebbend" },
+    { "id": "nl2", "term": "adequaat", "definition": "toereikend; passend" },
+    { "id": "nl3", "term": "constateren", "definition": "vaststellen; waarnemen" },
+    { "id": "nl4", "term": "dilemma", "definition": "moeilijke keuze tussen twee mogelijkheden" },
+    { "id": "nl5", "term": "eufemisme", "definition": "verzachtende uitdrukking" },
+    { "id": "nl6", "term": "hypothese", "definition": "voorlopige veronderstelling" },
+    { "id": "nl7", "term": "ironisch", "definition": "het tegenovergestelde bedoelend van wat je zegt" },
+    { "id": "nl8", "term": "consensus", "definition": "overeenstemming; eensgezindheid" },
+    { "id": "nl9", "term": "abstract", "definition": "niet-concreet; theoretisch" },
+    { "id": "nl10", "term": "nuanceren", "definition": "fijne verschillen aanbrengen" },
+    { "id": "nl11", "term": "paradox", "definition": "schijnbare tegenstelling" },
+    { "id": "nl12", "term": "sceptisch", "definition": "twijfelend; achterdochtig" },
+    { "id": "nl13", "term": "empathie", "definition": "inlevingsvermogen" },
+    { "id": "nl14", "term": "ambitieus", "definition": "eerzuchtig; strevend naar succes" },
+    { "id": "nl15", "term": "tolerant", "definition": "verdraagzaam" },
+    { "id": "nl16", "term": "prominent", "definition": "vooraanstaand; opvallend" },
+    { "id": "nl17", "term": "relevant", "definition": "ter zake doend; van belang" },
+    { "id": "nl18", "term": "manipuleren", "definition": "op slinkse wijze beïnvloeden" },
+    { "id": "nl19", "term": "controversieel", "definition": "omstreden; aanleiding gevend tot discussie" },
+    { "id": "nl20", "term": "plausibel", "definition": "aannemelijk; geloofwaardig" }
+  ]
+}

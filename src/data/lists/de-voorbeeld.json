@@ -1,0 +1,29 @@
+{
+  "id": "de-voorbeeld",
+  "title": "Duits - Voorbeeldlijst",
+  "description": "Basiswoordenschat Duits (voorbeeld)",
+  "language": { "from": "de", "to": "nl" },
+  "tags": ["duits", "voorbeeld"],
+  "words": [
+    { "id": "de1", "term": "die Schule", "definition": "de school" },
+    { "id": "de2", "term": "der Freund", "definition": "de vriend" },
+    { "id": "de3", "term": "die Aufgabe", "definition": "de opdracht; de taak" },
+    { "id": "de4", "term": "der Unterricht", "definition": "de les; het onderwijs" },
+    { "id": "de5", "term": "die Sprache", "definition": "de taal" },
+    { "id": "de6", "term": "das Ergebnis", "definition": "het resultaat" },
+    { "id": "de7", "term": "die Mannschaft", "definition": "het team; de ploeg" },
+    { "id": "de8", "term": "der Bahnhof", "definition": "het station" },
+    { "id": "de9", "term": "die Wohnung", "definition": "de woning; het appartement" },
+    { "id": "de10", "term": "das Geschenk", "definition": "het cadeau" },
+    { "id": "de11", "term": "die Brücke", "definition": "de brug" },
+    { "id": "de12", "term": "der Flughafen", "definition": "de luchthaven; het vliegveld" },
+    { "id": "de13", "term": "die Umwelt", "definition": "het milieu" },
+    { "id": "de14", "term": "das Gebäude", "definition": "het gebouw" },
+    { "id": "de15", "term": "die Gesundheit", "definition": "de gezondheid" },
+    { "id": "de16", "term": "der Ausflug", "definition": "het uitstapje; de excursie" },
+    { "id": "de17", "term": "die Sehenswürdigkeit", "definition": "de bezienswaardigheid" },
+    { "id": "de18", "term": "das Rathaus", "definition": "het stadhuis" },
+    { "id": "de19", "term": "die Gemütlichkeit", "definition": "de gezelligheid" },
+    { "id": "de20", "term": "der Kugelschreiber", "definition": "de balpen" }
+  ]
+}
