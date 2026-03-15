@@ -10,6 +10,7 @@ import grVoorbeeld from "./lists/gr-voorbeeld.json";
 import nlVoorbeeld from "./lists/nl-voorbeeld.json";
 import deKap4 from "./lists/k3-m3-de-kap4.json";
 import frDelfA2 from "./lists/k3-m3-fr-delf-a2.json";
+import grW1920 from "./lists/k3-m3-gr-w19-20.json";
 
 // Helper to create a placeholder list (no words yet)
 function placeholder(
@@ -179,7 +180,7 @@ export const ALL_LISTS: WordList[] = [
   placeholder("k3-m3-en-ch7", "Engels - Chapter 7 (Entertain Me)", "en", 3, 3, "vocabulary", "Focus on the Wider World"),
   placeholder("k3-m3-en-ch8", "Engels - Chapter 8 (Modern Society)", "en", 3, 3, "vocabulary", "Focus on the Wider World"),
   enrichExample(frDelfA2, 3, 3, "vocabulary"),
-  placeholder("k3-m3-gr-w19-20", "Grieks - Woorden Les 19-20", "gr", 3, 3, "vocabulary", "Argo"),
+  enrichExample(grW1920, 3, 3, "vocabulary"),
   placeholder("k3-m3-gr-gram-t20", "Grieks - Grammatica t/m Les 20", "gr", 3, 3, "grammar", "Argo"),
   placeholder("k3-m3-gr-odyssee", "Grieks - Odyssee Receptie", "gr", 3, 3, "sentences", "Argo"),
   placeholder("k3-m3-la-w44-45", "Latijn - Woorden Les 44-45", "la", 3, 3, "vocabulary", "SPQR"),
