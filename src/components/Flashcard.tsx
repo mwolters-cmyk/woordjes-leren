@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { Word } from "@/lib/types";
 
 interface FlashcardProps {
@@ -10,10 +9,9 @@ interface FlashcardProps {
 }
 
 export default function Flashcard({ word, showDefinition = false, onFlip }: FlashcardProps) {
-  const [flipped, setFlipped] = useState(showDefinition);
+  const flipped = showDefinition;
 
   const handleFlip = () => {
-    setFlipped(!flipped);
     onFlip?.();
   };
 
