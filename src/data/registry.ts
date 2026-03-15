@@ -11,6 +11,7 @@ import nlVoorbeeld from "./lists/nl-voorbeeld.json";
 import deKap4 from "./lists/k3-m3-de-kap4.json";
 import frDelfA2 from "./lists/k3-m3-fr-delf-a2.json";
 import grW1920 from "./lists/k3-m3-gr-w19-20.json";
+import deKap6 from "./lists/k3-m3-de-kap6.json";
 
 // Helper to create a placeholder list (no words yet)
 function placeholder(
@@ -174,7 +175,7 @@ export const ALL_LISTS: WordList[] = [
 
   // Klas 3 - Module 3
   enrichExample(deKap4, 3, 3, "vocabulary"),
-  placeholder("k3-m3-de-kap6", "Duits - Kapitel 6 Wortschatz", "de", 3, 3, "vocabulary", "Deutsch macht Spass"),
+  enrichExample(deKap6, 3, 3, "vocabulary"),
   placeholder("k3-m3-de-gram-k46", "Duits - Grammatik K4+6 (Fälle, Wechselpräpositionen)", "de", 3, 3, "grammar", "Deutsch macht Spass"),
   placeholder("k3-m3-en-ch6", "Engels - Chapter 6 (Good Health)", "en", 3, 3, "vocabulary", "Focus on the Wider World"),
   placeholder("k3-m3-en-ch7", "Engels - Chapter 7 (Entertain Me)", "en", 3, 3, "vocabulary", "Focus on the Wider World"),
