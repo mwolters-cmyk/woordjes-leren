@@ -5,7 +5,7 @@ import { useParams, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { getListById } from "@/data/registry";
 import { getListProgress, updateWordProgress, incrementSessionCount, saveSessionResult } from "@/lib/storage";
-import { getWordsForSession, promoteWord, demoteWord, getInitialProgress } from "@/lib/leitner";
+import { getWordsForSession, promoteWord, demoteWord, getInitialProgress, shuffle } from "@/lib/leitner";
 import { Word, WordList, ExerciseResult } from "@/lib/types";
 import { checkAnswer } from "@/lib/fuzzyMatch";
 import { getSmartOptions } from "@/lib/distractors";
@@ -57,7 +57,7 @@ export default function ToetsPage() {
     if (found) {
       setList(found);
       const progress = getListProgress(listId);
-      const words = applyDirectionToWords(getWordsForSession(found.words, progress), direction);
+      const words = shuffle(applyDirectionToWords(getWordsForSession(found.words, progress), direction));
       const directedAllWords = applyDirectionToWords(found.words, direction);
       const qs = buildQuestions(words, directedAllWords);
       setQuestions(qs);

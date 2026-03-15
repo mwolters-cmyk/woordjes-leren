@@ -5,7 +5,7 @@ import { useParams, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { getListById } from "@/data/registry";
 import { getListProgress, updateWordProgress, incrementSessionCount, saveSessionResult } from "@/lib/storage";
-import { getWordsForSession, promoteWord, demoteWord, getInitialProgress } from "@/lib/leitner";
+import { getWordsForSession, promoteWord, demoteWord, getInitialProgress, shuffle } from "@/lib/leitner";
 import { Word, WordList, ExerciseResult } from "@/lib/types";
 import { getSmartOptions } from "@/lib/distractors";
 import { parseDirection, applyDirectionToWords } from "@/lib/direction";
@@ -31,7 +31,7 @@ export default function MeerkeuzePage() {
       setList(found);
       const progress = getListProgress(listId);
       const words = getWordsForSession(found.words, progress);
-      setSessionWords(applyDirectionToWords(words, direction));
+      setSessionWords(shuffle(applyDirectionToWords(words, direction)));
     }
   }, [listId]);
 
