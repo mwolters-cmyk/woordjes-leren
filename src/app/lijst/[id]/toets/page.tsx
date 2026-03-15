@@ -147,7 +147,7 @@ export default function ToetsPage() {
         i === prev.length - 1 ? { ...r, correct: true } : r
       )
     );
-    setFeedback("correct");
+    handleNext();
   };
 
   const handleInsertAccent = (char: string) => {
