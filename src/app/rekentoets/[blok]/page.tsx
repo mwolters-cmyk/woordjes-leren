@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
 import { generateBlock, generateFullTest, checkAnswer, BLOCKS, type Question, type QElement } from "@/lib/rekentoets";
+import { saveRekentoetsResult } from "@/lib/storage";
 
 // ──── Fraction display component ───────────────────────────────────
 
@@ -83,6 +84,42 @@ export default function RekentoetsOefenPage() {
     setFeedback(isCorrect ? "correct" : "incorrect");
     setResults([...results, isCorrect]);
   };
+
+  // Save results when finished
+  useEffect(() => {
+    if (!finished || questions.length === 0) return;
+    const today = new Date().toISOString().slice(0, 10);
+
+    if (blokParam === "alles") {
+      // Save per block separately
+      const blockGroups: Record<number, { correct: number; total: number }> = {};
+      questions.forEach((q, i) => {
+        if (!blockGroups[q.block]) blockGroups[q.block] = { correct: 0, total: 0 };
+        blockGroups[q.block].total++;
+        if (results[i]) blockGroups[q.block].correct++;
+      });
+      for (const [block, { correct, total }] of Object.entries(blockGroups)) {
+        saveRekentoetsResult({
+          block: Number(block) as 1 | 2 | 3 | 4,
+          date: today,
+          correct,
+          total,
+          percentage: Math.round((correct / total) * 100),
+        });
+      }
+    } else {
+      const bn = parseInt(blokParam) as 1 | 2 | 3 | 4;
+      const correct = results.filter(Boolean).length;
+      saveRekentoetsResult({
+        block: bn,
+        date: today,
+        correct,
+        total: results.length,
+        percentage: Math.round((correct / results.length) * 100),
+      });
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [finished]);
 
   const handleNext = () => {
     if (currentIndex + 1 >= questions.length) {

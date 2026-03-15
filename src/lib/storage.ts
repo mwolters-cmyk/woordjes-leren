@@ -1,4 +1,4 @@
-import { ListProgress, WordProgress, SessionResult } from "./types";
+import { ListProgress, WordProgress, SessionResult, RekentoetsBlockResult, RekentoetsProgress } from "./types";
 import { getInitialProgress } from "./leitner";
 import { pushProgress, getToken } from "./sync";
 
@@ -109,4 +109,44 @@ export function ensureWordProgress(
   const initial = getInitialProgress(wordId, listId);
   updateWordProgress(listId, initial);
   return initial;
+}
+
+// ── Rekentoets progress ──────────────────────────────────────────
+
+const REKEN_KEY = "woordjes-leren-rekentoets";
+
+function getRekenStorage(): RekentoetsProgress {
+  if (typeof window === "undefined")
+    return { blockResults: {}, practiceDays: [] };
+  const raw = localStorage.getItem(REKEN_KEY);
+  return raw
+    ? JSON.parse(raw)
+    : { blockResults: {}, practiceDays: [] };
+}
+
+function saveRekenStorage(data: RekentoetsProgress) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(REKEN_KEY, JSON.stringify(data));
+  scheduleSync();
+}
+
+export function saveRekentoetsResult(result: RekentoetsBlockResult) {
+  const data = getRekenStorage();
+  const key = String(result.block);
+  if (!data.blockResults[key]) data.blockResults[key] = [];
+  data.blockResults[key].push(result);
+  // Keep last 10 per block
+  if (data.blockResults[key].length > 10) {
+    data.blockResults[key] = data.blockResults[key].slice(-10);
+  }
+  // Track practice day
+  const today = new Date().toISOString().slice(0, 10);
+  if (!data.practiceDays.includes(today)) {
+    data.practiceDays.push(today);
+  }
+  saveRekenStorage(data);
+}
+
+export function getRekentoetsProgress(): RekentoetsProgress {
+  return getRekenStorage();
 }

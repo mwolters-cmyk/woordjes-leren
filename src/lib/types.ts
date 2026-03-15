@@ -110,3 +110,17 @@ export interface SessionResult {
   score: number; // percentage
   duration: number; // seconds
 }
+
+// Rekentoets progress tracking
+export interface RekentoetsBlockResult {
+  block: 1 | 2 | 3 | 4;
+  date: string; // ISO date-only (YYYY-MM-DD)
+  correct: number;
+  total: number;
+  percentage: number;
+}
+
+export interface RekentoetsProgress {
+  blockResults: Record<string, RekentoetsBlockResult[]>; // key = "1"|"2"|"3"|"4"
+  practiceDays: string[]; // unique ISO date-only strings
+}
