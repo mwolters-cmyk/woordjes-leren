@@ -7,6 +7,7 @@ import { getListById, isPlaceholder } from "@/data/registry";
 import { getListProgress } from "@/lib/storage";
 import { getListStats, getBoxDistribution } from "@/lib/leitner";
 import { WordList, ListProgress, JAARLAAG_LABELS, LIST_TYPE_LABELS } from "@/lib/types";
+import { Direction, DIRECTION_SHORT, supportsDirection } from "@/lib/direction";
 import ProgressBar from "@/components/ProgressBar";
 import LeitnerBoxes from "@/components/LeitnerBoxes";
 
@@ -42,6 +43,7 @@ export default function ListDetailPage() {
   const id = params.id as string;
   const [list, setList] = useState<WordList | null>(null);
   const [progress, setProgress] = useState<ListProgress | null>(null);
+  const [direction, setDirection] = useState<Direction>("vt-nl");
 
   useEffect(() => {
     const found = getListById(id);
@@ -160,21 +162,48 @@ export default function ListDetailPage() {
         </div>
       </div>
 
+      {/* Direction picker for FR/EN/DE */}
+      {supportsDirection(list.language.from) && (
+        <div className="mb-4">
+          <h3 className="text-lg font-semibold mb-2">Richting</h3>
+          <div className="flex gap-2">
+            {(["vt-nl", "nl-vt", "mix"] as Direction[]).map((dir) => (
+              <button
+                key={dir}
+                onClick={() => setDirection(dir)}
+                className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+                  direction === dir
+                    ? "bg-primary text-white"
+                    : "bg-gray-100 text-text-light hover:bg-gray-200"
+                }`}
+              >
+                {DIRECTION_SHORT[dir]}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       <h3 className="text-lg font-semibold mb-4">Kies een oefenmodus</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-        {MODES.map((mode) => (
-          <Link
-            key={mode.id}
-            href={`/lijst/${id}/${mode.id}`}
-            className="card p-5 hover:shadow-lg transition-shadow flex items-start gap-4"
-          >
-            <span className="text-3xl">{mode.icon}</span>
-            <div>
-              <h4 className="font-semibold text-text">{mode.label}</h4>
-              <p className="text-sm text-text-light">{mode.description}</p>
-            </div>
-          </Link>
-        ))}
+        {MODES.map((mode) => {
+          const dirParam = supportsDirection(list.language.from) && direction !== "vt-nl"
+            ? `?richting=${direction}`
+            : "";
+          return (
+            <Link
+              key={mode.id}
+              href={`/lijst/${id}/${mode.id}${dirParam}`}
+              className="card p-5 hover:shadow-lg transition-shadow flex items-start gap-4"
+            >
+              <span className="text-3xl">{mode.icon}</span>
+              <div>
+                <h4 className="font-semibold text-text">{mode.label}</h4>
+                <p className="text-sm text-text-light">{mode.description}</p>
+              </div>
+            </Link>
+          );
+        })}
       </div>
 
       <div className="card p-4">

@@ -1,19 +1,22 @@
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { getListById } from "@/data/registry";
 import { getListProgress, updateWordProgress, incrementSessionCount, saveSessionResult } from "@/lib/storage";
 import { getWordsForSession, promoteWord, demoteWord, getInitialProgress } from "@/lib/leitner";
 import { Word, WordList, ExerciseResult } from "@/lib/types";
 import { getSmartOptions } from "@/lib/distractors";
+import { parseDirection, applyDirectionToWords } from "@/lib/direction";
 import ProgressBar from "@/components/ProgressBar";
 import SessionSummary from "@/components/SessionSummary";
 
 export default function MeerkeuzePage() {
   const params = useParams();
+  const searchParams = useSearchParams();
   const listId = params.id as string;
+  const direction = parseDirection(searchParams.get("richting"));
   const [list, setList] = useState<WordList | null>(null);
   const [sessionWords, setSessionWords] = useState<Word[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,7 +31,7 @@ export default function MeerkeuzePage() {
       setList(found);
       const progress = getListProgress(listId);
       const words = getWordsForSession(found.words, progress);
-      setSessionWords(words);
+      setSessionWords(applyDirectionToWords(words, direction));
     }
   }, [listId]);
 

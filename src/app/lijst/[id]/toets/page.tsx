@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef, useMemo } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { getListById } from "@/data/registry";
 import { getListProgress, updateWordProgress, incrementSessionCount, saveSessionResult } from "@/lib/storage";
@@ -9,6 +9,7 @@ import { getWordsForSession, promoteWord, demoteWord, getInitialProgress } from 
 import { Word, WordList, ExerciseResult } from "@/lib/types";
 import { checkAnswer } from "@/lib/fuzzyMatch";
 import { getSmartOptions } from "@/lib/distractors";
+import { parseDirection, applyDirectionToWords } from "@/lib/direction";
 import AccentHelper from "@/components/AccentHelper";
 import ProgressBar from "@/components/ProgressBar";
 import SessionSummary from "@/components/SessionSummary";
@@ -37,7 +38,9 @@ function buildQuestions(sessionWords: Word[], allWords: Word[]): Question[] {
 
 export default function ToetsPage() {
   const params = useParams();
+  const searchParams = useSearchParams();
   const listId = params.id as string;
+  const direction = parseDirection(searchParams.get("richting"));
   const [list, setList] = useState<WordList | null>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -54,8 +57,9 @@ export default function ToetsPage() {
     if (found) {
       setList(found);
       const progress = getListProgress(listId);
-      const words = getWordsForSession(found.words, progress);
-      const qs = buildQuestions(words, found.words);
+      const words = applyDirectionToWords(getWordsForSession(found.words, progress), direction);
+      const directedAllWords = applyDirectionToWords(found.words, direction);
+      const qs = buildQuestions(words, directedAllWords);
       setQuestions(qs);
     }
   }, [listId]);
