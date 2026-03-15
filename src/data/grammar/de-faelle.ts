@@ -203,23 +203,25 @@ export const FESTE_TEMPLATES: FesteTemplate[] = [
 
 export interface CaseTemplate {
   template: string;
+  /** Plural version of the template (verb conjugation changes) */
+  templatePl?: string;
   blankRole: Case;
   nounGender?: Gender;
 }
 
 export const CASE_TEMPLATES: CaseTemplate[] = [
-  // Nominativ (onderwerp)
-  { template: "{blank} ist groß", blankRole: "nominativ" },
-  { template: "{blank} kommt morgen", blankRole: "nominativ" },
-  { template: "{blank} spielt im Garten", blankRole: "nominativ" },
-  { template: "{blank} ist sehr freundlich", blankRole: "nominativ" },
-  // Akkusativ (lijdend voorwerp)
+  // Nominativ (onderwerp) — sg/pl verb pairs
+  { template: "{blank} ist groß", templatePl: "{blank} sind groß", blankRole: "nominativ" },
+  { template: "{blank} kommt morgen", templatePl: "{blank} kommen morgen", blankRole: "nominativ" },
+  { template: "{blank} spielt im Garten", templatePl: "{blank} spielen im Garten", blankRole: "nominativ" },
+  { template: "{blank} ist sehr freundlich", templatePl: "{blank} sind sehr freundlich", blankRole: "nominativ" },
+  // Akkusativ (lijdend voorwerp) — subject is fixed (ich/sie/wir/er), no pl needed
   { template: "Ich sehe {blank}", blankRole: "akkusativ" },
   { template: "Sie hat {blank}", blankRole: "akkusativ" },
   { template: "Wir besuchen {blank}", blankRole: "akkusativ" },
   { template: "Er kauft {blank}", blankRole: "akkusativ" },
   { template: "Ich finde {blank} nett", blankRole: "akkusativ" },
-  // Dativ (meewerkend voorwerp)
+  // Dativ (meewerkend voorwerp) — subject is fixed, no pl needed
   { template: "Ich helfe {blank}", blankRole: "dativ" },
   { template: "Das Buch gehört {blank}", blankRole: "dativ" },
   { template: "Ich gebe {blank} das Buch", blankRole: "dativ" },

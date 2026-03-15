@@ -145,7 +145,8 @@ function generateDerQuestion(conceptId: string): GrammarQuestion {
   if (genderKey === "pl") {
     const noun = pick(NOUNS);
     nounDisplay = cas === "dativ" ? dativPluralNoun(noun) : noun.plural;
-    display = tmpl.template.replace("{blank}", `___ ${nounDisplay}`);
+    const tpl = tmpl.templatePl ?? tmpl.template;
+    display = tpl.replace("{blank}", `___ ${nounDisplay}`);
   } else {
     const nouns = getNounsByGender(genderKey);
     const noun = pick(nouns);
@@ -211,7 +212,8 @@ function generateEinQuestion(conceptId: string): GrammarQuestion {
     nounDisplay = noun.noun;
   }
 
-  const display = tmpl.template.replace("{blank}", `___ ${nounDisplay}`);
+  const tpl = genderKey === "pl" ? (tmpl.templatePl ?? tmpl.template) : tmpl.template;
+  const display = tpl.replace("{blank}", `___ ${nounDisplay}`);
 
   // Hint: show which article type to use
   const hint = usePossessive ? `Gebruik: ${prefix}` : "ein-Gruppe (onbepaald lidwoord)";
