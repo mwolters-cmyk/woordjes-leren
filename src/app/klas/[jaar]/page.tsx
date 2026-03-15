@@ -199,10 +199,11 @@ export default function KlasPage() {
         ))}
       </div>
 
-      {/* Proefwerkweek banner */}
+      {/* Proefwerkweek banner — disabled until toetsdruk mapping is 1:1 across classes
       {!activeFilter || activeFilter !== "rekenen" ? (
         <ProefwerkBanner jaarlaag={jaarlaag} />
       ) : null}
+      */}
 
       {/* Rekenen section (only shown when filtered to Rekenen or showing all, Klas 1 only) */}
       {hasRekenen && (activeFilter === "rekenen" || !activeFilter) && (
