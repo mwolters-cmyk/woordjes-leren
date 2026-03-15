@@ -50,10 +50,12 @@ Use these to determine which vocabulary/grammar lists exist per module.
 ### Dropbox Photo Import
 Photos go in `C:\Users\wlt\Dropbox\Woordjes Leren\`:
 ```
-klas-{n}/module-{m}/{listId} ({title})/  ← put photos here
+klas-{n}/module-{m}/{listId} ({title})/              ← regular lists
+klas-{n}/module-{m}/proefwerk/{Vak}-pw ({title})/     ← extra PW stof
 ```
 Folder name format: `{registry-id} ({human-readable title})`
 The `listId` prefix MUST match a registry entry in `registry.ts`.
+Proefwerk folders use `{Vak_kort}-pw` prefix (e.g. `Du-pw`, `Fr-pw`) for extra content not covered by existing lists.
 
 Run: `npm run import` (all) or `npm run import {listId}` (single list)
 
