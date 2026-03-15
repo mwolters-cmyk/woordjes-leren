@@ -343,6 +343,24 @@ function gen2f(): Question {
   };
 }
 
+// ──── Verification Helper ─────────────────────────────────────────
+// Every fraction question gets verified: we independently compute the
+// answer from the displayed operands and assert it matches.
+// This catches bugs where display ≠ internal representation.
+
+/** Convert a QElement to an exact fraction [numerator, denominator] */
+function qelToFrac(el: QElement): [number, number] {
+  if (typeof el === "string") {
+    // Parse integer from string like "8" or "2"
+    const n = parseInt(el);
+    if (!isNaN(n)) return [n, 1];
+    return [0, 1]; // operators like " − " return 0 (won't be used in math)
+  }
+  // Fraction element: {w?, n, d}
+  const whole = el.w ?? 0;
+  return [whole * el.d + el.n, el.d];
+}
+
 // ──── Block 3: Breuken ─────────────────────────────────────────────
 
 // Pool of "nice" improper fractions for multiplication
@@ -401,23 +419,32 @@ function gen3a(): Question {
     // Minuend: express with d1
     const minN = minFrac * d1 / lcd;
     if (minN !== Math.round(minN)) continue;
-    const minMixed = fracToMixed(Math.round(minN), d1);
+    const minNClean = Math.round(minN);
 
     // Subtrahend: express with d2
     const subN = subFrac * d2 / lcd;
     if (subN !== Math.round(subN)) continue;
-    const subMixed = fracToMixed(Math.round(subN), d2);
+    const subNClean = Math.round(subN);
 
     // Result in simplified form
     const [rn, rd] = simplify(resultFrac, lcd);
     const ansStr = formatFracAnswer(rn, rd);
 
+    // DISPLAY: use fracDisplay directly with original denominators
+    // (NEVER reconstruct from fracToMixed — it simplifies and changes denominator!)
     const display: QElement[] = [
-      fracDisplay(minMixed.w * d1 + minMixed.n, d1),
+      fracDisplay(minNClean, d1),
       " − ",
-      fracDisplay(subMixed.w * d2 + subMixed.n, d2),
+      fracDisplay(subNClean, d2),
       " =",
     ];
+
+    // VERIFY: independently compute answer from display values
+    // minNClean/d1 − subNClean/d2 must equal rn/rd
+    const verifyNum = minNClean * d2 - subNClean * d1;
+    const verifyDen = d1 * d2;
+    const [vn, vd] = simplify(verifyNum, verifyDen);
+    if (vn !== rn || vd !== rd) continue; // skip if mismatch (should never happen, but safety net)
 
     return {
       id: "r3a", block: 3, sub: "a", label: "3a",
@@ -425,12 +452,15 @@ function gen3a(): Question {
     };
   }
 
-  // Fallback
+  // Fallback: 5¾ − 2⅓ = verified answer
+  const fbMinN = 23, fbMinD = 4, fbSubN = 7, fbSubD = 3;
+  const fbResultNum = fbMinN * fbSubD - fbSubN * fbMinD;
+  const fbResultDen = fbMinD * fbSubD;
   return {
     id: "r3a", block: 3, sub: "a", label: "3a",
-    display: [fracDisplay(23, 4), " − ", fracDisplay(7, 6), " ="],
+    display: [fracDisplay(fbMinN, fbMinD), " − ", fracDisplay(fbSubN, fbSubD), " ="],
     answerType: "fraction",
-    answer: formatFracAnswer(23 * 3 - 7 * 2, 12),
+    answer: formatFracAnswer(...simplify(fbResultNum, fbResultDen)),
   };
 }
 
@@ -469,6 +499,19 @@ function gen3b(): Question {
 }
 
 function make3bQuestion(f1: [number, number], f2: [number, number], f3: [number, number], rn: number, rd: number): Question {
+  // VERIFY: f1 × f2 × f3 must equal rn/rd
+  const prodN = f1[0] * f2[0] * f3[0];
+  const prodD = f1[1] * f2[1] * f3[1];
+  const [vn, vd] = simplify(prodN, prodD);
+  if (vn !== rn || vd !== rd) {
+    // This should never happen, but if it does, use verified values
+    return {
+      id: "r3b", block: 3, sub: "b", label: "3b",
+      display: [fracDisplay(f1[0], f1[1]), " × ", fracDisplay(f2[0], f2[1]), " × ", fracDisplay(f3[0], f3[1]), " ="],
+      answerType: vd === 1 ? "integer" : "fraction",
+      answer: formatFracAnswer(vn, vd),
+    };
+  }
   return {
     id: "r3b", block: 3, sub: "b", label: "3b",
     display: [fracDisplay(f1[0], f1[1]), " × ", fracDisplay(f2[0], f2[1]), " × ", fracDisplay(f3[0], f3[1]), " ="],
@@ -659,13 +702,99 @@ function gen4c(): Question { return genUnitQuestion(VOLUME_CONVERSIONS, "c"); }
 
 // ──── Public API ───────────────────────────────────────────────────
 
-export function generateBlock(block: 1 | 2 | 3 | 4): Question[] {
-  switch (block) {
-    case 1: return [gen1a(), gen1b(), gen1c(), gen1d()];
-    case 2: return [gen2a(), gen2b(), gen2c(), gen2d(), gen2e(), gen2f()];
-    case 3: return [gen3a(), gen3b(), gen3c(), gen3d()];
-    case 4: return [gen4a(), gen4b(), gen4c()];
+/** Final safety net: verify fraction questions by re-computing from display */
+function verifyQuestion(q: Question): Question {
+  if (q.block !== 3) return q; // only verify fraction block
+
+  // Extract operands and operators from display
+  const operands: [number, number][] = [];
+  const operators: string[] = [];
+  for (const el of q.display) {
+    if (typeof el === "string") {
+      const trimmed = el.trim();
+      if (trimmed === "+" || trimmed === "−" || trimmed === "×" || trimmed === ":") {
+        operators.push(trimmed);
+      } else if (trimmed === "=" || trimmed === "") {
+        // skip
+      } else {
+        // Try parse integer
+        const n = parseInt(trimmed);
+        if (!isNaN(n)) operands.push([n, 1]);
+      }
+    } else {
+      operands.push(qelToFrac(el));
+    }
   }
+
+  // For 3a (subtraction): a − b = answer
+  if (q.sub === "a" && operands.length === 2 && operators[0] === "−") {
+    const [an, ad] = operands[0];
+    const [bn, bd] = operands[1];
+    const resultN = an * bd - bn * ad;
+    const resultD = ad * bd;
+    const [rn, rd] = simplify(resultN, resultD);
+    const verified = formatFracAnswer(rn, rd);
+    if (verified !== q.answer) {
+      return { ...q, answer: verified };
+    }
+  }
+
+  // For 3b (multiplication): a × b × c = answer
+  if (q.sub === "b" && operands.length === 3) {
+    let n = 1, d = 1;
+    for (const [on, od] of operands) { n *= on; d *= od; }
+    const [rn, rd] = simplify(n, d);
+    const verified = formatFracAnswer(rn, rd);
+    if (verified !== q.answer) {
+      return { ...q, answer: verified, answerType: rd === 1 ? "integer" : "fraction" };
+    }
+  }
+
+  // For 3c (addition + division with order of operations): a + b : c = answer
+  if (q.sub === "c" && operands.length === 3 && operators[0] === "+" && operators[1] === ":") {
+    const [an, ad] = operands[0];
+    const [bn, bd] = operands[1];
+    const [cn, cd] = operands[2];
+    // b : c = (bn/bd) ÷ (cn/cd) = (bn*cd) / (bd*cn)
+    const divN = bn * cd;
+    const divD = bd * cn;
+    // a + div = (an/ad) + (divN/divD)
+    const lc = (ad * divD) / gcd(ad, divD);
+    const sumN = an * (lc / ad) + divN * (lc / divD);
+    const [rn, rd] = simplify(sumN, lc);
+    const verified = formatFracAnswer(rn, rd);
+    if (verified !== q.answer) {
+      return { ...q, answer: verified };
+    }
+  }
+
+  // For 3d (chain division): a : b : c = answer
+  if (q.sub === "d" && operands.length === 3 && operators[0] === ":" && operators[1] === ":") {
+    const [an, ad] = operands[0];
+    const [bn, bd] = operands[1];
+    const [cn, cd] = operands[2];
+    // a ÷ b = (an*bd) / (ad*bn)
+    // then ÷ c = (an*bd*cd) / (ad*bn*cn)
+    const rN = an * bd * cd;
+    const rD = ad * bn * cn;
+    const [rn, rd] = simplify(rN, rD);
+    const verified = formatFracAnswer(rn, rd);
+    if (verified !== q.answer) {
+      return { ...q, answer: verified, answerType: rd === 1 ? "integer" : "fraction" };
+    }
+  }
+
+  return q;
+}
+
+export function generateBlock(block: 1 | 2 | 3 | 4): Question[] {
+  const generators: Record<number, (() => Question)[]> = {
+    1: [gen1a, gen1b, gen1c, gen1d],
+    2: [gen2a, gen2b, gen2c, gen2d, gen2e, gen2f],
+    3: [gen3a, gen3b, gen3c, gen3d],
+    4: [gen4a, gen4b, gen4c],
+  };
+  return generators[block].map((gen) => verifyQuestion(gen()));
 }
 
 export function generateFullTest(): Question[] {

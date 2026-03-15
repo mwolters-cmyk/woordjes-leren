@@ -8,6 +8,7 @@ import deVoorbeeld from "./lists/de-voorbeeld.json";
 import laVoorbeeld from "./lists/la-voorbeeld.json";
 import grVoorbeeld from "./lists/gr-voorbeeld.json";
 import nlVoorbeeld from "./lists/nl-voorbeeld.json";
+import deKap4 from "./lists/k3-m3-de-kap4.json";
 
 // Helper to create a placeholder list (no words yet)
 function placeholder(
@@ -170,7 +171,7 @@ export const ALL_LISTS: WordList[] = [
   placeholder("k3-m2-nl-schrijven", "Nederlands - Creatief Schrijven", "nl", 3, 2, "sentences"),
 
   // Klas 3 - Module 3
-  placeholder("k3-m3-de-kap4", "Duits - Kapitel 4 Wortschatz", "de", 3, 3, "vocabulary", "Deutsch macht Spass"),
+  enrichExample(deKap4, 3, 3, "vocabulary"),
   placeholder("k3-m3-de-kap6", "Duits - Kapitel 6 Wortschatz", "de", 3, 3, "vocabulary", "Deutsch macht Spass"),
   placeholder("k3-m3-de-gram-k46", "Duits - Grammatik K4+6 (Fälle, Wechselpräpositionen)", "de", 3, 3, "grammar", "Deutsch macht Spass"),
   placeholder("k3-m3-en-ch6", "Engels - Chapter 6 (Good Health)", "en", 3, 3, "vocabulary", "Focus on the Wider World"),
