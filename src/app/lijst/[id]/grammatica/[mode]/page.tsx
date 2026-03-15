@@ -54,11 +54,18 @@ export default function GrammarExercisePage() {
     if (!gen) return;
     let qs: GrammarQuestion[];
     if (block === "all") {
-      // Generate a mix from all blocks
-      const allConcepts = gen.ALL_CONCEPTS.map(c => c.id);
-      // Pick ~20 random concepts
-      const shuffled = allConcepts.sort(() => Math.random() - 0.5);
-      qs = gen.generateSession(shuffled.slice(0, 20));
+      // Generate an even mix from all blocks (~5 per block)
+      const blocks = gen.GRAMMAR_BLOCKS.map(b => b.block);
+      const perBlock = Math.max(3, Math.ceil(20 / blocks.length));
+      const picked: string[] = [];
+      for (const b of blocks) {
+        const blockConcepts = gen.getConceptsByBlock(b).map(c => c.id);
+        const shuffledBlock = blockConcepts.sort(() => Math.random() - 0.5);
+        picked.push(...shuffledBlock.slice(0, perBlock));
+      }
+      // Shuffle the combined list and take 20
+      const mixed = picked.sort(() => Math.random() - 0.5).slice(0, 20);
+      qs = gen.generateSession(mixed);
     } else {
       qs = gen.generateBlock(block);
     }
