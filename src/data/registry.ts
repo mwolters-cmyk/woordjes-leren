@@ -1,13 +1,6 @@
 import { WordList, Jaarlaag, Module, Language, ListType } from "@/lib/types";
 import { getAdminListData } from "@/lib/adminStorage";
 
-// Import example lists with actual words
-import frVoorbeeld from "./lists/fr-voorbeeld.json";
-import enVoorbeeld from "./lists/en-voorbeeld.json";
-import deVoorbeeld from "./lists/de-voorbeeld.json";
-import laVoorbeeld from "./lists/la-voorbeeld.json";
-import grVoorbeeld from "./lists/gr-voorbeeld.json";
-import nlVoorbeeld from "./lists/nl-voorbeeld.json";
 import deKap4 from "./lists/k3-m3-de-kap4.json";
 import frDelfA2 from "./lists/k3-m3-fr-delf-a2.json";
 import grW1920 from "./lists/k3-m3-gr-w19-20.json";
@@ -84,14 +77,6 @@ function grammarList(
 // ============================================================
 
 export const ALL_LISTS: WordList[] = [
-  // ── Example lists (with actual words) ──────────────────────
-  enrichExample(frVoorbeeld, 1, 1, "vocabulary"),
-  enrichExample(enVoorbeeld, 1, 1, "vocabulary"),
-  enrichExample(deVoorbeeld, 2, 1, "vocabulary"),
-  enrichExample(laVoorbeeld, 1, 1, "vocabulary"),
-  enrichExample(grVoorbeeld, 1, 1, "vocabulary"),
-  enrichExample(nlVoorbeeld, 1, 1, "vocabulary"),
-
   // ── KLAS 1 ─────────────────────────────────────────────────
 
   // Klas 1 - Module 1
