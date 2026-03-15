@@ -11,6 +11,11 @@ import { WordList, ListProgress, JAARLAAG_LABELS, LIST_TYPE_LABELS } from "@/lib
 import { Direction, DIRECTION_SHORT, supportsDirection } from "@/lib/direction";
 import LeitnerBoxes from "@/components/LeitnerBoxes";
 import ToetsklaarMeter from "@/components/ToetsklaarMeter";
+import {
+  hasGrammarGenerator, getConceptsAsWords, GRAMMAR_BLOCKS,
+  getConceptsByBlock,
+} from "@/lib/grammarDeutsch";
+import { DER_GRUPPE, EIN_GRUPPE } from "@/data/grammar/de-faelle";
 
 const MODES = [
   {
@@ -113,7 +118,106 @@ export default function ListDetailPage() {
     );
   }
 
-  // Active list view
+  // ── Grammar generator view ──
+  if (hasGrammarGenerator(list.id)) {
+    const grammarWords = getConceptsAsWords();
+    const grammarStats = getListStats(grammarWords, progress);
+    const grammarDist = getBoxDistribution(grammarWords, progress);
+    const grammarReadiness = calculateReadiness(grammarWords, progress);
+
+    const GRAMMAR_MODES = [
+      { id: "meerkeuze", label: "Meerkeuze", icon: "📋", description: "Kies het juiste antwoord uit 4 opties" },
+      { id: "oefenen", label: "Invullen", icon: "✍️", description: "Typ het juiste lidwoord of voorzetsel" },
+      { id: "toets", label: "Toets", icon: "📝", description: "Mix van invullen en meerkeuze" },
+    ];
+
+    return (
+      <div>
+        <Link href={backUrl} className="text-primary-light hover:underline text-sm mb-4 inline-block">
+          &larr; Terug naar {JAARLAAG_LABELS[String(list.jaarlaag)]}
+        </Link>
+
+        <div className="card p-6 mb-6">
+          <div className="flex items-start justify-between mb-1">
+            <h2 className="text-2xl font-bold text-text">{list.title}</h2>
+            <div className="flex gap-1">
+              <span className="text-xs px-2 py-1 rounded-full bg-gray-100 text-text-light">
+                {LIST_TYPE_LABELS[list.listType]}
+              </span>
+              {list.source && (
+                <span className="text-xs px-2 py-1 rounded-full bg-gray-100 text-text-light">
+                  {list.source}
+                </span>
+              )}
+            </div>
+          </div>
+          {list.description && (
+            <p className="text-text-light mb-4">{list.description}</p>
+          )}
+
+          <div className="grid grid-cols-2 gap-4 mb-4">
+            <div>
+              <ToetsklaarMeter readiness={grammarReadiness} />
+            </div>
+            <div>
+              <p className="text-sm text-text-light mb-1">Leitner verdeling</p>
+              <LeitnerBoxes distribution={grammarDist} />
+            </div>
+          </div>
+
+          <div className="flex gap-4 text-sm text-text-light">
+            <span>{grammarStats.total} concepten</span>
+            <span>{grammarStats.learned} beheerst</span>
+            <span>{grammarStats.inProgress} bezig</span>
+            <span>{grammarStats.new} nieuw</span>
+          </div>
+        </div>
+
+        {/* Grammar blocks overview */}
+        <h3 className="text-lg font-semibold mb-4">Grammatica-blokken</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+          {GRAMMAR_BLOCKS.map(b => {
+            const count = getConceptsByBlock(b.block).length;
+            return (
+              <div key={b.block} className="card p-4">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">{b.icon}</span>
+                  <div>
+                    <h4 className="font-bold text-text">Blok {b.block}: {b.title}</h4>
+                    <p className="text-sm text-text-light mt-1">{b.description}</p>
+                    <p className="text-xs text-text-light mt-1">{count} concepten</p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Exercise modes */}
+        <h3 className="text-lg font-semibold mb-4">Kies een oefenmodus</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+          {GRAMMAR_MODES.map((mode) => (
+            <Link
+              key={mode.id}
+              href={`/lijst/${id}/grammatica/${mode.id}`}
+              className="card p-5 hover:shadow-lg transition-shadow flex items-start gap-4"
+            >
+              <span className="text-3xl">{mode.icon}</span>
+              <div>
+                <h4 className="font-semibold text-text">{mode.label}</h4>
+                <p className="text-sm text-text-light">{mode.description}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        {/* Reference tables */}
+        <GrammarReferenceTables />
+      </div>
+    );
+  }
+
+  // Active list view (vocabulary)
   const stats = getListStats(list.words, progress);
   const dist = getBoxDistribution(list.words, progress);
   const readiness = calculateReadiness(list.words, progress);
@@ -231,6 +335,113 @@ export default function ListDetailPage() {
           </table>
         </div>
       </div>
+    </div>
+  );
+}
+
+// ─── Grammar reference tables component ─────────────────────────
+
+function GrammarReferenceTables() {
+  const [open, setOpen] = useState(false);
+
+  const cases = ["nominativ", "dativ", "akkusativ"] as const;
+  const caseLabels = { nominativ: "1. Nominativ", dativ: "3. Dativ", akkusativ: "4. Akkusativ" };
+  const genderHeaders = ["mannelijk", "vrouwelijk", "onzijdig", "meervoud"];
+  const genderKeys = ["m", "f", "n", "pl"] as const;
+
+  return (
+    <div className="card p-4">
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between font-semibold text-text cursor-pointer"
+      >
+        <span>📚 Naslagtabellen</span>
+        <span className="text-text-light">{open ? "▲" : "▼"}</span>
+      </button>
+
+      {open && (
+        <div className="mt-4 space-y-6">
+          {/* Der-Gruppe */}
+          <div>
+            <h4 className="font-bold text-text mb-2">Der-Gruppe (bepaald lidwoord)</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr>
+                    <th className="text-left p-2 border-b border-gray-200"></th>
+                    {genderHeaders.map(h => (
+                      <th key={h} className="text-center p-2 border-b border-gray-200 font-medium text-text-light">{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {cases.map(c => (
+                    <tr key={c} className="border-b border-gray-100">
+                      <td className="p-2 font-medium text-text-light">{caseLabels[c]}</td>
+                      {genderKeys.map(g => (
+                        <td key={g} className="p-2 text-center font-semibold">{DER_GRUPPE[c][g]}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-text-light mt-1">
+              💡 Dativ meervoud: zelfstandig naamwoord krijgt extra -n (mit den Kinder<strong>n</strong>), behalve als meervoud al op -n of -s eindigt.
+            </p>
+          </div>
+
+          {/* Ein-Gruppe */}
+          <div>
+            <h4 className="font-bold text-text mb-2">Ein-Gruppe (onbepaald lidwoord)</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr>
+                    <th className="text-left p-2 border-b border-gray-200"></th>
+                    {genderHeaders.map(h => (
+                      <th key={h} className="text-center p-2 border-b border-gray-200 font-medium text-text-light">{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {cases.map(c => (
+                    <tr key={c} className="border-b border-gray-100">
+                      <td className="p-2 font-medium text-text-light">{caseLabels[c]}</td>
+                      {genderKeys.map(g => (
+                        <td key={g} className="p-2 text-center font-semibold">{EIN_GRUPPE[c][g]}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-text-light mt-1">
+              💡 Bezittelijke voornaamwoorden (mein, dein, sein, ihr, unser, euer) volgen hetzelfde patroon.
+            </p>
+          </div>
+
+          {/* Prepositions summary */}
+          <div>
+            <h4 className="font-bold text-text mb-2">Voorzetsels</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+              <div className="p-3 rounded-lg bg-blue-50">
+                <p className="font-semibold text-blue-800 mb-1">+ Dativ (altijd)</p>
+                <p className="text-blue-700">aus, bei, mit, nach, seit, von, zu</p>
+              </div>
+              <div className="p-3 rounded-lg bg-red-50">
+                <p className="font-semibold text-red-800 mb-1">+ Akkusativ (altijd)</p>
+                <p className="text-red-700">bis, durch, für, gegen, ohne, um</p>
+              </div>
+              <div className="p-3 rounded-lg bg-purple-50 sm:col-span-2">
+                <p className="font-semibold text-purple-800 mb-1">Wechselpräpositionen (Dativ óf Akkusativ)</p>
+                <p className="text-purple-700 mb-1">an, auf, hinter, in, neben, über, unter, vor, zwischen</p>
+                <p className="text-purple-600 text-xs">Wo? (locatie) → Dativ &nbsp;|&nbsp; Wohin? (beweging) → Akkusativ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
