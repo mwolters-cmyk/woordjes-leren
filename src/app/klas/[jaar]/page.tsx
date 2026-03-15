@@ -17,6 +17,7 @@ import { getListProgress } from "@/lib/storage";
 import { getListStats } from "@/lib/leitner";
 import { useEffect, useState, useCallback } from "react";
 import ProgressBar from "@/components/ProgressBar";
+import ProefwerkBanner from "@/components/ProefwerkBanner";
 
 function parseJaarlaag(param: string): Jaarlaag {
   if (param === "bovenbouw") return "bovenbouw";
@@ -197,6 +198,11 @@ export default function KlasPage() {
           </button>
         ))}
       </div>
+
+      {/* Proefwerkweek banner */}
+      {!activeFilter || activeFilter !== "rekenen" ? (
+        <ProefwerkBanner jaarlaag={jaarlaag} />
+      ) : null}
 
       {/* Rekenen section (only shown when filtered to Rekenen or showing all, Klas 1 only) */}
       {hasRekenen && (activeFilter === "rekenen" || !activeFilter) && (
