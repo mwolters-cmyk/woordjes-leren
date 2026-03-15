@@ -171,6 +171,7 @@ function generateDerQuestion(conceptId: string): GrammarQuestion {
     answer,
     altAnswers: [],
     options,
+    hint: "der-Gruppe (bepaald lidwoord)",
     explanation: `${caseLabels[cas]} ${genderLabels[genderKey]} → ${answer}`,
   };
 }
@@ -212,8 +213,8 @@ function generateEinQuestion(conceptId: string): GrammarQuestion {
 
   const display = tmpl.template.replace("{blank}", `___ ${nounDisplay}`);
 
-  // Hint: show which possessive/article to use
-  const hint = usePossessive ? `Gebruik: ${prefix}` : undefined;
+  // Hint: show which article type to use
+  const hint = usePossessive ? `Gebruik: ${prefix}` : "ein-Gruppe (onbepaald lidwoord)";
 
   // MC options: generate alternatives with same prefix but different endings
   const cases: Case[] = ["nominativ", "dativ", "akkusativ"];
