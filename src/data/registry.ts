@@ -45,7 +45,7 @@ function enrichExample(
   mod: Module,
   listType: ListType
 ): WordList {
-  return { ...(data as WordList), jaarlaag, module: mod, listType };
+  return { ...(data as unknown as WordList), jaarlaag, module: mod, listType };
 }
 
 // ============================================================
