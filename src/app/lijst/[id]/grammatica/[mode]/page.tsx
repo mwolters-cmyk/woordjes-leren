@@ -272,15 +272,21 @@ export default function GrammarExercisePage() {
       <div className="max-w-lg mx-auto">
         {/* Question card */}
         <div className="card p-8 text-center mb-6">
-          <div className="text-sm text-text-light mb-3 font-medium">
-            Vul in
-          </div>
+          {q.hint ? (
+            <div
+              className="inline-block px-3 py-1 rounded-full text-sm font-semibold mb-3"
+              style={{ backgroundColor: "rgba(52, 152, 219, 0.12)", color: "var(--color-primary)" }}
+            >
+              {q.hint}
+            </div>
+          ) : (
+            <div className="text-sm text-text-light mb-3 font-medium">
+              Vul in
+            </div>
+          )}
           <p className="text-xl sm:text-2xl font-medium text-text">
             {q.display}
           </p>
-          {q.hint && !feedback && (
-            <p className="text-sm text-accent mt-3">{q.hint}</p>
-          )}
         </div>
 
         {/* Answer area */}
