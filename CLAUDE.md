@@ -96,6 +96,25 @@ npm run import --dry-run           # preview without writing
 - Rekentoets: backward-generated questions (answer first, then construct question) for clean results
 - Dutch conventions: comma for decimals, `:` for division
 
+## Grammar Exercise Framework
+Generated grammar exercises (like Rekentoets) integrated with Leitner spaced repetition.
+
+### Architecture
+Each grammar list needs: **data file** + **generator** + **registry entry**.
+- Data: `src/data/grammar/{lang}-{topic}.ts` (declension tables, templates)
+- Generator: `src/lib/grammar{Lang}.ts` (implements shared interface)
+- Registry: `src/lib/grammarRegistry.ts` (maps listId → generator)
+- UI: `src/app/lijst/[id]/grammatica/[mode]/page.tsx` (shared exercise page)
+
+### Adding a New Grammar Language
+1. Create data file with raw grammar tables/templates
+2. Create generator implementing: `ALL_CONCEPTS`, `GRAMMAR_BLOCKS`, `generateBlock()`, `checkGrammarAnswer()`, `getConceptsAsWords()`
+3. Register in `grammarRegistry.ts`
+4. Replace placeholder with `grammarList()` in `registry.ts`
+5. Add reference tables in list detail page
+
+### Existing: German K4+6 (55 concepts), Greek t/m Les 20 (~64 concepts)
+
 ## Content Quality
 - OCR import (`scripts/import-photos.mjs`) has a **2-pass pipeline**: OCR extraction → spelling verification
 - The spelling pass checks Dutch translations, foreign-language terms, articles (de/het, der/die/das, le/la), and diacritics

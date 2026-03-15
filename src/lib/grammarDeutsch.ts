@@ -10,28 +10,8 @@ import {
   type Gender, type Case, type GermanNoun,
 } from "@/data/grammar/de-faelle";
 
-// ─── Types ──────────────────────────────────────────────────────
-
-export type GrammarBlock = "A" | "B" | "C" | "D";
-
-export interface GrammarQuestion {
-  id: string;
-  block: GrammarBlock;
-  conceptId: string;
-  display: string;       // sentence with ___
-  answer: string;        // canonical answer
-  altAnswers: string[];  // accepted alternatives (e.g. "an dem" for "am")
-  options: string[];     // 4 MC options (shuffled, includes answer)
-  hint?: string;
-  explanation: string;
-}
-
-export interface GrammarConcept {
-  id: string;
-  block: GrammarBlock;
-  label: string;       // human-readable, e.g. "der-Gruppe: Dativ mannelijk → dem"
-  shortLabel: string;  // for display, e.g. "dem (Dat. m)"
-}
+import type { GrammarQuestion, GrammarConcept, GrammarBlock } from "./grammarTypes";
+export type { GrammarQuestion, GrammarConcept, GrammarBlock } from "./grammarTypes";
 
 // ─── All concepts (~55 stable IDs for Leitner) ─────────────────
 
@@ -501,16 +481,6 @@ export const GRAMMAR_BLOCKS: { block: GrammarBlock; title: string; description: 
   { block: "C", title: "Wechselpräpositionen", description: "Wo (Dativ) of Wohin (Akkusativ)?", icon: "🔄" },
   { block: "D", title: "Feste Präpositionen", description: "Voorzetsels met vast naamval", icon: "📌" },
 ];
-
-// ─── Registry helper ────────────────────────────────────────────
-
-/** IDs of lists that have a grammar generator */
-export const GRAMMAR_GENERATOR_LISTS = ["k3-m3-de-gram-k46"];
-
-/** Check if a list uses generated grammar exercises */
-export function hasGrammarGenerator(listId: string): boolean {
-  return GRAMMAR_GENERATOR_LISTS.includes(listId);
-}
 
 /** Get concepts as pseudo-Word objects for Leitner compatibility */
 export function getConceptsAsWords() {

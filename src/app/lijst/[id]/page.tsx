@@ -12,10 +12,11 @@ import { Direction, DIRECTION_SHORT, supportsDirection } from "@/lib/direction";
 import LeitnerBoxes from "@/components/LeitnerBoxes";
 import ToetsklaarMeter from "@/components/ToetsklaarMeter";
 import {
-  hasGrammarGenerator, getConceptsAsWords, GRAMMAR_BLOCKS,
-  getConceptsByBlock,
-} from "@/lib/grammarDeutsch";
+  hasGrammarGenerator, getGrammarGenerator, getGrammarConceptsAsWords,
+} from "@/lib/grammarRegistry";
+import type { GrammarGenerator } from "@/lib/grammarTypes";
 import { DER_GRUPPE, EIN_GRUPPE } from "@/data/grammar/de-faelle";
+import { RELATIVE_PRONOUN, CONJUNCTIVUS } from "@/data/grammar/gr-gram-t20";
 
 const MODES = [
   {
@@ -119,15 +120,16 @@ export default function ListDetailPage() {
   }
 
   // ── Grammar generator view ──
-  if (hasGrammarGenerator(list.id)) {
-    const grammarWords = getConceptsAsWords();
+  const grammarGen = hasGrammarGenerator(list.id) ? getGrammarGenerator(list.id) : null;
+  if (grammarGen) {
+    const grammarWords = getGrammarConceptsAsWords(list.id);
     const grammarStats = getListStats(grammarWords, progress);
     const grammarDist = getBoxDistribution(grammarWords, progress);
     const grammarReadiness = calculateReadiness(grammarWords, progress);
 
     const GRAMMAR_MODES = [
       { id: "meerkeuze", label: "Meerkeuze", icon: "📋", description: "Kies het juiste antwoord uit 4 opties" },
-      { id: "oefenen", label: "Invullen", icon: "✍️", description: "Typ het juiste lidwoord of voorzetsel" },
+      { id: "oefenen", label: "Invullen", icon: "✍️", description: "Typ het juiste antwoord" },
       { id: "toets", label: "Toets", icon: "📝", description: "Mix van invullen en meerkeuze" },
     ];
 
@@ -176,8 +178,8 @@ export default function ListDetailPage() {
         {/* Grammar blocks overview */}
         <h3 className="text-lg font-semibold mb-4">Grammatica-blokken</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-          {GRAMMAR_BLOCKS.map(b => {
-            const count = getConceptsByBlock(b.block).length;
+          {grammarGen.GRAMMAR_BLOCKS.map(b => {
+            const count = grammarGen.getConceptsByBlock(b.block).length;
             return (
               <div key={b.block} className="card p-4">
                 <div className="flex items-start gap-3">
@@ -212,7 +214,8 @@ export default function ListDetailPage() {
         </div>
 
         {/* Reference tables */}
-        <GrammarReferenceTables />
+        {list.id === "k3-m3-de-gram-k46" && <GermanReferenceTables />}
+        {list.id === "k3-m3-gr-gram-t20" && <GreekReferenceTables />}
       </div>
     );
   }
@@ -339,9 +342,9 @@ export default function ListDetailPage() {
   );
 }
 
-// ─── Grammar reference tables component ─────────────────────────
+// ─── German grammar reference tables ─────────────────────────────
 
-function GrammarReferenceTables() {
+function GermanReferenceTables() {
   const [open, setOpen] = useState(false);
 
   const cases = ["nominativ", "dativ", "akkusativ"] as const;
@@ -437,6 +440,117 @@ function GrammarReferenceTables() {
                 <p className="font-semibold text-purple-800 mb-1">Wechselpräpositionen (Dativ óf Akkusativ)</p>
                 <p className="text-purple-700 mb-1">an, auf, hinter, in, neben, über, unter, vor, zwischen</p>
                 <p className="text-purple-600 text-xs">Wo? (locatie) → Dativ &nbsp;|&nbsp; Wohin? (beweging) → Akkusativ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── Greek grammar reference tables ──────────────────────────────
+
+function GreekReferenceTables() {
+  const [open, setOpen] = useState(false);
+
+  const cases = ["nom", "gen", "dat", "acc"] as const;
+  const caseLabels = { nom: "Nominatief", gen: "Genitief", dat: "Datief", acc: "Accusatief" };
+  const genders = ["m", "f", "n"] as const;
+  const genderHeaders = ["mannelijk", "vrouwelijk", "onzijdig"];
+
+  return (
+    <div className="card p-4">
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between font-semibold text-text cursor-pointer"
+      >
+        <span>📚 Naslagtabellen</span>
+        <span className="text-text-light">{open ? "▲" : "▼"}</span>
+      </button>
+
+      {open && (
+        <div className="mt-4 space-y-6">
+          {/* Betrekkelijk voornaamwoord */}
+          <div>
+            <h4 className="font-bold text-text mb-2">Betrekkelijk voornaamwoord ὅς, ἥ, ὅ</h4>
+            {(["sg", "pl"] as const).map(num => (
+              <div key={num} className="mb-3">
+                <p className="text-sm font-medium text-text-light mb-1">{num === "sg" ? "Enkelvoud" : "Meervoud"}</p>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm border-collapse">
+                    <thead>
+                      <tr>
+                        <th className="text-left p-2 border-b border-gray-200"></th>
+                        {genderHeaders.map(h => (
+                          <th key={h} className="text-center p-2 border-b border-gray-200 font-medium text-text-light">{h}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {cases.map(c => (
+                        <tr key={c} className="border-b border-gray-100">
+                          <td className="p-2 font-medium text-text-light">{caseLabels[c]}</td>
+                          {genders.map(g => (
+                            <td key={g} className="p-2 text-center font-semibold">{RELATIVE_PRONOUN[num][c][g]}</td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Conjunctivus λύω */}
+          <div>
+            <h4 className="font-bold text-text mb-2">Conjunctivus van λύω</h4>
+            <p className="text-xs text-text-light mb-2">💡 Kenmerk: lange klinker ω/η in de uitgang (i.p.v. ο/ε)</p>
+            {(["praes", "aor"] as const).map(tense => (
+              <div key={tense} className="mb-3">
+                <p className="text-sm font-medium text-text-light mb-1">{tense === "praes" ? "Praesens" : "Aoristus"}</p>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm border-collapse">
+                    <thead>
+                      <tr>
+                        <th className="text-left p-2 border-b border-gray-200"></th>
+                        <th className="text-center p-2 border-b border-gray-200 font-medium text-text-light">Actief</th>
+                        <th className="text-center p-2 border-b border-gray-200 font-medium text-text-light">Medium</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {([1, 2, 3] as const).flatMap(p =>
+                        (["sg", "pl"] as const).map(n => (
+                          <tr key={`${p}${n}`} className="border-b border-gray-100">
+                            <td className="p-2 font-medium text-text-light">{p}e pers. {n === "sg" ? "ev." : "mv."}</td>
+                            <td className="p-2 text-center font-semibold">{CONJUNCTIVUS[tense].act[p][n]}</td>
+                            <td className="p-2 text-center font-semibold">{CONJUNCTIVUS[tense].med[p][n]}</td>
+                          </tr>
+                        ))
+                      )}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Conjunctivus gebruik */}
+          <div>
+            <h4 className="font-bold text-text mb-2">Conjunctivus gebruik</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+              <div className="p-3 rounded-lg bg-blue-50">
+                <p className="font-semibold text-blue-800 mb-1">Hoofdzin</p>
+                <p className="text-blue-700 text-xs">• <strong>Dubitativus</strong>: twijfelvraag ("zal ik...?")</p>
+                <p className="text-blue-700 text-xs">• <strong>Adhortativus</strong>: aansporing ("laten wij...")</p>
+                <p className="text-blue-700 text-xs">• <strong>Verbod</strong>: μή + conj. aor. ("doe niet...")</p>
+              </div>
+              <div className="p-3 rounded-lg bg-purple-50">
+                <p className="font-semibold text-purple-800 mb-1">Bijzin</p>
+                <p className="text-purple-700 text-xs">• <strong>Doelzin</strong>: ἵνα/ὅπως/ὡς + conj. ("opdat")</p>
+                <p className="text-purple-700 text-xs">• <strong>Voorwaarde</strong>: ἐάν + conj. ("als/indien")</p>
+                <p className="text-purple-700 text-xs">• <strong>Tijdsbijzin</strong>: ἐπεάν + conj. ("wanneer")</p>
               </div>
             </div>
           </div>

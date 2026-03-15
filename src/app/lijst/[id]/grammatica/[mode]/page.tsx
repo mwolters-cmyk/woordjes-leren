@@ -4,11 +4,8 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { useEffect, useState, useRef, useCallback } from "react";
 import { getListById } from "@/data/registry";
-import {
-  generateBlock, generateSession, checkGrammarAnswer,
-  ALL_CONCEPTS, getConceptsByBlock, GRAMMAR_BLOCKS,
-  type GrammarQuestion, type GrammarBlock,
-} from "@/lib/grammarDeutsch";
+import { getGrammarGenerator } from "@/lib/grammarRegistry";
+import type { GrammarQuestion, GrammarBlock } from "@/lib/grammarTypes";
 import { getListProgress, updateWordProgress } from "@/lib/storage";
 import { promoteWord, demoteWord } from "@/lib/leitner";
 import { type WordProgress, type LeitnerBox } from "@/lib/types";
@@ -49,19 +46,21 @@ export default function GrammarExercisePage() {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const list = getListById(listId);
+  const gen = getGrammarGenerator(listId);
   const backUrl = `/lijst/${listId}`;
 
   // Generate questions when block is selected
   const startExercise = useCallback((block: GrammarBlock | "all") => {
+    if (!gen) return;
     let qs: GrammarQuestion[];
     if (block === "all") {
       // Generate a mix from all blocks
-      const allConcepts = ALL_CONCEPTS.map(c => c.id);
+      const allConcepts = gen.ALL_CONCEPTS.map(c => c.id);
       // Pick ~20 random concepts
       const shuffled = allConcepts.sort(() => Math.random() - 0.5);
-      qs = generateSession(shuffled.slice(0, 20));
+      qs = gen.generateSession(shuffled.slice(0, 20));
     } else {
-      qs = generateBlock(block);
+      qs = gen.generateBlock(block);
     }
     setQuestions(qs);
     setCurrentIndex(0);
@@ -70,7 +69,7 @@ export default function GrammarExercisePage() {
     setResults([]);
     setFinished(false);
     setStarted(true);
-  }, []);
+  }, [gen]);
 
   useEffect(() => {
     if (started) inputRef.current?.focus();
@@ -83,7 +82,7 @@ export default function GrammarExercisePage() {
     if (feedback || !questions.length) return;
     const q = questions[currentIndex];
     const input = answer ?? userAnswer;
-    const isCorrect = checkGrammarAnswer(input, q);
+    const isCorrect = gen ? gen.checkGrammarAnswer(input, q) : false;
     setFeedback(isCorrect ? "correct" : "incorrect");
     setResults([...results, isCorrect]);
 
@@ -124,8 +123,8 @@ export default function GrammarExercisePage() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto mb-6">
-          {GRAMMAR_BLOCKS.map(b => {
-            const conceptCount = getConceptsByBlock(b.block).length;
+          {(gen?.GRAMMAR_BLOCKS ?? []).map(b => {
+            const conceptCount = gen?.getConceptsByBlock(b.block).length ?? 0;
             return (
               <button
                 key={b.block}
@@ -168,7 +167,7 @@ export default function GrammarExercisePage() {
     const pct = Math.round((correct / total) * 100);
     const blockTitle = selectedBlock === "all"
       ? "Alle blokken"
-      : `Blok ${selectedBlock}: ${GRAMMAR_BLOCKS.find(b => b.block === selectedBlock)?.title}`;
+      : `Blok ${selectedBlock}: ${gen?.GRAMMAR_BLOCKS.find(b => b.block === selectedBlock)?.title}`;
 
     return (
       <div>

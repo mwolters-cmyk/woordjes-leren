@@ -12,7 +12,9 @@ import deKap4 from "./lists/k3-m3-de-kap4.json";
 import frDelfA2 from "./lists/k3-m3-fr-delf-a2.json";
 import grW1920 from "./lists/k3-m3-gr-w19-20.json";
 import deKap6 from "./lists/k3-m3-de-kap6.json";
-import { getConceptsAsWords } from "@/lib/grammarDeutsch";
+import laW4445 from "./lists/k3-m3-la-w44-45.json";
+import laW4148 from "./lists/k3-m3-la-w41-48.json";
+import { getGrammarConceptsAsWords } from "@/lib/grammarRegistry";
 
 // Helper to create a placeholder list (no words yet)
 function placeholder(
@@ -69,7 +71,7 @@ function grammarList(
     description: description ?? title,
     language: { from: lang, to: "nl" },
     tags: [`klas${jaarlaag}`, `module${mod}`, "grammar"],
-    words: getConceptsAsWords(),
+    words: getGrammarConceptsAsWords(id),
     jaarlaag,
     module: mod,
     listType: "grammar",
@@ -207,10 +209,10 @@ export const ALL_LISTS: WordList[] = [
   placeholder("k3-m3-en-ch8", "Engels - Chapter 8 (Modern Society)", "en", 3, 3, "vocabulary", "Focus on the Wider World"),
   enrichExample(frDelfA2, 3, 3, "vocabulary"),
   enrichExample(grW1920, 3, 3, "vocabulary"),
-  placeholder("k3-m3-gr-gram-t20", "Grieks - Grammatica t/m Les 20", "gr", 3, 3, "grammar", "Argo"),
+  grammarList("k3-m3-gr-gram-t20", "Grieks - Grammatica t/m Les 20", "gr", 3, 3, "Argo"),
   placeholder("k3-m3-gr-odyssee", "Grieks - Odyssee Receptie", "gr", 3, 3, "sentences", "Argo"),
-  placeholder("k3-m3-la-w44-45", "Latijn - Woorden Les 44-45", "la", 3, 3, "vocabulary", "SPQR"),
-  placeholder("k3-m3-la-w41-48", "Latijn - Woorden Les 41-48 (PW)", "la", 3, 3, "vocabulary", "SPQR"),
+  enrichExample(laW4445, 3, 3, "vocabulary"),
+  enrichExample(laW4148, 3, 3, "vocabulary"),
   placeholder("k3-m3-la-conjunct", "Latijn - Conjunctivus", "la", 3, 3, "grammar", "SPQR"),
   placeholder("k3-m3-nl-betoog", "Nederlands - Betoog", "nl", 3, 3, "sentences"),
 
