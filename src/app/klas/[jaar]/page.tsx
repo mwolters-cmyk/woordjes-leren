@@ -1,6 +1,6 @@
 "use client";
 
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   JAARLAAG_LABELS,
@@ -15,7 +15,7 @@ import {
 import { getListsByJaarlaag, getListsByModule, isPlaceholder } from "@/data/registry";
 import { getListProgress } from "@/lib/storage";
 import { getListStats } from "@/lib/leitner";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import ProgressBar from "@/components/ProgressBar";
 
 function parseJaarlaag(param: string): Jaarlaag {
@@ -25,43 +25,116 @@ function parseJaarlaag(param: string): Jaarlaag {
   return 1;
 }
 
+// Subject type includes languages + rekenen
+type Subject = Language | "rekenen";
+
+const SUBJECT_LABELS: Record<Subject, string> = {
+  fr: "Frans",
+  en: "Engels",
+  de: "Duits",
+  la: "Latijn",
+  gr: "Grieks",
+  nl: "Nederlands",
+  rekenen: "Rekenen",
+};
+
+const SUBJECT_EMOJI: Record<Subject, string> = {
+  ...LANGUAGE_EMOJI,
+  rekenen: "🧮",
+};
+
 export default function KlasPage() {
   const params = useParams();
+  const searchParams = useSearchParams();
+  const router = useRouter();
   const jaarlaag = parseJaarlaag(params.jaar as string);
   const [mounted, setMounted] = useState(false);
+
+  // Get active filter from URL
+  const activeFilter = searchParams.get("vak") as Subject | null;
+
+  const setFilter = useCallback((subject: Subject | null) => {
+    const url = subject
+      ? `/klas/${params.jaar}?vak=${subject}`
+      : `/klas/${params.jaar}`;
+    router.replace(url, { scroll: false });
+  }, [params.jaar, router]);
 
   useEffect(() => setMounted(true), []);
 
   const isBovenbouw = jaarlaag === "bovenbouw";
   const modules: Module[] = [1, 2, 3];
 
+  // Determine available subjects for this jaarlaag
+  const allLists = getListsByJaarlaag(jaarlaag);
+  const availableLangs = Array.from(new Set(allLists.map((l) => l.language.from))) as Language[];
+  const langOrder: Language[] = ["fr", "en", "de", "la", "gr", "nl"];
+  const sortedLangs = langOrder.filter((l) => availableLangs.includes(l));
+
+  const hasRekenen = jaarlaag === 1;
+  const subjects: Subject[] = [...sortedLangs, ...(hasRekenen ? ["rekenen" as Subject] : [])];
+
   if (isBovenbouw) {
     // Bovenbouw: show lists grouped by language, no modules
-    const lists = getListsByJaarlaag("bovenbouw");
-    const byLang: Record<string, typeof lists> = {};
-    for (const list of lists) {
+    const byLang: Record<string, typeof allLists> = {};
+    for (const list of allLists) {
       const lang = list.language.from;
       if (!byLang[lang]) byLang[lang] = [];
       byLang[lang].push(list);
     }
+
+    const filteredLangs = activeFilter && activeFilter !== "rekenen"
+      ? sortedLangs.filter((l) => l === activeFilter)
+      : sortedLangs;
 
     return (
       <div>
         <Link href="/" className="text-primary-light hover:underline text-sm mb-4 inline-block">
           &larr; Terug naar overzicht
         </Link>
-        <h2 className="text-2xl font-bold text-text mb-6">
+        <h2 className="text-2xl font-bold text-text mb-4">
           {JAARLAAG_LABELS[String(jaarlaag)]}
         </h2>
+
+        {/* Subject filter bar */}
+        <div className="flex flex-wrap gap-2 mb-6">
+          <button
+            onClick={() => setFilter(null)}
+            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+              !activeFilter
+                ? "bg-primary text-white"
+                : "bg-gray-100 text-text-light hover:bg-gray-200"
+            }`}
+          >
+            Alles
+          </button>
+          {subjects.map((subj) => (
+            <button
+              key={subj}
+              onClick={() => setFilter(activeFilter === subj ? null : subj)}
+              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors flex items-center gap-1 ${
+                activeFilter === subj
+                  ? "bg-primary text-white"
+                  : "bg-gray-100 text-text-light hover:bg-gray-200"
+              }`}
+            >
+              <span>{SUBJECT_EMOJI[subj]}</span>
+              {SUBJECT_LABELS[subj]}
+            </button>
+          ))}
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {Object.entries(byLang).map(([lang, langLists]) => (
+          {filteredLangs
+            .filter((lang) => byLang[lang])
+            .map((lang) => (
             <div key={lang} className="card p-5">
               <h3 className="font-semibold text-primary mb-3 flex items-center gap-2">
-                <span>{LANGUAGE_EMOJI[lang as Language]}</span>
-                {LANGUAGE_LABELS[lang as Language]}
+                <span>{LANGUAGE_EMOJI[lang]}</span>
+                {LANGUAGE_LABELS[lang]}
               </h3>
               <div className="space-y-2">
-                {langLists.map((list) => (
+                {byLang[lang].map((list) => (
                   <Link
                     key={list.id}
                     href={`/lijst/${list.id}`}
@@ -87,52 +160,95 @@ export default function KlasPage() {
     );
   }
 
-  // Klas 1-3: show modules
+  // Klas 1-3: show modules with subject filter
   return (
     <div>
       <Link href="/" className="text-primary-light hover:underline text-sm mb-4 inline-block">
         &larr; Terug naar overzicht
       </Link>
-      <h2 className="text-2xl font-bold text-text mb-6">
+      <h2 className="text-2xl font-bold text-text mb-4">
         {JAARLAAG_LABELS[String(jaarlaag)]}
       </h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {modules.map((mod) => {
-          const modLists = getListsByModule(jaarlaag, mod);
-          const byLang: Record<string, typeof modLists> = {};
-          for (const list of modLists) {
-            const lang = list.language.from;
-            if (!byLang[lang]) byLang[lang] = [];
-            byLang[lang].push(list);
-          }
+      {/* Subject filter bar */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        <button
+          onClick={() => setFilter(null)}
+          className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+            !activeFilter
+              ? "bg-primary text-white"
+              : "bg-gray-100 text-text-light hover:bg-gray-200"
+          }`}
+        >
+          Alles
+        </button>
+        {subjects.map((subj) => (
+          <button
+            key={subj}
+            onClick={() => setFilter(activeFilter === subj ? null : subj)}
+            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors flex items-center gap-1 ${
+              activeFilter === subj
+                ? "bg-primary text-white"
+                : "bg-gray-100 text-text-light hover:bg-gray-200"
+            }`}
+          >
+            <span>{SUBJECT_EMOJI[subj]}</span>
+            {SUBJECT_LABELS[subj]}
+          </button>
+        ))}
+      </div>
 
-          return (
-            <div key={mod} className="card p-5">
-              <h3 className="text-lg font-bold text-primary mb-4">
-                {MODULE_LABELS[mod]}
-              </h3>
+      {/* Rekenen section (only shown when filtered to Rekenen or showing all, Klas 1 only) */}
+      {hasRekenen && (activeFilter === "rekenen" || !activeFilter) && (
+        <div className="card p-5 mb-6">
+          <h3 className="font-semibold text-primary mb-3 flex items-center gap-2">
+            <span>🧮</span> Rekenen
+          </h3>
+          <Link
+            href="/rekentoets"
+            className="block p-3 rounded-lg border border-gray-200 hover:border-primary-light text-sm transition-colors"
+          >
+            <div className="flex items-center justify-between">
+              <span className="font-medium">Rekentoets oefenen</span>
+              <span className="text-xs px-1.5 py-0.5 rounded-full bg-amber-50 text-amber-700">
+                4 blokken
+              </span>
+            </div>
+            <p className="text-text-light text-xs mt-1">
+              Gehele getallen · Decimalen · Breuken · Maateenheden
+            </p>
+          </Link>
+        </div>
+      )}
 
-              <div className="space-y-4">
-                {/* Rekentoets in Module 1 for Klas 1 */}
-                {jaarlaag === 1 && mod === 1 && (
-                  <Link
-                    href="/rekentoets"
-                    className="block p-2 rounded-lg text-sm hover:bg-gray-50 transition-colors"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="font-medium flex items-center gap-1">
-                        <span>🧮</span> Rekentoets oefenen
-                      </span>
-                      <span className="text-xs px-1.5 py-0.5 rounded-full bg-gray-100 text-text-light">
-                        Rekenen
-                      </span>
-                    </div>
-                  </Link>
-                )}
-                {(["fr", "en", "de", "la", "gr", "nl"] as Language[])
-                  .filter((lang) => byLang[lang])
-                  .map((lang) => (
+      {/* Only show language lists when not filtered to rekenen */}
+      {activeFilter !== "rekenen" && (
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          {modules.map((mod) => {
+            const modLists = getListsByModule(jaarlaag, mod);
+            const byLang: Record<string, typeof modLists> = {};
+            for (const list of modLists) {
+              const lang = list.language.from;
+              if (!byLang[lang]) byLang[lang] = [];
+              byLang[lang].push(list);
+            }
+
+            // Which languages to show in this module
+            const visibleLangs = activeFilter
+              ? langOrder.filter((l) => l === activeFilter && byLang[l])
+              : langOrder.filter((l) => byLang[l]);
+
+            // Skip module entirely if no matching lists
+            if (visibleLangs.length === 0) return null;
+
+            return (
+              <div key={mod} className="card p-5">
+                <h3 className="text-lg font-bold text-primary mb-4">
+                  {MODULE_LABELS[mod]}
+                </h3>
+
+                <div className="space-y-4">
+                  {visibleLangs.map((lang) => (
                     <div key={lang}>
                       <h4 className="text-sm font-semibold text-text-light mb-2 flex items-center gap-1">
                         <span>{LANGUAGE_EMOJI[lang]}</span>
@@ -183,11 +299,12 @@ export default function KlasPage() {
                       </div>
                     </div>
                   ))}
+                </div>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
