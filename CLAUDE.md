@@ -13,6 +13,7 @@ Free vocabulary/practice app for gymnasium students (klas 1-3 + bovenbouw). Buil
 2. **Dropbox photos** → `scripts/import-photos.mjs` → OCR via Claude Vision → JSON in `src/data/lists/`
 3. **Admin panel** (`/admin`): localStorage overrides for quick content entry before JSON commit
 4. **Toetsdruk JSONs**: Source for which lists/tests exist per klas/module (see below)
+5. **Bovenbouw auto-aggregation**: `/klas/bovenbouw` lists are built automatically from all onderbouw content (see below)
 
 ### Key Directories
 ```
@@ -114,6 +115,25 @@ Each grammar list needs: **data file** + **generator** + **registry entry**.
 5. Add reference tables in list detail page
 
 ### Existing: German K4+6 (55 concepts), Greek t/m Les 20 (~64 concepts)
+
+## Bovenbouw Auto-Aggregation
+The bovenbouw page (`/klas/bovenbouw`) automatically aggregates ALL onderbouw content per language into comprehensive review lists. **No manual bovenbouw entries needed.**
+
+### How it works
+- `registry.ts`: `ONDERBOUW_LISTS` contains all klas 1-3 lists. `buildBovenbouwLists()` scans these and creates:
+  - `bb-{lang}-voc`: all vocabulary words from that language combined (word IDs prefixed with source list ID for uniqueness)
+  - `bb-{lang}-gram`: all grammar concepts from that language combined
+- `grammarRegistry.ts`: auto-registers `bb-{lang}-gram` aliases so grammar exercise UI works for bovenbouw
+- Lists only appear when there's actual content (non-empty word lists)
+
+### Adding new onderbouw content automatically flows to bovenbouw
+When you:
+1. **Add a new vocabulary JSON** and import it via `enrichExample()` in `ONDERBOUW_LISTS` → automatically included in `bb-{lang}-voc`
+2. **Register a new grammar generator** in `grammarRegistry.ts` and use `grammarList()` in `ONDERBOUW_LISTS` → automatically included in `bb-{lang}-gram` + exercise UI works
+3. **Fill a placeholder** via admin panel (localStorage) → NOT included (admin data is merged at query time, not at build time)
+
+### Important: to include admin-entered content in bovenbouw
+Admin panel words are merged via `mergeAdminData()` at query time. To make them permanent (and thus included in bovenbouw aggregation), commit them as JSON files and import via `enrichExample()`.
 
 ## Content Quality
 - OCR import (`scripts/import-photos.mjs`) has a **2-pass pipeline**: OCR extraction → spelling verification

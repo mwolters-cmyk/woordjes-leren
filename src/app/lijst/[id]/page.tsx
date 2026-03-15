@@ -213,9 +213,9 @@ export default function ListDetailPage() {
           ))}
         </div>
 
-        {/* Reference tables */}
-        {list.id === "k3-m3-de-gram-k46" && <GermanReferenceTables />}
-        {list.id === "k3-m3-gr-gram-t20" && <GreekReferenceTables />}
+        {/* Reference tables — shown for any grammar list of this language */}
+        {list.language.from === "de" && <GermanReferenceTables />}
+        {list.language.from === "gr" && <GreekReferenceTables />}
       </div>
     );
   }

@@ -1,4 +1,4 @@
-import { WordList, Jaarlaag, Module, Language, ListType } from "@/lib/types";
+import { WordList, Word, Jaarlaag, Module, Language, ListType, LANGUAGE_LABELS } from "@/lib/types";
 import { getAdminListData } from "@/lib/adminStorage";
 
 import deKap4 from "./lists/k3-m3-de-kap4.json";
@@ -76,7 +76,7 @@ function grammarList(
 // ALL LISTS REGISTRY
 // ============================================================
 
-export const ALL_LISTS: WordList[] = [
+const ONDERBOUW_LISTS: WordList[] = [
   // ── KLAS 1 ─────────────────────────────────────────────────
 
   // Klas 1 - Module 1
@@ -200,13 +200,64 @@ export const ALL_LISTS: WordList[] = [
   enrichExample(laW4148, 3, 3, "vocabulary"),
   placeholder("k3-m3-la-conjunct", "Latijn - Conjunctivus", "la", 3, 3, "grammar", "SPQR"),
   placeholder("k3-m3-nl-betoog", "Nederlands - Betoog", "nl", 3, 3, "sentences"),
+];
 
-  // ── BOVENBOUW ──────────────────────────────────────────────
-  placeholder("bb-fr-voc", "Frans - Bovenbouw Woordenschat", "fr", "bovenbouw", undefined, "vocabulary", "Grandes Lignes"),
-  placeholder("bb-en-voc", "Engels - Bovenbouw Woordenschat", "en", "bovenbouw", undefined, "vocabulary"),
-  placeholder("bb-de-voc", "Duits - Bovenbouw Woordenschat", "de", "bovenbouw", undefined, "vocabulary"),
-  placeholder("bb-la-voc", "Latijn - Bovenbouw Woordenschat", "la", "bovenbouw", undefined, "vocabulary"),
-  placeholder("bb-gr-voc", "Grieks - Bovenbouw Woordenschat", "gr", "bovenbouw", undefined, "vocabulary"),
+// ── BOVENBOUW: auto-aggregated from all onderbouw content ──────
+// Every onderbouw vocabulary/grammar list with actual content is
+// automatically included. Adding a new onderbouw list with words
+// or registering a new grammar generator is enough — no manual
+// bovenbouw entries needed.
+
+function buildBovenbouwLists(): WordList[] {
+  const langOrder: Language[] = ["fr", "en", "de", "la", "gr", "nl"];
+  const result: WordList[] = [];
+
+  for (const lang of langOrder) {
+    // ── Vocabulary: combine all onderbouw vocabulary words ──
+    const vocLists = ONDERBOUW_LISTS.filter(
+      l => l.language.from === lang && l.listType === "vocabulary" && l.words.length > 0
+    );
+    if (vocLists.length > 0) {
+      const allWords: Word[] = vocLists.flatMap(l =>
+        l.words.map(w => ({ ...w, id: `${l.id}::${w.id}` }))
+      );
+      result.push({
+        id: `bb-${lang}-voc`,
+        title: `${LANGUAGE_LABELS[lang]} - Alle onderbouw woordjes`,
+        description: `Alle woordjes uit klas 1 t/m 3 (${allWords.length} woorden)`,
+        language: { from: lang, to: "nl" },
+        tags: ["bovenbouw", "vocabulary"],
+        words: allWords,
+        jaarlaag: "bovenbouw",
+        listType: "vocabulary",
+      });
+    }
+
+    // ── Grammar: combine all onderbouw grammar concepts ──
+    const gramLists = ONDERBOUW_LISTS.filter(
+      l => l.language.from === lang && l.listType === "grammar" && l.words.length > 0
+    );
+    if (gramLists.length > 0) {
+      const allConcepts: Word[] = gramLists.flatMap(l => l.words);
+      result.push({
+        id: `bb-${lang}-gram`,
+        title: `${LANGUAGE_LABELS[lang]} - Alle onderbouw grammatica`,
+        description: `Alle grammatica uit klas 1 t/m 3 (${allConcepts.length} concepten)`,
+        language: { from: lang, to: "nl" },
+        tags: ["bovenbouw", "grammar"],
+        words: allConcepts,
+        jaarlaag: "bovenbouw",
+        listType: "grammar",
+      });
+    }
+  }
+
+  return result;
+}
+
+export const ALL_LISTS: WordList[] = [
+  ...ONDERBOUW_LISTS,
+  ...buildBovenbouwLists(),
 ];
 
 // ============================================================
