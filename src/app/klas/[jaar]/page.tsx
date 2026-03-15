@@ -205,113 +205,116 @@ export default function KlasPage() {
       ) : null}
       */}
 
-      {/* Rekenen section (only shown when filtered to Rekenen or showing all, Klas 1 only) */}
-      {hasRekenen && (activeFilter === "rekenen" || !activeFilter) && (
-        <div className="card p-5 mb-6">
-          <h3 className="font-semibold text-primary mb-3 flex items-center gap-2">
-            <span>🧮</span> Rekenen
-          </h3>
-          <Link
-            href="/rekentoets"
-            className="block p-3 rounded-lg border border-gray-200 hover:border-primary-light text-sm transition-colors"
-          >
-            <div className="flex items-center justify-between">
-              <span className="font-medium">Rekentoets oefenen</span>
-              <span className="text-xs px-1.5 py-0.5 rounded-full bg-amber-50 text-amber-700">
-                4 blokken
-              </span>
-            </div>
-            <p className="text-text-light text-xs mt-1">
-              Gehele getallen · Decimalen · Breuken · Maateenheden
-            </p>
-          </Link>
-        </div>
-      )}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {modules.map((mod) => {
+          const modLists = getListsByModule(jaarlaag, mod);
+          const byLang: Record<string, typeof modLists> = {};
+          for (const list of modLists) {
+            const lang = list.language.from;
+            if (!byLang[lang]) byLang[lang] = [];
+            byLang[lang].push(list);
+          }
 
-      {/* Only show language lists when not filtered to rekenen */}
-      {activeFilter !== "rekenen" && (
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {modules.map((mod) => {
-            const modLists = getListsByModule(jaarlaag, mod);
-            const byLang: Record<string, typeof modLists> = {};
-            for (const list of modLists) {
-              const lang = list.language.from;
-              if (!byLang[lang]) byLang[lang] = [];
-              byLang[lang].push(list);
-            }
+          // Show rekenen in module 1 for klas 1
+          const showRekenen = hasRekenen && mod === 1 &&
+            (activeFilter === "rekenen" || !activeFilter);
 
-            // Which languages to show in this module
-            const visibleLangs = activeFilter
-              ? langOrder.filter((l) => l === activeFilter && byLang[l])
+          // Which languages to show in this module
+          const visibleLangs = activeFilter && activeFilter !== "rekenen"
+            ? langOrder.filter((l) => l === activeFilter && byLang[l])
+            : activeFilter === "rekenen"
+              ? [] // only show rekenen, no languages
               : langOrder.filter((l) => byLang[l]);
 
-            // Skip module entirely if no matching lists
-            if (visibleLangs.length === 0) return null;
+          // Skip module entirely if no matching lists and no rekenen
+          if (visibleLangs.length === 0 && !showRekenen) return null;
 
-            return (
-              <div key={mod} className="card p-5">
-                <h3 className="text-lg font-bold text-primary mb-4">
-                  {MODULE_LABELS[mod]}
-                </h3>
+          return (
+            <div key={mod} className="card p-5">
+              <h3 className="text-lg font-bold text-primary mb-4">
+                {MODULE_LABELS[mod]}
+              </h3>
 
-                <div className="space-y-4">
-                  {visibleLangs.map((lang) => (
-                    <div key={lang}>
-                      <h4 className="text-sm font-semibold text-text-light mb-2 flex items-center gap-1">
-                        <span>{LANGUAGE_EMOJI[lang]}</span>
-                        {LANGUAGE_LABELS[lang]}
-                      </h4>
-                      <div className="space-y-1">
-                        {byLang[lang].map((list) => {
-                          const empty = isPlaceholder(list);
-                          const progress = mounted ? getListProgress(list.id) : null;
-                          const stats = !empty ? getListStats(list.words, progress) : null;
+              <div className="space-y-4">
+                {visibleLangs.map((lang) => (
+                  <div key={lang}>
+                    <h4 className="text-sm font-semibold text-text-light mb-2 flex items-center gap-1">
+                      <span>{LANGUAGE_EMOJI[lang]}</span>
+                      {LANGUAGE_LABELS[lang]}
+                    </h4>
+                    <div className="space-y-1">
+                      {byLang[lang].map((list) => {
+                        const empty = isPlaceholder(list);
+                        const progress = mounted ? getListProgress(list.id) : null;
+                        const stats = !empty ? getListStats(list.words, progress) : null;
 
-                          return (
-                            <Link
-                              key={list.id}
-                              href={`/lijst/${list.id}`}
-                              className={`block p-2 rounded-lg text-sm transition-colors ${
-                                empty
-                                  ? "text-text-light hover:bg-gray-50"
-                                  : "hover:bg-gray-50"
-                              }`}
-                            >
-                              <div className="flex items-center justify-between">
-                                <span className={empty ? "" : "font-medium"}>
-                                  {list.title.replace(`${LANGUAGE_LABELS[lang]} - `, "")}
+                        return (
+                          <Link
+                            key={list.id}
+                            href={`/lijst/${list.id}`}
+                            className={`block p-2 rounded-lg text-sm transition-colors ${
+                              empty
+                                ? "text-text-light hover:bg-gray-50"
+                                : "hover:bg-gray-50"
+                            }`}
+                          >
+                            <div className="flex items-center justify-between">
+                              <span className={empty ? "" : "font-medium"}>
+                                {list.title.replace(`${LANGUAGE_LABELS[lang]} - `, "")}
+                              </span>
+                              <div className="flex items-center gap-2">
+                                <span className="text-xs px-1.5 py-0.5 rounded-full bg-gray-100 text-text-light">
+                                  {LIST_TYPE_LABELS[list.listType]}
                                 </span>
-                                <div className="flex items-center gap-2">
-                                  <span className="text-xs px-1.5 py-0.5 rounded-full bg-gray-100 text-text-light">
-                                    {LIST_TYPE_LABELS[list.listType]}
+                                {empty && (
+                                  <span className="text-xs text-text-light">
+                                    binnenkort
                                   </span>
-                                  {empty && (
-                                    <span className="text-xs text-text-light">
-                                      binnenkort
-                                    </span>
-                                  )}
-                                </div>
+                                )}
                               </div>
-                              {stats && stats.total > 0 && (
-                                <div className="mt-1">
-                                  <ProgressBar
-                                    current={stats.learned}
-                                    total={stats.total}
-                                  />
-                                </div>
-                              )}
-                            </Link>
-                          );
-                        })}
-                      </div>
+                            </div>
+                            {stats && stats.total > 0 && (
+                              <div className="mt-1">
+                                <ProgressBar
+                                  current={stats.learned}
+                                  total={stats.total}
+                                />
+                              </div>
+                            )}
+                          </Link>
+                        );
+                      })}
                     </div>
-                  ))}
-                </div>
+                  </div>
+                ))}
+
+                {/* Rekenen as regular item in Module 1 */}
+                {showRekenen && (
+                  <div>
+                    <h4 className="text-sm font-semibold text-text-light mb-2 flex items-center gap-1">
+                      <span>🧮</span>
+                      Rekenen
+                    </h4>
+                    <div className="space-y-1">
+                      <Link
+                        href="/rekentoets"
+                        className="block p-2 rounded-lg text-sm transition-colors hover:bg-gray-50"
+                      >
+                        <div className="flex items-center justify-between">
+                          <span className="font-medium">Rekentoets oefenen</span>
+                          <span className="text-xs px-1.5 py-0.5 rounded-full bg-gray-100 text-text-light">
+                            4 blokken
+                          </span>
+                        </div>
+                      </Link>
+                    </div>
+                  </div>
+                )}
               </div>
-            );
-          })}
-        </div>
-      )}
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
