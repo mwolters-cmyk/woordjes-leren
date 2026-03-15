@@ -80,6 +80,15 @@ npm run import --dry-run           # preview without writing
 ## Important Patterns
 - `mergeAdminData()` in registry.ts: admin localStorage words override static JSON
 - Leitner box system for spaced repetition (boxes 1-5)
-- Exercise modes: flashcards, schrijven, meerkeuze, toets
+- Exercise modes: flashcards, schrijven, meerkeuze, toets (+ direction picker for FR/EN/DE)
+- "Toch goed rekenen" override on incorrect schrijven answers (schrijven + toets pages)
+- Smart MC distractors: `src/lib/distractors.ts` scores candidates by word shape, length, first letter
+- Direction system: `src/lib/direction.ts` — NL→VT / VT→NL / Mix, swaps term/definition at session start
 - Rekentoets: backward-generated questions (answer first, then construct question) for clean results
 - Dutch conventions: comma for decimals, `:` for division
+
+## Content Quality
+- OCR import (`scripts/import-photos.mjs`) has a **2-pass pipeline**: OCR extraction → spelling verification
+- The spelling pass checks Dutch translations, foreign-language terms, articles (de/het, der/die/das, le/la), and diacritics
+- When manually creating/editing word data (outside the script), ALWAYS verify Dutch spelling of translations
+- Split singular/plural entries (e.g. "der Film – die Filme") into separate words with id suffixes `-a` / `-b`

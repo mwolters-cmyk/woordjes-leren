@@ -90,6 +90,25 @@ export default function SchrijvenPage() {
     }
   };
 
+  const handleOverrideCorrect = () => {
+    if (!feedback || feedback === "correct") return;
+    const word = sessionWords[currentIndex];
+
+    // Update Leitner: undo demote, apply promote instead
+    const progress = getListProgress(listId);
+    const wordProgress = progress?.wordProgress[word.id] ?? getInitialProgress(word.id, listId);
+    const updated = promoteWord(promoteWord(wordProgress)); // undo demote + promote
+    updateWordProgress(listId, updated);
+
+    // Update result to correct
+    setResults((prev) =>
+      prev.map((r, i) =>
+        i === prev.length - 1 ? { ...r, correct: true } : r
+      )
+    );
+    setFeedback("correct");
+  };
+
   const handleInsertAccent = (char: string) => {
     setAnswer((prev) => prev + char);
     inputRef.current?.focus();
@@ -226,6 +245,12 @@ export default function SchrijvenPage() {
                   <p className="text-sm text-text-light mt-1">
                     Juiste antwoord: <strong>{currentWord.definition}</strong>
                   </p>
+                  <button
+                    onClick={handleOverrideCorrect}
+                    className="mt-2 text-xs text-text-light underline hover:text-text cursor-pointer"
+                  >
+                    Toch goed rekenen
+                  </button>
                 </div>
               )}
             </div>

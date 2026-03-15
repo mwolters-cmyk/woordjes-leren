@@ -133,6 +133,23 @@ export default function ToetsPage() {
     }
   };
 
+  const handleOverrideCorrect = () => {
+    if (!feedback || feedback === "correct") return;
+    if (!currentQ) return;
+
+    const progress = getListProgress(listId);
+    const wordProgress = progress?.wordProgress[currentQ.word.id] ?? getInitialProgress(currentQ.word.id, listId);
+    const updated = promoteWord(promoteWord(wordProgress));
+    updateWordProgress(listId, updated);
+
+    setResults((prev) =>
+      prev.map((r, i) =>
+        i === prev.length - 1 ? { ...r, correct: true } : r
+      )
+    );
+    setFeedback("correct");
+  };
+
   const handleInsertAccent = (char: string) => {
     setAnswer((prev) => prev + char);
     inputRef.current?.focus();
@@ -268,7 +285,21 @@ export default function ToetsPage() {
                     </p>
                   </div>
                 )}
-                {feedback === "incorrect" && (
+                {feedback === "incorrect" && currentQ.type === "schrijven" && (
+                  <div>
+                    <p className="text-error font-semibold">Helaas!</p>
+                    <p className="text-sm text-text-light mt-1">
+                      Juiste antwoord: <strong>{currentQ.word.definition}</strong>
+                    </p>
+                    <button
+                      onClick={handleOverrideCorrect}
+                      className="mt-2 text-xs text-text-light underline hover:text-text cursor-pointer"
+                    >
+                      Toch goed rekenen
+                    </button>
+                  </div>
+                )}
+                {feedback === "incorrect" && currentQ.type !== "schrijven" && (
                   <div>
                     <p className="text-error font-semibold">Helaas!</p>
                     <p className="text-sm text-text-light mt-1">

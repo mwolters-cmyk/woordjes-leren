@@ -251,6 +251,96 @@ Geef ALLEEN de JSON-array terug.`;
   }
 }
 
+// ─── Spelling verification pass ─────────────────────────────────
+async function verifySpelling(client, words, language) {
+  console.log(`  Running spelling verification on ${words.length} words...`);
+
+  const wordsForCheck = words.map((w) => ({
+    id: w.id,
+    term: w.term,
+    definition: w.definition,
+    extra: w.extra || "",
+  }));
+
+  const response = await client.messages.create({
+    model: "claude-sonnet-4-20250514",
+    max_tokens: 8192,
+    messages: [
+      {
+        role: "user",
+        content: `Controleer de spelling van deze woordenlijst (${language.name} → Nederlands).
+
+Kijk specifiek naar:
+- Spelfouten in de Nederlandse vertalingen (bijv. "entrekaartje" moet "entreekaartje" zijn)
+- Spelfouten in de ${language.name} termen (accenten, umlauts, speciale tekens)
+- Verkeerde lidwoorden (de/het in NL, der/die/das in Duits, le/la in Frans)
+- Ontbrekende of foute accenten/diakritische tekens
+
+Geef ALLEEN een JSON-array terug met correcties. Elk item heeft:
+{ "id": "het id", "field": "term" of "definition" of "extra", "old": "fout", "new": "correct" }
+
+Als er GEEN fouten zijn, geef dan een lege array: []
+
+De woordenlijst:
+${JSON.stringify(wordsForCheck, null, 2)}`,
+      },
+    ],
+    system:
+      "Je bent een nauwkeurige spellingchecker voor schoolboeken. Controleer zowel de brontaal als de Nederlandse vertalingen. Wees streng maar correct. Geef ALLEEN de JSON-array terug.",
+  });
+
+  const text = response.content
+    .filter((b) => b.type === "text")
+    .map((b) => b.text)
+    .join("");
+
+  let jsonStr = text.trim();
+  if (jsonStr.startsWith("```")) {
+    jsonStr = jsonStr.replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
+  }
+
+  try {
+    const corrections = JSON.parse(jsonStr);
+    if (!Array.isArray(corrections)) return words;
+
+    if (corrections.length === 0) {
+      console.log(`  No spelling issues found.`);
+      return words;
+    }
+
+    console.log(`  Found ${corrections.length} spelling issue(s):`);
+    for (const c of corrections) {
+      console.log(`    ${c.id}: ${c.field} "${c.old}" → "${c.new}"`);
+    }
+
+    // Apply corrections
+    const correctionMap = new Map();
+    for (const c of corrections) {
+      if (!correctionMap.has(c.id)) correctionMap.set(c.id, []);
+      correctionMap.get(c.id).push(c);
+    }
+
+    return words.map((w) => {
+      const fixes = correctionMap.get(w.id);
+      if (!fixes) return w;
+      const updated = { ...w };
+      for (const fix of fixes) {
+        if (fix.field === "term" && updated.term === fix.old) {
+          updated.term = fix.new;
+        } else if (fix.field === "definition" && updated.definition === fix.old) {
+          updated.definition = fix.new;
+        } else if (fix.field === "extra" && updated.extra === fix.old) {
+          updated.extra = fix.new;
+        }
+      }
+      return updated;
+    });
+  } catch (e) {
+    console.error(`  WARNING: Could not parse spelling check response, skipping verification`);
+    return words;
+  }
+}
+
 // ─── Write output ───────────────────────────────────────────────
 function writeListJson(entry, words) {
   const { listId, title, language, listType } = entry;
@@ -329,8 +419,10 @@ async function main() {
   for (const entry of entries) {
     console.log(`[${entry.listId}] ${entry.title}`);
     try {
-      const words = await ocrImages(client, entry);
+      let words = await ocrImages(client, entry);
       console.log(`  ${words.length} woorden geextraheerd`);
+
+      words = await verifySpelling(client, words, entry.language);
 
       const result = writeListJson(entry, words);
       if (result.written) {
