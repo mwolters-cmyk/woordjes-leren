@@ -80,6 +80,9 @@ export interface WordProgress {
   lastSeen: string; // ISO date
   correctCount: number;
   incorrectCount: number;
+  // Toetsklaar tracking
+  correctDays?: string[]; // unique ISO date-only strings of days answered correctly
+  lastPromotedAt?: string; // ISO timestamp of last box promotion
 }
 
 export interface ListProgress {
@@ -87,6 +90,7 @@ export interface ListProgress {
   wordProgress: Record<string, WordProgress>;
   lastPracticed: string; // ISO date
   sessionsCompleted: number;
+  practiceDays?: string[]; // unique ISO date-only strings of all practice days
 }
 
 export type ExerciseMode = "flashcards" | "schrijven" | "meerkeuze" | "toets";

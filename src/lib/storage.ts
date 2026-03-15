@@ -58,6 +58,14 @@ export function updateWordProgress(
   }
   all[listId].wordProgress[wordProgress.wordId] = wordProgress;
   all[listId].lastPracticed = new Date().toISOString();
+
+  // Track unique practice days
+  const today = new Date().toISOString().slice(0, 10);
+  const days = all[listId].practiceDays ?? [];
+  if (!days.includes(today)) {
+    all[listId].practiceDays = [...days, today];
+  }
+
   saveStorage(all);
 }
 

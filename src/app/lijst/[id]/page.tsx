@@ -6,10 +6,11 @@ import Link from "next/link";
 import { getListById, isPlaceholder } from "@/data/registry";
 import { getListProgress } from "@/lib/storage";
 import { getListStats, getBoxDistribution } from "@/lib/leitner";
+import { calculateReadiness } from "@/lib/readiness";
 import { WordList, ListProgress, JAARLAAG_LABELS, LIST_TYPE_LABELS } from "@/lib/types";
 import { Direction, DIRECTION_SHORT, supportsDirection } from "@/lib/direction";
-import ProgressBar from "@/components/ProgressBar";
 import LeitnerBoxes from "@/components/LeitnerBoxes";
+import ToetsklaarMeter from "@/components/ToetsklaarMeter";
 
 const MODES = [
   {
@@ -115,6 +116,7 @@ export default function ListDetailPage() {
   // Active list view
   const stats = getListStats(list.words, progress);
   const dist = getBoxDistribution(list.words, progress);
+  const readiness = calculateReadiness(list.words, progress);
 
   return (
     <div>
@@ -142,11 +144,7 @@ export default function ListDetailPage() {
 
         <div className="grid grid-cols-2 gap-4 mb-4">
           <div>
-            <ProgressBar
-              current={stats.learned}
-              total={stats.total}
-              label="Voortgang"
-            />
+            <ToetsklaarMeter readiness={readiness} />
           </div>
           <div>
             <p className="text-sm text-text-light mb-1">Leitner verdeling</p>

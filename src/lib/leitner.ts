@@ -9,6 +9,41 @@ const BOX_INTERVALS: Record<LeitnerBox, number> = {
   5: 14, // After 14 days (review)
 };
 
+// Minimum hours since last promotion before next promotion is allowed
+const PROMOTION_COOLDOWN_HOURS: Partial<Record<LeitnerBox, number>> = {
+  2: 4, // need 4h since last promotion to go 2→3
+  3: 20, // need 20h to go 3→4
+  4: 48, // need 48h to go 4→5
+};
+
+function todayString(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function addCorrectDay(days: string[] | undefined): string[] {
+  const today = todayString();
+  const existing = days ?? [];
+  if (existing.includes(today)) return existing;
+  return [...existing, today];
+}
+
+/** Check if promotion cooldown has passed */
+function canPromote(progress: WordProgress): boolean {
+  const targetBox = (progress.box + 1) as LeitnerBox;
+  const cooldownHours = PROMOTION_COOLDOWN_HOURS[progress.box];
+
+  // No cooldown for box 1→2 (first correct answer)
+  if (!cooldownHours) return true;
+
+  const lastPromoted = progress.lastPromotedAt;
+  if (!lastPromoted) return true; // no data = allow promotion
+
+  const hoursSince =
+    (Date.now() - new Date(lastPromoted).getTime()) / (1000 * 60 * 60);
+
+  return hoursSince >= cooldownHours;
+}
+
 export function getInitialProgress(
   wordId: string,
   listId: string
@@ -20,16 +55,25 @@ export function getInitialProgress(
     lastSeen: new Date().toISOString(),
     correctCount: 0,
     incorrectCount: 0,
+    correctDays: [],
+    lastPromotedAt: undefined,
   };
 }
 
 export function promoteWord(progress: WordProgress): WordProgress {
-  const newBox = Math.min(progress.box + 1, 5) as LeitnerBox;
+  const now = new Date().toISOString();
+  const promoted = canPromote(progress);
+  const newBox = promoted
+    ? (Math.min(progress.box + 1, 5) as LeitnerBox)
+    : progress.box;
+
   return {
     ...progress,
     box: newBox,
-    lastSeen: new Date().toISOString(),
+    lastSeen: now,
     correctCount: progress.correctCount + 1,
+    correctDays: addCorrectDay(progress.correctDays),
+    lastPromotedAt: promoted && newBox !== progress.box ? now : progress.lastPromotedAt,
   };
 }
 
@@ -140,3 +184,5 @@ export function getBoxDistribution(
 
   return dist as Record<LeitnerBox | 0, number>;
 }
+
+export { BOX_INTERVALS };
