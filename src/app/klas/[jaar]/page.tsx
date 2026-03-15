@@ -97,23 +97,6 @@ export default function KlasPage() {
         {JAARLAAG_LABELS[String(jaarlaag)]}
       </h2>
 
-      {/* Rekentoets link for Klas 1 */}
-      {jaarlaag === 1 && (
-        <Link
-          href="/rekentoets"
-          className="card p-4 mb-6 hover:shadow-lg transition-shadow flex items-center gap-4"
-        >
-          <span className="text-3xl">🧮</span>
-          <div>
-            <h3 className="font-bold text-text">Rekentoets oefenen</h3>
-            <p className="text-sm text-text-light">
-              Oefen gehele getallen, decimalen, breuken en maateenheden
-            </p>
-          </div>
-          <span className="ml-auto text-primary-light text-xl">&rarr;</span>
-        </Link>
-      )}
-
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {modules.map((mod) => {
           const modLists = getListsByModule(jaarlaag, mod);
@@ -131,6 +114,22 @@ export default function KlasPage() {
               </h3>
 
               <div className="space-y-4">
+                {/* Rekentoets in Module 1 for Klas 1 */}
+                {jaarlaag === 1 && mod === 1 && (
+                  <Link
+                    href="/rekentoets"
+                    className="block p-2 rounded-lg text-sm hover:bg-gray-50 transition-colors"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="font-medium flex items-center gap-1">
+                        <span>🧮</span> Rekentoets oefenen
+                      </span>
+                      <span className="text-xs px-1.5 py-0.5 rounded-full bg-gray-100 text-text-light">
+                        Rekenen
+                      </span>
+                    </div>
+                  </Link>
+                )}
                 {(["fr", "en", "de", "la", "gr", "nl"] as Language[])
                   .filter((lang) => byLang[lang])
                   .map((lang) => (

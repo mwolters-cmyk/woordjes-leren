@@ -36,28 +36,34 @@ export default function HomePage() {
         {JAARLAGEN.map(({ key, path }) => {
           const summary = getJaarlaagSummary(key);
           return (
-            <Link
-              key={String(key)}
-              href={path}
-              className="card p-6 hover:shadow-lg transition-shadow text-center"
-            >
-              <h3 className="text-2xl font-bold text-primary mb-2">
-                {JAARLAAG_LABELS[String(key)]}
-              </h3>
-              <div className="flex justify-center gap-1 mb-3">
-                {summary.languages.map((lang) => (
-                  <span key={lang} title={LANGUAGE_LABELS[lang]} className="text-lg">
-                    {LANGUAGE_EMOJI[lang]}
-                  </span>
-                ))}
-              </div>
-              <p className="text-sm text-text-light">
-                {summary.totalLists} {summary.totalLists === 1 ? "lijst" : "lijsten"}
-                {summary.activeLists > 0 && (
-                  <span className="text-success"> ({summary.activeLists} actief)</span>
-                )}
-              </p>
-            </Link>
+            <div key={String(key)} className="card p-6 hover:shadow-lg transition-shadow text-center">
+              <Link href={path}>
+                <h3 className="text-2xl font-bold text-primary mb-2">
+                  {JAARLAAG_LABELS[String(key)]}
+                </h3>
+                <div className="flex justify-center gap-1 mb-3">
+                  {summary.languages.map((lang) => (
+                    <span key={lang} title={LANGUAGE_LABELS[lang]} className="text-lg">
+                      {LANGUAGE_EMOJI[lang]}
+                    </span>
+                  ))}
+                </div>
+                <p className="text-sm text-text-light">
+                  {summary.totalLists} {summary.totalLists === 1 ? "lijst" : "lijsten"}
+                  {summary.activeLists > 0 && (
+                    <span className="text-success"> ({summary.activeLists} actief)</span>
+                  )}
+                </p>
+              </Link>
+              {key === 1 && (
+                <Link
+                  href="/rekentoets"
+                  className="inline-flex items-center gap-1.5 mt-3 px-3 py-1.5 rounded-full bg-amber-50 text-amber-700 text-sm font-medium hover:bg-amber-100 transition-colors"
+                >
+                  <span>🧮</span> Rekentoets oefenen
+                </Link>
+              )}
+            </div>
           );
         })}
       </div>
