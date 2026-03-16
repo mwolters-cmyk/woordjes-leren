@@ -183,7 +183,7 @@ const ONDERBOUW_LISTS: WordList[] = [
   placeholder("k3-m1-nl-lees", "Nederlands - Leesvaardigheid", "nl", 3, 1, "sentences"),
 
   // Klas 3 - Module 2
-  placeholder("k3-m2-de-kap3-8", "Duits - Kapitel 3-8", "de", 3, 2, "vocabulary"),
+  placeholder("k3-m2-de-kap2-5", "Duits - Kapitel 2 & 5", "de", 3, 2, "vocabulary"),
   enrichExample(enCh34, 3, 2, "vocabulary"),
   enrichExample(enCh45, 3, 2, "vocabulary"),
   placeholder("k3-m2-en-stones3-4", "Engels - Stones Chapter 3-4", "en", 3, 2, "sentences", "Stepping Stones"),
