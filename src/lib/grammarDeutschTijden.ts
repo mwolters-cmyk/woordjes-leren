@@ -116,17 +116,17 @@ function generatePraesensQ(conceptId: string): GrammarQuestion {
   const answer = CONJUGATIONS[verb].praesens[person][numerus];
   const pronoun = PERSON_LABELS[`${person}${numerus}`];
 
-  // Pick a matching template or use simple prompt
+  // Pick a template that matches this verb + person + number
   const matchingTemplates = TENSE_TEMPLATES.filter(
-    t => t.person === person && t.numerus === numerus
+    t => t.verb === verb && t.person === person && t.numerus === numerus
   );
   let display: string;
   if (matchingTemplates.length > 0) {
     const tmpl = pick(matchingTemplates);
     display = tmpl.template.replace("{blank}", "___");
-    display = `Präsens ${verb}: ${display}`;
   } else {
-    display = `Präsens ${verb}: ${pronoun} ___`;
+    const capitalPronoun = pronoun.charAt(0).toUpperCase() + pronoun.slice(1);
+    display = `${capitalPronoun} ___ ... (${verb})`;
   }
 
   // Options: all forms of this verb in Präsens + some from other verbs
@@ -167,7 +167,18 @@ function generatePraeteritumQ(conceptId: string): GrammarQuestion {
   const answer = CONJUGATIONS[verb].praeteritum[person][numerus];
   const pronoun = PERSON_LABELS[`${person}${numerus}`];
 
-  const display = `Präteritum ${verb}: ${pronoun} ___`;
+  // Pick a template that matches this verb + person + number
+  const matchingTemplates = TENSE_TEMPLATES.filter(
+    t => t.verb === verb && t.person === person && t.numerus === numerus
+  );
+  let display: string;
+  if (matchingTemplates.length > 0) {
+    const tmpl = pick(matchingTemplates);
+    display = tmpl.template.replace("{blank}", "___");
+  } else {
+    const capitalPronoun = pronoun.charAt(0).toUpperCase() + pronoun.slice(1);
+    display = `${capitalPronoun} ___ ... (${verb})`;
+  }
 
   // Options
   const allForms = new Set<string>();

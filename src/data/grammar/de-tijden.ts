@@ -126,40 +126,80 @@ export const PERFEKT_VERBS: PerfektVerb[] = [
 // ─── Sentence templates for conjugation practice ────────────────
 
 export interface TenseTemplate {
-  /** Template with {blank} for the verb form and optional {subj} for pronoun */
+  /** Template with {blank} for the verb form */
   template: string;
+  verb: Verb;
   person: Person;
   numerus: Numerus;
 }
 
 export const TENSE_TEMPLATES: TenseTemplate[] = [
+  // ── haben ──
   // ich
-  { template: "Ich {blank} sehr müde", person: 1, numerus: "sg" },
-  { template: "Ich {blank} heute zu Hause", person: 1, numerus: "sg" },
-  { template: "Ich {blank} einen neuen Computer", person: 1, numerus: "sg" },
-  { template: "Ich {blank} morgen 15 Jahre alt", person: 1, numerus: "sg" },
+  { template: "Ich {blank} einen neuen Computer.", verb: "haben", person: 1, numerus: "sg" },
+  { template: "Ich {blank} Hunger.", verb: "haben", person: 1, numerus: "sg" },
+  { template: "Ich {blank} keine Zeit.", verb: "haben", person: 1, numerus: "sg" },
   // du
-  { template: "Du {blank} sehr nett", person: 2, numerus: "sg" },
-  { template: "Du {blank} ein gutes Buch", person: 2, numerus: "sg" },
-  { template: "{blank} du das?", person: 2, numerus: "sg" },
-  { template: "Du {blank} bestimmt Arzt", person: 2, numerus: "sg" },
+  { template: "Du {blank} ein gutes Buch.", verb: "haben", person: 2, numerus: "sg" },
+  { template: "{blank} du einen Hund?", verb: "haben", person: 2, numerus: "sg" },
+  { template: "Du {blank} recht.", verb: "haben", person: 2, numerus: "sg" },
   // er/sie/es
-  { template: "Er {blank} viele Freunde", person: 3, numerus: "sg" },
-  { template: "Sie {blank} eine gute Lehrerin", person: 3, numerus: "sg" },
-  { template: "Es {blank} kalt draußen", person: 3, numerus: "sg" },
-  { template: "Er {blank} Schauspieler", person: 3, numerus: "sg" },
+  { template: "Er {blank} viele Freunde.", verb: "haben", person: 3, numerus: "sg" },
+  { template: "Sie {blank} eine Katze.", verb: "haben", person: 3, numerus: "sg" },
+  { template: "Er {blank} Angst.", verb: "haben", person: 3, numerus: "sg" },
   // wir
-  { template: "Wir {blank} viel Spaß", person: 1, numerus: "pl" },
-  { template: "Wir {blank} in Berlin", person: 1, numerus: "pl" },
-  { template: "Wir {blank} alle zusammen gehen", person: 1, numerus: "pl" },
+  { template: "Wir {blank} viel Spaß.", verb: "haben", person: 1, numerus: "pl" },
+  { template: "Wir {blank} morgen frei.", verb: "haben", person: 1, numerus: "pl" },
   // ihr
-  { template: "Ihr {blank} sehr fleißig", person: 2, numerus: "pl" },
-  { template: "{blank} ihr morgen Zeit?", person: 2, numerus: "pl" },
-  { template: "Ihr {blank} bestimmt gute Noten bekommen", person: 2, numerus: "pl" },
+  { template: "{blank} ihr morgen Zeit?", verb: "haben", person: 2, numerus: "pl" },
+  { template: "Ihr {blank} Glück gehabt.", verb: "haben", person: 2, numerus: "pl" },
   // sie/Sie
-  { template: "Sie {blank} in der Schweiz", person: 3, numerus: "pl" },
-  { template: "Sie {blank} viel Geduld", person: 3, numerus: "pl" },
-  { template: "Sie {blank} nächstes Jahr studieren", person: 3, numerus: "pl" },
+  { template: "Sie {blank} viel Geduld.", verb: "haben", person: 3, numerus: "pl" },
+  { template: "Sie {blank} drei Kinder.", verb: "haben", person: 3, numerus: "pl" },
+
+  // ── sein ──
+  // ich
+  { template: "Ich {blank} sehr müde.", verb: "sein", person: 1, numerus: "sg" },
+  { template: "Ich {blank} heute zu Hause.", verb: "sein", person: 1, numerus: "sg" },
+  { template: "Ich {blank} 15 Jahre alt.", verb: "sein", person: 1, numerus: "sg" },
+  // du
+  { template: "Du {blank} sehr nett.", verb: "sein", person: 2, numerus: "sg" },
+  { template: "{blank} du krank?", verb: "sein", person: 2, numerus: "sg" },
+  { template: "Du {blank} mein bester Freund.", verb: "sein", person: 2, numerus: "sg" },
+  // er/sie/es
+  { template: "Sie {blank} eine gute Lehrerin.", verb: "sein", person: 3, numerus: "sg" },
+  { template: "Es {blank} kalt draußen.", verb: "sein", person: 3, numerus: "sg" },
+  { template: "Er {blank} Schauspieler.", verb: "sein", person: 3, numerus: "sg" },
+  // wir
+  { template: "Wir {blank} in Berlin.", verb: "sein", person: 1, numerus: "pl" },
+  { template: "Wir {blank} sehr froh.", verb: "sein", person: 1, numerus: "pl" },
+  // ihr
+  { template: "Ihr {blank} sehr fleißig.", verb: "sein", person: 2, numerus: "pl" },
+  { template: "{blank} ihr fertig?", verb: "sein", person: 2, numerus: "pl" },
+  // sie/Sie
+  { template: "Sie {blank} in der Schweiz.", verb: "sein", person: 3, numerus: "pl" },
+  { template: "Sie {blank} sehr freundlich.", verb: "sein", person: 3, numerus: "pl" },
+
+  // ── werden ──
+  // ich
+  { template: "Ich {blank} morgen 15 Jahre alt.", verb: "werden", person: 1, numerus: "sg" },
+  { template: "Ich {blank} Arzt.", verb: "werden", person: 1, numerus: "sg" },
+  // du
+  { template: "Du {blank} bestimmt Arzt.", verb: "werden", person: 2, numerus: "sg" },
+  { template: "Du {blank} immer besser.", verb: "werden", person: 2, numerus: "sg" },
+  // er/sie/es
+  { template: "Er {blank} Schauspieler.", verb: "werden", person: 3, numerus: "sg" },
+  { template: "Es {blank} langsam dunkel.", verb: "werden", person: 3, numerus: "sg" },
+  { template: "Sie {blank} Lehrerin.", verb: "werden", person: 3, numerus: "sg" },
+  // wir
+  { template: "Wir {blank} alle älter.", verb: "werden", person: 1, numerus: "pl" },
+  { template: "Wir {blank} nächstes Jahr 16.", verb: "werden", person: 1, numerus: "pl" },
+  // ihr
+  { template: "Ihr {blank} bestimmt gute Schüler.", verb: "werden", person: 2, numerus: "pl" },
+  { template: "Ihr {blank} immer besser.", verb: "werden", person: 2, numerus: "pl" },
+  // sie/Sie
+  { template: "Sie {blank} nächstes Jahr studieren.", verb: "werden", person: 3, numerus: "pl" },
+  { template: "Die Tage {blank} kürzer.", verb: "werden", person: 3, numerus: "pl" },
 ];
 
 // ─── Futur I templates ──────────────────────────────────────────
