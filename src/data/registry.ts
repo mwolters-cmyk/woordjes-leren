@@ -7,6 +7,7 @@ import grW1920 from "./lists/k3-m3-gr-w19-20.json";
 import deKap6 from "./lists/k3-m3-de-kap6.json";
 import laW4445 from "./lists/k3-m3-la-w44-45.json";
 import laW4148 from "./lists/k3-m3-la-w41-48.json";
+import enCh34 from "./lists/k3-m2-en-ch3-4.json";
 import { getGrammarConceptsAsWords } from "@/lib/grammarRegistry";
 
 // Helper to create a placeholder list (no words yet)
@@ -176,7 +177,8 @@ const ONDERBOUW_LISTS: WordList[] = [
 
   // Klas 3 - Module 2
   placeholder("k3-m2-de-kap3-8", "Duits - Kapitel 3-8", "de", 3, 2, "vocabulary"),
-  placeholder("k3-m2-en-ch3-4", "Engels - Chapter 3-4", "en", 3, 2, "vocabulary", "Stepping Stones"),
+  enrichExample(enCh34, 3, 2, "vocabulary"),
+  placeholder("k3-m2-en-ch4-5", "Engels - Chapter 4-5 (Proefwerk)", "en", 3, 2, "vocabulary", "Stepping Stones"),
   placeholder("k3-m2-en-stones3-4", "Engels - Stones Chapter 3-4", "en", 3, 2, "sentences", "Stepping Stones"),
   placeholder("k3-m2-fr-voc-u3", "Frans - Vocabulaire Unit 3", "fr", 3, 2, "vocabulary", "Grandes Lignes"),
   placeholder("k3-m2-gr-w9-18", "Grieks - Woorden Les 9-18", "gr", 3, 2, "vocabulary"),
