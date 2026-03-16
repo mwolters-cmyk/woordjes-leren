@@ -16,6 +16,7 @@ import {
 } from "@/lib/grammarRegistry";
 import type { GrammarGenerator } from "@/lib/grammarTypes";
 import { DER_GRUPPE, EIN_GRUPPE } from "@/data/grammar/de-faelle";
+import { CONJUGATIONS } from "@/data/grammar/de-tijden";
 import { RELATIVE_PRONOUN, CONJUNCTIVUS } from "@/data/grammar/gr-gram-t20";
 
 const MODES = [
@@ -215,6 +216,7 @@ export default function ListDetailPage() {
 
         {/* Reference tables — shown for any grammar list of this language */}
         {list.language.from === "de" && <GermanReferenceTables />}
+        {list.language.from === "de" && <GermanTijdenTables />}
         {list.language.from === "gr" && <GreekReferenceTables />}
       </div>
     );
@@ -553,6 +555,97 @@ function GreekReferenceTables() {
                 <p className="text-purple-700 text-xs">• <strong>Tijdsbijzin</strong>: ἐπεάν + conj. ("wanneer")</p>
               </div>
             </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── German Tijden reference tables ─────────────────────────────
+
+function GermanTijdenTables() {
+  const [open, setOpen] = useState(false);
+
+  const verbs = ["haben", "sein", "werden"] as const;
+  const tenses = ["praesens", "praeteritum"] as const;
+  const tenseLabels = { praesens: "Präsens", praeteritum: "Präteritum" };
+  const persons = [
+    { key: "1sg", label: "ich" },
+    { key: "2sg", label: "du" },
+    { key: "3sg", label: "er/sie/es" },
+    { key: "1pl", label: "wir" },
+    { key: "2pl", label: "ihr" },
+    { key: "3pl", label: "sie/Sie" },
+  ] as const;
+
+  return (
+    <div className="card p-4 mt-4">
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between font-semibold text-text cursor-pointer"
+      >
+        <span>📚 Naslagtabellen — Tijden</span>
+        <span className="text-text-light">{open ? "▲" : "▼"}</span>
+      </button>
+
+      {open && (
+        <div className="mt-4 space-y-6">
+          {tenses.map(tense => (
+            <div key={tense}>
+              <h4 className="font-bold text-text mb-2">{tenseLabels[tense]}</h4>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm border-collapse">
+                  <thead>
+                    <tr>
+                      <th className="text-left p-2 border-b border-gray-200"></th>
+                      {verbs.map(v => (
+                        <th key={v} className="text-center p-2 border-b border-gray-200 font-medium text-text-light">{v}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {persons.map(({ key, label }) => {
+                      const p = parseInt(key[0]) as 1 | 2 | 3;
+                      const n = key.slice(1) as "sg" | "pl";
+                      return (
+                        <tr key={key} className="border-b border-gray-100">
+                          <td className="p-2 font-medium text-text-light">{label}</td>
+                          {verbs.map(v => (
+                            <td key={v} className="p-2 text-center font-semibold">
+                              {CONJUGATIONS[v][tense][p][n]}
+                            </td>
+                          ))}
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          ))}
+
+          {/* Perfekt overview */}
+          <div>
+            <h4 className="font-bold text-text mb-2">Perfekt</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+              <div className="p-3 rounded-lg bg-blue-50">
+                <p className="font-semibold text-blue-800 mb-1">met haben</p>
+                <p className="text-blue-700 text-xs">De meeste werkwoorden: machen → hat gemacht, lesen → hat gelesen</p>
+              </div>
+              <div className="p-3 rounded-lg bg-green-50">
+                <p className="font-semibold text-green-800 mb-1">met sein</p>
+                <p className="text-green-700 text-xs">Beweging/verandering: gehen → ist gegangen, kommen → ist gekommen</p>
+                <p className="text-green-700 text-xs mt-1">+ sein, bleiben, werden</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Futur I */}
+          <div>
+            <h4 className="font-bold text-text mb-2">Futur I</h4>
+            <p className="text-sm text-text-light">werden (vervoegd) + Infinitiv aan het eind van de zin</p>
+            <p className="text-xs text-text-light mt-1">Ik <strong>zal</strong> morgen <strong>komen</strong> → Ich <strong>werde</strong> morgen <strong>kommen</strong></p>
           </div>
         </div>
       )}

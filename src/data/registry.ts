@@ -171,7 +171,7 @@ const ONDERBOUW_LISTS: WordList[] = [
   // ── KLAS 3 ─────────────────────────────────────────────────
 
   // Klas 3 - Module 1
-  placeholder("k3-m1-de-tijden", "Duits - Alle Tijden (haben/sein/werden)", "de", 3, 1, "grammar"),
+  grammarList("k3-m1-de-tijden", "Duits - Alle Tijden (haben/sein/werden)", "de", 3, 1, "Deutsch macht Spass"),
   enrichExample(deKap12, 3, 1, "vocabulary"),
   placeholder("k3-m1-en-ch1-2", "Engels - Chapter 1-2", "en", 3, 1, "vocabulary", "Stepping Stones"),
   placeholder("k3-m1-en-stones1-2", "Engels - Stones Chapter 1-2", "en", 3, 1, "sentences", "Stepping Stones"),
