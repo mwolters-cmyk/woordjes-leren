@@ -8,6 +8,13 @@ import deKap6 from "./lists/k3-m3-de-kap6.json";
 import laW4445 from "./lists/k3-m3-la-w44-45.json";
 import laW4148 from "./lists/k3-m3-la-w41-48.json";
 import enCh34 from "./lists/k3-m2-en-ch3-4.json";
+import deKap12 from "./lists/k3-m1-de-kap1-2.json";
+import frVocU12 from "./lists/k3-m1-fr-voc-u1-2.json";
+import laD3138 from "./lists/k3-m1-la-d31-38.json";
+import enCh45 from "./lists/k3-m2-en-ch4-5.json";
+import frVocU3 from "./lists/k3-m2-fr-voc-u3.json";
+import laW3946 from "./lists/k3-m2-la-w39-46.json";
+import laW4144 from "./lists/k3-m2-la-w41-44.json";
 import { getGrammarConceptsAsWords } from "@/lib/grammarRegistry";
 
 // Helper to create a placeholder list (no words yet)
@@ -165,26 +172,26 @@ const ONDERBOUW_LISTS: WordList[] = [
 
   // Klas 3 - Module 1
   placeholder("k3-m1-de-tijden", "Duits - Alle Tijden (haben/sein/werden)", "de", 3, 1, "grammar"),
-  placeholder("k3-m1-de-kap1-2", "Duits - Kapitel 1-2", "de", 3, 1, "vocabulary"),
+  enrichExample(deKap12, 3, 1, "vocabulary"),
   placeholder("k3-m1-en-ch1-2", "Engels - Chapter 1-2", "en", 3, 1, "vocabulary", "Stepping Stones"),
   placeholder("k3-m1-en-stones1-2", "Engels - Stones Chapter 1-2", "en", 3, 1, "sentences", "Stepping Stones"),
-  placeholder("k3-m1-fr-voc-u1-2", "Frans - Vocabulaire Unit 1-2", "fr", 3, 1, "vocabulary", "Grandes Lignes"),
+  enrichExample(frVocU12, 3, 1, "vocabulary"),
   placeholder("k3-m1-gr-w8-13", "Grieks - Woorden Les 8-13", "gr", 3, 1, "vocabulary"),
   placeholder("k3-m1-gr-praes-imp", "Grieks - Praesens/Imperfectum", "gr", 3, 1, "grammar"),
-  placeholder("k3-m1-la-d31-38", "Latijn - Woorden D31-38", "la", 3, 1, "vocabulary"),
+  enrichExample(laD3138, 3, 1, "vocabulary"),
   placeholder("k3-m1-la-naamval", "Latijn - Naamvalsfuncties", "la", 3, 1, "grammar"),
   placeholder("k3-m1-nl-lees", "Nederlands - Leesvaardigheid", "nl", 3, 1, "sentences"),
 
   // Klas 3 - Module 2
   placeholder("k3-m2-de-kap3-8", "Duits - Kapitel 3-8", "de", 3, 2, "vocabulary"),
   enrichExample(enCh34, 3, 2, "vocabulary"),
-  placeholder("k3-m2-en-ch4-5", "Engels - Chapter 4-5 (Proefwerk)", "en", 3, 2, "vocabulary", "Stepping Stones"),
+  enrichExample(enCh45, 3, 2, "vocabulary"),
   placeholder("k3-m2-en-stones3-4", "Engels - Stones Chapter 3-4", "en", 3, 2, "sentences", "Stepping Stones"),
-  placeholder("k3-m2-fr-voc-u3", "Frans - Vocabulaire Unit 3", "fr", 3, 2, "vocabulary", "Grandes Lignes"),
+  enrichExample(frVocU3, 3, 2, "vocabulary"),
   placeholder("k3-m2-gr-w9-18", "Grieks - Woorden Les 9-18", "gr", 3, 2, "vocabulary"),
   placeholder("k3-m2-gr-diag", "Grieks - Diagnostische Toets", "gr", 3, 2, "grammar"),
-  placeholder("k3-m2-la-w41-44", "Latijn - Woorden Les 41-44", "la", 3, 2, "vocabulary", "SPQR"),
-  placeholder("k3-m2-la-w39-46", "Latijn - Woorden Les 39-46 (Proefwerk)", "la", 3, 2, "vocabulary", "SPQR"),
+  enrichExample(laW4144, 3, 2, "vocabulary"),
+  enrichExample(laW3946, 3, 2, "vocabulary"),
   placeholder("k3-m2-nl-schrijven", "Nederlands - Creatief Schrijven", "nl", 3, 2, "sentences"),
 
   // Klas 3 - Module 3
