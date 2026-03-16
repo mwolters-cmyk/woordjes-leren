@@ -183,8 +183,8 @@ const ONDERBOUW_LISTS: WordList[] = [
   placeholder("k3-m2-fr-voc-u3", "Frans - Vocabulaire Unit 3", "fr", 3, 2, "vocabulary", "Grandes Lignes"),
   placeholder("k3-m2-gr-w9-18", "Grieks - Woorden Les 9-18", "gr", 3, 2, "vocabulary"),
   placeholder("k3-m2-gr-diag", "Grieks - Diagnostische Toets", "gr", 3, 2, "grammar"),
-  placeholder("k3-m2-la-les40-48", "Latijn - Les 40-48", "la", 3, 2, "vocabulary"),
-  placeholder("k3-m2-la-pred-attr", "Latijn - Predikaat/Attribuut", "la", 3, 2, "grammar"),
+  placeholder("k3-m2-la-w41-44", "Latijn - Woorden Les 41-44", "la", 3, 2, "vocabulary", "SPQR"),
+  placeholder("k3-m2-la-w39-46", "Latijn - Woorden Les 39-46 (Proefwerk)", "la", 3, 2, "vocabulary", "SPQR"),
   placeholder("k3-m2-nl-schrijven", "Nederlands - Creatief Schrijven", "nl", 3, 2, "sentences"),
 
   // Klas 3 - Module 3
