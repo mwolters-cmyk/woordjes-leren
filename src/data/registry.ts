@@ -16,6 +16,8 @@ import frVocU3 from "./lists/k3-m2-fr-voc-u3.json";
 import laW3946 from "./lists/k3-m2-la-w39-46.json";
 import laW4144 from "./lists/k3-m2-la-w41-44.json";
 import frVocU0 from "./lists/k1-m1-fr-voc-u0.json";
+import laBw13 from "./lists/k1-m1-la-bw1-3.json";
+import laBw47 from "./lists/k1-m1-la-bw4-7.json";
 import { getGrammarConceptsAsWords } from "@/lib/grammarRegistry";
 
 // Helper to create a placeholder list (no words yet)
@@ -97,8 +99,8 @@ const ONDERBOUW_LISTS: WordList[] = [
   placeholder("k1-m1-en-ch2", "Engels - Chapter 2", "en", 1, 1, "vocabulary", "Stepping Stones"),
   placeholder("k1-m1-gr-alfabet", "Grieks - Alfabet", "gr", 1, 1, "grammar"),
   placeholder("k1-m1-gr-w1", "Grieks - Woorden Les 1", "gr", 1, 1, "vocabulary"),
-  placeholder("k1-m1-la-bw1-3", "Latijn - Basiswoorden Les 1-3", "la", 1, 1, "vocabulary"),
-  placeholder("k1-m1-la-bw4-7", "Latijn - Basiswoorden Les 4-7", "la", 1, 1, "vocabulary"),
+  enrichExample(laBw13, 1, 1, "vocabulary"),
+  enrichExample(laBw47, 1, 1, "vocabulary"),
   placeholder("k1-m1-la-gram1-3", "Latijn - Grammatica Les 1-3", "la", 1, 1, "grammar"),
   placeholder("k1-m1-nl-gram-ab", "Nederlands - Grammatica A-B", "nl", 1, 1, "grammar"),
   placeholder("k1-m1-nl-gram-cd", "Nederlands - Grammatica C-D", "nl", 1, 1, "grammar"),
