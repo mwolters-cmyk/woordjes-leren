@@ -18,6 +18,9 @@ import laW4144 from "./lists/k3-m2-la-w41-44.json";
 import frVocU0 from "./lists/k1-m1-fr-voc-u0.json";
 import laBw13 from "./lists/k1-m1-la-bw1-3.json";
 import laBw47 from "./lists/k1-m1-la-bw4-7.json";
+import grW67 from "./lists/k1-m3-gr-w6-7.json";
+import grW89 from "./lists/k1-m3-gr-w8-9.json";
+import grW57 from "./lists/k1-m2-gr-w5-7.json";
 import { getGrammarConceptsAsWords } from "@/lib/grammarRegistry";
 
 // Helper to create a placeholder list (no words yet)
@@ -113,7 +116,7 @@ const ONDERBOUW_LISTS: WordList[] = [
   placeholder("k1-m2-en-ch3", "Engels - Chapter 3", "en", 1, 2, "vocabulary", "Stepping Stones"),
   placeholder("k1-m2-en-ch4", "Engels - Chapter 4", "en", 1, 2, "vocabulary", "Stepping Stones"),
   placeholder("k1-m2-gr-w2-4", "Grieks - Woorden Les 2-4", "gr", 1, 2, "vocabulary"),
-  placeholder("k1-m2-gr-w5-7", "Grieks - Woorden Les 5-7", "gr", 1, 2, "vocabulary"),
+  enrichExample(grW57, 1, 2, "vocabulary"),
   placeholder("k1-m2-gr-gram", "Grieks - Grammatica", "gr", 1, 2, "grammar"),
   placeholder("k1-m2-la-les8-10", "Latijn - Les 8-10", "la", 1, 2, "vocabulary"),
   placeholder("k1-m2-la-les11-15", "Latijn - Les 11-15", "la", 1, 2, "vocabulary"),
@@ -126,8 +129,8 @@ const ONDERBOUW_LISTS: WordList[] = [
   placeholder("k1-m3-en-ch6", "Engels - Chapter 6 (Health & Sport)", "en", 1, 3, "vocabulary", "Stepping Stones"),
   placeholder("k1-m3-en-ch7", "Engels - Chapter 7 (Travel)", "en", 1, 3, "vocabulary", "Stepping Stones"),
   placeholder("k1-m3-en-ch8", "Engels - Chapter 8 (Nature)", "en", 1, 3, "vocabulary", "Stepping Stones"),
-  placeholder("k1-m3-gr-w6-7", "Grieks - Woorden Les 6-7", "gr", 1, 3, "vocabulary", "Argo"),
-  placeholder("k1-m3-gr-w8-9", "Grieks - Woorden Les 8-9", "gr", 1, 3, "vocabulary", "Argo"),
+  enrichExample(grW67, 1, 3, "vocabulary"),
+  enrichExample(grW89, 1, 3, "vocabulary"),
   placeholder("k1-m3-gr-gram-thema2", "Grieks - Grammatica Thema 2 (dativus, genitivus)", "gr", 1, 3, "grammar", "Argo"),
   placeholder("k1-m3-la-w16-19", "Latijn - Woorden Les 16-19", "la", 1, 3, "vocabulary", "SPQR"),
   placeholder("k1-m3-la-w-tm20", "Latijn - Woorden t/m Les 20 (PW)", "la", 1, 3, "vocabulary", "SPQR"),
