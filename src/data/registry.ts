@@ -15,6 +15,7 @@ import enCh45 from "./lists/k3-m2-en-ch4-5.json";
 import frVocU3 from "./lists/k3-m2-fr-voc-u3.json";
 import laW3946 from "./lists/k3-m2-la-w39-46.json";
 import laW4144 from "./lists/k3-m2-la-w41-44.json";
+import frVocU0 from "./lists/k1-m1-fr-voc-u0.json";
 import { getGrammarConceptsAsWords } from "@/lib/grammarRegistry";
 
 // Helper to create a placeholder list (no words yet)
@@ -88,7 +89,7 @@ const ONDERBOUW_LISTS: WordList[] = [
   // ── KLAS 1 ─────────────────────────────────────────────────
 
   // Klas 1 - Module 1
-  placeholder("k1-m1-fr-voc-u0", "Frans - Vocabulaire Unit 0", "fr", 1, 1, "vocabulary", "Grandes Lignes"),
+  enrichExample(frVocU0, 1, 1, "vocabulary"),
   placeholder("k1-m1-fr-voc-u1", "Frans - Vocabulaire Unit 1", "fr", 1, 1, "vocabulary", "Grandes Lignes"),
   placeholder("k1-m1-fr-gram-u1", "Frans - Grammaire Unit 1", "fr", 1, 1, "grammar", "Grandes Lignes"),
   placeholder("k1-m1-en-ch0", "Engels - Chapter 0", "en", 1, 1, "vocabulary", "Stepping Stones"),

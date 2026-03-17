@@ -1,0 +1,28 @@
+{
+  "id": "k1-m1-fr-voc-u0",
+  "title": "Frans - Vocabulaire Unit 0",
+  "description": "Grandes Lignes Unité 0 – Bienvenue !",
+  "language": { "from": "fr", "to": "nl" },
+  "tags": ["klas1", "module1", "vocabulary"],
+  "source": "Grandes Lignes",
+  "words": [
+    { "id": "l1.1", "term": "bienvenue !", "definition": "welkom!" },
+    { "id": "l1.2", "term": "la France", "definition": "Frankrijk", "extra": "la" },
+    { "id": "l1.3", "term": "la photo", "definition": "de foto", "extra": "la" },
+    { "id": "l1.4", "term": "la classe", "definition": "de klas", "extra": "la" },
+    { "id": "l1.5", "term": "le croissant", "definition": "de croissant", "extra": "le" },
+    { "id": "l1.6", "term": "le fromage", "definition": "de kaas", "extra": "le" },
+    { "id": "l1.7", "term": "la tour Eiffel", "definition": "de Eiffeltoren", "extra": "la" },
+    { "id": "l1.8", "term": "la baguette", "definition": "het stokbrood", "extra": "la" },
+    { "id": "l1.9", "term": "la bande dessinée (BD)", "definition": "de strip / het stripverhaal", "extra": "la" },
+    { "id": "l1.10", "term": "autre chose", "definition": "iets anders, nog wat" },
+    { "id": "l1.11", "term": "le lieu", "definition": "de plaats", "extra": "le" },
+    { "id": "l1.12", "term": "la Belgique", "definition": "België", "extra": "la" },
+    { "id": "l1.13", "term": "français, française", "definition": "Frans" },
+    { "id": "l1.14", "term": "la francophonie", "definition": "de landen waar Frans wordt gesproken", "extra": "la" },
+    { "id": "l2.1", "term": "la langue", "definition": "de taal", "extra": "la" },
+    { "id": "l2.2", "term": "bonjour", "definition": "goedendag, hallo" },
+    { "id": "l2.3", "term": "comment allez-vous ?", "definition": "hoe gaat het met u? / hoe gaat het met jullie?" },
+    { "id": "l2.4", "term": "très bien", "definition": "erg goed" }
+  ]
+}
