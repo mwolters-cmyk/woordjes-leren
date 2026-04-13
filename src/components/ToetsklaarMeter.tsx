@@ -9,7 +9,7 @@ interface Props {
 
 export default function ToetsklaarMeter({ readiness }: Props) {
   const [showInfo, setShowInfo] = useState(false);
-  const { score, label, color, advice, practiceDays } = readiness;
+  const { score, label, color, advice } = readiness;
 
   // CSS conic-gradient for ring gauge
   const ringStyle = {
@@ -37,16 +37,13 @@ export default function ToetsklaarMeter({ readiness }: Props) {
             {label}
           </p>
           <p className="text-xs text-text-light mt-0.5">{advice}</p>
-          <p className="text-xs text-text-light mt-1">
-            {practiceDays} oefen{practiceDays === 1 ? "dag" : "dagen"}
-          </p>
         </div>
       </div>
 
       {/* Info toggle */}
       <button
         onClick={() => setShowInfo(!showInfo)}
-        className="text-xs text-primary-light hover:underline mt-2"
+        className="text-xs text-primary-light hover:underline mt-2 cursor-pointer"
       >
         {showInfo ? "Verberg uitleg" : "Hoe werkt dit?"}
       </button>
@@ -54,20 +51,19 @@ export default function ToetsklaarMeter({ readiness }: Props) {
       {showInfo && (
         <div className="mt-2 p-3 bg-gray-50 rounded-lg text-xs text-text-light space-y-1">
           <p>
-            <strong>Box-score (40%)</strong>: hoe ver je woorden in het
-            Leitner-systeem zijn gevorderd.
+            <strong>Box-score (50%)</strong>: hoe ver je woorden in het
+            Leitner-systeem zijn gevorderd (box 1→5).
           </p>
           <p>
-            <strong>Dagenspreiding (35%)</strong>: op hoeveel verschillende
-            dagen je elk woord goed had (doel: 3 dagen).
+            <strong>Dekking (25%)</strong>: hoeveel van alle woorden je
+            al minstens één keer hebt geoefend.
           </p>
           <p>
-            <strong>Retentie (25%)</strong>: hoeveel van je gevorderde woorden
-            je nog steeds kent (niet overdue).
+            <strong>Nauwkeurigheid (25%)</strong>: bij hoeveel geoefende
+            woorden je vaker goed dan fout had.
           </p>
           <p className="pt-1 border-t border-gray-200">
-            Tip: oefen verspreid over meerdere dagen voor het beste resultaat.
-            Alles in 1 avond stampen werkt minder goed!
+            Tip: oefen net zo lang door tot alles in box 4 of 5 zit!
           </p>
         </div>
       )}
