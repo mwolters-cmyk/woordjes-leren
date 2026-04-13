@@ -26,11 +26,11 @@ const BOX_COLORS: Record<number, string> = {
 
 const BOX_TOOLTIPS: Record<number, string> = {
   0: "Nog niet geoefend",
-  1: "1x goed — komt meteen terug",
-  2: "2x goed — komt morgen terug",
-  3: "3x goed — komt over 3 dagen terug",
-  4: "4x goed — komt over een week terug",
-  5: "5x goed — herhaling over 2 weken",
+  1: "Nog niet goed gehad",
+  2: "1× goed gehad",
+  3: "2× goed gehad",
+  4: "3× goed gehad",
+  5: "4× goed gehad — geleerd!",
 };
 
 export default function LeitnerBoxes({ distribution }: LeitnerBoxesProps) {
