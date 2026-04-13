@@ -26,8 +26,7 @@ function parseJaarlaag(param: string): Jaarlaag {
   return 1;
 }
 
-// Subject type includes languages + rekenen
-type Subject = Language | "rekenen";
+type Subject = Language;
 
 const SUBJECT_LABELS: Record<Subject, string> = {
   fr: "Frans",
@@ -36,12 +35,10 @@ const SUBJECT_LABELS: Record<Subject, string> = {
   la: "Latijn",
   gr: "Grieks",
   nl: "Nederlands",
-  rekenen: "Rekenen",
 };
 
 const SUBJECT_EMOJI: Record<Subject, string> = {
   ...LANGUAGE_EMOJI,
-  rekenen: "🧮",
 };
 
 export default function KlasPage() {
@@ -72,8 +69,7 @@ export default function KlasPage() {
   const langOrder: Language[] = ["fr", "en", "de", "la", "gr", "nl"];
   const sortedLangs = langOrder.filter((l) => availableLangs.includes(l));
 
-  const hasRekenen = jaarlaag === 1;
-  const subjects: Subject[] = [...sortedLangs, ...(hasRekenen ? ["rekenen" as Subject] : [])];
+  const subjects: Subject[] = sortedLangs;
 
   if (isBovenbouw) {
     // Bovenbouw: show lists grouped by language, no modules
@@ -84,7 +80,7 @@ export default function KlasPage() {
       byLang[lang].push(list);
     }
 
-    const filteredLangs = activeFilter && activeFilter !== "rekenen"
+    const filteredLangs = activeFilter
       ? sortedLangs.filter((l) => l === activeFilter)
       : sortedLangs;
 
@@ -200,9 +196,7 @@ export default function KlasPage() {
       </div>
 
       {/* Proefwerkweek banner — disabled until toetsdruk mapping is 1:1 across classes
-      {!activeFilter || activeFilter !== "rekenen" ? (
-        <ProefwerkBanner jaarlaag={jaarlaag} />
-      ) : null}
+      <ProefwerkBanner jaarlaag={jaarlaag} />
       */}
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -215,19 +209,13 @@ export default function KlasPage() {
             byLang[lang].push(list);
           }
 
-          // Show rekenen in module 1 for klas 1
-          const showRekenen = hasRekenen && mod === 1 &&
-            (activeFilter === "rekenen" || !activeFilter);
-
           // Which languages to show in this module
-          const visibleLangs = activeFilter && activeFilter !== "rekenen"
+          const visibleLangs = activeFilter
             ? langOrder.filter((l) => l === activeFilter && byLang[l])
-            : activeFilter === "rekenen"
-              ? [] // only show rekenen, no languages
-              : langOrder.filter((l) => byLang[l]);
+            : langOrder.filter((l) => byLang[l]);
 
-          // Skip module entirely if no matching lists and no rekenen
-          if (visibleLangs.length === 0 && !showRekenen) return null;
+          // Skip module entirely if no matching lists
+          if (visibleLangs.length === 0) return null;
 
           return (
             <div key={mod} className="card p-5">
@@ -288,28 +276,6 @@ export default function KlasPage() {
                   </div>
                 ))}
 
-                {/* Rekenen as regular item in Module 1 */}
-                {showRekenen && (
-                  <div>
-                    <h4 className="text-sm font-semibold text-text-light mb-2 flex items-center gap-1">
-                      <span>🧮</span>
-                      Rekenen
-                    </h4>
-                    <div className="space-y-1">
-                      <Link
-                        href="/rekentoets"
-                        className="block p-2 rounded-lg text-sm transition-colors hover:bg-gray-50"
-                      >
-                        <div className="flex items-center justify-between">
-                          <span className="font-medium">Rekentoets oefenen</span>
-                          <span className="text-xs px-1.5 py-0.5 rounded-full bg-gray-100 text-text-light">
-                            4 blokken
-                          </span>
-                        </div>
-                      </Link>
-                    </div>
-                  </div>
-                )}
               </div>
             </div>
           );

@@ -50,9 +50,6 @@ export default function HomePage() {
                     {LANGUAGE_EMOJI[lang]}
                   </span>
                 ))}
-                {key === 1 && (
-                  <span title="Rekenen" className="text-lg">🧮</span>
-                )}
               </div>
               <p className="text-sm text-text-light">
                 {summary.totalLists} {summary.totalLists === 1 ? "lijst" : "lijsten"}
