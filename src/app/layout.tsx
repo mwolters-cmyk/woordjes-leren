@@ -36,17 +36,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           <footer className="text-center py-6 text-sm text-text-light">
             <p>Stedelijk Gymnasium Leiden</p>
-            <p className="mt-1">
-              Handig?{" "}
-              <a
-                href="https://tikkie.me/pay/abfvlr6u88q23pa1rk2t"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-primary transition-colors"
-              >
-                Stuur een Tikkie naar de ontwikkelaar &#x1F609;
-              </a>
-            </p>
           </footer>
         </AuthProvider>
       </body>
