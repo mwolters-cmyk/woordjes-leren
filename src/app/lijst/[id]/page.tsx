@@ -46,11 +46,82 @@ const MODES = [
   },
 ];
 
+function BoxDetailModal({
+  words,
+  progress,
+  onClose,
+}: {
+  words: WordList["words"];
+  progress: ListProgress | null;
+  onClose: () => void;
+}) {
+  const BOX_COLORS: Record<number, { bg: string; text: string; label: string }> = {
+    0: { bg: "bg-gray-100", text: "text-gray-600", label: "Nieuw" },
+    1: { bg: "bg-red-100", text: "text-red-700", label: "Box 1 — Niet gekend" },
+    2: { bg: "bg-orange-100", text: "text-orange-700", label: "Box 2 — 1× goed" },
+    3: { bg: "bg-yellow-100", text: "text-yellow-700", label: "Box 3 — 2× goed" },
+    4: { bg: "bg-blue-100", text: "text-blue-700", label: "Box 4 — Goed" },
+    5: { bg: "bg-green-100", text: "text-green-700", label: "Box 5 — Geleerd" },
+  };
+
+  const byBox: Record<number, typeof words> = { 0: [], 1: [], 2: [], 3: [], 4: [], 5: [] };
+  for (const word of words) {
+    const wp = progress?.wordProgress[word.id];
+    const box = wp ? wp.box : 0;
+    byBox[box].push(word);
+  }
+
+  return (
+    <div
+      className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4"
+      onClick={onClose}
+    >
+      <div
+        className="bg-white rounded-xl shadow-xl max-w-lg w-full max-h-[80vh] overflow-y-auto"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="sticky top-0 bg-white border-b border-gray-200 p-4 flex items-center justify-between">
+          <h3 className="text-lg font-bold text-text">Woorden per box</h3>
+          <button
+            onClick={onClose}
+            className="text-2xl text-text-light hover:text-text leading-none cursor-pointer"
+          >
+            ×
+          </button>
+        </div>
+        <div className="p-4 space-y-4">
+          {[0, 1, 2, 3, 4, 5].map((box) => {
+            const boxWords = byBox[box];
+            if (boxWords.length === 0) return null;
+            const config = BOX_COLORS[box];
+            return (
+              <div key={box}>
+                <div className={`rounded-lg px-3 py-1.5 ${config.bg} ${config.text} font-semibold text-sm mb-2`}>
+                  {config.label} ({boxWords.length})
+                </div>
+                <div className="space-y-0.5">
+                  {boxWords.map((w) => (
+                    <div key={w.id} className="flex justify-between text-sm px-1 py-0.5">
+                      <span className="font-medium">{w.term}</span>
+                      <span className="text-text-light">{w.definition}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function ListDetailPage() {
   const params = useParams();
   const id = params.id as string;
   const [list, setList] = useState<WordList | null>(null);
   const [progress, setProgress] = useState<ListProgress | null>(null);
+  const [showBoxDetail, setShowBoxDetail] = useState(false);
   const [direction, setDirectionState] = useState<Direction>(() => {
     if (typeof window === "undefined") return "vt-nl";
     return (localStorage.getItem(`direction-${id}`) as Direction) || "vt-nl";
@@ -268,13 +339,27 @@ export default function ListDetailPage() {
           </div>
         </div>
 
-        <div className="flex gap-4 text-sm text-text-light">
+        <div className="flex items-center gap-4 text-sm text-text-light">
           <span>{stats.total} woorden</span>
           <span>{stats.learned} geleerd</span>
           <span>{stats.inProgress} bezig</span>
           <span>{stats.new} nieuw</span>
+          <button
+            onClick={() => setShowBoxDetail(true)}
+            className="ml-auto text-xs px-2.5 py-1 rounded-full bg-gray-100 hover:bg-gray-200 text-text-light cursor-pointer transition-colors"
+          >
+            📦 Bekijk per box
+          </button>
         </div>
       </div>
+
+      {showBoxDetail && (
+        <BoxDetailModal
+          words={list.words}
+          progress={progress}
+          onClose={() => setShowBoxDetail(false)}
+        />
+      )}
 
       {/* Direction picker for FR/EN/DE */}
       {supportsDirection(list.language.from) && (
