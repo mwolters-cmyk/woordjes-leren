@@ -51,7 +51,14 @@ export default function ListDetailPage() {
   const id = params.id as string;
   const [list, setList] = useState<WordList | null>(null);
   const [progress, setProgress] = useState<ListProgress | null>(null);
-  const [direction, setDirection] = useState<Direction>("vt-nl");
+  const [direction, setDirectionState] = useState<Direction>(() => {
+    if (typeof window === "undefined") return "vt-nl";
+    return (localStorage.getItem(`direction-${id}`) as Direction) || "vt-nl";
+  });
+  const setDirection = (dir: Direction) => {
+    setDirectionState(dir);
+    localStorage.setItem(`direction-${id}`, dir);
+  };
 
   useEffect(() => {
     const found = getListById(id);

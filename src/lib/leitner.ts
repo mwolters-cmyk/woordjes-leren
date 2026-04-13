@@ -1,13 +1,14 @@
 import { LeitnerBox, WordProgress, ListProgress, Word } from "./types";
 
-// How many days before a word comes back per box
-// All set to 0: students can keep practicing without waiting
-const BOX_INTERVALS: Record<LeitnerBox, number> = {
-  1: 0,
-  2: 0,
-  3: 0,
-  4: 0,
-  5: 0,
+// Minutes to wait before a word comes back per box.
+// Short cooldowns so students cycle through ALL words, not just the same 20.
+// Box 1 = always due, higher boxes = brief cooldown after correct answer.
+const BOX_COOLDOWN_MINUTES: Record<LeitnerBox, number> = {
+  1: 0,    // incorrect/new: always practice
+  2: 3,    // just got it right once: back in 3 min
+  3: 10,   // got it right twice: back in 10 min
+  4: 30,   // solid: back in 30 min
+  5: 60,   // mastered: back in 1 hour
 };
 
 function todayString(): string {
@@ -69,16 +70,14 @@ export function demoteWord(progress: WordProgress): WordProgress {
 }
 
 export function isDueForReview(progress: WordProgress): boolean {
-  const interval = BOX_INTERVALS[progress.box];
-  if (interval === 0) return true;
+  const cooldown = BOX_COOLDOWN_MINUTES[progress.box];
+  if (cooldown === 0) return true;
 
   const lastSeen = new Date(progress.lastSeen);
   const now = new Date();
-  const daysSince = Math.floor(
-    (now.getTime() - lastSeen.getTime()) / (1000 * 60 * 60 * 24)
-  );
+  const minutesSince = (now.getTime() - lastSeen.getTime()) / (1000 * 60);
 
-  return daysSince >= interval;
+  return minutesSince >= cooldown;
 }
 
 export function getWordsForSession(
@@ -111,8 +110,15 @@ export function getWordsForSession(
     return boxA - boxB || Math.random() - 0.5;
   });
 
-  // Shuffle new words too
-  return shuffle([...dueWords, ...shuffle(newWords)].slice(0, maxWords));
+  // Always mix in some new words if available (at least 5 or fill remaining slots)
+  const shuffledNew = shuffle(newWords);
+  const minNew = Math.min(5, shuffledNew.length);
+  const dueSlots = maxWords - minNew;
+  const selectedDue = dueWords.slice(0, dueSlots);
+  const remainingSlots = maxWords - selectedDue.length;
+  const selectedNew = shuffledNew.slice(0, remainingSlots);
+
+  return shuffle([...selectedDue, ...selectedNew]);
 }
 
 export function shuffle<T>(arr: T[]): T[] {
@@ -167,4 +173,8 @@ export function getBoxDistribution(
   return dist as Record<LeitnerBox | 0, number>;
 }
 
+// Legacy export for readiness.ts (intervals in days, kept for score calculation)
+const BOX_INTERVALS: Record<LeitnerBox, number> = {
+  1: 0, 2: 0, 3: 0, 4: 0, 5: 0,
+};
 export { BOX_INTERVALS };
