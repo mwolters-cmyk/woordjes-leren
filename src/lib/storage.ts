@@ -66,6 +66,9 @@ export function updateWordProgress(
     all[listId].practiceDays = [...days, today];
   }
 
+  // Track global streak
+  trackGlobalPracticeDay(today);
+
   saveStorage(all);
 }
 
@@ -149,4 +152,92 @@ export function saveRekentoetsResult(result: RekentoetsBlockResult) {
 
 export function getRekentoetsProgress(): RekentoetsProgress {
   return getRekenStorage();
+}
+
+// ─── Global streak tracking ────────────────────────────────────
+
+const STREAK_KEY = "woordjes-leren-streak";
+
+interface StreakData {
+  days: string[]; // sorted ISO date strings of all practice days
+}
+
+function getStreakData(): StreakData {
+  if (typeof window === "undefined") return { days: [] };
+  try {
+    const raw = localStorage.getItem(STREAK_KEY);
+    if (!raw) return { days: [] };
+    return JSON.parse(raw);
+  } catch {
+    return { days: [] };
+  }
+}
+
+function saveStreakData(data: StreakData) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(STREAK_KEY, JSON.stringify(data));
+}
+
+/** Record today as a practice day (called from saveWordProgress) */
+export function trackGlobalPracticeDay(today?: string) {
+  const day = today ?? new Date().toISOString().slice(0, 10);
+  const data = getStreakData();
+  if (!data.days.includes(day)) {
+    data.days.push(day);
+    data.days.sort();
+    saveStreakData(data);
+  }
+}
+
+/** Calculate current streak (consecutive days ending today or yesterday) */
+export function getStreak(): { current: number; longest: number; todayDone: boolean } {
+  const data = getStreakData();
+  if (data.days.length === 0) return { current: 0, longest: 0, todayDone: false };
+
+  const today = new Date().toISOString().slice(0, 10);
+  const todayDone = data.days.includes(today);
+
+  // Calculate current streak (counting backwards from today or yesterday)
+  const sorted = [...data.days].sort().reverse();
+  let current = 0;
+  const startDate = todayDone ? today : yesterday(today);
+
+  // Check if streak is still alive (practiced today or yesterday)
+  if (!data.days.includes(startDate)) {
+    // No practice today or yesterday = streak broken
+    return { current: 0, longest: calcLongest(data.days), todayDone };
+  }
+
+  let checkDate = startDate;
+  while (data.days.includes(checkDate)) {
+    current++;
+    checkDate = yesterday(checkDate);
+  }
+
+  return { current, longest: Math.max(current, calcLongest(data.days)), todayDone };
+}
+
+function yesterday(dateStr: string): string {
+  const d = new Date(dateStr + "T12:00:00");
+  d.setDate(d.getDate() - 1);
+  return d.toISOString().slice(0, 10);
+}
+
+function calcLongest(days: string[]): number {
+  if (days.length === 0) return 0;
+  const sorted = [...days].sort();
+  let longest = 1;
+  let run = 1;
+  for (let i = 1; i < sorted.length; i++) {
+    const prev = new Date(sorted[i - 1] + "T12:00:00");
+    const curr = new Date(sorted[i] + "T12:00:00");
+    const diff = (curr.getTime() - prev.getTime()) / (1000 * 60 * 60 * 24);
+    if (Math.round(diff) === 1) {
+      run++;
+      longest = Math.max(longest, run);
+    } else {
+      run = 1;
+    }
+  }
+  return longest;
 }

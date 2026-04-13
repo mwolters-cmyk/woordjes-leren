@@ -18,6 +18,7 @@ import { getListStats } from "@/lib/leitner";
 import { useEffect, useState, useCallback } from "react";
 import ProgressBar from "@/components/ProgressBar";
 import ProefwerkBanner from "@/components/ProefwerkBanner";
+import StreakBadge from "@/components/StreakBadge";
 
 function parseJaarlaag(param: string): Jaarlaag {
   if (param === "bovenbouw") return "bovenbouw";
@@ -89,9 +90,12 @@ export default function KlasPage() {
         <Link href="/" className="text-primary-light hover:underline text-sm mb-4 inline-block">
           &larr; Terug naar overzicht
         </Link>
-        <h2 className="text-2xl font-bold text-text mb-4">
-          {JAARLAAG_LABELS[String(jaarlaag)]}
-        </h2>
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-2xl font-bold text-text">
+            {JAARLAAG_LABELS[String(jaarlaag)]}
+          </h2>
+          <StreakBadge />
+        </div>
 
         {/* Subject filter bar */}
         <div className="flex flex-wrap gap-2 mb-6">

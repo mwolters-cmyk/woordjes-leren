@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { JAARLAAG_LABELS, LANGUAGE_LABELS, LANGUAGE_EMOJI, type Jaarlaag, type Language } from "@/lib/types";
 import { getListsByJaarlaag } from "@/data/registry";
+import StreakBadge from "@/components/StreakBadge";
 
 const JAARLAGEN: { key: Jaarlaag; path: string }[] = [
   { key: 1, path: "/klas/1" },
@@ -30,6 +31,9 @@ export default function HomePage() {
         <p className="text-text-light text-lg">
           Kies je klas om te beginnen met oefenen.
         </p>
+        <div className="mt-3">
+          <StreakBadge />
+        </div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto mb-12">
