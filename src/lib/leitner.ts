@@ -1,19 +1,13 @@
 import { LeitnerBox, WordProgress, ListProgress, Word } from "./types";
 
 // How many days before a word comes back per box
+// All set to 0: students can keep practicing without waiting
 const BOX_INTERVALS: Record<LeitnerBox, number> = {
-  1: 0, // Always practice
-  2: 1, // After 1 day
-  3: 3, // After 3 days
-  4: 7, // After 7 days
-  5: 14, // After 14 days (review)
-};
-
-// Minimum hours since last promotion before next promotion is allowed
-const PROMOTION_COOLDOWN_HOURS: Partial<Record<LeitnerBox, number>> = {
-  2: 4, // need 4h since last promotion to go 2→3
-  3: 20, // need 20h to go 3→4
-  4: 48, // need 48h to go 4→5
+  1: 0,
+  2: 0,
+  3: 0,
+  4: 0,
+  5: 0,
 };
 
 function todayString(): string {
@@ -27,21 +21,9 @@ function addCorrectDay(days: string[] | undefined): string[] {
   return [...existing, today];
 }
 
-/** Check if promotion cooldown has passed */
-function canPromote(progress: WordProgress): boolean {
-  const targetBox = (progress.box + 1) as LeitnerBox;
-  const cooldownHours = PROMOTION_COOLDOWN_HOURS[progress.box];
-
-  // No cooldown for box 1→2 (first correct answer)
-  if (!cooldownHours) return true;
-
-  const lastPromoted = progress.lastPromotedAt;
-  if (!lastPromoted) return true; // no data = allow promotion
-
-  const hoursSince =
-    (Date.now() - new Date(lastPromoted).getTime()) / (1000 * 60 * 60);
-
-  return hoursSince >= cooldownHours;
+/** Check if promotion cooldown has passed — always allowed now */
+function canPromote(_progress: WordProgress): boolean {
+  return true;
 }
 
 export function getInitialProgress(
