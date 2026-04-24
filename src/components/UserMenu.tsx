@@ -1,10 +1,11 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
 import { useAuth } from "./AuthProvider";
 
 export default function UserMenu() {
-  const { user, logout } = useAuth();
+  const { user, logout, hasBackend } = useAuth();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -20,8 +21,22 @@ export default function UserMenu() {
     return () => document.removeEventListener("mousedown", handler);
   }, [open]);
 
-  if (!user) return null;
+  // Geen backend: niet tonen
+  if (!hasBackend) return null;
 
+  // Niet ingelogd: toon "Inloggen"-link (optioneel)
+  if (!user) {
+    return (
+      <Link
+        href="/login"
+        className="text-sm hover:opacity-80 transition-opacity"
+      >
+        Inloggen
+      </Link>
+    );
+  }
+
+  // Ingelogd: gebruikersnaam + dropdown
   return (
     <div className="relative" ref={ref}>
       <button

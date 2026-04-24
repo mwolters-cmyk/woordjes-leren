@@ -1,14 +1,37 @@
 "use client";
 
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect } from "react";
 import { useAuth } from "./AuthProvider";
-import AuthScreen from "./AuthScreen";
 
 /**
- * Shows auth screen if not logged in, otherwise renders children.
- * Admin pages bypass this (they have their own PIN auth).
+ * Vereist login voor voortgangs-tracking.
+ *
+ * Visie (zie VISION.md): leerling = baas. Login is van/voor leerling
+ * zelf — niemand anders ziet de data dankzij Supabase RLS-policies.
+ * Login is dus geen pottenkijker maar een sleutel voor de eigenaar.
+ *
+ * Als Supabase niet geconfigureerd is (MVP-fase zonder credentials):
+ * geen blokkade — alles werkt op localStorage. Zodra Supabase
+ * geactiveerd wordt: login is vereist behalve op publieke routes.
  */
+
+const PUBLIC_ROUTES = ["/login", "/register", "/landing"];
+
 export default function AuthGate({ children }: { children: React.ReactNode }) {
-  const { user, loading } = useAuth();
+  const { user, loading, hasBackend } = useAuth();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const isPublicRoute = PUBLIC_ROUTES.some((p) => pathname?.startsWith(p));
+
+  useEffect(() => {
+    if (loading) return;
+    if (!hasBackend) return; // MVP: geen blokkade zonder Supabase
+    if (user) return; // ingelogd
+    if (isPublicRoute) return; // login/register zelf
+    router.replace(`/login?from=${encodeURIComponent(pathname || "/")}`);
+  }, [loading, hasBackend, user, isPublicRoute, pathname, router]);
 
   if (loading) {
     return (
@@ -18,9 +41,15 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
     );
   }
 
-  if (!user) {
-    return <AuthScreen />;
-  }
+  // MVP zonder backend: alles toegankelijk
+  if (!hasBackend) return <>{children}</>;
 
-  return <>{children}</>;
+  // Public routes altijd toegankelijk
+  if (isPublicRoute) return <>{children}</>;
+
+  // Ingelogd → toon kinderen
+  if (user) return <>{children}</>;
+
+  // Niet ingelogd, niet-publieke route → wacht op redirect
+  return null;
 }
