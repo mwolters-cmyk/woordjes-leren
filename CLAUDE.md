@@ -1,10 +1,33 @@
-# Woordjes Leren - Stedelijk Gymnasium Leiden
+# overhoorme.nl — Stedelijk Gymnasium Leiden
 
 ## Project Overview
-Free vocabulary/practice app for gymnasium students (klas 1-3 + bovenbouw). Built with Next.js 16, React 19, TypeScript, Tailwind CSS 4.
+Free practice app for gymnasium students. Two streams onder één Next.js project:
+- **woordjes.overhoorme.nl** — vocabulaire & grammatica (klas 1-3 + bovenbouw)
+- **mondelingen.overhoorme.nl** — mondeling NL/EN bovenbouw (in opbouw)
+- **overhoorme.nl** — landing chooser
 
-**Live URL**: https://woordjes-leren-eight.vercel.app
-**GitHub**: mwolters-cmyk/woordjes-leren
+Built with Next.js 16, React 19, TypeScript, Tailwind CSS 4.
+
+**Working directory**: `C:\Users\wlt\OneDrive - Stichting Stedelijk Gymnasium Leiden\Documenten\Overhoorme\`
+(verhuisd 2026-04-25 vanuit oude `Woordjes leren\woordjes-leren\`)
+
+**Live URLs**:
+- Productie: https://woordjes.overhoorme.nl (na DNS-activatie)
+- Vercel preview: https://woordjes-leren-eight.vercel.app
+
+**GitHub**: mwolters-cmyk/woordjes-leren (repo-naam nog niet hernoemd)
+
+**Visie**: zie `VISION.md` — leerling = baas, geen docent/ouder kan voortgang inzien.
+
+## Stack
+- **Frontend/backend**: Next.js 16 (App Router) op Vercel (later: Hetzner)
+- **Auth + DB + Storage**: Supabase (project: `overhoorme`, EU Frankfurt)
+- **LLM**: Anthropic API (key: `woordjes`, voor mondelingen)
+- **Routing**: subdomein-middleware in `src/middleware.ts`
+- **DNS**: mijn.host voor overhoorme.nl + subdomeinen
+
+## Setup
+Zie `SETUP.md` voor stap-voor-stap Supabase-activatie en Tikkie-flow.
 
 ## Architecture
 
@@ -17,17 +40,27 @@ Free vocabulary/practice app for gymnasium students (klas 1-3 + bovenbouw). Buil
 
 ### Key Directories
 ```
-woordjes-leren/          # Next.js app root
+Overhoorme/              # Next.js app root (was: woordjes-leren/)
 ├── src/data/registry.ts # ALL lists defined here (single source of truth)
 ├── src/data/lists/      # JSON files with actual word data
 ├── src/lib/             # Core logic (types, storage, leitner, rekentoets, auth)
-├── src/components/      # Shared components
+├── src/lib/supabase/    # Supabase clients, useAuth, sync, migrate
+├── src/components/      # Shared components (AuthProvider, AuthGate, BalanceCard...)
+├── src/middleware.ts    # Subdomain-routing (woordjes/mondelingen/landing)
 ├── src/app/             # Next.js pages
-│   ├── admin/           # PIN-protected admin panel
+│   ├── admin/           # PIN-protected admin panel + saldo-pagina
 │   ├── klas/[jaar]/     # Class overview pages
 │   ├── lijst/[id]/      # List detail + exercise modes
-│   └── rekentoets/      # Rekentoets exercise (klas 1)
+│   ├── login/           # Login page (Supabase)
+│   ├── register/        # Register page (Supabase)
+│   ├── landing/         # overhoorme.nl chooser
+│   ├── mondelingen/     # Mondelingen scaffold (placeholder)
+│   ├── rekentoets/      # Rekentoets exercise (klas 1, deprecated)
+│   └── api/admin/credit # Server endpoint voor saldo bijschrijven
+├── supabase/schema.sql  # Database schema (run één keer in SQL Editor)
 ├── scripts/             # CLI tools (import-photos, update-registry)
+├── VISION.md            # Visie: leerling = baas, geen pottenkijkers
+├── SETUP.md             # Stap-voor-stap Supabase-activatie
 └── .env                 # API keys (gitignored)
 ```
 
