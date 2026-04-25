@@ -3,9 +3,20 @@
   "configurations": [
     {
       "name": "dev",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["next", "dev", "--turbopack"],
-      "port": 3000
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": [
+        "/c",
+        "cd",
+        "/d",
+        "C:\\Users\\wlt\\OneDrive - Stichting Stedelijk Gymnasium Leiden\\Documenten\\Overhoorme",
+        "&&",
+        "npx",
+        "next",
+        "dev",
+        "--turbopack"
+      ],
+      "port": 3000,
+      "autoPort": true
     }
   ]
 }

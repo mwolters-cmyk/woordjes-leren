@@ -9,7 +9,7 @@
  *   const { data, error } = await supabase.from('students').select();
  */
 
-import { createBrowserClient } from "@supabase/ssr";
+import { createClient } from "@supabase/supabase-js";
 import type { SupabaseClient } from "@supabase/supabase-js";
 
 let cached: SupabaseClient | null = null;
@@ -26,7 +26,18 @@ export function getSupabaseBrowser(): SupabaseClient {
     );
   }
 
-  cached = createBrowserClient(url, anonKey);
+  // Gebruik standaard createClient (niet @supabase/ssr) voor browser:
+  // - Onze app heeft geen OAuth/PKCE-flow nodig (alleen username+password)
+  // - localStorage-gebaseerde sessie ipv cookies — werkt direct in client
+  //   components zonder server-cookie-roundtrip
+  cached = createClient(url, anonKey, {
+    auth: {
+      persistSession: true,
+      autoRefreshToken: true,
+      detectSessionInUrl: false,
+      storageKey: "overhoorme-auth",
+    },
+  });
   return cached;
 }
 

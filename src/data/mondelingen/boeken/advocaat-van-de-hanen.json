@@ -1,0 +1,667 @@
+{
+  "slug": "advocaat-van-de-hanen",
+  "titel": "Advocaat van de hanen",
+  "auteur": {
+    "naam": "A.F.Th. van der Heijden",
+    "sortname": "Heijden, A.F.Th. van der",
+    "geboren": "1951",
+    "overleden": null,
+    "biografische_context": "Van der Heijden werd geboren in 1951 en debuteerde in 1978 onder het pseudoniem Patrizio Canaponi. Zijn leven en schrijverschap zijn nauw met elkaar verweven: in diverse romans zijn verwijzingen naar zijn schrijverschap te vinden, en het merendeel van zijn boeken heeft inhoudelijk met elkaar te maken. Een ingrijpend persoonlijk verlies vormt de achtergrond van de opdracht van Advocaat van de hanen: het boek is opgedragen aan zijn vrouw Minchen en aan hun zoon Totó, die in 2010 bij een ongeluk om het leven is gekomen - waarover Van der Heijden de roman Tonio (2011) schreef.",
+    "positie_literatuur": "Van der Heijden wordt beschouwd als een van de belangrijkste Nederlandse schrijvers van zijn generatie. Hij werkt nauwgezet aan een breed en samenhangend oeuvre, opgebouwd rond het principe van 'het leven in de breedte': het vertragen van de tijd door het moment te verbreden in de herinnering, en zo de tijd haar tanden uit te trekken. Zijn werk is veelvuldig bekroond, onder andere met de Gouden Uil, de AKO Literatuurprijs, de Libris Literatuur Prijs, de Constantijn Huygensprijs en de P.C. Hooftprijs.",
+    "hoofdwerken": [
+      {
+        "titel": "Onder het plaveisel het moeras",
+        "jaar": 1978,
+        "type": "debuut (onder pseudoniem Patrizio Canaponi)"
+      },
+      {
+        "titel": "De slag om de Blauwbrug",
+        "jaar": null,
+        "type": "deel 1 van De tandeloze tijd (proloog van de cyclus)"
+      },
+      {
+        "titel": "Vallende ouders",
+        "jaar": null,
+        "type": "deel 2 van De tandeloze tijd"
+      },
+      {
+        "titel": "De gevarendriehoek",
+        "jaar": null,
+        "type": "deel 3 van De tandeloze tijd"
+      },
+      {
+        "titel": "Advocaat van de hanen",
+        "jaar": 1990,
+        "type": "deel 4 van De tandeloze tijd"
+      },
+      {
+        "titel": "De helleveeg",
+        "jaar": null,
+        "type": "deel 5 van De tandeloze tijd"
+      },
+      {
+        "titel": "Kwaadschiks",
+        "jaar": 2016,
+        "type": "deel 6 van De tandeloze tijd"
+      },
+      {
+        "titel": "Het leven uit een dag",
+        "jaar": 1988
+      },
+      {
+        "titel": "Het schervengericht",
+        "jaar": 2007,
+        "type": "onderdeel van Homo duplex-cyclus"
+      },
+      {
+        "titel": "Tonio",
+        "jaar": 2011,
+        "opmerking": "Requiemroman over de dood van zijn zoon"
+      }
+    ]
+  },
+  "uitgave": {
+    "eerste_druk": 1990,
+    "uitgeverij": "De Bezige Bij",
+    "plaats": "Amsterdam",
+    "isbn_13": null,
+    "pagina_ongeveer": 573,
+    "oplage_eerste_maanden": null,
+    "opmerking_oplage": "In 1998 verscheen een herdruk. Het boek is deel vier van de romancyclus De tandeloze tijd, maar kan zelfstandig worden gelezen."
+  },
+  "classificatie": {
+    "vak": "nederlands",
+    "leeftijdsgroep": "15-18",
+    "lezen_voor_lijst_niveaus": [
+      5
+    ],
+    "niveau_primair": 5,
+    "niveau_opmerking": "Ingedeeld op niveau 5 van lezenvoordelijst.nl. Vereist een gevorderde lezer: doorwrocht proza, ingewikkelde zinnen, moeilijk vocabulaire, complexe structuur. Minimaal N4-lezer nodig om het boek te kunnen genieten.",
+    "geschikt_voor": [
+      "havo bovenbouw",
+      "vwo bovenbouw"
+    ],
+    "genres": [
+      "psychologische roman",
+      "sociale roman",
+      "politieke thriller"
+    ],
+    "literaire_periode": "jaren negentig van de twintigste eeuw (verschenen 1990)",
+    "stroming_invloed": []
+  },
+  "bron_urls": {
+    "lezenvoordelijst_docent": "https://www.lezenvoordelijst.nl/docenten-15-18/niveau-5/advocaat-van-de-hanen/",
+    "scholieren_hub": "https://www.scholieren.com/boek/advocaat-van-de-hanen-afth-van-der-heijden",
+    "wikipedia_nl": "https://nl.wikipedia.org/wiki/Advocaat_van_de_hanen"
+  },
+  "flaptekst": "Advocaat van de hanen is een bikkelhard commentaar op onze tijd. De advocaat staat aan de kant van de \"hanenkammen\" maar delft als persoon het onderspit, door zijn eigen zwakte, de drankzucht. Dat gewetensonderzoek van de hoofdpersoon heeft een perfecte harmonie gevonden met het beeld van de gebeurtenissen. Een buiging is op zijn plaats.",
+  "eerste_zin": "Hij had er beter aan gedaan van al zijn zinnen uitsluitend de reuk en de smaak te vertrouwen, en dan nog alleen voor zover ze heb zijn eigen verrotting lieten ruiken en proeven: wat zijn oor ving was onherkenbaar vervormd door de angst, onder zijn aanraking kregen de dingen onmiddellijk een andere huid, terwijl zijn ogen ook wijd open niet veel anders meer zagen dan het schouwspel dat zijn vergiftigde brein voor zichzelf opvoerde.",
+  "eerste_zin_analyse": "De openingszin plaatst de lezer onmiddellijk in het bewustzijn van een man wiens zintuigen vertroebeld zijn - vermoedelijk door drank. De zintuiglijke vervreemding (reuk, smaak, gehoor, tastzin, zicht zijn alle onbetrouwbaar) introduceert direct het centrale probleem van de roman: hoe betrouwbaar is een verteller die de werkelijkheid ziet door een waas van alcohol en angst? De lange, kronkelende zinsstructuur belichaamt de verstrengeling van zintuig en vervorming.",
+  "motto": {
+    "citaat": "Comb down his hair: look, look! it stands upright, Like lime-twigs set to catch my winged soul.",
+    "bron": "Shakespeare, Henry VI",
+    "context": "Een fragment uit Shakespeares Henry VI, waarin overeind staand haar beeldend wordt beschreven als strikken voor de ziel.",
+    "interpretatie": "Het motto verwijst naar de hanenkammen van de krakers (de 'hanen') die Quispel verdedigt. Het haar dat rechtop staat als een hanenkam wordt metaforisch voorgesteld als een bedreiging of val voor de ziel - wat Quispels fatale betrokkenheid bij de krakersbeweging al aankondigt. Tegelijk introduceert het de spanning tussen uiterlijk (de opvallende kapsel) en innerlijk (de gevangen ziel)."
+  },
+  "structuur": {
+    "indeling": "Twee delen, met in het eerste deel hoofdstukken voorzien van datums",
+    "delen": [
+      {
+        "nr": 1,
+        "naam": "Deel I",
+        "opbouw": "Elk hoofdstuk draagt een datum, zodat twee vervlochten verhaallijnen - de zaak-Kiliaan Noppen en de relatie Ernst-Zwanet - chronologisch te onderscheiden zijn. De lezer volgt de ontwikkelingen in april en mei 1985 afgewisseld met eerdere periodes.",
+        "functie": "Opbouw van spanning via de twee door elkaar gepresenteerde lijnen; de lezer kan afwisselend verdwalen in de wisselende datums."
+      },
+      {
+        "nr": 2,
+        "naam": "Deel II",
+        "opbouw": "Neemt de draad een aantal maanden later op. Bevat flashbacks naar de voorgeschiedenis. Heeft het karakter van een ontknoping.",
+        "functie": "Geeft antwoorden op in deel I opgeroepen vragen, maar vereist van de lezer actief puzzelen. Sluit gedeeltelijk aan bij gebeurtenissen uit deel I."
+      }
+    ],
+    "chronologie": "Het verhaal speelt zich hoofdzakelijk af in de jaren 1985-1986, met uitgebreide flashbacks naar 1977-1985. Deel I hanteert datumkopjes per hoofdstuk. Deel II verbindt de draden via flashbacks en bevat de ontknoping.",
+    "compositie_opmerking": "Van der Heijden snijdt de twee verhaallijnen - de juridische zaak rond de dood van Kiliaan Noppen en de liefdesgeschiedenis met Zwanet - in stukken en presenteert ze door elkaar. Dit weerspiegelt de verwarring van de drinkende, verstrooide protagonist. Het boek sluit thematisch aan bij de op 30 april 1980 gesitueerde proloog van de cyclus (De slag om de Blauwbrug), waarin krakersgeweld ook al een centrale rol speelt."
+  },
+  "perspectief": {
+    "type_hoofd": "Personaal vanuit Ernst Quispel (deels ik-perspectief, grotendeels volgend zijn bewustzijn)",
+    "type_proloog": null,
+    "opmerking": "De roman werkt voor het grootste deel met een personale verteller; het perspectief ligt bij Ernst Quispel. De lezer is daarmee volledig afhankelijk van Quispels versie van de werkelijkheid - een versie die regelmatig vertroebeld wordt door alcoholgebruik, angst en schuldgevoel. De betrouwbaarheid van de verteller is daarmee een centrale literaire en thematische kwestie.",
+    "implicaties_voor_betekenis": "Omdat de lezer alleen via Quispel ziet, is de onkenbaarheid van de werkelijkheid niet slechts een thema maar ook een structureel effect: de lezer weet tot laat in het boek niet precies wat er met Kiliaan Noppen is gebeurd, precies omdat Quispel dat ook niet wil weten of durft te onthullen."
+  },
+  "samenvatting": {
+    "kort": "Ernst Quispel, advocaat en voormalig idealist, raakt in de jaren 1985-1986 op alle fronten in de problemen. Tijdens een van zijn periodieke drinkgelagen is hij getuige van de dood van krakersleider Kiliaan Noppen in een politiecel. Hij verzwijgt dit een jaar lang uit angst zijn drankprobleem te moeten toegeven. Ondertussen neemt hij de verdediging op zich van de ouders Noppen, terwijl zijn huwelijk langzaam implodeert. Als hij eindelijk zijn getuigenis aflegt, kost hem dat zijn advocatencarrière. Zijn vrouw Zwanet verlaat hem voor zijn oude rivaal Albert Egberts. Het boek eindigt met Quispel die besluit zichzelf langzaam dood te drinken.",
+    "per_deel": {
+      "verhaallijn_zaak_noppen": "Op 25 april 1985 wordt het Huis van Bewaring II (HvB II) in Amsterdam door de politie ontruimd. De krakers die er verblijven - herkenbaar aan hun hanenkammen, vandaar de bijnaam 'de hanen' - worden opgepakt en weggevoerd. Quispel bevindt zich tijdens de ontruiming in de buurt vanwege een van zijn periodieke drinkgelagen en wordt ook opgepakt wegens openbare dronkenschap. In het cellencomplex is hij getuige van hoe de jonge krakersleider Kiliaan Noppen, bijgenaamd Dr. Nop, sterft. Noppen heeft tijdens de ontruiming hersenletsel opgelopen doordat hij door een omstander op zijn hoofd werd geslagen met een pakketje met een baksteen erin. Twee bewakers treffen hem stuiptrekkend aan; zij halen onversneden heroïne en spuiten dit postuum in zijn lichaam om de doodsoorzaak te verdoezelen. De politie beweert vervolgens dat Noppen overleed aan een combinatie van speed, alcohol, librium en slechte conditie door verwaarloosde geelzucht. Quispel zwijgt een jaar lang over wat hij gezien heeft, omdat een getuigenverklaring hem zou dwingen zijn aanwezigheid in dronken toestand te erkennen. De ouders van Kiliaan Noppen vragen Quispel hun belangen te behartigen, wat hij aanvaardt. De hanen ontdekken echter dat hij getuige was van Noppens dood en dwingen hem te spreken door zijn dochtertje Cynthia tijdelijk te ontvoeren - zij retourneren haar met plakplaatjes en viltstifttekeningen over haar hele lichaam, met de boodschap dat hij de waarheid moet vertellen. Een jaar na de dood bekent Quispel zijn getuigenis, waarna de zaak wordt heropend. Kort daarna verklaart Albert Egberts dat hij tijdens de ontruiming heeft gezien hoe Noppen door een omstander op zijn hoofd werd geslagen. De zaak is daarmee feitelijk rond, maar de conclusie is dat de politie geen blaam treft. Quispel wordt door de Orde der Advocaten voor veertien maanden geschorst wegens het misleiden van zijn cliënten en het achterhouden van informatie. Zijn loopbaan is daarmee feitelijk voorbij.",
+      "verhaallijn_quispel_zwanet": "Op 22 september 1977 ontmoet Ernst Quispel Zwanet, op dat moment de vriendin van zijn studiegenoot Albert Egberts. Als Egberts haar die nacht aan haar lot overlaat, wordt Zwanet in het Vondelpark van haar fiets getrokken en verkracht. Ze klopt aan bij Quispel, die haar verhaal niet gelooft en haar vervolgens ook verkracht. Zwanet vertrekt naar Canada, waar ze twee jaar werkt als au pair en kamermeisje. Als ze eind 1979 terugkomt, vraagt Quispel haar ten huwelijk en trouwen ze op 24 december 1979. Op 20 mei 1985 wordt hun dochtertje Cynthia geboren. Het huwelijk is relatief stabiel, al is er de voortdurende spanning rondom Quispels drankprobleem en de onuitgesproken voorgeschiedenis. Wanneer Quispel vanwege zijn drankprobleem op Schiermonnikoog verblijft en Zwanet hem daar bezoekt, ervaart hij voor het eerst in hun huwelijk dat hij werkelijk verliefd op haar is - hij ziet haar, in zijn eigen woorden, voor het eerst. Hij vertelt haar dit, maar zij reageert geschrokken. Later blijkt dat Zwanet op dat moment al een verhouding met Albert Egberts is begonnen. Als Quispel erachter komt dat zijn vrouw en zijn oude rivaal een relatie hebben, beseft hij dat hij het onderspit delft. Albert vertelt hem dat hij en Zwanet al die jaren eerder door een misverstand elkaar zijn misgelopen. Quispel druipt af en laat de twee bij elkaar.",
+      "verhaallijn_drankprobleem": "Quispels meest bijzondere kenmerk is zijn eigenaardig gestructureerde drankgewoonte: het grootste deel van het jaar is hij strikte geheelonthouder, maar een aantal weken per jaar drinkt hij zich in een volledig delirium. Dit patroon begint steeds verder te ontregelen naarmate het boek vordert. Het is tijdens zo'n periode van excessief drinken dat hij in april 1985 getuige wordt van de dood van Noppen en wordt opgepakt. Zijn angst voor ontmaskering als dronkaard weegt aanvankelijk zwaarder dan zijn geweten als advocaat en als mens. Tegen het einde van het boek, als hij zowel zijn beroep als zijn vrouw is kwijtgeraakt en de zaak-Noppen hem niets heeft opgeleverd, besluit Quispel om zijn patroon van gecontroleerd drinken definitief los te laten en zichzelf langzaam dood te drinken. Het boek sluit af terwijl hij dit voornemen ten uitvoer begint te brengen.",
+      "tijdsbestek_en_locaties": "Het verhaal speelt zich hoofdzakelijk af in Amsterdam gedurende 1985-1986, met terugblikken naar de periode 1972-1985. Belangrijke locaties zijn het Huis van Bewaring II (HvB II) en het cellencomplex van de Amsterdamse politie, het Vondelpark, Quispels kantoor en woning, Schiermonnikoog (waar Quispel zijn drinkperiodes doorbrengt), en Griekenland. De roman biedt een uitgebreid tijdsbeeld van Amsterdam in de jaren 1985-1986, de periode waarin de confrontatie tussen de krakersbeweging en de politieke en juridische orde op een hoogtepunt was.",
+      "bevat_spoilers": true
+    }
+  },
+  "personages": {
+    "hoofdpersoon": {
+      "Ernst Quispel": {
+        "rol": "hoofdpersoon, focalisator",
+        "leeftijd": "37 jaar (in 1985)",
+        "beroep": "advocaat (later geschorst)",
+        "achtergrond": "Afkomstig uit een Haarlemse advocatenfamilie (Quispel, Quispel, Quispel & Quispel). Werkte aanvankelijk in een sociaal advocatencollectief samen met oud-studiegenoot John Vlacq, daarna in een eigen praktijk. Actief links in zijn studiejaren.",
+        "karakter": "Een gewezen idealist die zijn maatschappijkritische overtuigingen heeft ingeruild voor een gevestigde burgerlijke carrière. Heeft een eigenaardig drankprobleem: de meeste tijd geheelonthouder, maar periodiek drinkt hij zich in een volledig delirium. Intelligent, maar moreel zwak: hij verzwijgt wat hij weet, ook als dat zijn cliënten schaadt. Tegelijk knagt zijn geweten voortdurend.",
+        "ontwikkeling": "Quispel verliest in de loop van het boek achtereenvolgens zijn greep op zijn drankgewoonte, zijn positie als advocaat, zijn vrouw en zijn illusies over zichzelf. Hij eindigt als iemand die alle sociale en professionele bindingen heeft verloren en bewust kiest voor zelfdestructie.",
+        "functie": "Quispel is de lens waardoorheen zowel het politieke verhaal (de krakersbeweging, politiegeweld) als het persoonlijke verhaal (liefde, schuld, verval) wordt verteld. Zijn onbetrouwbaarheid als verteller is tegelijk een thematisch motief."
+      }
+    },
+    "bijfiguren": [
+      {
+        "naam": "Kiliaan Noppen (Dr. Nop)",
+        "rol": "krakersleider, slachtoffer",
+        "lot": "Tijdens de ontruiming van het HvB II op 25 april 1985 geslagen op zijn hoofd met een baksteen, waarna hij de volgende nacht sterft in een politiecel. Zijn dood wordt door de politie verhuld door het toedienen van heroïne post mortem. Later 's nachts in het geheim begraven.",
+        "functie": "Noppens dood is de spil van de juridische verhaallijn en de katalysator voor Quispels ondergang. De onopgeloste vraag naar de werkelijke toedracht van zijn dood vertegenwoordigt het thema van de onkenbaarheid van de werkelijkheid."
+      },
+      {
+        "naam": "Albert Egberts",
+        "rol": "operalibrettist, Quispels rivaal en voormalige vriend",
+        "achtergrond": "Eind juli 1980 schoot Albert Egberts neonazi Arend-Jan Baartscheer neer (die dit overleefde); hij werd veroordeeld tot acht maanden gevangenisstraf en schreef in die periode toneelstukken. In 1985 heeft hij een werkcel in het HvB II.",
+        "functie_in_plot": "Tijdens de ontruiming van het HvB II ziet Egberts hoe een omstander Noppen op zijn hoofd slaat, maar houdt dit een jaar lang voor zich. Aan het eind van het boek onthult hij dit, waarmee de zaak-Noppen zijn juridische afsluiting krijgt. Tegelijkertijd begint hij een verhouding met Zwanet, waarmee hij Quispel zijn vrouw ontneemt.",
+        "verhouding_tot_quispel": "Ogenschijnlijk een vriend en voormalige studiogenoot, in werkelijkheid Quispels tegenpool en rivaal - in de liefde voor Zwanet, en in de manier waarop beiden hun idealen hebben verwerkt.",
+        "functie": "Spiegelfiguur: net als Quispel heeft Egberts informatie achtergehouden over de dood van Noppen. Beiden zijn moreel gecompromitteerd, maar op uiteenlopende manieren."
+      },
+      {
+        "naam": "Zwanet Quispel (geboren Zwanet)",
+        "rol": "Quispels vrouw",
+        "voorgeschiedenis": "In de zomer van 1977 vriendin van Albert Egberts. Op 22 september 1977 verlaten door Egberts, daarna verkracht in het Vondelpark. Bij Quispel aangeklopt, die haar verhaal niet gelooft en haar ook verkracht. Verblijft daarna twee jaar in Canada. Trouwt in december 1979 met Quispel.",
+        "ontwikkeling": "Staat lange tijd in de schaduw van Quispels verhaal. Begint in 1986 een verhouding met Albert Egberts. Als Quispel erachter komt dat ze verliefd is geworden, verlaat ze hem.",
+        "functie": "Het object van Quispels verlangen - maar ook het bewijs van zijn morele falen (hij heeft haar verkracht). Haar terugkeer naar Egberts is de definitieve bevestiging van Quispels mislukking op alle fronten."
+      },
+      {
+        "naam": "Cynthia (Tia) Quispel",
+        "rol": "Quispels dochtertje",
+        "leeftijd_1985": "geboren 20 mei 1985",
+        "lot": "Tijdelijk ontvoerd door de krakers als drukmiddel om Quispel tot een getuigenis te dwingen. Teruggevonden overdekt met plakplaatjes en viltstifttekeningen met de boodschap dat haar vader eindelijk de waarheid moet vertellen.",
+        "functie": "Het meest directe drukmiddel dat de krakers inzetten tegen Quispel; haar ontvoering markeert het keerpunt waarbij Quispel besluit te getuigen."
+      },
+      {
+        "naam": "Thjum Schwantje",
+        "rol": "grote afwezige, gestorven vriend",
+        "lot": "Op oudejaarsavond 1977 gestorven terwijl hij model stond voor een gipsproject van kunstenaar Flix Boezaardt. Flix hield zijn neus te lang dicht om het gipseffect te verbeteren, waardoor Thjum stikte. Flix kreeg twaalf jaar gevangenisstraf.",
+        "functie": "Hoewel hij niet meer leeft, duikt Thjum steeds weer op als aanwezige afwezigheid in de herinneringen van de personages om hem heen, met name in Alberts werk. Zijn dood is het oorspronkelijke schuldtrauma in de vriendenkring."
+      },
+      {
+        "naam": "Flix Boezaardt",
+        "rol": "kunstenaar, vriend van Albert",
+        "lot": "Verantwoordelijk voor de dood van Thjum tijdens een gipsproject in Italië (oudejaarsavond 1977). Veroordeeld tot twaalf jaar gevangenisstraf, maar vervroegd vrijgekomen in 1985. In 1985 exposeert hij in een galerie aan de Keizersgracht onder de titel Doodverf.",
+        "functie": "Belichaamt de manier waarop schuld en kunst zich kunnen vermengen; zijn vrijlating in 1985 brengt de kring van personages opnieuw bij elkaar."
+      },
+      {
+        "naam": "John Vlacq",
+        "rol": "oud-studiegenoot en zakenpartner van Quispel",
+        "functie": "Samen met Quispel actief in een sociaal advocatencollectief rond 1976; later in een gezamenlijke praktijk. Vertegenwoordigt de periode van Quispels idealisme."
+      }
+    ]
+  },
+  "thematiek": {
+    "hoofdthemas": [
+      {
+        "naam": "Teloorgang van idealen",
+        "uitwerking": "Het boek beschrijft hoe een man die ooit links geëngageerd was en zich identificeerde met kwetsbare groepen in de samenleving, stap voor stap zijn eigen waarden verraadt. Quispel kiest voor een succesvolle burgerlijke carrière, maar zijn periodieke drinkbuien verraden dat er nog altijd een onverwerkte spanning is tussen wie hij was en wie hij geworden is. Het krakersproces biedt hem een kans om zijn vroegere idealisme te herwinnen, maar uiteindelijk brengt zijn lafheid - het een jaar lang verzwijgen van zijn getuigenis - hem verder van die idealen af dan ooit."
+      },
+      {
+        "naam": "Onkenbaarheid van de werkelijkheid",
+        "uitwerking": "Tot op het einde van het boek blijft onduidelijk waaraan Kiliaan Noppen werkelijk is gestorven: aan het hersenletsel, aan de cocaïne die postuum werd ingespoten, of aan een combinatie van beide? De werkelijkheid ontsnapt aan elke greep. Dit geldt ook voor de liefdesgeschiedenis: Quispel begrijpt pas laat wat er werkelijk speelt tussen Zwanet en Albert. Van der Heijden maakt van de onbetrouwbaarheid van de perspectiefdrager een literair middel om onzekerheid te thematiseren."
+      },
+      {
+        "naam": "Schuld en geweten",
+        "uitwerking": "Quispels schuldgevoel kent meerdere lagen: de schuld over het verzwijgen van zijn getuigenis in de zaak-Noppen, de schuld over de verkrachting van Zwanet (waarover het boek uiterst terloops spreekt), en een meer diffuse schuld over wie hij is geworden. Het motief van het schuldgevoel is ook zichtbaar in de krakers, die hem actief confronteren, in de bewakers die de doodsoorzaak verdoezelen, en in Albert die zijn getuigenis ook een jaar lang achterhoudt. Schuld is in dit boek geen persoonlijk falen maar een gedeeld, maatschappelijk verschijnsel."
+      },
+      {
+        "naam": "Alcoholisme als escapisme en zelfvernietiging",
+        "uitwerking": "Quispels drankpatroon - geheelonthouder het grootste deel van het jaar, gevolgd door korte periodes van excessief drinken - is een nauwkeurig beschreven psychologisch mechanisme. Het drinken geeft hem tijdelijk vrijheid van zijn keurslijf en brengt zijn vroegere idealisme terug, maar vergiftigt tegelijk zijn zintuigen en zijn oordeel. Naarmate zijn situatie verslechtert, verliest hij zijn controle over dit patroon, totdat hij uiteindelijk bewust kiest voor fataal alcoholisme als reactie op het verlies van alles wat hem definieerde."
+      },
+      {
+        "naam": "Amsterdam als politieke arena: krakers versus gevestigde orde",
+        "uitwerking": "De roman biedt een nauwkeurig tijdsbeeld van Amsterdam in 1985-1986, toen de krakersbeweging en de politiek-juridische orde lijnrecht tegenover elkaar stonden. De ontruiming van het HvB II, het politiegeweld, de cover-up van Noppens dood en het juridische fiasco zijn geworteld in de werkelijke politieke verhoudingen van die tijd. Van der Heijden laat zien hoe de idealen van de krakersbeweging en de machtsarrogantie van de autoriteiten elkaar onvermijdelijk vernietigen, met als collateral damage mensen als Quispel, die daartussen proberen te manoeuvreren."
+      }
+    ]
+  },
+  "motieven": [
+    {
+      "naam": "Drankgebruik en vertroebeld bewustzijn",
+      "betekenis": "Het drankgebruik is niet alleen een persoonlijk probleem maar ook een narratief procedé: door Quispels bewustzijn te vertroebelen, plaatst Van der Heijden de betrouwbaarheid van de verteller voortdurend ter discussie. Wat de lezer via Quispel te weten komt, is per definitie onzeker.",
+      "tekstplaatsen": [
+        {
+          "context": "De eerste zin plaatst de lezer in het bewustzijn van een man wiens alle zintuigen zijn aangetast - reuk, smaak, gehoor, tastzin en zicht zijn alle onbetrouwbaar."
+        },
+        {
+          "context": "Tijdens de ontruiming van het HvB II is Quispel in dronken toestand aanwezig, wat zijn getuigenis al bij voorbaat compromitteert."
+        },
+        {
+          "context": "Quispel beschrijft zijn toestand zelf als het opvoeren van 'het schouwspel dat zijn vergiftigde brein voor zichzelf opvoerde' (eerste zin)."
+        }
+      ]
+    },
+    {
+      "naam": "De hanenkam",
+      "betekenis": "De hanenkam van de punkende krakers is het visuele embleem van hun weerstand tegen de gevestigde orde. In het motto van Shakespeare staat overeind staand haar al als metafoor voor iets dat de ziel bedreigt of betovert. De titel maakt van Quispels identificatie met de hanen zowel zijn tragische keuze als zijn definitie.",
+      "tekstplaatsen": [
+        {
+          "context": "Motto: 'Comb down his hair: look, look! it stands upright, Like lime-twigs set to catch my winged soul.' - Shakespeare, Henry VI"
+        },
+        {
+          "context": "Quispel noemt zichzelf 'de advocaat van die hanen' in een gesprek met een politieagent die denigrerend over de krakers spreekt (p. 312)."
+        }
+      ]
+    },
+    {
+      "naam": "De onzichtbare getuige",
+      "betekenis": "Quispel is de cruciale getuige van Noppens dood, maar zwijgt. Albert Egberts is de cruciale getuige van de klap die Noppen fataal verwonde, maar zwijgt ook. De figuur van de getuige die weet en zwijgt wordt zo een structureel motief dat het thema van schuld en medeplichtigheid verdiept.",
+      "tekstplaatsen": [
+        {
+          "context": "Quispel is aanwezig in het cellencomplex als Noppen sterft en de bewakers heroïne injecteren, maar verzwijgt dit een jaar lang."
+        },
+        {
+          "context": "Albert houdt zijn getuigenis van de klap met de baksteen eveneens een jaar achter, en onthult die pas als de zaak al heropend is."
+        }
+      ]
+    },
+    {
+      "naam": "Liefde als ontdekking en verlies",
+      "betekenis": "De paradox dat Quispel pas voor het eerst echt verliefd wordt op zijn eigen vrouw op het moment dat zij al verliefd is op een ander, geeft het liefdesplot zijn bitterste dimensie. Het moment van erkenning valt samen met het moment van onherstelbaar verlies.",
+      "tekstplaatsen": [
+        {
+          "citaat": "Pas toen zij de volgende dag naar de boot liepen [...] wist Ernst wat hem mankeerde [...]. Het was liefde op het eerste gezicht geweest. Bij haar aankomst de dag tevoren bezag hij zijn vrouw niet zozeer met andere ogen - hij zag haar voor het eerst.",
+          "pagina": 525
+        }
+      ]
+    },
+    {
+      "naam": "Zelfvernietiging als beslissing",
+      "betekenis": "Het besluit om zichzelf dood te drinken is voor Quispel geen impuls maar een bewuste keuze - een laatste daad van controle in een leven dat hem ontsnapt is. Het geeft het einde van het boek een eigenaardige combinatie van tragiek en berusting.",
+      "tekstplaatsen": [
+        {
+          "citaat": "Quispel had een fijn, bitter lachje op zijn gezicht, toen hij antwoordde: 'Eerst maar even grote metten maken met de grote verleider in mijn leven, de stichter van al het kwaad. De jaarlijkse euforie. Ik ga hem om zeep helpen. [...] [Ik ga doen] wat ik nooit eerder gedaan heb: ik ga hem uit zijn tent lokken.'",
+          "pagina": "591-592"
+        }
+      ]
+    }
+  ],
+  "stijl_en_taal": {
+    "kenmerken": "Van der Heijden schrijft doorwrocht en beeldend proza, met afwisselend zeer lange en korte zinnen. Het vocabulaire is gevorderd; jonge lezers zullen regelmatig een woordenboek nodig hebben. De schrijfstijl combineert een naturalistisch detail-realisme (uitgebreide beschrijvingen van het drinken, de stad, de lichamelijke toestand van de protagonisten) met een impressionistische onscherpte in de karaktertekening van bijfiguren.",
+    "register_verschuivingen": "De stijl past zich aan de bewustzijnstoestand van Quispel aan: in nuchtere passages zijn de zinnen beheerster; in beschrijvingen van zijn dronken toestand worden de zinnen kronkeliger en de beelden grilligen. Dit levert een subtiele maar effectieve mimetische stijl op.",
+    "karakteriseringstechniek": "Hoofdpersoon Quispel wordt van binnenuit gevolgd en uitgewerkt. Bijfiguren worden vooral getekend in hun verhouding tot hem; sommigen blijven daardoor wat vaag, terwijl andere - zoals Albert Egberts - gaandeweg steeds meer reliëf krijgen. Van der Heijden beschrijft personages 'op een onscherpe manier', waarbij ze bij herhaalde verschijning duidelijker worden.",
+    "naturalisme_opmerking": "In zekere zin is de stijl naturalistisch: aandacht voor verslaving, taboe-doorbrekend in de beschrijving van drank- en drugsgebruik, focus op de 'gewone man' en op sociale omgeving. Tegelijk gaat Van der Heijden ver voorbij het klassieke naturalisme door de subjectieve vertekening van de werkelijkheid structureel te maken."
+  },
+  "decor": {
+    "hoofdlocaties": [
+      "Amsterdam (Huis van Bewaring II, Vondelpark, cellencomplex, uitgaansleven)",
+      "Schiermonnikoog (Quispels drinkperiodes)",
+      "Griekenland",
+      "Italië (flashbacks, Flix en Thjum)"
+    ],
+    "tijdsperiode": "Heden van het verhaal: 1985-1986. Flashbacks: 1972-1985.",
+    "beeldsymbolisch_belang": "Amsterdam fungeert in het boek niet alleen als achtergrond maar als politieke arena: de krakersbeweging, de ontruimingen, het politiegeweld en de juridische nasleep zijn onlosmakelijk verbonden met de Amsterdamse stedelijke ruimte. Van der Heijden verwerkt fictionalisaties van herkenbare plaatsen en media: begraafplaats Kommervlugt staat voor Zorgvlied, dagblad Devies voor Het Parool.",
+    "tijdsbeeld": "Het boek geeft een scherp tijdsbeeld van Amsterdam in de periode 1985-1986, toen de confrontatie tussen krakers en politie op een hoogtepunt was. De krakersrellen na de dood van Noppen sluiten aan bij werkelijke historische gebeurtenissen, met name de dood van kraker Hans Kok in 1985 in een Amsterdamse politiecel."
+  },
+  "titelverklaring": {
+    "oppervlakkig": "De titel verwijst naar advocaat Ernst Quispel die de verdediging op zich neemt van een groep krakers - aangeduid als 'de hanen' vanwege hun kenmerkende hanenkammen - tegen de gemeente Amsterdam en de politie.",
+    "dieper": "De 'hanen' zijn niet alleen de krakers maar ook een verwijzing naar de Shakespeariaanse beeldspraak in het motto: overeind staand haar als strikken voor de ziel. Quispel is de advocaat van een beweging die hij innerlijk begrepen heeft maar waarvoor hij uiteindelijk niet het nodige morele lef bezit. Hij is de verdediger van idealen die hij zelf al lang heeft ingeruild, en zijn mislukking als advocaat van de hanen is ook zijn mislukking als idealist."
+  },
+  "historische_context": {
+    "periode_boek": "1985-1986 (met flashbacks naar 1972-1985)",
+    "belangrijkste_historische_gebeurtenissen_in_boek": [
+      "Krakersrellen in Amsterdam in de jaren tachtig; de confrontatie tussen kraakbeweging en politie op een hoogtepunt in 1985-1986",
+      "De ontruiming van het Huis van Bewaring II in Amsterdam",
+      "De dood van kraker Hans Kok in 1985 in een Amsterdamse politiecel, als historische inspiratie voor de dood van Kiliaan Noppen",
+      "De punk- en krakersscene in Amsterdam en de gevestigde juridische orde als tegenpolen"
+    ],
+    "historische_personen_als_inspiratie": [
+      {
+        "romanfiguur": "Kiliaan Noppen (Dr. Nop)",
+        "historisch": "Hans Kok",
+        "beschrijving": "Kraker die in 1985 overleed in een Amsterdamse politiecel na een ontruiming. Van der Heijden gebruikte zijn dood als achtergrond voor de zaak-Noppen. De echte krakersbeweging protesteerde ook tegen de verfilming uit 1996, omdat zij vreesden dat de film de politie zou vrijpleiten in de zaak-Hans Kok."
+      }
+    ],
+    "cyclus_context": "Advocaat van de hanen sluit als vierde deel van De tandeloze tijd thematisch aan bij de proloog van de cyclus, De slag om de Blauwbrug, die gesitueerd is op 30 april 1980 - Koninginnedag, de dag waarop ook krakersgeweld een centrale rol speelt. Van der Heijden laat zijn cyclus zo compositorisch terugkeren naar het geweld waarmee ze begon."
+  },
+  "receptie_en_prijzen": {
+    "ontvangst": "Overwegend lovend ontvangen. Criticus Frans de Rover schreef: 'Leven in de breedte, schrijven in de breedte, en dan ook nog: lezen in de breedte - dat kan nét te veel worden. Advocaat van de hanen leest als een trein, maar dat wil in dit geval ook zeggen dat je, zonder iets te missen, diverse stations kunt overslaan.' Het boek werd ook internationaal positief ontvangen.",
+    "internationale_ontvangst": "Letterenfonds: 'In one book Van der Heijden has combined a chronicle, a thriller and a timeless novel.'",
+    "verfilming": {
+      "jaar": 1996,
+      "regisseur": "Gerrit van Elst",
+      "producent": "Matthijs van Heijningen",
+      "scenario": "Gerrit van Elst, Kitty Verrips, A.F.Th. van der Heijden",
+      "internationale_titel": "Punk Lawyer",
+      "acteurs_belangrijk": [
+        "Pierre Bokma (Ernst Quispel)",
+        "Margo Dames (Zwanet)"
+      ],
+      "ontvangst_film": "Slecht ontvangen. Al bij de voorvertoning op het Filmfestival Rotterdam was de kritiek negatief. De film werd oppervlakkig genoemd en miste psychologische diepgang. Dick van de Heuvel (De Telegraaf) noemde de spelregie 'hemeltergend'. Slechts 3.286 bezoekers; na enkele weken uit de roulatie gehaald.",
+      "nominaties": [
+        "Gouden Kalf Beste Film 1996 - niet gewonnen"
+      ],
+      "incidenten_opnames": "De echte krakersbeweging bezette de filmset op 25 juni 1995 en legde de producent tien eisen voor, waaronder een verklaring vlak voor de eindaftiteling dat de film de herinnering aan Hans Kok niet misbruikt. De producent ging akkoord om verdere vertraging te voorkomen."
+    },
+    "oeuvre_prijzen": [
+      "Gouden Uil",
+      "AKO Literatuurprijs",
+      "Libris Literatuur Prijs",
+      "Constantijn Huygensprijs",
+      "P.C. Hooftprijs"
+    ]
+  },
+  "sleutelcitaten": [
+    {
+      "citaat": "Hij had er beter aan gedaan van al zijn zinnen uitsluitend de reuk en de smaak te vertrouwen, en dan nog alleen voor zover ze heb zijn eigen verrotting lieten ruiken en proeven: wat zijn oor ving was onherkenbaar vervormd door de angst, onder zijn aanraking kregen de dingen onmiddellijk een andere huid, terwijl zijn ogen ook wijd open niet veel anders meer zagen dan het schouwspel dat zijn vergiftigde brein voor zichzelf opvoerde.",
+      "context": "Eerste zin van de roman; Quispel in dronken en bange toestand.",
+      "relevantie_mondeling": "Introduceert direct de onbetrouwbare verteller en het thema van de vertroebelde werkelijkheidsperceptie."
+    },
+    {
+      "citaat": "'Zou u het nou wel doen, meneer? Het kan er hard aan toegaan bij dat tuig. En dan hebben we hier ook nog te maken met van die Indianen, of hanen, of hoe moet ik dat zootje ongeregeld uitschelden?' 'Ik ben de advocaat van die hanen.' 'O, op die manier.'",
+      "pagina": 312,
+      "context": "Quispel identificeert zichzelf als advocaat van de krakers tegenover een sceptische gesprekspartner.",
+      "relevantie_mondeling": "Titelcitaat; toont Quispels identificatie met de krakers en zijn bewuste keuze voor hun verdediging."
+    },
+    {
+      "citaat": "Pas toen zij de volgende dag naar de boot liepen [...] wist Ernst wat hem mankeerde [...]. Het was liefde op het eerste gezicht geweest. Bij haar aankomst de dag tevoren bezag hij zijn vrouw niet zozeer met andere ogen - hij zag haar voor het eerst.",
+      "pagina": 525,
+      "context": "Quispel realiseert zich op Schiermonnikoog dat hij verliefd is op Zwanet, terwijl zij al een verhouding heeft met Egberts.",
+      "relevantie_mondeling": "Kernmoment van de liefdesplot; de paradox van te laat ontdekte liefde."
+    },
+    {
+      "citaat": "Quispel had een fijn, bitter lachje op zijn gezicht, toen hij antwoordde: 'Eerst maar even grote metten maken met de grote verleider in mijn leven, de stichter van al het kwaad. De jaarlijkse euforie. Ik ga hem om zeep helpen. [...] [Ik ga doen] wat ik nooit eerder gedaan heb: ik ga hem uit zijn tent lokken.'",
+      "pagina": "591-592",
+      "context": "Quispel kondigt aan zichzelf dood te willen drinken nadat hij alles heeft verloren.",
+      "relevantie_mondeling": "Slotkritiek; Quispels beslissing tot zelfvernietiging als bewuste daad, niet als impuls."
+    },
+    {
+      "citaat": "'Lieve papa, je ziet ik kan verdwijnen. Ik kan ook heel lang verdwijnen, als jij eindelijk eens niet de waarheid verteld.'",
+      "pagina": 390,
+      "context": "Boodschap die de krakers via plakplaatjes op Quispels dochtertje Cynthia meegeven na haar tijdelijke ontvoering.",
+      "relevantie_mondeling": "Het keerpunt: Quispel wordt gedwongen te kiezen tussen zijn geheim bewaren en het welzijn van zijn kind."
+    }
+  ],
+  "cross_book_verbindingen": {
+    "andere_van_der_heijden_op_lezen_voor_lijst": [
+      "Het leven uit een dag (1988) - N4",
+      "Tonio (2011) - N4",
+      "Het schervengericht (2007) - N6"
+    ],
+    "andere_delen_cyclus": [
+      "De slag om de Blauwbrug (proloog De tandeloze tijd)",
+      "Vallende ouders (deel 2)",
+      "De gevarendriehoek (deel 3)",
+      "De helleveeg (deel 5)",
+      "Kwaadschiks (deel 6, 2016) - Ernst Quispel keert hierin twintig jaar ouder terug"
+    ],
+    "vergelijkbare_thematiek": [
+      "W.F. Hermans, De donkere kamer van Damokles (1958) - onbetrouwbare verteller, schuld en medeplichtigheid",
+      "Maarten 't Hart, Een vlucht regenwulpen (1978) - idealist in conflict met zijn omgeving",
+      "Adriaan van Dis, Nathan Sid (1983) - identiteit en maatschappelijke buitenstaander"
+    ]
+  },
+  "mondeling_aandachtspunten_per_niveau": {
+    "N4": "Focus op de drie verhaallijnen, de personage-ontwikkeling van Quispel, de titelverklaring, de thema's alcoholisme en idealisme versus cynisme. Kunnen uitleggen wat er met Noppen is gebeurd en hoe Quispels carrière en huwelijk eindigen.",
+    "N5": "Bovenop N4: onbetrouwbare verteller als thematisch en structureel procedé, compositie van de twee vervlochten lijnen, de relatie tussen Quispels persoonlijk verval en de politieke context, de historische achtergrond van de krakersbeweging en de inspiratie van Hans Kok, de positie van Advocaat van de hanen in de cyclus De tandeloze tijd, Van der Heijdens poëtica van 'het leven in de breedte'."
+  },
+  "mondelingvragen": {
+    "basics": [
+      {
+        "vraag": "Hoe begint het boek?",
+        "anker": "eerste_zin + zintuiglijke vertroebeling van de protagonist",
+        "doorvraag": "Waarom begint Van der Heijden met een protagonist wiens zintuigen allemaal onbetrouwbaar zijn?"
+      },
+      {
+        "vraag": "Hoe eindigt het boek?",
+        "anker": "Quispel heeft zijn carrière, zijn vrouw en zijn illusies verloren en besluit zichzelf dood te drinken",
+        "doorvraag": "Is dit een tragisch einde of kun je het ook als een soort bevrijding lezen?"
+      },
+      {
+        "vraag": "Wie zijn de belangrijkste personages?",
+        "anker": "Ernst Quispel (hoofdpersoon), Kiliaan Noppen, Albert Egberts, Zwanet",
+        "doorvraag": "Wat hebben Quispel en Egberts met elkaar gemeen, ondanks hun rivaliteit?"
+      },
+      {
+        "vraag": "Verklaar het motto.",
+        "anker": "Shakespeare, Henry VI - hanenkam als strik voor de ziel",
+        "doorvraag": "Hoe verhoudt het beeld van de 'lime-twigs' - strikken voor de ziel - zich tot Quispels situatie aan het einde van het boek?"
+      },
+      {
+        "vraag": "Wat betekent de titel?",
+        "anker": "titelverklaring: Quispel als advocaat van de krakersbeweging die hanenkammen draagt",
+        "doorvraag": "In welke zin is Quispel ook zelf een mislukte 'haan' - iemand die opvalt maar het onderspit delft?"
+      }
+    ],
+    "plot_en_structuur": [
+      {
+        "vraag": "Hoeveel verhaallijnen heeft het boek en hoe verhouden ze zich tot elkaar?",
+        "anker": "drie lijnen: zaak-Noppen, relatie Ernst-Zwanet, drankprobleem - alle drie gecentreerd rond Quispel",
+        "doorvraag": "Kun je uitleggen hoe de ontvoering van Cynthia de drie lijnen met elkaar verbindt?"
+      },
+      {
+        "vraag": "Hoe is het boek structureel opgebouwd?",
+        "anker": "twee delen; deel I met datumkopjes en twee vervlochten verhaallijnen; deel II als ontknoping met flashbacks",
+        "doorvraag": "Waarom kiest Van der Heijden voor datumkopjes in deel I en niet in deel II?"
+      },
+      {
+        "vraag": "Wat is de tijdlijn van het verhaal?",
+        "anker": "heden 1985-1986, flashbacks naar 1972-1985",
+        "doorvraag": "Welke gebeurtenis uit 1977 is cruciaal voor zowel de relatie Ernst-Zwanet als voor de bredere cyclus?"
+      },
+      {
+        "vraag": "Vat de hoofdplot samen in vijf zinnen.",
+        "anker": "samenvatting.kort"
+      }
+    ],
+    "perspectief_en_vertelling": [
+      {
+        "vraag": "Vanuit welk perspectief is het boek geschreven?",
+        "anker": "personaal perspectief vanuit Quispel; zijn bewustzijn is de lens",
+        "doorvraag": "Wat is het probleem met een dronken, schuldbeladen advocaat als enige informatiebron voor de lezer?"
+      },
+      {
+        "vraag": "Is Quispel een betrouwbare verteller?",
+        "anker": "nee: zijn zintuigen zijn vertroebeld door drank, hij houdt informatie achter, hij heeft motieven om de waarheid te verdraaien",
+        "doorvraag": "Geef een concreet voorbeeld uit het boek waaruit blijkt dat we Quispel niet volledig kunnen vertrouwen."
+      },
+      {
+        "vraag": "Hoe beïnvloedt het perspectief het thema van de onkenbaarheid van de werkelijkheid?",
+        "anker": "de lezer weet niet beter dan Quispel; de onzekerheid over Noppens dood is ook de lezer's onzekerheid"
+      }
+    ],
+    "thematiek": [
+      {
+        "vraag": "Wat zijn de hoofdthema's van Advocaat van de hanen?",
+        "anker": "teloorgang van idealen, onkenbaarheid van de werkelijkheid, schuld en geweten, alcoholisme als escapisme, Amsterdam als politieke arena",
+        "doorvraag": "Welk thema vind jij het sterkst uitgewerkt en waarom?"
+      },
+      {
+        "vraag": "Hoe werkt het thema van de teloorgang van idealen in dit boek?",
+        "anker": "Quispel was ooit links geëngageerd; zijn periodieke drinkbuien zijn de symptomen van zijn onvrede met wie hij geworden is; de krakersdefensie biedt een kans op herstel die hij verprutst",
+        "doorvraag": "Kun je Quispel vergelijken met een personage uit een ander boek op je lijst dat ook zijn idealen verliest?"
+      },
+      {
+        "vraag": "Is Advocaat van de hanen een politieke roman, een psychologische roman of beide?",
+        "anker": "beide: het politieke verhaal (krakers, politiegeweld) en het persoonlijke verhaal (Quispels verval) zijn onlosmakelijk verbonden"
+      }
+    ],
+    "motieven": [
+      {
+        "vraag": "Welke motieven herken je in het boek?",
+        "anker": "drankgebruik als vertroebeling, de hanenkam, de onzichtbare getuige, liefde als ontdekking-en-verlies, zelfvernietiging als keuze"
+      },
+      {
+        "vraag": "Welke functie heeft Quispels drankprobleem als literair motief?",
+        "anker": "het drinken is tegelijk escapisme, schuldverwerking én een narratief middel om de verteller onbetrouwbaar te maken",
+        "doorvraag": "Zou het boek hetzelfde effect hebben als Quispel gewoon een nuchtere man was die zijn getuigenis verzweeg?"
+      },
+      {
+        "vraag": "Hoe wordt het motief van de 'getuige die zwijgt' uitgewerkt?",
+        "anker": "zowel Quispel als Egberts zijn cruciale getuigen die een jaar lang zwijgen; dit motief verbindt beide verhaallijnen en verdiept het thema van schuld",
+        "doorvraag": "Wat zijn de gevolgen van hun zwijgen, voor henzelf en voor anderen?"
+      }
+    ],
+    "personages": [
+      {
+        "vraag": "Hoe ontwikkelt Ernst Quispel zich in de loop van het boek?",
+        "anker": "hij verliest achtereenvolgens zijn greep op zijn drankpatroon, zijn geloofwaardigheid als advocaat, zijn baan, zijn vrouw en zijn illusies; eindigt met de bewuste keuze voor zelfdestructie",
+        "doorvraag": "Kun je Quispel sympathiek vinden? Waarom wel of niet?"
+      },
+      {
+        "vraag": "Welke functie heeft Albert Egberts in het verhaal?",
+        "anker": "spiegelfiguur voor Quispel: ook hij heeft informatie achtergehouden en ook hij is moreel gecompromitteerd, maar hij 'wint' op alle fronten waar Quispel verliest",
+        "doorvraag": "Is het toevallig of betekenisvol dat de man die Quispel zijn vrouw afpakt ook de man is die de zaak-Noppen had kunnen oplossen?"
+      },
+      {
+        "vraag": "Wat is Zwanets rol in het verhaal?",
+        "anker": "het object van Quispels verlangen en het bewijs van zijn morele falen; haar keuze voor Egberts is de definitieve bevestiging van Quispels mislukking",
+        "doorvraag": "Hoe kijk je aan tegen de omstandigheden van Quispels huwelijk met Zwanet, gelet op hun eerste ontmoeting?"
+      }
+    ],
+    "tijd_en_context": [
+      {
+        "vraag": "Wanneer en waar speelt het verhaal zich af?",
+        "anker": "Amsterdam 1985-1986, met flashbacks naar 1972-1985"
+      },
+      {
+        "vraag": "Welke historische achtergrond is belangrijk voor dit boek?",
+        "anker": "de Amsterdamse krakersbeweging in de jaren tachtig, de politieke en juridische confrontaties rondom ontruimingen, de dood van kraker Hans Kok in 1985 als inspiratie",
+        "doorvraag": "Maakt het voor jou verschil dat Van der Heijden zich baseert op werkelijke historische gebeurtenissen?"
+      },
+      {
+        "vraag": "Wanneer is het boek geschreven en hoe verhoudt het zich tot zijn historische context?",
+        "anker": "verschenen in 1990, verwijst naar gebeurtenissen van 1985-1986; de krakersbeweging was op dat moment nog recent geschiedenis"
+      },
+      {
+        "vraag": "Hoe past dit boek binnen de cyclus De tandeloze tijd?",
+        "anker": "vierde deel; thematisch verbonden met de op 30 april 1980 gesitueerde proloog via het krakersgeweld; Albert Egberts is in andere delen de hoofdpersoon; Ernst Quispel keert terug in deel 6 (Kwaadschiks, 2016)"
+      }
+    ],
+    "stroming_en_oeuvre": [
+      {
+        "vraag": "Hoe past Advocaat van de hanen in Van der Heijdens oeuvre?",
+        "anker": "deel van de grote cyclus De tandeloze tijd; Van der Heijdens poëtica van 'het leven in de breedte' is hier goed zichtbaar; ook de verwevenheid van romans binnen het oeuvre",
+        "doorvraag": "Wat bedoelt Van der Heijden met 'het leven in de breedte' en hoe zie je dat terug in dit boek?"
+      },
+      {
+        "vraag": "Welke stijlkenmerken zijn typisch voor Van der Heijden?",
+        "anker": "doorwrocht proza, beeldend en uitbundig, afwisselend korte en lange zinnen, impressionistische karaktertekening, trage en brede manier van vertellen"
+      },
+      {
+        "vraag": "Is er een vergelijkbare Nederlandse auteur of roman die je hiermee zou willen vergelijken?",
+        "anker": "cross_book_verbindingen - vergelijking met W.F. Hermans (onbetrouwbare verteller), of vergelijking van de politieke setting met andere sociale romans"
+      }
+    ],
+    "mening_en_waardering": [
+      {
+        "vraag": "Wat vond je van het boek?",
+        "onderbouwingsrichtingen": [
+          "de complexe, trage stijl: hinderlijk of juist passend?",
+          "de sympathie voor Quispel: hoe moeilijk is het een onsympathieke hoofdpersoon te volgen?",
+          "de spanning van de juridische plot versus de traagheid van de persoonlijke plot",
+          "het tijdsbeeld van Amsterdam in de jaren tachtig: herkenbaar of ver van je bed?"
+        ]
+      },
+      {
+        "vraag": "Is dit een moeilijk boek? Wat maakte het voor jou moeilijk of juist makkelijk?",
+        "onderbouwingsrichtingen": [
+          "de ingewikkelde zinnen en het zware vocabulaire",
+          "de twee vervlochten verhaallijnen met datumkopjes",
+          "het identificeren met een dronken, moreel zwakke protagonist",
+          "de trage manier van vertellen"
+        ]
+      },
+      {
+        "vraag": "Welk aspect van het boek heeft jou het meest getroffen?",
+        "onderbouwingsrichtingen": [
+          "de juridische ontknoping en de cover-up van Noppens dood",
+          "de paradox van Quispels verliefdheid op het verkeerde moment",
+          "de manier waarop Quispel bewust kiest voor zijn eigen ondergang",
+          "het tijdsbeeld van de krakersbeweging"
+        ]
+      }
+    ],
+    "cross_book": [
+      {
+        "vraag": "Welk ander boek op je lijst heeft een vergelijkbaar thema van idealen die teloor gaan?",
+        "anker": "cross_book_verbindingen"
+      },
+      {
+        "vraag": "Vergelijk de onbetrouwbare verteller in dit boek met een onbetrouwbare verteller in een ander boek dat je hebt gelezen.",
+        "anker": "Quispels onbetrouwbaarheid is structureel ingebouwd via zijn drankgebruik en zijn schuld"
+      },
+      {
+        "vraag": "Ken je andere boeken waarin een maatschappijkritische achtergrond zo nauw verweven is met een persoonlijk verhaallijn?",
+        "anker": "cross_book_verbindingen.vergelijkbare_thematiek"
+      }
+    ],
+    "film_en_adaptatie": [
+      {
+        "vraag": "Weet je dat het boek verfilmd is? Wat weet je over die verfilming?",
+        "anker": "verfilming 1996, regie Gerrit van Elst, Pierre Bokma als Quispel; slecht ontvangen, 3286 bezoekers"
+      },
+      {
+        "vraag": "De verfilming wordt oppervlakkig en psychologisch ondiep gevonden. Wat denk jij dat er lastig is aan het verfilmen van dit boek?",
+        "anker": "het zelfonderzoek van Quispel via drank en bewustzijn is in woorden beschrijfbaar maar moeilijk in beeld te vangen; tijdsprongen en flashbacks zijn in film lastiger te structureren"
+      },
+      {
+        "vraag": "De echte krakersbeweging protesteerde tijdens de opnames. Begrijp je dat protest?",
+        "anker": "historische context Hans Kok; de krakers vreesden dat de film de politie vrijpleitte in de zaak-Hans Kok"
+      }
+    ],
+    "leesechtheid": [
+      {
+        "vraag": "Als je één scène aan een klasgenoot zou voorlezen, welke kies je dan? En wat gebeurt er in die scène?",
+        "tactiek": "scene-voorkeur forceren",
+        "signaal_gelezen": "Noemt een bijscène die niet in standaardsamenvatingen centraal staat - bijvoorbeeld de terugkeer van Cynthia overdekt met tatoeages en plakplaatjes, Quispels verblijf op Schiermonnikoog, de expositie van Flix, of een drinkscène. Kan de scène met zintuiglijke details navertellen.",
+        "signaal_niet_gelezen": "Kiest de grote ontknopingsscènes (de getuigenis, het vertrek van Zwanet) die in elke samenvatting staan. Beschrijft de scène met abstracte termen zonder textuur."
+      },
+      {
+        "vraag": "Was er een deel waar je dacht: kom op, nu moet er iets gebeuren?",
+        "tactiek": "tempo-vraag",
+        "signaal_gelezen": "Noemt een concreet deel of verhaallijn die traag aanvoelde - bijvoorbeeld de uitgebreide drinkpassages, of bepaalde flashbacks - en kan aangeven waarom dat zo aanvoelde.",
+        "signaal_niet_gelezen": "Zegt 'nee, het was goed' of geeft een vage 'het was soms saai' zonder specificatie van waar precies."
+      },
+      {
+        "vraag": "Is er iets in het boek waarvan je dacht: dat had ik niet verwacht?",
+        "tactiek": "verrassings-vraag",
+        "signaal_gelezen": "Noemt een detail buiten de grote plottwists - bijvoorbeeld dat Quispels dochter teruggebracht wordt met een boodschap in plakplaatjes, dat Quispel zelf zijn vrouw ook heeft verkracht, of de expositie-titel Doodverf als verwijzing naar een ander boek van Van der Heijden.",
+        "signaal_niet_gelezen": "Verwijst naar de grote ontknoppingen (de heroïne-injectie, Zwanet en Albert) die in elke samenvatting staan."
+      },
+      {
+        "vraag": "Behalve de hoofdpersoon, welk personage is jou het meest bijgebleven en waarom?",
+        "tactiek": "bijpersonage-check",
+        "signaal_gelezen": "Noemt een personage dat in de korte samenvattingen niet uitgebreid aan bod komt - bijvoorbeeld Thjum Schwantje als 'grote afwezige', Flix Boezaardt, of John Vlacq.",
+        "signaal_niet_gelezen": "Noemt alleen Egberts, Zwanet of Noppen, die allemaal in elke samenvatting uitgebreid behandeld worden."
+      },
+      {
+        "vraag": "Dacht je ergens in het boek: dit klopt niet, of had Van der Heijden het anders kunnen aanpakken?",
+        "tactiek": "zelfkritiek uitlokken",
+        "signaal_gelezen": "Formuleert een concreet bezwaar - bijvoorbeeld dat de ontvoering van Cynthia met plakplaatjes te theatraal is, of dat de gelijktijdige onthullingen aan het einde wel erg geconcentreerd zijn.",
+        "signaal_niet_gelezen": "Zegt 'nee, ik vond alles logisch' of herhaalt abstracte kritiek zoals 'het is te langdradig' zonder concrete passage."
+      }
+    ],
+    "verrassingsvragen": [
+      {
+        "vraag": "Wat zou je aan Van der Heijden willen vragen als je hem kon spreken?",
+        "type": "open/persoonlijk"
+      },
+      {
+        "vraag": "Welk personage vond je het meest onbegrijpelijk en waarom?",
+        "type": "open/reflectief"
+      },
+      {
+        "vraag": "Als je advocaat was, zou jij hetzelfde doen als Quispel - zwijgen om jezelf te beschermen?",
+        "type": "morele vraag"
+      }
+    ]
+  },
+  "_meta": {
+    "bronnen_geconsulteerd": [
+      "lezenvoordelijst.nl docenteninfo niveau 5 - Advocaat van de hanen",
+      "scholieren.com ZWG-verslag door Nienke (2017)",
+      "nl.wikipedia.org/wiki/Advocaat_van_de_hanen (filmartikkel)"
+    ],
+    "samenstelling": "Eigen synthese van meerdere bronnen; geen letterlijke overnames met uitzondering van korte citaten (flaptekst, eerste zin, motto, sleutelcitaten) onder citeerrecht.",
+    "geharvest": "2026-04-20",
+    "schema_versie": "0.2-uitgebreid"
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "slug": "kaas",
+  "titel": "Kaas",
+  "auteur": {
+    "naam": "Willem Elsschot",
+    "sortname": "Elsschot, Willem",
+    "geboren": "1882-05-07",
+    "overleden": "1960-05-31",
+    "biografische_context": "Willem Elsschot is het pseudoniem van Alfons de Ridder, geboren in Antwerpen. Hij ging de handel in en verbleef een periode in Parijs voordat hij via zakelijke contacten met een Schiedamse scheepswerf naar Nederland vertrok. Hij trouwde met Fine en woonde enige tijd in Rotterdam, waarna het gezin naar Antwerpen terugkeerde. Zijn schrijverscarrière begon pas echt na aanmoediging van collega's en literaire tijdgenoten: zijn eerste roman verscheen als feuilleton in 1913. In 1933 bracht dichter Jan Greshoff hem ertoe Kaas te publiceren, hetzelfde jaar dat zijn gedichten voor het eerst in het tijdschrift Forum verschenen. Na de Tweede Wereldoorlog ondervond Elsschot grote tegenspoed: een gedicht over collaborateur August Borms verwoestte zijn reputatie en hij brak verbitterd met het schrijven. De toekenning van de Constantijn Huygensprijs in 1951 verraste hem dan ook volledig. Op 31 mei 1960 stierf hij op straat in Antwerpen.",
+    "positie_literatuur": "Elsschot geldt als een van de belangrijkste Vlaamse prozaschrijvers van de twintigste eeuw. Hij staat bekend om zijn sobere, zakelijke stijl, zijn ironie en zijn cynische blik op de bourgeoisie en het handelsbestaan. Zijn werk verschijnt in de periode van het interbellum en sluit aan bij ideeën over nieuwe zakelijkheid en modernisme. Zijn figuur Frans Laarmans duikt in meerdere werken op als alter ego.",
+    "hoofdwerken": [
+      {
+        "titel": "Villa des Roses",
+        "jaar": 1913,
+        "type": "debuut"
+      },
+      {
+        "titel": "Lijmen",
+        "jaar": 1924
+      },
+      {
+        "titel": "Kaas",
+        "jaar": 1933
+      },
+      {
+        "titel": "Het been",
+        "jaar": 1938
+      },
+      {
+        "titel": "Lijmen/Het been",
+        "jaar": 1946,
+        "opmerking": "Gecombineerde uitgave met Frans Laarmans als hoofdfiguur"
+      },
+      {
+        "titel": "Het huwelijk",
+        "jaar": 1933,
+        "type": "gedicht",
+        "opmerking": "Beroemdste gedicht, gepubliceerd in Forum; bevat de regels 'Maar tussen droom en daad / staan wetten in de weg / en praktische bezwaren'"
+      },
+      {
+        "titel": "Verzameld werk",
+        "jaar": 1957,
+        "opmerking": "Verscheen in korte tijd in drie drukken"
+      }
+    ]
+  },
+  "uitgave": {
+    "eerste_druk": 1933,
+    "uitgeverij": null,
+    "plaats": "België",
+    "isbn_13": "9789025363758",
+    "pagina_ongeveer": 114,
+    "oplage_eerste_maanden": null,
+    "opmerking_oplage": "Kaas is uitgegroeid tot de meest vertaalde Vlaamse roman aller tijden, in 36 talen vertaald. Het boek is een klassieker in de Vlaamse en Nederlandstalige literatuur."
+  },
+  "classificatie": {
+    "vak": "nederlands",
+    "leeftijdsgroep": "15-18",
+    "lezen_voor_lijst_niveaus": [
+      4
+    ],
+    "niveau_primair": 4,
+    "niveau_opmerking": "Op lezenvoordelijst.nl ingedeeld als N4. Door geringe omvang en eenvoudige verhaallijn kan het boek worden onderschat; het gedateerde Vlaamse taalgebruik, de ironie en de satirische ondertoon maken het voor een onvoorbereide lezer lastiger dan het lijkt. N3-lezers kunnen de herkenbare menselijke emoties en humor waarderen; N5-lezers vinden voldoende uitdaging in de literair-historische context en de thematiek van het menselijk onvermogen.",
+    "geschikt_voor": [
+      "vmbo-t bovenbouw",
+      "havo bovenbouw",
+      "vwo bovenbouw"
+    ],
+    "genres": [
+      "novelle",
+      "satirische roman"
+    ],
+    "literaire_periode": "interbellum (1933)",
+    "stroming_invloed": [
+      "nieuwe zakelijkheid",
+      "modernisme"
+    ]
+  },
+  "bron_urls": {
+    "lezenvoordelijst_leerling": "https://www.jeugdbibliotheek.nl/12-18-jaar/lezen-voor-de-lijst/15-18-jaar/niveau-4/kaas.html",
+    "lezenvoordelijst_docent": "https://www.lezenvoordelijst.nl/docenten-15-18/niveau-4/kaas/",
+    "scholieren_hub": "https://www.scholieren.com/boek/kaas-willem-elsschot",
+    "wikipedia_nl": "https://nl.wikipedia.org/wiki/Kaas_(roman)"
+  },
+  "flaptekst": "Frans Laarmans is een beetje uitgekeken op zijn saaie ambtenarenbaantje. Als zich de kans voordoet om in 'de handel' te gaan, grijpt hij die met beide handen aan en zo wordt hij 'algemeen en officieel vertegenwoordiger voor België en het Groot-Hertogdom Luxemburg' van een Amsterdamse kaasfirma.\n\nMeteen al krijgt hij een 'proefzending' van tienduizend volvette Edammers in zijn maag gesplitst, waar hij een geschikte opslagruimte voor moet zien te vinden. Het opzetten van een eigen kantoor en het werven van goede verkopers blijkt ook al niet zo makkelijk. Kortom: het wordt een – alleen voor de lezers hilarisch - drama. Een illusie armer keert Laarmans terug naar zijn oude nederige bestaan.",
+  "eerste_zin": "Eindelijk schrijf ik je weer omdat er grote dingen staan te gebeuren en wel door toedoen van mijnheer Van Schoonbeke.",
+  "eerste_zin_analyse": "De opening plaatst de lezer direct in het midden van een correspondentie: iemand schrijft aan een onbekende 'je'. De toon is urgent en vol verwachting. Het woord 'eindelijk' suggereert een voorgeschiedenis en geeft meteen de neiging van Laarmans bloot om gewone gebeurtenissen groter te maken dan ze zijn. Tegelijk introduceert deze eerste zin de vraag wie die 'je' is - een vraag die het boek nooit beantwoordt.",
+  "motto": null,
+  "structuur": {
+    "indeling": "Voorwerk (opdracht aan Greshoff, inleiding over stijl, personagelijst, elementenlijst) gevolgd door een briefroman in één verhaallijn",
+    "onderdelen": [
+      {
+        "nr": 0,
+        "naam": "Opdracht",
+        "functie": "Gedicht aan Jan Greshoff, die Elsschot aanspoorde tot publicatie"
+      },
+      {
+        "nr": 1,
+        "naam": "Inleiding over stijl",
+        "functie": "Elsschot bespreekt zijn poëtica: literatuur als kunstvorm vergelijkbaar met muziek; legt de lat voor zijn sobere stijlkeuzes"
+      },
+      {
+        "nr": 2,
+        "naam": "Personagelijst",
+        "functie": "Overzicht van de dramatis personae, als in een toneelscript"
+      },
+      {
+        "nr": 3,
+        "naam": "Elementenlijst",
+        "functie": "Lijst van terugkerende elementen in het verhaal"
+      },
+      {
+        "nr": 4,
+        "naam": "Eigenlijk verhaal",
+        "functie": "Briefroman: Laarmans schrijft aan een onbekende 'je' over zijn mislukte onderneming, chronologisch verteld"
+      }
+    ],
+    "chronologie": "Grotendeels chronologisch met enkele flashbacks en vooruitwijzingen. Het verhaal speelt zich af over een periode van ongeveer één maand. Geen ingrijpende tijdsprongen.",
+    "compositie_opmerking": "Het uitgebreide voorwerk - inleiding over stijl, personagelijst, elementenlijst - is een bewuste literaire keuze die de lezer voorbereidt op de manier waarop het verhaal gelezen moet worden. De relatie tussen de stilistische inleiding en de tekst zelf is een belangrijk aandachtspunt voor N4- en N5-lezers. Het verhaal is in briefvorm geschreven: de ik-verteller richt zich tot een niet nader geïdentificeerde 'je'."
+  },
+  "perspectief": {
+    "type_hoofd": "Ik-verteller (Laarmans schrijft een brief aan een onbekende 'je'); vertellend-ik en belevend-ik worden door elkaar gebruikt",
+    "type_proloog": null,
+    "opmerking": "Het perspectief is in zekere zin onbetrouwbaar: de lezer ervaart alles gefilterd door Laarmans' eigen blik en zelfrechtvaardigingen. De onbekende geadresseerde ('je') blijft het hele boek onbenoemd, wat vragen oproept over de functie van deze narratieve keuze. Het wisselen tussen vertellend-ik (terugkijkend) en belevend-ik (in het moment) geeft de lezer af en toe een zicht op de kloof tussen Laarmans' zelfbeeld en de werkelijkheid.",
+    "implicaties_voor_betekenis": "Doordat Laarmans zelf vertelt, ziet de lezer hoe hij zijn mislukking rationaliseer en omschrijft. De ironie zit niet in wat er wordt gezegd, maar in wat er tussen de regels door leesbaar is: Laarmans beseft zelf lang niet in hoeverre hij bezig is zijn eigen échec te construeren."
+  },
+  "samenvatting": {
+    "kort": "Frans Laarmans, een vijftigjarige kantoorklerk in Antwerpen, ontmoet bij de begrafenis van zijn moeder de welgestelde heer Van Schoonbeke. Via diens netwerk krijgt Laarmans het aanbod om kaashandelaar te worden voor een Nederlandse firma. Gedreven door statusverlangen en een vaag gevoel van onvrede gooit hij zich in de onderneming - maar verliest zich volledig in de bijzaken: briefpapier, een bureau, een telefoon, het werven van agenten. Na een maand heeft hij nauwelijks kaas verkocht. Als de leverancier het geld komt innen, doet Laarmans niet open. Hij stuurt het geld voor de weinige verkochte kazen op met een briefje over de opslaglocatie van de rest, en keert stil terug naar zijn oude baan.",
+    "in_fases": {
+      "fase_1_aanloop": "Laarmans is een gewone klerk van rond de vijftig bij de General Marine and Shipbuilding Company in Antwerpen. Hij heeft een vrouw, Fine, en twee kinderen. Zijn leven is stabiel maar weinig opwindend. Binnen zijn familie is hij een buitenbeentje: zijn broer is arts en heeft maatschappelijk aanzien, terwijl Laarmans slechts klerk is. Bij de begrafenis van zijn moeder ontmoet hij heer Van Schoonbeke, een rijke oudere man en vriend van zijn broer. Van Schoonbeke organiseert wekelijkse bijeenkomsten voor welgestelde en invloedrijke lieden, en hij nodigt Laarmans daarvoor uit. Laarmans voelt zich er allerminst thuis: hij kan zich niet meten met het gezelschap en voelt de kloof tussen zijn eigen positie en die van de anderen scherp aan. Van Schoonbeke stelt hem echter voor als iemand van aanzien, wat Laarmans een vluchtig gevoel van status geeft.",
+      "fase_2_het_aanbod": "Van Schoonbeke brengt Laarmans in contact met een Nederlandse kaasleverancier die een Belgische vertegenwoordiger zoekt. Laarmans moet volvette Edammer verkopen in België en het Groothertogdom Luxemburg. Hij grijpt het aanbod gretig aan, ook al heeft hij geen enkele ervaring in de handel en walgt hij persoonlijk van kaas. Zijn vrouw Fine remt hem af: ze stelt voor dat hij niet meteen ontslag neemt, maar tijdelijk ziekteverlof aanvraagt zodat hij zijn vaste baan niet verliest. Met hulp van zijn broer, die als arts een medische verklaring opstelt voor een verzonnen zenuwziekte, slaagt Laarmans erin onbetaald verlof te krijgen. Zijn bedrijfje krijgt uiteindelijk de naam 'Gafpa' - General Antwerp Feeding Products Association.",
+      "fase_3_de_onderneming": "Laarmans werpt zich met verve op zijn nieuwe taak, maar al snel blijkt dat hij zich vrijwel uitsluitend bezighoudt met de randvoorwaarden van het ondernemen: het laten ontwerpen van fraai briefpapier, de aanschaf van een imposant bureau en een schrijfmachine, het aanleggen van een telefoonlijn en het inrichten van zijn kantoor. Het daadwerkelijke verkopen van kaas blijft achterwege. Als de eerste grote lading kaas arriveert - twintig ton volvette Edammer, opgeslagen in het Blauwhoedenveem - weet hij nauwelijks wat ermee te beginnen. Hij plaatst een advertentie voor agenten en ontvangt een vloed aan reacties, maar de meeste gegadigden blijken ongeschikt. De weinige mensen die hij aanstelt leveren nauwelijks resultaat. Zelf doet Laarmans ook een poging kaas aan winkels te slijten, maar zijn presentatie schiet tekort en hij brengt niets van betekenis aan de man. Intussen houdt hij Van Schoonbeke voor dat de zaken goed gaan, terwijl hij in werkelijkheid bijna niets verkoopt. Zijn naam als koopman geeft hem vooralsnog status in het gezelschap van Van Schoonbeke.",
+      "fase_4_het_einde": "Na ongeveer een maand heeft Laarmans slechts 11,5 kaas verkocht. Dan kondigt Hornstra, de Nederlandse leverancier, aan dat hij komt om het geld voor de verkochte kazen te innen. Laarmans doet de deur niet open als Hornstra aanbelt. Enkele dagen later is hij stilletjes teruggekeerd naar zijn oude baan. Hij heeft het geld voor de 11,5 verkochte kazen aan Hornstra opgestuurd, vergezeld van een briefje met de locatie van de resterende voorraad. Het boek besluit met een kort, ontroerend slot: Laarmans bezoekt het graf van zijn moeder. Terug op zijn oude werkplek ervaart hij zijn vertrouwde omgeving en zijn collega's met nieuwe waardering. Van Schoonbeke belooft hem hetzelfde te blijven behandelen, ook nu hij weer gewoon klerk is.",
+      "bevat_spoilers": true
+    }
+  },
+  "personages": {
+    "hoofdpersoon": {
+      "Frans Laarmans": {
+        "rol": "hoofdpersoon, ik-verteller",
+        "leeftijd_begin": 50,
+        "leeftijd_einde": 50,
+        "beroep": "kantoorklerk bij de General Marine and Shipbuilding Company; tijdelijk aspirant-kaashandelaar",
+        "karakter": "Laarmans is een gewone, enigszins naïeve man die kampte met een gevoel van onbetekenendheid en een verlangen naar meer aanzien. Hij is overmoedig als hij denkt kansen te zien, maar mist elk zakelijk inzicht en elke affiniteit met het product dat hij verkoopt. Hij is ijdel op kleine dingen - briefpapier, een mooi bureau - en rationaliseert zijn uitstelgedrag als noodzakelijk voorwerk. Zijn zelfbedrog is subtiel maar doordringend: hij liegt zichzelf én anderen voor over zijn vooruitgang.",
+        "ontwikkeling": "Laarmans maakt een bescheiden maar reële ontwikkeling door. Aan het einde van het boek keert hij terug naar zijn oude bestaan, niet als verslagen man die niets heeft geleerd, maar als iemand die zijn plek opnieuw heeft gevonden en zijn gewone leven met nieuwe ogen ziet. Hij waardeert zijn werkplek en zijn gezin meer dan voorheen. De verandering is subtiel en wordt niet dramatisch uitgespeeld, wat aansluit bij Elsschots sobere stijl.",
+        "functie": "Laarmans is Elsschots alter ego en tegelijk een universeel type: de man die aan zijn middelmatigheid probeert te ontsnappen, zichzelf daarin verliest, en uiteindelijk - wijs geworden - terugkeert. Hij is ook een instrument voor maatschappijkritiek: zijn falen blootlegt de ijdelheid van statusjacht en de kloof tussen droom en daad."
+      }
+    },
+    "bijfiguren": [
+      {
+        "naam": "Fine Laarmans",
+        "rol": "Vrouw van Frans",
+        "karakter": "Fine is praktisch, nuchter en goed in het inschatten van situaties. Ze steunt haar man in zijn onderneming maar zorgt er tegelijk voor dat hij niet al te grote risico's neemt. Ze remt hem af op het moment dat hij zijn vaste baan wil opzeggen en adviseert de constructie met het ziekteverlof.",
+        "ontwikkeling": null,
+        "functie": "Fine fungeert als remmende én ondersteunende kracht tegelijk. Haar handelwijze is typerend voor haar karakter: ze wil Frans geen gezichtsverlies laten lijden, maar ze wil ook voorkomen dat de familie financieel in de problemen komt. Haar subtiele superioriteit - ze doorziet de situatie beter dan Frans zelf - is een van de stille ironische noten in het boek. Aan het einde van het verhaal zorgt ze ervoor dat er voorlopig geen kaas meer op tafel komt."
+      },
+      {
+        "naam": "Mijnheer Van Schoonbeke",
+        "rol": "Rijke bekende, vriend van Laarmans' broer, bemiddelaar",
+        "karakter": "Van Schoonbeke is een oudere, welgestelde man die Laarmans probeert op te tillen in de sociale hiërarchie. Hij stelt Laarmans voor aan zijn rijke kennissen als iemand van aanzien, ook al is dat een pose. Zijn werkelijke motieven voor zijn hulp aan Laarmans blijven onduidelijk.",
+        "ontwikkeling": null,
+        "functie": "Van Schoonbeke is de katalysator van het verhaal: hij brengt Laarmans in contact met de kaasleverancier en introduceert hem in kringen waar hij zich niet thuisvoelt. Hij belichaamt ook de sociale druk die Laarmans ervaart: door Van Schoonbekes omgeving voelt Laarmans zich gedwongen iemand te zijn die hij niet is. Aan het einde belooft Van Schoonbeke Laarmans te blijven behandelen als tevoren, wat zowel vriendelijk als onthullend is."
+      },
+      {
+        "naam": "Karel Laarmans (de broer)",
+        "rol": "Broer van Frans, huisarts",
+        "karakter": "De broer van Frans heeft maatschappelijk aanzien als arts. Hij helpt Frans door een medische verklaring op te stellen voor de verzonnen zenuwziekte, zodat Frans ziekteverlof kan nemen.",
+        "ontwikkeling": null,
+        "functie": "De broer staat symbool voor de hogere sociale positie waaraan Frans zich wil optrekken. Zijn bereidheid Frans te helpen met de list over de zenuwziekte laat zien dat de familiesolidariteit sterker is dan de morele bezwaren."
+      },
+      {
+        "naam": "Hornstra",
+        "rol": "Nederlandse kaasleverancier uit Amsterdam",
+        "karakter": "Hornstra is de leverancier die de twintig ton volvette Edammer stuurt en uiteindelijk komt om zijn geld te innen.",
+        "ontwikkeling": null,
+        "functie": "Hornstra vertegenwoordigt de zakelijke werkelijkheid die Laarmans steeds heeft weten te ontwijken. Zijn komst om te innen is het moment van de waarheid: Laarmans kiest ervoor de confrontatie niet aan te gaan en doet de deur niet open. Hornstra is nauwelijks uitgewerkt als personage maar is cruciaal als katalysator voor Laarmans' definitieve terugtocht."
+      },
+      {
+        "naam": "De agenten/verkopers",
+        "rol": "Aangestelde vertegenwoordigers voor Laarmans' kaashandel",
+        "karakter": "Een handvol mensen die Laarmans aanneemt na zijn advertentie; de meeste gegadigden zijn ongeschikt en de uiteindelijk aangestelden leveren nauwelijks resultaat.",
+        "ontwikkeling": null,
+        "functie": "De agenten illustreren Laarmans' gebrek aan oordeelsvermogen als ondernemer en zijn neiging om de schijn van bedrijvigheid op te houden zonder werkelijk resultaten te boeken."
+      },
+      {
+        "naam": "De moeder van Frans",
+        "rol": "Overledene bij wiens begrafenis het verhaal begint",
+        "karakter": null,
+        "ontwikkeling": null,
+        "functie": "De moeder is niet als levend personage aanwezig maar is wel van structureel belang: haar begrafenis is het moment waarop Laarmans Van Schoonbeke ontmoet. Aan haar sterfbed wordt bovendien duidelijk dat Frans niet de favoriet in de familie is. Het boek eindigt met een bezoek van Laarmans aan haar graf, wat de cirkelstructuur van het verhaal benadrukt."
+      }
+    ]
+  },
+  "thematiek": {
+    "hoofdthemas": [
+      {
+        "naam": "Het falen van de droom en het menselijk onvermogen",
+        "uitwerking": "Laarmans koestert een droom van zakelijk succes en sociale verheffing, maar slaagt er niet in die droom te realiseren. Zijn falen is geen dramatisch fiasco maar een stille, bijna tragi-komische slijtage: hij raakt verstrikt in de bijzaken en verliest de kern van zijn opgave uit het oog. Elsschot laat zien dat dit geen persoonlijk falen is maar een universeel menselijk patroon: de kloof tussen ambitie en uitvoering, tussen droom en daad. Dit thema sluit aan bij Elsschots beroemdste dichtregels: 'Maar tussen droom en daad / staan wetten in de weg / en praktische bezwaren.'"
+      },
+      {
+        "naam": "Statusverlangen en sociale klasse",
+        "uitwerking": "Laarmans voelt zich in de kringen van Van Schoonbeke een buitenstaander: hij is 'slechts' klerk, omringd door welgestelde lieden. Het kaasavontuur is mede ingegeven door de wens tot sociaal aanzien: als ondernemer kan hij zich meten met het gezelschap. Elsschot bekritiseert subtiel de bourgeoisie en de maatschappelijke dwang om 'iemand' te zijn. Laarmans verliest zichzelf in die jacht op status en ontdekt uiteindelijk dat zijn werkelijke geluk elders lag."
+      },
+      {
+        "naam": "Zelfbedrog en onbetrouwbare zelfkennis",
+        "uitwerking": "Laarmans is een verteller die zichzelf voortdurend goede redenen geeft voor zijn uitstelbewegingen en zijn gebrek aan resultaat. Hij houdt Van Schoonbeke en zichzelf voor dat de zaken goed gaan, terwijl dat duidelijk niet zo is. De ironie van het boek schuilt voor een groot deel in dit zelfbedrog: de lezer ziet wat Laarmans niet wil zien. De briefvorm versterkt dit: Laarmans schrijft aan een 'je' en construeert daarmee zijn eigen versie van de werkelijkheid."
+      },
+      {
+        "naam": "Gezin en thuishoren",
+        "uitwerking": "Tijdens zijn avontuur als kaashandelaar raakt Laarmans los van zijn vertrouwde omgeving, maar zijn gezin - Fine, de kinderen - blijft een constante ankerplek. Fine's nuchtere steun en haar remmende invloed laten zien dat zij de werkelijkheid scherper ziet dan hij. Aan het einde van het boek keert Laarmans niet als verslagene terug, maar als iemand die zijn gezin en zijn gewone bestaan met nieuwe ogen waardeert. Het gezin is tegelijk het fundament en de spiegel van zijn aspiraties."
+      },
+      {
+        "naam": "Maatschappijkritiek en de burgerlijke middelmatigheid",
+        "uitwerking": "Kaas is ook een satirische roman: Elsschot hekelt de neiging van de burger om aan zijn middelmatigheid te willen ontsnappen zonder de moed of het vermogen te hebben dat werkelijk te doen. De handel, het ondernemerschap, het sociale netwerk van Van Schoonbeke - het zijn allemaal façades. Elsschots toon is nooit veroordelend maar juist droog en ironisch, wat de kritiek des te scherper maakt."
+      }
+    ]
+  },
+  "motieven": [
+    {
+      "naam": "Het briefpapier",
+      "betekenis": "Het zorgvuldig ontworpen briefpapier van Laarmans' firma symboliseert zijn neiging om de schijn van zakelijkheid op te houden zonder de daadwerkelijke kern - kaas verkopen - aan te pakken. Het is het bekendste voorbeeld van zijn verwarring van middel en doel.",
+      "tekstplaatsen": [
+        {
+          "context": "Laarmans besteedt uitgebreid aandacht en energie aan het ontwerp van zijn briefpapier, nog voordat er ook maar één kaas is verkocht."
+        },
+        {
+          "context": "Hij wil zijn briefpapier trots aan Van Schoonbeke laten zien als bewijs van zijn zakelijke sérieux."
+        }
+      ]
+    },
+    {
+      "naam": "Het bureau en de kantoorinrichting",
+      "betekenis": "Net als het briefpapier fungeert de aanschaf van een imponerend bureau en schrijfmachine als substituut voor werkelijk ondernemen. Laarmans bouwt de façade van een koopman zonder de inhoud.",
+      "tekstplaatsen": [
+        {
+          "context": "De energie die Laarmans steekt in het inrichten van zijn kantoor staat in scherp contrast met de verwaarloosde verkoopcijfers."
+        }
+      ]
+    },
+    {
+      "naam": "De kaas zelf",
+      "betekenis": "De kaas is het product dat Laarmans moet verkopen maar waarvoor hij geen enkele affiniteit heeft - hij walgt er zelfs van. Dit maakt zijn onderneming bij voorbaat ongeloofwaardig en symboliseert de fundamentele mismatch tussen zijn dromen en zijn werkelijke capaciteiten en verlangens. Aan het einde van het boek zorgt Fine ervoor dat er voorlopig geen kaas meer op tafel komt, wat de definitieve afsluiting van het avontuur markeert.",
+      "tekstplaatsen": [
+        {
+          "context": "De eerste grote lading van twintig ton Edammer arriveert en Laarmans weet niet goed wat ermee aan te vangen."
+        },
+        {
+          "context": "Na afloop van het avontuur komt er geen kaas meer op tafel in het gezin Laarmans."
+        }
+      ]
+    },
+    {
+      "naam": "Het graf van de moeder",
+      "betekenis": "Het boek begint bij de begrafenis van Laarmans' moeder en eindigt met zijn bezoek aan haar graf. Dit geeft het verhaal een cirkelstructuur en verbindt het begin (de dood van de moeder als toevallige aanzet tot het kaasavontuur) met het einde (de terugkeer naar het gewone leven en een moment van bezinning).",
+      "tekstplaatsen": [
+        {
+          "context": "Op de begrafenis van zijn moeder ontmoet Laarmans Van Schoonbeke - de begrafenis is de onverwachte aanleiding voor het hele avontuur."
+        },
+        {
+          "context": "Het boek sluit af met Laarmans die het graf van zijn moeder bezoekt, wat een sfeer van rust en afronding geeft."
+        }
+      ]
+    },
+    {
+      "naam": "De gesloten deur (Hornstra)",
+      "betekenis": "Als Hornstra komt om het geld voor de verkochte kazen te innen, doet Laarmans de deur niet open. Dit moment belichaamt Laarmans' onvermogen om de confrontatie met de zakelijke werkelijkheid aan te gaan. De gesloten deur is een metafoor voor zijn vlucht uit de verantwoordelijkheid.",
+      "tekstplaatsen": [
+        {
+          "context": "Laarmans opent de deur niet wanneer Hornstra aanbelt; hij stuurt later het geld op met een briefje."
+        }
+      ]
+    }
+  ],
+  "stijl_en_taal": {
+    "kenmerken": "Sobere, zakelijke stijl met korte zinnen en beknopte dialogen. Het taalgebruik is enigszins gedateerd Vlaams, met archaïsche woordkeuzes en zinsconstructies (bv. 'mijnheer' in plaats van 'meneer', 'medegekomen' in plaats van 'meegekomen'). Er is een verklarende woordenlijst achterin het boek opgenomen. De ironie is subtiel en schuilt vaak in de toon en in wat er níet wordt gezegd, niet in expliciete commentaren van de verteller.",
+    "register_verschuivingen": "Het voorwerk (inleiding over stijl) is beschouwend en essayistisch van toon. Het eigenlijke verhaal is briefproza: direct, conversationeel, maar tegelijk bedachtzaam. De nuchtere schrijfwijze staat in scherp contrast met de emotionele turbulentie die Laarmans eigenlijk zou moeten ervaren.",
+    "karakteriseringstechniek": "Laarmans is uitgebreid getekend via zijn denkwijze, zijn rationalisaties en zijn zelfbeschrijving. De bijfiguren - Fine, Van Schoonbeke, Hornstra - zijn spaarzamer uitgewerkt en functioneren vooral als folie voor Laarmans. Fines karakter blijkt hoofdzakelijk uit haar opmerkingen in dialogen."
+  },
+  "decor": {
+    "hoofdlocaties": [
+      "Antwerpen (1933)",
+      "Blauwhoedenveem (opslaglocatie kaas)",
+      "Amsterdam (bezoek aan leverancier)"
+    ],
+    "beeldsymbolisch_belang": "Antwerpen als havenstad en handelscentrum is een passende omgeving voor een verhaal over mislukt ondernemerschap. De scheepswerf waar Laarmans werkt staat voor de stabiele, betrouwbare wereld van zijn gewone bestaan - de wereld die hij tijdelijk verlaat en uiteindelijk dankbaar terugvindt."
+  },
+  "titelverklaring": {
+    "oppervlakkig": "Kaas verwijst naar het product dat Frans Laarmans moet verkopen en dat zijn leven tijdelijk op zijn kop zet.",
+    "dieper": "De kaas staat voor meer dan een handelswaar: hij symboliseert alles wat Laarmans niet begrijpt, niet beheerst en niet werkelijk wil. Dat hij juist kaas moet verkopen - een product waarvoor hij walging voelt - maakt de absurditeit van zijn situatie zichtbaar. De titel is ook ironisch: 'kaas' is een alledaags, burgerlijk product, ver verwijderd van de grootse zakelijke ambities die Laarmans koestert."
+  },
+  "historische_context": {
+    "periode_boek": "1933, Antwerpen",
+    "maatschappelijke_context": "Het boek verschijnt in 1933, in de periode van de economische crisis na de beurskrach van 1929. De handelswereld en het ondernemerschap stonden onder druk. Elsschot zelf was werkzaam in de reclame- en handelswereld en kende de koopmansmentaliteit van binnenuit. De satirische blik op de burgerlijke ambities en statusjacht is dus ook autobiografisch gekleurd.",
+    "literair_historische_context": "Kaas verschijnt in hetzelfde jaar als Elsschots eerste publicaties in het tijdschrift Forum, het literaire tijdschrift rond Menno ter Braak en E. du Perron dat de 'nieuwe zakelijkheid' en de persoonlijkheid van de schrijver centraal stelde. Elsschots sobere, anti-romantische stijl past goed bij de poëtica van het interbellum-modernisme.",
+    "belangrijkste_historische_gebeurtenissen_in_boek": []
+  },
+  "receptie_en_prijzen": {
+    "verkoop_eerste_maanden": null,
+    "oplage_totaal": null,
+    "vertalingen": "36 talen; meest vertaalde Vlaamse roman aller tijden",
+    "verfilming": {
+      "jaar": 1999,
+      "regisseur": "Orlow Seunke",
+      "acteurs_belangrijk": [],
+      "prijzen": []
+    },
+    "stripbewerking": {
+      "jaar": 2008,
+      "tekenaar": "Dick Matena",
+      "uitgever": null
+    },
+    "toneelbewerking": null,
+    "overige_bewerkingen": "Er bestaat ook een stripmuur in Antwerpen gebaseerd op Dick Matena's stripversie van Kaas.",
+    "prijzen_auteur": [
+      {
+        "naam": "Constantijn Huygensprijs",
+        "jaar": 1951,
+        "opmerking": "Toegekend voor Elsschots literaire oeuvre als geheel; Elsschot was volledig verrast."
+      }
+    ]
+  },
+  "sleutelcitaten": [
+    {
+      "citaat": "Eindelijk schrijf ik je weer omdat er grote dingen staan te gebeuren en wel door toedoen van mijnheer Van Schoonbeke.",
+      "context": "Openingszin van het boek.",
+      "relevantie_mondeling": "Introduceert de toon, de briefvorm en Laarmans' neiging om zijn situatie groter te maken dan ze is. De ironie zit al in de eerste zin: de 'grote dingen' blijken dat niet te zijn."
+    },
+    {
+      "citaat": "Maar die avond kon het mij alles niets meer schelen. Die kaasdroom zou immers in vervulling gaan?\n\nIk voelde dat mijn ogen reeds een vastere bik afgaven en stak mijn handen in mijn broekzakken met een losheid die mij een halfuur tevoren nog volkomen onbekend was.",
+      "context": "Laarmans na het accepteren van het kaasaanbod; bladzijde 26.",
+      "relevantie_mondeling": "Toont Laarmans' zelfoverschatting en zijn neiging een nieuwe pose aan te nemen zodra hij denkt een nieuwe identiteit te hebben. Typerend voor zijn karakter."
+    },
+    {
+      "citaat": "Brave, beste kinderen. Lieve, lieve vrouw.",
+      "context": "Slotzin van het boek, na de vermelding 'Antwerpen, 1 maart 1933'.",
+      "relevantie_mondeling": "De slotzin staat in scherp contrast met de rest van het verhaal: na alle ijdelheid en zelfbedrog eindigt Laarmans niet met een zakelijke balans maar met een stille, ontroerende terugkeer naar wat er echt toe doet. Typerend voor Elsschots sobere maar emotioneel trefzekere stijl."
+    }
+  ],
+  "cross_book_verbindingen": {
+    "andere_elsschot_op_lezen_voor_lijst": [
+      "Lijmen/Het been - Frans Laarmans als terugkerend alter ego"
+    ],
+    "vergelijkbare_thematiek_mislukking_en_droom": [
+      "De aanslag (Mulisch) - kloof tussen droom en werkelijkheid, terugkeer naar het gewone",
+      "Max Havelaar (Multatuli) - mislukking van de idealist tegenover een systeem"
+    ],
+    "vergelijkbare_satirische_toon": [
+      "Bint (Bordewijk) - sobere stijl, maatschappijkritiek",
+      "De avonden (Reve) - gewone man, alledaagsheid als literair materiaal"
+    ]
+  },
+  "mondeling_aandachtspunten_per_niveau": {
+    "N3": "Focus op de verhaallijn (kaasavontuur en mislukking), herkenbare emoties (statusverlangen, gezinsrelaties), de humor en de ironie. De archaïsche woordkeuzes kunnen uitdagend zijn maar worden ondersteund door de woordenlijst achterin. De vraag 'wat leert Laarmans?' is een toegankelijk instappunt.",
+    "N4": "Bovenop N3: de relatie tussen de inleiding over stijl en de roman zelf; de briefvorm en de onbekende 'je'; het satirische karakter; de subtiele ironie; de ontwikkeling van Laarmans en hoe die zichtbaar wordt via stijl. Ook de maatschappijkritiek en het thema van statusverlangen verdienen aandacht.",
+    "N5": "Bovenop N4: de literair-historische context (Forum, nieuwe zakelijkheid, modernisme); de relatie tussen Elsschots eigen handelsachtergrond en de stof; de poëticale inleiding over stijl als zelfstandig essay; Laarmans als alter ego in meerdere werken; de onbetrouwbare ik-verteller en narratologische analyse."
+  },
+  "mondelingvragen": {
+    "basics": [
+      {
+        "vraag": "Hoe begint het boek?",
+        "anker": "eerste_zin + briefvorm + onbekende 'je'",
+        "doorvraag": "Aan wie schrijft Laarmans eigenlijk? Waarom laat Elsschot die vraag onbeantwoord?"
+      },
+      {
+        "vraag": "Hoe eindigt het boek?",
+        "anker": "Laarmans bezoekt het graf van zijn moeder; slotzin 'Brave, beste kinderen. Lieve, lieve vrouw.'",
+        "doorvraag": "Waarom eindigt Elsschot niet met een zakelijke conclusie maar met een persoonlijk moment? Wat zegt dat over het eigenlijke thema?"
+      },
+      {
+        "vraag": "Wie zijn de belangrijkste personages?",
+        "anker": "Frans Laarmans, Fine, Van Schoonbeke, Hornstra",
+        "doorvraag": "Welk personage begrijpt de situatie het best? Hoe zie je dat?"
+      },
+      {
+        "vraag": "Wat betekent de titel?",
+        "anker": "titelverklaring oppervlakkig + dieper",
+        "doorvraag": "Waarom kiest Elsschot voor zo'n alledaagse, banale titel? Wat zegt dat over zijn stijl?"
+      },
+      {
+        "vraag": "Is er een motto in het boek?",
+        "anker": "Er is geen motto, maar wél een uitgebreid voorwerk: een opdracht aan Greshoff, een inleiding over stijl, een personagelijst en een elementenlijst.",
+        "doorvraag": "Wat doet de inleiding over stijl bij jou als lezer? Heb je die gelezen? Wat stond erin?"
+      }
+    ],
+    "plot_en_structuur": [
+      {
+        "vraag": "Hoe is het boek opgebouwd?",
+        "anker": "structuur: voorwerk + briefroman in één verhaallijn, chronologisch",
+        "doorvraag": "Waarom begint Elsschot met een inleiding over stijl voordat het verhaal begint? Wat wil hij daarmee bereiken?"
+      },
+      {
+        "vraag": "Vat de plot samen in vijf zinnen.",
+        "anker": "samenvatting.kort + in_fases trefwoorden"
+      },
+      {
+        "vraag": "Welke structurele beslissing vind jij het meest opvallend aan dit boek?",
+        "anker": "briefvorm, onbekende geadresseerde, voorwerk als literaire keuze",
+        "doorvraag": "Waarom schrijft Laarmans een brief? En aan wie?"
+      }
+    ],
+    "perspectief_en_vertelling": [
+      {
+        "vraag": "Vanuit welk perspectief is het boek geschreven?",
+        "anker": "perspectief: ik-verteller in briefvorm, wisselend vertellend- en belevend-ik",
+        "doorvraag": "Kun je Laarmans als verteller vertrouwen? Geef een voorbeeld van zijn zelfbedrog."
+      },
+      {
+        "vraag": "Aan wie schrijft Laarmans zijn brief?",
+        "anker": "De geadresseerde 'je' blijft onbekend; Elsschot identificeert hem/haar nergens.",
+        "doorvraag": "Maakt het uit voor jou als lezer wie die 'je' is? Of werkt het juist dat je dat niet weet?"
+      }
+    ],
+    "thematiek": [
+      {
+        "vraag": "Wat zijn de belangrijkste thema's van Kaas?",
+        "anker": "thematiek: droom vs. daad, statusverlangen, zelfbedrog, gezin, maatschappijkritiek",
+        "doorvraag": "Welk thema vind jij het meest actueel? Herken je het in het leven van mensen om je heen?"
+      },
+      {
+        "vraag": "Wat bedoelen we met 'de kloof tussen droom en daad' in dit boek?",
+        "anker": "thematiek: het falen van de droom + Elsschots dichtregels 'Maar tussen droom en daad / staan wetten in de weg / en praktische bezwaren'",
+        "doorvraag": "Zijn die dichtregels van Elsschot ook van toepassing op Laarmans? Leg uit."
+      },
+      {
+        "vraag": "Is Kaas een grappig boek of een treurig boek?",
+        "anker": "De satirische toon maakt het hilarisch voor de lezer; voor Laarmans zelf is het eerder pijnlijk. Elsschot combineert beide.",
+        "doorvraag": "Geef een voorbeeld van een scène die tegelijk grappig én treurig is."
+      }
+    ],
+    "motieven": [
+      {
+        "vraag": "Welke motieven herken je in het boek?",
+        "anker": "motieven: briefpapier, bureau, de kaas zelf, het graf, de gesloten deur",
+        "doorvraag": "Waarom besteedt Elsschot zoveel aandacht aan het briefpapier van Laarmans?"
+      },
+      {
+        "vraag": "Wat symboliseert de kaas in dit boek?",
+        "anker": "motieven: kaas als product waarvoor Laarmans walging voelt; symbool voor de mismatch tussen droom en werkelijkheid",
+        "doorvraag": "Waarom walgt Laarmans van kaas? En wat zegt dat over zijn onderneming?"
+      },
+      {
+        "vraag": "Waarom eindigt het boek bij het graf van Laarmans' moeder?",
+        "anker": "motief: graf als cirkelstructuur; het begin en einde van het verhaal zijn verbonden via de moeder",
+        "doorvraag": "Wat betekent het voor jou dat het boek begint én eindigt met de dood van de moeder?"
+      }
+    ],
+    "personages": [
+      {
+        "vraag": "Hoe ontwikkelt Frans Laarmans zich in het boek?",
+        "anker": "personages: Laarmans maakt een subtiele maar reële ontwikkeling door; hij waardeert aan het einde zijn gewone leven meer",
+        "doorvraag": "Is het een positieve of een negatieve ontwikkeling? Of allebei?"
+      },
+      {
+        "vraag": "Wat is de rol van Fine, de vrouw van Laarmans?",
+        "anker": "personages: Fine als remmende én ondersteunende kracht; ze doorziet de situatie beter dan Frans",
+        "doorvraag": "Is Fine een sympathiek personage? Staat ze aan de kant van Frans of niet?"
+      },
+      {
+        "vraag": "Waarom doet Laarmans de deur niet open als Hornstra aanbelt?",
+        "anker": "motief gesloten deur; Laarmans' onvermogen de confrontatie met de zakelijke werkelijkheid aan te gaan",
+        "doorvraag": "Is dit laf, of begrijp je het? Had jij de deur opengedaan?"
+      }
+    ],
+    "tijd_en_context": [
+      {
+        "vraag": "Wanneer en waar speelt het verhaal zich af?",
+        "anker": "decor: Antwerpen, 1933",
+        "doorvraag": "Maakt het uit dat het verhaal in 1933 speelt? Zou het in 2024 ook kunnen?"
+      },
+      {
+        "vraag": "Wanneer is het boek geschreven en gepubliceerd?",
+        "anker": "uitgave: 1933; interbellum; economische crisis na 1929",
+        "doorvraag": "Wat weet je over de economische en culturele context van 1933 in België/Nederland?"
+      },
+      {
+        "vraag": "Wat weet je over de schrijver Willem Elsschot?",
+        "anker": "auteur: pseudoniem van Alfons de Ridder; zelf werkzaam in de handel en reclame; Constantijn Huygensprijs 1951",
+        "doorvraag": "Hoe heeft Elsschots eigen loopbaan in de handel zijn schrijverschap beïnvloed?"
+      }
+    ],
+    "stroming_en_oeuvre": [
+      {
+        "vraag": "In welke literaire stroming of periode plaats je Kaas?",
+        "anker": "classificatie: interbellum, nieuwe zakelijkheid, modernisme; Forum-tijdschrift",
+        "doorvraag": "Wat kenmerkt de nieuwe zakelijkheid en herken je die in Elsschots stijl?"
+      },
+      {
+        "vraag": "Wat zijn andere bekende werken van Elsschot?",
+        "anker": "auteur.hoofdwerken: Villa des Roses, Lijmen, Het been, het gedicht 'Het huwelijk'",
+        "doorvraag": "Herken je thematische overeenkomsten tussen Kaas en wat je weet van Elsschots andere werk?"
+      },
+      {
+        "vraag": "Elsschot schreef ook een beroemd gedicht. Ken je het?",
+        "anker": "'Het huwelijk': 'Maar tussen droom en daad / staan wetten in de weg / en praktische bezwaren'",
+        "doorvraag": "Hoe sluit dit gedicht aan bij de thematiek van Kaas?"
+      }
+    ],
+    "mening_en_waardering": [
+      {
+        "vraag": "Wat vond je van het boek?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "stijl: de sobere, droge toon en de ironie",
+          "thema: herkenbaarheid van het statusverlangen",
+          "personage: sympathie voor of irritatie aan Laarmans",
+          "tempo: het boek heeft weinig externe actie, alles zit in Laarmans' hoofd"
+        ]
+      },
+      {
+        "vraag": "Zou je het aanraden aan een medeleerling?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "korte en toegankelijke roman",
+          "humor en ironie",
+          "het boek vraagt wel dat je de ironie oppikt; anders lees je het als een vlak verhaal"
+        ]
+      },
+      {
+        "vraag": "Wat is het sterkste moment in het boek?",
+        "onderbouwingsrichtingen": [
+          "de gesloten deur bij Hornstra's komst",
+          "de slotzin over vrouw en kinderen",
+          "het bezoek aan Van Schoonbeke waarbij Laarmans het briefpapier toont"
+        ]
+      }
+    ],
+    "cross_book": [
+      {
+        "vraag": "Welk ander boek op je lijst heeft een vergelijkbaar thema?",
+        "anker": "cross_book_verbindingen: droom vs. daad, mislukking, gewone man"
+      },
+      {
+        "vraag": "Vergelijk Kaas met een ander boek dat gaat over iemand die zijn plek in de maatschappij probeert te vinden.",
+        "anker": "cross_book: Max Havelaar, De avonden"
+      },
+      {
+        "vraag": "Kaas is een satirisch boek. Ken je een ander satirisch boek? Wat zijn de overeenkomsten?",
+        "anker": "cross_book: satirische toon, maatschappijkritiek"
+      }
+    ],
+    "film_en_adaptatie": [
+      {
+        "vraag": "Wist je dat Kaas verfilmd is? Heb je de film gezien?",
+        "anker": "receptie: verfilming 1999 door Orlow Seunke",
+        "doorvraag": "Wat zou je moeilijk vinden om te verfilmen aan dit boek?"
+      },
+      {
+        "vraag": "Er bestaat ook een stripversie van Kaas. Wat zou er verloren gaan als je het verhaal als strip leest?",
+        "anker": "receptie: stripbewerking Dick Matena 2008",
+        "doorvraag": "Wat draagt de briefvorm bij aan de beleving van het verhaal dat een strip niet kan bieden?"
+      }
+    ],
+    "verrassingsvragen": [
+      {
+        "vraag": "Wat zou jij doen als je in Laarmans' positie zat?",
+        "type": "open/reflectief"
+      },
+      {
+        "vraag": "Was er iets in het boek dat je niet begreep of vreemd vond?",
+        "anker": "Het voorwerk (inleiding over stijl, elementenlijst) kan verwarrend zijn; ook de identiteit van de geadresseerde 'je' blijft onopgelost."
+      },
+      {
+        "vraag": "Is Laarmans een held of een antiheld?",
+        "type": "open/interpretatie",
+        "doorvraag": "Kan iemand tegelijk zielig en komisch zijn? Geef een voorbeeld uit het boek."
+      }
+    ],
+    "leesechtheid": [
+      {
+        "vraag": "Als je één scène aan een klasgenoot zou voorlezen, welke kies je dan? En wat gebeurt er precies in die scène?",
+        "tactiek": "scene-voorkeur forceren",
+        "signaal_gelezen": "Noemt een bijscène die niet in de standaardsamenvatting centraal staat, bv. een specifiek gesprek met Fine, de advertentie voor agenten, een van de mislukte verkooppogingen, of het moment dat Laarmans zijn briefpapier trots aan Van Schoonbeke wil laten zien. Kan de scène in eigen woorden navertellen met concrete details.",
+        "signaal_niet_gelezen": "Kiest uitsluitend de openingsscène of de scène met Hornstra (standaard in elke samenvatting). Beschrijft de scène in abstracte termen zonder details."
+      },
+      {
+        "vraag": "Was er een deel waar je dacht: kom op, nu moet er iets gebeuren?",
+        "tactiek": "tempo-vraag",
+        "signaal_gelezen": "Benoemt een concreet deel - bv. de lange aanloopfase van het kantoor inrichten, de passages over het werven van agenten - en legt kort uit waarom het daar stagneert.",
+        "signaal_niet_gelezen": "Zegt 'nee' of geeft een generieke reactie zonder specificering."
+      },
+      {
+        "vraag": "Is er iets in het boek waarvan je dacht: hé, dat had ik niet verwacht?",
+        "tactiek": "verrassings-vraag",
+        "signaal_gelezen": "Noemt een detail buiten de plotontknoping - bv. dat Laarmans de naam van zijn bedrijf 'Gafpa' kiest en hoe lang hij daarover nadenkt, dat Fine het avontuur beëindigt door geen kaas meer op tafel te zetten, of de toon van de slotzin.",
+        "signaal_niet_gelezen": "Noemt alleen de gesloten deur bij Hornstra of de terugkeer naar de oude baan - beide staan in elke samenvatting."
+      },
+      {
+        "vraag": "Behalve Laarmans, welk personage is jou het meest bijgebleven en waarom?",
+        "tactiek": "bijpersonage-check",
+        "signaal_gelezen": "Noemt Fine met een specifieke opmerking of scène die haar nuchtere karakter illustreert, of benoemt een van de aangestelde agenten, of beschrijft Van Schoonbeke aan de hand van een concrete interactie.",
+        "signaal_niet_gelezen": "Noemt alleen Hornstra of Van Schoonbeke in abstracte termen die uit elke samenvatting te halen zijn."
+      },
+      {
+        "vraag": "Dacht je ergens in het boek: dit klopt niet, dit is te onwaarschijnlijk?",
+        "tactiek": "zelfkritiek uitlokken",
+        "signaal_gelezen": "Kan een concreet bezwaar formuleren, bv. dat het onrealistisch is dat Laarmans zo lang door kan gaan zonder iets te verkopen terwijl de rekeningen oplopen, of dat Van Schoonbekes motieven nooit worden verklaard.",
+        "signaal_niet_gelezen": "Zegt 'nee, alles klopte', of herhaalt abstracte kritiek die online te vinden is ('de stijl is saai')."
+      }
+    ]
+  },
+  "_meta": {
+    "bronnen_geconsulteerd": [
+      "lezenvoordelijst.nl docenteninfo niveau 4 - Kaas",
+      "scholieren.com ZWG-verslag door Pieta (2013)",
+      "nl.wikipedia.org/wiki/Kaas_(roman)"
+    ],
+    "samenstelling": "Eigen synthese van meerdere bronnen; geen letterlijke overnames met uitzondering van korte citaten (flaptekst, eerste zin, sleutelcitaten, opdracht) onder citeerrecht.",
+    "geharvest": "2026-04-20",
+    "schema_versie": "0.2-uitgebreid"
+  }
+}

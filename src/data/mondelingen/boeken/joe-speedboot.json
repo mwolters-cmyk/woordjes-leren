@@ -1,0 +1,742 @@
+{
+  "slug": "joe-speedboot",
+  "titel": "Joe Speedboot",
+  "auteur": {
+    "naam": "Tommy Wieringa",
+    "sortname": "Wieringa, Tommy",
+    "geboren": "1967-05-20",
+    "overleden": null,
+    "biografische_context": "Geboren op 20 mei 1967. Publiceerde in de tien jaar voor Joe Speedboot al drie romans, waarvan Alles over Tristan in 2002 de Halewijnprijs won. Joe Speedboot betekende zijn doorbraak bij het grote publiek. Hij is ook actief als columnist, eerst voor NRC, later voor de Volkskrant, en toont maatschappelijke betrokkenheid in werk als De dood van Murat Idrissi en Konvooi.",
+    "positie_literatuur": "Een van de meest gelezen en bekroonde Nederlandse romanciers van zijn generatie. Zijn werk wordt zowel in Nederland als in het buitenland goed ontvangen. Bekend om aanstekelijke verteltrant, humor, beeldenrijkdom en ongebreidelde fantasie die geloofwaardig blijft.",
+    "hoofdwerken": [
+      {
+        "titel": "Alles over Tristan",
+        "jaar": 2002,
+        "type": "bekroond met Halewijnprijs"
+      },
+      {
+        "titel": "Joe Speedboot",
+        "jaar": 2005,
+        "type": "doorbraakroman"
+      },
+      {
+        "titel": "Dit zijn de namen",
+        "jaar": null,
+        "opmerking": "Ook op Lezen voor de lijst, niveau 4"
+      },
+      {
+        "titel": "De heilige Rita",
+        "jaar": null,
+        "opmerking": "Ook op Lezen voor de lijst, niveau 4"
+      },
+      {
+        "titel": "Een mooie jonge vrouw",
+        "jaar": 2014,
+        "type": "boekenweekgeschenk"
+      },
+      {
+        "titel": "De dood van Murat Idrissi",
+        "jaar": 2017,
+        "opmerking": "Maatschappelijk geëngageerd werk"
+      },
+      {
+        "titel": "Nirwana",
+        "jaar": 2023
+      },
+      {
+        "titel": "Konvooi",
+        "jaar": 2024,
+        "opmerking": "Maatschappelijk geëngageerd werk"
+      }
+    ]
+  },
+  "uitgave": {
+    "eerste_druk": 2005,
+    "uitgeverij": "De Bezige Bij",
+    "plaats": "Amsterdam",
+    "isbn_13": "9789023485735",
+    "pagina_ongeveer": 316,
+    "oplage_eerste_maanden": null,
+    "opmerking_oplage": "In 2024 herdrukt door CPNB voor de boekencampagne Heel Nederland Leest; eerder herdrukt in 2009 in de Grote Lijsters-reeks van Noordhoff. In 2024 geselecteerd voor de grote leescampagne 'Nederland leest'. In 2026 verschijnt een verfilming."
+  },
+  "classificatie": {
+    "vak": "nederlands",
+    "leeftijdsgroep": "15-18",
+    "lezen_voor_lijst_niveaus": [
+      4
+    ],
+    "niveau_primair": 4,
+    "niveau_opmerking": "Ingedeeld op niveau 4. N3-lezers vinden er veel in, maar de existentiële filosofieën en het gebruik van leidmotieven vragen meer van N4- en N5-lezers. Geschikt voor ambitieuze N3, typische N4 en verdiepende N5.",
+    "geschikt_voor": [
+      "havo bovenbouw",
+      "vwo bovenbouw"
+    ],
+    "genres": [
+      "psychologische roman",
+      "coming-of-age"
+    ],
+    "literaire_periode": "begin eenentwintigste eeuw",
+    "stroming_invloed": []
+  },
+  "bron_urls": {
+    "lezenvoordelijst_leerling": "https://www.jeugdbibliotheek.nl/12-18-jaar/lezen-voor-de-lijst/15-18-jaar/niveau-4/joe-speedboot.html",
+    "lezenvoordelijst_docent": "https://www.lezenvoordelijst.nl/docenten-15-18/niveau-4/joe-speedboot/",
+    "scholieren_hub": "https://www.scholieren.com/boek/joe-speedboot-tommy-wieringa",
+    "wikipedia_nl": "https://nl.wikipedia.org/wiki/Joe_Speedboot_(boek)"
+  },
+  "flaptekst": "Fransje Hermans, de verteller van het verhaal, is na een ongeluk invalide geraakt en heeft voorgoed zijn spraakvermogen verloren. Hij is de zelfbenoemde chroniqueur van het dorp Lomark. Zijn fascinatie voor de nieuweling Joe Speedboot is grenzeloos: Joe Speedboot, de jongen die zijn eigen naam gekozen heeft en op zijn vijftiende al bommenlegger, vliegtuigbouwer en bewegingsfilosoof is. Nauwgezet observeert Fransje hoe nog een nieuwkomer de natuurlijke orde van het dorp komt verstoren: Joe's stiefvader Papa Afrika, een zachtaardige Nubiër met gazellenogen die een kleine scheepswerf begint op de oever van de Rijn. Dan verschijnt de geheimzinnige Picolien Jane, een beeldschone Zuid-Afrikaanse, aan wie Fransje zijn kronieken opdraagt en voor wie levenslange vriendschappen op het spel worden gezet. In haar komen alle verhalen samen, met noodlottige gevolgen.",
+  "eerste_zin": "Het is een warm voorjaar, in de klas bidden ze voor me omdat ik al meer dan tweehonderd dagen van de wereld ben. Ik heb doorligplekken over mijn hele lichaam en een condoom om mijn fluit. Dit is het stadium van de coma vigil, legt de dokter aan mijn ouders uit. Ik heb weer een beperkte ontvankelijkheid voor mijn omgeving. Het is goed nieuws, zegt hij, dat ik weer reageer op pijn- en geluidsprikkels. Reageren op pijn is onmiskenbaar een teken van leven.",
+  "eerste_zin_analyse": "De opening gooit de lezer direct in medias res: Fransje keert terug uit een langdurige coma terwijl zijn klasgenoten voor hem bidden. De combinatie van klinische taal ('coma vigil', 'pijn- en geluidsprikkels') en de brutale alledaagsheid ('condoom om mijn fluit') tekent onmiddellijk de stijl van het boek: afwisseling tussen het verheven en het banale. Tegelijk introduceert deze eerste zin de kern van Fransjes positie: hij is toeschouwer, hij hoort alles maar kan niet reageren. Dat is de existentiële grondhouding die het hele verhaal bepaalt.",
+  "motto": {
+    "citaat": null,
+    "bron": null,
+    "context": "Het boek bevat een motto. De precieze formulering en bron zijn op basis van de beschikbare bronnen niet volledig verifieerbaar; de docenteninfo van lezenvoordelijst.nl vermeldt wel dat het motto ten grondslag ligt aan de basisstructuur van het boek en de ontwikkeling van de hoofdpersoon, en dat vooral N4- en N5-lezers de strekking zullen aanspreken.",
+    "interpretatie": "Het motto verankert de tweedeling van het boek in de delen 'Penseel' en 'Zwaard': van observeren en beschrijven naar handelen en vechten. De ontwikkeling van Fransje van passieve chroniqueur naar actieve armworstelaar sluit direct aan bij wat het motto aanreikt als levensmodel."
+  },
+  "structuur": {
+    "indeling": "Drie delen: 'Penseel', 'Zwaard' en 'En toen'",
+    "episodes": [
+      {
+        "nr": 1,
+        "naam": "Deel I: Penseel",
+        "jaar": "ca. 1993-na eindexamen",
+        "trefwoord": "observeren, schrijven, vriendschap, buitenstaander"
+      },
+      {
+        "nr": 2,
+        "naam": "Deel II: Zwaard",
+        "jaar": "na eindexamen tot armworsteltoernooi Poznan",
+        "trefwoord": "handelen, armworstelen, verraad, breuk"
+      },
+      {
+        "nr": 3,
+        "naam": "Deel III: En toen",
+        "jaar": "vele jaren later",
+        "trefwoord": "nasleep, huwelijk PJ en Christof, Joe verdwijnt, Fransje en PJ"
+      }
+    ],
+    "chronologie": "Lineair chronologisch, met tijdsprongen tussen en binnen de delen. Één uitzondering: de aard van Fransjes ongeluk (een grasmaaier, een trekker die over hem heen reed) wordt pas geleidelijk via flashbacks onthuld. Seizoenen en kleine tijdmarkeringen structureren de vaart.",
+    "compositie_opmerking": "De titels 'Penseel' en 'Zwaard' zijn ontleend aan het motto en geven de metamorfose van Fransje aan: van observerend schrijver naar actief vechter. Het korte derde deel 'En toen' functioneert als epiloog en lost de resterende verhaaldraden op."
+  },
+  "perspectief": {
+    "type_hoofd": "Ik-perspectief, Fransje Hermans als verteller en focalisator",
+    "type_proloog": null,
+    "opmerking": "Het verhaal wordt wisselend in belevend en beschouwend ik-perspectief verteld, zonder vaste regelmaat. Fransje is tegelijk acteur én waarnemer van het dorpsleven. Doordat hij niet kan spreken en nauwelijks kan bewegen, is zijn stem uitsluitend intern en schriftelijk: alles wat hij denkt en schrijft bereikt de lezer rechtstreeks, maar andere personages kennen zijn innerlijk niet. Dit creëert een fundamentele kloof tussen Fransje en zijn omgeving die het hele boek draagt.",
+    "implicaties_voor_betekenis": "Het ik-perspectief maakt Fransje tot een betrouwbare maar tegelijk begrensde waarnemer. Hij ziet alles scherp, maar zijn oordelen over bijpersonen (met name PJ en Joe) zijn gekleurd door verliefdheid en bewondering. De lezer moet voortdurend feit en oordeel onderscheiden."
+  },
+  "samenvatting": {
+    "kort": "Fransje Hermans, zwaar gehandicapt na een ongeluk met een grasmaaier, is de zelfbenoemde chroniqueur van het fictieve rivierdorp Lomark. Wanneer de mysterieuze nieuwkomer Joe Speedboot het dorp binnendenderen, verandert Fransjes wereld voorgoed. Samen met Christof Maandag en Engel Eleveld vormt Joe een vriendengroep, tot ook de beeldschone Zuid-Afrikaanse Picolien Jane arriveert. Fransje observeert dit alles van de zijlijn, schrijft het op, en ontwikkelt zich in het tweede deel van een passieve chroniqueur tot actief armworstelaar - totdat verraad, verlies en desillusie de vriendenkring uiteenslaan.",
+    "per_deel": {
+      "deel_I_penseel": "Het verhaal begint wanneer Fransje na 220 dagen coma bijkomt in het ziekenhuis. Hij heeft een ernstig ongeluk gehad: hij was in slaap gevallen in een maisveld en werd overreden door het wiel van een cyclomaaier, waardoor zijn rug brak en zijn borstkas verbrijzeld werd. Hij kan alleen zijn rechterarm nog bewegen, is spastisch en kan niet meer verstaanbaar praten. Vanuit zijn ziekenhuisbed hoort hij al over de komst van Joe Speedboot: een nieuwkomer die als een meteoriet het dorp is binnengedenderd, waarbij de verhuiswagen zich in het huis van de Maandags heeft geboord en Joes vader door de voorruit vloog en omkwam. Joe heeft zijn naam zelf gekozen - zijn achternaam is Ratzinger, maar zijn voornaam hoorde hij klinken uit een radio op een steiger: Joe, uit het Jimi Hendrix-nummer 'Hey Joe'.\n\nTerug op school probeert Fransje zijn positie te heroveren. Met mondeling kan hij niet meedoen; zijn medescholier Engel helpt hem met plassen. Fransje begint dagboeken bij te houden over het leven in Lomark - hij noemt dit 'horizontale geschiedschrijving'. Hij benoemt zichzelf tot chroniqueur van het dorp, deels om zijn bestaan te rechtvaardigen, deels om later financieel onafhankelijk te zijn. Zijn bewondering voor Joe is grenzeloos, maar ook zijn jaloezie op Christof, die tussen hem en Joe instaat.\n\nHet dorp krijgt een tweede impuls met de komst van Picolien Jane (PJ), de dochter van een Zuid-Afrikaanse tandarts die zich in 1993 in Lomark vestigt. Ze is beeldschoon en vrijwel elke jongen wordt verliefd op haar; Fransje is no exception, al beseft hij dat dit een illusie is. Een andere nieuwkomer is Mahfouz Husseini, de Egyptische vriend van Joes moeder Regina Ratzinger, die Joe al snel 'Papa Afrika' noemt. Mahfouz bouwt op de oever van de Rijn een primitief zeilschip, een feloek. Na de tewaterlating vaart hij de hoek om en keert nooit meer terug - Joe vermoedt dat hij simpelweg naar huis is gevaren, de Rijn af richting Egypte, om te ontsnappen aan de controle die zijn moeder op zijn leven uitoefende.\n\nJoe bouwt intussen in een afgelegen schuur zijn eigen vliegtuig om de nudistische moeder van PJ te bespieden. Fransje mag eenmaal meerijden: een ijskoude, gevaarlijke vlucht die maar net goed afloopt. Fransje laat zich ook door zijn broer Dirk introduceren in het alcoholgebruik, wat leidt tot een spectaculaire kroegvechterij. Na het eindexamen vertrekt bijna iedereen: Engel naar de kunstacademie, Joe ook (hij neemt zijn vliegtuig mee als toelatingswerkstuk en wordt aangenomen voor Autonoom), PJ naar letterkunde in Amsterdam, Christof naar rechten. Fransje mag van zijn ouders niet studeren. Zijn vader bedacht voor hem een baan: papierbriketten persen. Fransje werkt er met overgave aan, totdat hij bij een bezoek aan de sloperij van zijn vader ontdekt dat er nooit één briket verkocht is. Al zijn arbeid was zinloos. Dit is de eerste grote desillusie die het einde van zijn schrijverscarrière inluidt.",
+      "deel_II_zwaard": "Na de ontnuchtering van de papierbriketten besluit Fransje iets te doen wat hij altijd geweigerd had: hij gaat armworstelen. Joe keert terug uit Amsterdam - hij heeft zijn studie opgegeven - en wordt zijn manager en trainer. Fransje bereidt zich voor op twee manieren: mentaal via het lezen van het Japanse krijgersboek 'Het boek van de vijf ringen', en fysiek door te trainen tegen de lokale dommekracht Hennie Oosteloo. In Luik bereikt hij verrassend de finale, die hij verliest van Mansur. Fransje begint ook hormonenpreparaten te gebruiken om zijn ene, al sterke arm verder te ontwikkelen.\n\nIntussen is PJ teruggekeerd uit Amsterdam, waar ze verkering had met de schrijver Arthur Metz die zijn handen niet thuis kon houden. Nu zijn Joe, Fransje en PJ vaak weer samen. In Rostock wint Fransje een toernooi; die nacht merkt hij dat Joe niet in hun gedeelde hotelkamer slaapt. Joe heeft de nacht bij PJ doorgebracht. Fransje is verpletterd van jaloezie maar kan niets doen. Joe en PJ krijgen min of meer verkering, en Joe vertelt Fransje veel over hun relatie, maar houdt de seksverhalen voor zich.\n\nOndertussen is Engel plotseling en absurd gestorven in Parijs: een hond viel van een flat en raakte hem op zijn hoofd. Na de begrafenis hoort Fransje op Radio 1 een interview met Arthur Metz over diens nieuwe roman 'Om een vrouw'. Fransje bestelt het boek en herkent PJ als het personage Tessel Eilander: een vrouw die seks inzet als vervanging voor intimiteit, die tijdens haar relatie met Metz met negen andere mannen naar bed ging en leed aan boulimie. Fransje overweegt het boek aan Joe te laten lezen, maar Joe weigert.\n\nDe climax vindt plaats in Poznan, bij een groot internationaal armworsteltoernooi. In de vierde ronde staat Fransje tegenover wereldkampioen Islam Mansur. Die is zo sterk dat hij Fransjes arm doormidden breekt. Bij het vertrek uit het hotel moeten de paspoorten worden opgehaald. PJ kijkt en ziet Joes echte naam: Achiel Stephan. Fransje heeft meegeleken en voelt zich schuldig - Joes ware naam, Achiel, is zijn achilleshiel, het enige dat zijn mythe kan doorprikken. Terug in Lomark, met Fransjes gebroken arm in het gips, verzorgt PJ hem. Ze tekent een afbeelding van Mansur op zijn gips, raakt hem aan en leidt dat tot hun eerste seksuele ontmoeting.\n\nJoe vertrekt voor de Parijs-Dakar rally in een omgebouwde shovel, gesponsord door Christofs vader en andere lokale bedrijven. Het hele dorp volgt hem op RTL 5. Dan verdwijnt hij in de laatste etappe - Fransje is de enige die begrijpt dat Joe doelbewust de laatste etappe heeft verlaten richting Sharm-el-Sjeik, dicht bij het dorp waar Papa Afrika vandaan komt. De shovel is Joes geschenk aan de man die hij als vaderfiguur beschouwde.",
+      "deel_III_en_toen": "Vele jaren later. Christof heeft PJ gevraagd hem te vergezellen op een studentenfeest; daarna krijgen die twee een relatie. PJ blijkt zwanger en er volgt een groot huwelijksfeest. Joe heeft het dorp verlaten, uit rancune over het verraad, en niemand hoort meer iets van hem. Dan verschijnt er opeens een vliegtuig boven het feest met een sleep waarop staat: 'Hoer van de eeuw'. Joe heeft het boek van Metz toch gelezen. PJ kijkt bij het zien van de tekst naar Fransje - want ondanks haar huwelijk met Christof gaat ze nog regelmatig naar bed met Fransje. Misschien is het kind dat ze draagt wel van hem. Het leven in Lomark gaat zijn gangetje, nu de E981 met geluidsschermen is aangelegd.",
+      "bevat_spoilers": true
+    }
+  },
+  "personages": {
+    "hoofdpersoon": {
+      "Fransje Hermans": {
+        "rol": "hoofdpersoon, ik-verteller, chroniqueur van Lomark",
+        "leeftijd_begin": 14,
+        "leeftijd_einde": null,
+        "beroep": "papierbrikettenpresser (tijdelijk), armworstelaar, schrijver/chroniqueur",
+        "karakter": "Intelligent, observerend, filosofisch. Fysiek zwaar gehandicapt na zijn ongeluk: kan vrijwel niet bewegen, niet spreken, alleen zijn rechterarm bewegen. Compenseert zijn beperkingen door scherp te kijken en alles op te schrijven. Jaloers op Christof vanwege diens vriendschap met Joe, verliefd op PJ zonder ooit hoop te koesteren. Heeft een droog gevoel voor humor en een aanleg voor existentiële bespiegelingen.",
+        "ontwikkeling": "Fransje doorloopt een metamorfose van passieve waarnemer en schrijver ('Penseel') naar actieve armworstelaar en uiteindelijk seksuele partner van PJ ('Zwaard'). Zijn grote desillusies - de papierbriketten, de gebroken arm, het verraad van PJ aan Joe - ontmantelen zijn illusies stuk voor stuk. Aan het einde heeft hij zijn schrijversambities achtergelaten en leeft hij een stilzwijgend compromis.",
+        "functie": "Fransje is tegelijk observerende buitenstaander en moreel centrum van de roman. Zijn positie als gehandicapte maakt hem onzichtbaar genoeg om alles te zien, maar betrokken genoeg om te lijden. Zijn vraag 'Wat stel ik voor?' is de existentiële kernvraag van het boek."
+      }
+    },
+    "bijfiguren": [
+      {
+        "naam": "Joe Speedboot",
+        "achternaam_echt": "Ratzinger; voornaam Achiel Stephan",
+        "rol": "titelpersonage, Fransjes idool en vriend",
+        "leeftijd": "vijftien bij aankomst in Lomark",
+        "karakter": "Charismatisch, stoïcijns, inventief en grenzeloos. Bouwt bommen, een vliegtuig en een rally-shovel. Zijn filosofie: 'Vooruitgang bestaat niet. Alleen beweging.' Spreekt zelden over zijn gevoelens. Zijn werkelijke naam is zijn zwakste plek - zodra die bekend is, verliest hij een deel van zijn glans.",
+        "ontwikkeling": "Joe blijft een mysterie: hij doet spectaculaire dingen maar zijn innerlijk blijft duister. Aan het einde verdwijnt hij uit het dorp, waarschijnlijk naar Papa Afrika in Egypte, en keert niet meer terug.",
+        "functie": "Joe is de katalysator van het verhaal en van Fransjes leven. Hij haalt Fransje uit zijn lethargie, traint hem als armworstelaar en geeft zijn bestaan zin. Hij wordt door Fransje als een soort Messias gezien: 'Joe is een verlosser zonder belofte; hij heeft geen vooruitgang gebracht, alleen beweging.'"
+      },
+      {
+        "naam": "Picolien Jane (PJ) Eilander",
+        "rol": "object van begeerte, spil van het verraad",
+        "afkomst": "Dochter van een Zuid-Afrikaanse tandarts",
+        "karakter": "Beeldschoon, manipulatief, seksueel actief. Als kind in Zuid-Afrika dik en lelijk, wat haar onzeker maakte. In Lomark ontdekt ze haar aantrekkingskracht en gebruikt die. Verraadt Joes echte naam in Poznan. Trouwt met Christof terwijl ze een seksuele relatie met Fransje onderhoudt.",
+        "ontwikkeling": "PJ wordt in de loop van het boek steeds minder het ideaalbeeld dat Fransje in haar ziet en steeds meer een complex, beschadigd personage dat seks inzet als vervanging voor echte intimiteit.",
+        "functie": "PJ is de spil waarom alle mannelijke vriendschappen draaien en uiteindelijk breken. Ze is tegelijk Fransjes muze ('Je ziet alles en je zegt niets') en de oorzaak van zijn definitieve verraad aan Joe."
+      },
+      {
+        "naam": "Christof Maandag",
+        "rol": "Joes eerste vriend in Lomark",
+        "afkomst": "Zoon van de grootste asfaltfabrikant van de streek",
+        "karakter": "Rustig, welgesteld, betrouwbaar maar uiteindelijk ook egoïstisch. Zijn uiterlijk doet Fransje denken aan Heinrich Himmler. Zijn vader sponsort Joes Parijs-Dakar-deelname.",
+        "ontwikkeling": "Christof begint als Joes beste vriend en eindigt als de man die PJ van Joe afpakt en met haar trouwt.",
+        "functie": "Staat voor de gevestigde orde in Lomark: vermogend, stabiel, maar ook degene die de meest gedurfde dromer van het dorp zijn geliefde ontneemt."
+      },
+      {
+        "naam": "Engel Eleveld",
+        "rol": "vriend van de groep, kunstenaar",
+        "karakter": "Jarenlang vrijwel onzichtbaar in de klas, tot hij opeens opvalt. Een womanizer die elke vrouw kan krijgen. Helpt Fransje met praktische dingen die Fransje zelf niet kan, zoals plassen.",
+        "lot": "Sterft op absurde wijze in Parijs: een hond valt van een flat en raakt hem op zijn hoofd.",
+        "functie": "Engels dood is de enige in het boek die rauw en onvoorbereid aankomt. Hij staat voor de absurditeit van het toeval en de broosheid van het leven."
+      },
+      {
+        "naam": "Mahfouz Husseini (Papa Afrika)",
+        "rol": "Joes moeder's vriend, vadersubstituut voor Joe",
+        "afkomst": "Egyptische Nubiër",
+        "karakter": "Zachtaardig, rustig. Bouwt op de oever van de Rijn een primitieve zeilboot, een feloek. Zijn paspoort is door Joes moeder Regina ingenomen om te voorkomen dat hij weggaat.",
+        "lot": "Vaart na de tewaterlating de hoek om en keert nooit terug. Joe vermoedt dat hij naar Egypte is gevaren.",
+        "functie": "Papa Afrika belichaamt het verlangen naar vrijheid en de onmogelijkheid daarvan. Joes uiteindelijke keuze om naar hem toe te rijden tijdens Parijs-Dakar is de meest intieme daad die Joe in het boek stelt."
+      },
+      {
+        "naam": "Regina Ratzinger",
+        "rol": "Joes moeder",
+        "karakter": "Controlerend, maar ook diep beschadigd door verlies. Haar eerste man stierf bij de verhuizing naar Lomark; haar tweede, Mahfouz, vertrok. Ze werd een vrouw waar mensen langs keken om haar verdriet niet te hoeven zien.",
+        "functie": "Haar pogingen controle te houden over de mensen om haar heen drijven zowel Joe als Mahfouz weg."
+      },
+      {
+        "naam": "Arthur Metz",
+        "rol": "schrijver, ex-vriend van PJ",
+        "karakter": "Slecht formuleert in interviews, maar schreef een autobiografische roman 'Om een vrouw' over zijn relatie met PJ (als personage 'Tessel Eilander'). Wreekt zich daarin op haar.",
+        "functie": "Metz' roman is een boek-in-het-boek dat Fransje informatie geeft over PJ die zijn beeld van haar ondermijnt. Het is ook een commentaar op schrijverschap als wraak en macht."
+      },
+      {
+        "naam": "Islam Mansur",
+        "rol": "wereldkampioen armworstelen",
+        "karakter": "Bovenmenselijk sterk. Breekt Fransjes arm bij het toernooi in Poznan.",
+        "functie": "Belichaamt de grens van Fransjes vermogen als doener. Na de gebroken arm is Fransjes periode als armworstelaar voorbij."
+      },
+      {
+        "naam": "De vader van Fransje",
+        "rol": "autosloper, Fransjes vader",
+        "karakter": "Weet nauwelijks vorm te geven aan zijn verhouding met zijn gehandicapte zoon. Bedacht voor hem de papierbrikettenbaan, maar heeft nooit één briket verkocht - de arbeid was pure opslag.",
+        "functie": "Staat voor de onmacht van ouders om te begrijpen wat hun kind nodig heeft. Zijn bedrog met de briketten is de eerste grote desillusie van Fransje."
+      },
+      {
+        "naam": "De moeder van Fransje",
+        "rol": "Fransjes moeder",
+        "karakter": "Koestert en verzorgt Fransje intensief. Geeft hem stiekem een aanvulling op zijn loon zodat hij toch geld heeft.",
+        "functie": "Tegenpool van de vader: warme betrokkenheid tegenover onbehulpzame distantie."
+      },
+      {
+        "naam": "Dirk en Sam",
+        "rol": "Fransjes broers",
+        "karakter": "Fransje heeft geen bevredigende verstandhouding met hen. Dirk introduceert hem in het alcoholgebruik.",
+        "functie": "Staan voor de pijnlijke kloof tussen Fransje en zijn directe omgeving."
+      }
+    ]
+  },
+  "thematiek": {
+    "hoofdthemas": [
+      {
+        "naam": "Desillusie en de kloof tussen droom en werkelijkheid",
+        "uitwerking": "Vrijwel elk personage in de roman koestert een verwachting die niet uitkomt. Fransjes schrijversambities stranden op de papierbrikettenzwendel. Zijn armworstelcarrière eindigt met een gebroken arm. Joe, de beloofde verlosser, verlaat het dorp gedesillusioneerd en zonder zijn idealen te hebben verwerkelijkt: Parijs-Dakar niet voltooid, PJ verloren, zijn naam onthuld. PJ trouwt niet met de man van wie ze houdt. Desillusie is geen falen van individuen, maar een structureel gegeven van het leven."
+      },
+      {
+        "naam": "Vriendschap, verraad en loyaliteit",
+        "uitwerking": "De kern van het verhaal is de vriendenkring van Fransje, Joe, Christof en Engel, met PJ als katalysator. Wat begint als een hechte groep wordt stap voor stap ondermijnd: PJ verraadt Joes naam, Christof steelt PJ van Joe, Fransje slaapt met PJ achter Joes rug. Verraad is in de roman niet zwart-wit: het vloeit voort uit verlangen, jaloezie en de kwetsbaarheid van elk mens. De roman stelt de vraag of echte vriendschap standhoudt als verlangen en eigenbelang in het spel zijn."
+      },
+      {
+        "naam": "Buitenstaanderschap en de drang naar erbij te horen",
+        "uitwerking": "Fransje is door zijn handicap permanent buitenstaander: hij volgt, kijkt, schrijft, maar doet zelden mee. Dit geeft hem een scherpe blik maar ook een chronisch gevoel van tekort. De roman onderzoekt hoe het is om op de leeftijd van je grootste sociale ontwikkeling aan de zijlijn te staan. Tegelijk toont Wieringa hoe die buitenstaanderspositie ook een bron van kracht is: Fransje ziet wat anderen niet zien, en zijn kronieken geven hem macht over het verhaal."
+      },
+      {
+        "naam": "Beweging versus stilstand, handelen versus observeren",
+        "uitwerking": "Joes levensfilosofie luidt: 'Vooruitgang bestaat niet. Alleen beweging.' Het boek is structureel opgebouwd rond de tegenstelling tussen Penseel (observeren, schrijven, stilstaan) en Zwaard (handelen, vechten, bewegen). Fransje probeert in het tweede deel Joe's filosofie te belichamen, maar ontdekt dat beweging zonder richting ook haar eigen prijs heeft. De handicap maakt dit thema tastbaar: voor Fransje is elke beweging een overwinning en elke stilstand een dreiging."
+      },
+      {
+        "naam": "Schrijverschap, waarheid en de verhouding tussen verhaal en werkelijkheid",
+        "uitwerking": "Fransje schrijft kroniek na kroniek; hij is de stem van Lomark. PJ zegt over hem: 'Je ziet alles en je zegt niets,' waarop Fransje schrijft: 'DEFINITIE VAN GOD.' Tegelijk toont het boek-in-het-boek van Metz dat schrijven ook een daad van wraak en manipulatie kan zijn. De roman stelt de vraag welke waarheid verhalen vastleggen en welke ze verbergen."
+      }
+    ]
+  },
+  "motieven": [
+    {
+      "naam": "Beweging en kinetica",
+      "betekenis": "Joe's centrale filosofie dat alles beweging is vormt een leidmotief door het hele boek. Zijn vliegtuig, bommen, shovel en uiteindelijke verdwijning zijn allemaal uitingen van deze bewegingsdrang. Fransjes handicap plaatst hem structureel in de tegenovergestelde positie: stilstand.",
+      "tekstplaatsen": [
+        {
+          "deel": "Deel I",
+          "context": "Joe ziet zeven Opel Manta's voorbijkomen: zijn eerste les in kinetica, in de schoonheid van beweging aangedreven door de verbrandingsmotor"
+        },
+        {
+          "deel": "Deel II",
+          "context": "'Vooruitgang bestaat niet. Alleen beweging.' - Joes credo, technisch én filosofisch te duiden"
+        },
+        {
+          "deel": "Deel III",
+          "context": "Joe verdwijnt tijdens Parijs-Dakar: de ultieme beweging zonder terugkeer"
+        }
+      ]
+    },
+    {
+      "naam": "De naam als identiteit",
+      "betekenis": "Joe heeft zijn naam zelf gekozen en beschermt die zorgvuldig. Zijn ware naam, Achiel Stephan, is zijn achilleshiel: zodra die bekend is, verliest hij een deel van zijn mythische status. Het ontdekken van de naam in Poznan is het scharnierpunt van het verraad.",
+      "tekstplaatsen": [
+        {
+          "deel": "Deel I",
+          "context": "Joe hoort zijn voornaam klinken uit een radio op een steiger: de naam 'Joe' uit het Jimi Hendrix-nummer 'Hey Joe'. 'Met zo'n naam kon je de wereld in.'"
+        },
+        {
+          "deel": "Deel II",
+          "context": "PJ en Fransje lezen in het paspoort: naam Ratzinger, voornamen Achiel Stephan. Fransjes reactie: 'O Joe, het spijt me het spijt me.'"
+        },
+        {
+          "deel": "Deel III",
+          "context": "Joe heeft blijkbaar van het verraad geweten: het vliegtuig met de sleep 'Hoer van de eeuw' is zijn antwoord"
+        }
+      ]
+    },
+    {
+      "naam": "Het boek-in-het-boek (Metz' roman)",
+      "betekenis": "De roman 'Om een vrouw' van Arthur Metz geeft de lezer via een andere stijl en een andere stem aanvullende informatie over PJ. Het is tegelijk een commentaar op schrijverschap als wraak en op de spanning tussen fictie en autobiografie.",
+      "tekstplaatsen": [
+        {
+          "deel": "Deel II",
+          "context": "Fransje bestelt de roman na het radio-interview en herkent PJ als Tessel Eilander"
+        },
+        {
+          "deel": "Deel II",
+          "context": "Hij twijfelt of hij het boek aan Joe moet laten lezen; Joe weigert het te lezen"
+        }
+      ]
+    },
+    {
+      "naam": "De Muizenstad",
+      "betekenis": "Op de kermis observeert Fransje hoe PJ een muis isoleert van de rest van de muizen in de Muizenstad. Dit moment onthult iets essentieels over PJ's karakter: haar vermogen om kille afstand te nemen en te manipuleren.",
+      "tekstplaatsen": [
+        {
+          "deel": "Deel I",
+          "context": "Joe en PJ bezoeken de Muizenstad; Fransje kijkt toe en ziet de wrede PJ een muis isoleren van de rest"
+        }
+      ]
+    },
+    {
+      "naam": "De feloek (het zeilschip van Papa Afrika)",
+      "betekenis": "Het zeilschip staat voor het verlangen naar vrijheid en terugkeer naar de oorsprong. Papa Afrika bouwt het als uitweg; zijn vertrek erop is de stilste maar krachtigste verdwijning in het boek - een voorafschaduwing van Joes eigen verdwijning aan het einde.",
+      "tekstplaatsen": [
+        {
+          "deel": "Deel I",
+          "context": "Papa Afrika bouwt de feloek aan de Rijn terwijl zijn paspoort door Joes moeder is ingenomen"
+        },
+        {
+          "deel": "Deel I",
+          "context": "Na de tewaterlating vaart hij de hoek om en keert nooit terug"
+        }
+      ]
+    },
+    {
+      "naam": "Het vliegtuig",
+      "betekenis": "Joes zelfgebouwde vliegtuig staat voor vindingrijkheid, grenzeloze fantasie en het overstijgen van beperkingen. Het keert terug aan het einde van het boek als instrument van wraak.",
+      "tekstplaatsen": [
+        {
+          "deel": "Deel I",
+          "context": "Joe neemt het vliegtuig mee als toelatingswerkstuk voor de kunstacademie; hij wordt aangenomen"
+        },
+        {
+          "deel": "Deel I",
+          "context": "Fransje mag eenmaal meerijden: een koude, gevaarlijke maar bevrijdende vlucht"
+        },
+        {
+          "deel": "Deel III",
+          "context": "Een vliegtuig trekt een sleep met 'Hoer van de eeuw' over het huwelijksfeest van PJ en Christof"
+        }
+      ]
+    }
+  ],
+  "stijl_en_taal": {
+    "kenmerken": "Het taalgebruik is opvallend divers: Wieringa wisselt vlot en soms banaal taalgebruik af met gecultiveerde, verheven passages. Zinnen zijn helder en overzichtelijk; korte staccatozinnen en langere wisselen elkaar af. Alinea's zijn compacte eenheden, vaak met een clou aan het einde, wat het boek een sterk intern ritme geeft.",
+    "register_verschuivingen": "Actie- en buitenscènes zijn levendig en concreet; Fransjes filosofische bespiegelingen zijn contemplatiever en soms existentieel van toon. De afwisseling sluit aan bij de tegenstelling tussen Fransjes actieve omgeving en zijn gedwongen observatorpositie.",
+    "karakteriseringstechniek": "Fransje wordt van binnenuit getekend: zijn gedachten, gevoelens en oordelen zijn direct toegankelijk. Bijpersonen worden waargenomen vanuit Fransjes perspectief, met diens oordelen en blinde vlekken. Joe blijft daardoor opzettelijk diffuus: hij wordt beschreven via zijn daden, niet via zijn innerlijk."
+  },
+  "decor": {
+    "hoofdlocaties": [
+      "Lomark (fictief rivierdorp, sterk gebaseerd op Huissen in de Over-Betuwe)",
+      "De Rijn-oever",
+      "Luik, Rostock, Halle, Poznan (armworsteltoernooien)",
+      "Parijs (Engel sterft er)",
+      "De woestijn (Parijs-Dakar rally)"
+    ],
+    "beeldsymbolisch_belang": "Lomark als fictief maar herkenbaar Nederlands provinciedorp staat voor de beslotenheid en stilstand waaruit Joe probeert te ontsnappen. De Rijn als grote rivier is de verbinding met de buitenwereld: Papa Afrika zeilt hem af, Joe rijdt hem uiteindelijk ook voorbij. Wieringa schreef het boek in het klooster van de dominicanen in Huissen, de stad die als model diende voor Lomark.",
+    "historisch_detail_lomark": "Lomark vertoont concrete overeenkomsten met Huissen: het dorpje Loo, de pont naar Duiven, een betonfabriek (in het boek een asfaltfabriek), het landelijk gebied De Omval en het industriegebied Looveer. Historische feiten als het bombardement tijdens de Tweede Wereldoorlog zijn verwerkt."
+  },
+  "titelverklaring": {
+    "oppervlakkig": "Joe Speedboot is de naam die de titelfiguur zichzelf heeft gegeven, ontleend aan het Jimi Hendrix-nummer 'Hey Joe' dat hij hoorde van een radio op een steiger. De naam vertegenwoordigt zijn zelfgecreëerde identiteit.",
+    "dieper": "Joe Speedboot is ook de naam die Fransje aan zijn eigen verhaal geeft. Door het boek te betitelen naar Joe in plaats van naar zichzelf, plaatst Fransje de ander boven zich - wat kenmerkend is voor zijn hele houding als bewonderaar en buitenstaander. Tegelijk is Joe Speedboot de belofte van snelheid, beweging en ontsnappensvermogen die het boek tegelijk inlost en ondermijnt."
+  },
+  "historische_context": {
+    "periode_boek": "Ca. 1993 tot vele jaren later (tijdsaanduidingen zijn globaal; PJs komst in 1993 is de enige expliciete datering)",
+    "belangrijkste_historische_gebeurtenissen_in_boek": [
+      "Parijs-Dakar rally als contemporaine achtergrond",
+      "RTL 5 als televisiekanaal (tijdsaanduiding)",
+      "Verwijzingen naar populaire cultuur (Jimi Hendrix, Meatloaf) als tijdskleur"
+    ],
+    "historische_personen_als_inspiratie": []
+  },
+  "receptie_en_prijzen": {
+    "verkoop_eerste_maanden": null,
+    "oplage_totaal": "61e druk in 2024",
+    "vertalingen": null,
+    "verfilming": {
+      "jaar": 2026,
+      "regisseur": null,
+      "productiemaatschappij": "BALDR Film",
+      "acteurs_belangrijk": [
+        "Tobias Kersloot (Joe Speedboot)"
+      ],
+      "opmerking": "Eerste poging tot verfilming door IJswater Films in 2005 tegengehouden via rechtszaak in 2008; Wieringa vond die voorgestelde verfilming een afbreuk aan zijn boek. In 2021 koos hij voor BALDR Film voor een nieuwe verfilming. Film ging in premiere in maart 2026.",
+      "prijzen": []
+    },
+    "toneelbewerking": null,
+    "stripbewerking": null,
+    "literaire_prijzen": [
+      {
+        "prijs": "Ferdinand Bordewijkprijs",
+        "jaar": 2006,
+        "status": "winnaar"
+      },
+      {
+        "prijs": "NS Publieksprijs",
+        "jaar": 2006,
+        "status": "genomineerd"
+      },
+      {
+        "prijs": "Libris Literatuur Prijs",
+        "jaar": 2006,
+        "status": "genomineerd"
+      },
+      {
+        "prijs": "AKO Literatuurprijs",
+        "jaar": null,
+        "status": "genomineerd"
+      },
+      {
+        "prijs": "Gouden Uil",
+        "jaar": null,
+        "status": "genomineerd"
+      },
+      {
+        "prijs": "Literatuurprijs Gerard Walschap",
+        "jaar": null,
+        "status": "genomineerd"
+      },
+      {
+        "prijs": "Prijs voor het mooiste boekomslag",
+        "jaar": null,
+        "status": "genomineerd"
+      }
+    ],
+    "overige_onderscheidingen": [
+      "In 2024 geselecteerd voor de grote leescampagne 'Nederland leest' / Heel Nederland Leest"
+    ]
+  },
+  "sleutelcitaten": [
+    {
+      "citaat": "Je ziet alles en je zegt niets.",
+      "spreker": "PJ tegen Fransje",
+      "context": "PJ leest Fransjes dagboeken en vat zijn schrijverschap samen in één zin.",
+      "relevantie_mondeling": "Typerende formulering voor Fransjes rol als chroniqueur en buitenstaander. Fransjes antwoord ('DEFINITIE VAN GOD') toont hoe hij zijn positie als schrijver verheft tot iets transcendents."
+    },
+    {
+      "citaat": "DEFINITIE VAN GOD",
+      "spreker": "Fransje (schrijft dit op een blaadje als antwoord op PJ)",
+      "context": "Reactie op PJ's opmerking dat hij alles ziet maar niets zegt.",
+      "relevantie_mondeling": "Sleutelmoment voor de thematiek van schrijverschap en macht. Toont ook Fransjes droge humor en zelfbewustzijn."
+    },
+    {
+      "citaat": "Vooruitgang bestaat niet. Alleen beweging.",
+      "spreker": "Joe Speedboot",
+      "context": "Joes levensfilosofie, meerdere malen in variaties uitgesproken.",
+      "relevantie_mondeling": "De kern van Joes wereldbeeld en het centrale thema van de roman. Kan worden gebruikt om de structuur (Penseel/Zwaard), Joes karakter en het desillusie-thema te verbinden."
+    },
+    {
+      "citaat": "Joe is een verlosser zonder belofte; hij heeft geen vooruitgang gebracht, alleen beweging.",
+      "spreker": "Fransje (verteller)",
+      "context": "Fransjes slotreflectie op Joes rol in zijn leven en in Lomark.",
+      "relevantie_mondeling": "Verbindt het Messias-motief met het desillusie-thema. Geschikt als kapstok voor een gesprek over wat Joe uiteindelijk heeft betekend."
+    },
+    {
+      "citaat": "Op de steiger stond een radio vol gruis en verfspatten, en daar kwam op dat moment zijn voornaam uit te voorschijn. Zo blij als een kind dat zijn moeder herkent in een menigte, hoorde hij het eerst zijn voornaam klinken: Joe. In het liedje 'Hey Joe' van Jimi Hendrix.",
+      "spreker": "Verteller (over Joe)",
+      "context": "Het moment waarop Joe zijn naam kiest.",
+      "relevantie_mondeling": "Illustreert het motief van de naam als zelfgecreëerde identiteit."
+    }
+  ],
+  "cross_book_verbindingen": {
+    "andere_wieringa_op_lezen_voor_lijst": [
+      "Dit zijn de namen - niveau 4",
+      "De heilige Rita - niveau 4"
+    ],
+    "vergelijkbare_coming_of_age": [
+      "De avonden (Gerard Reve, 1947) - buitenstaanderschap, existentieel",
+      "Turks fruit (Jan Wolkers, 1969) - seksualiteit, verlies, verraad",
+      "Het smelt (Lize Spit, 2016) - vriendenkring, schuld, dorpse beklemming"
+    ],
+    "vergelijkbare_thematiek_desillusie": [
+      "Het diner (Herman Koch, 2009) - schijnwereld, verraad in vriendschap",
+      "Tirza (Arnon Grunberg, 2006) - vaderschap, verlies, illusies"
+    ]
+  },
+  "mondeling_aandachtspunten_per_niveau": {
+    "N3": "Focus op de verhaallijn, de vriendenkring en de emotionele beleving van Fransje. Thema's als buitenstaanderschap, verliefdheid en verraad zijn direct herkenbaar. De handicap als invalshoek voor inleving. Deelstructuur Penseel/Zwaard als eenvoudig kapstok.",
+    "N4": "Bovenop N3: analyse van het ik-perspectief en de beperkingen daarvan, de rol van het motto in de structuur, het desillusie-thema uitgewerkt per personage, de functie van leidmotieven (beweging, naam, vliegtuig). Schrijverschap als thema.",
+    "N5": "Bovenop N4: intertekstualiteit (Metz' boek-in-het-boek, 'Het boek van de vijf ringen'), de Messias-typering van Joe en wat die literair betekent, oeuvre-context van Wieringa, de verhouding tussen fictie en autobiografie als poëticaal thema, receptiegeschiedenis en vertaalproblematiek van stijl."
+  },
+  "mondelingvragen": {
+    "basics": [
+      {
+        "vraag": "Hoe begint het boek?",
+        "anker": "eerste_zin: Fransje komt bij uit coma, klinische taal gecombineerd met brutale alledaagsheid",
+        "doorvraag": "Wat zegt die eerste zin over de stijl van het hele boek?"
+      },
+      {
+        "vraag": "Hoe eindigt het boek?",
+        "anker": "Joe verdwijnt; PJ trouwt met Christof maar slaapt nog met Fransje; vliegtuig met 'Hoer van de eeuw'",
+        "doorvraag": "Is dit een open of gesloten einde? Wat laat Wieringa onbeantwoord?"
+      },
+      {
+        "vraag": "Wie zijn de hoofdpersonen?",
+        "anker": "Fransje Hermans (ik-verteller), Joe Speedboot (titelpersonage), PJ (spil van het verraad)",
+        "doorvraag": "Waarom heet het boek 'Joe Speedboot' en niet 'Fransje Hermans'?"
+      },
+      {
+        "vraag": "Wat betekent de tweedeling 'Penseel' en 'Zwaard'?",
+        "anker": "motto bepaalt structuur: van observeren/schrijven naar handelen/vechten",
+        "doorvraag": "Heeft Fransje door die overgang gewonnen of verloren?"
+      },
+      {
+        "vraag": "Wat betekent de titel?",
+        "anker": "titelverklaring: zelfgekozen naam Joe, maar ook: de roman die Fransje aan Joe wijdt",
+        "doorvraag": "Wat zegt het over Fransje dat hij zijn boek naar Joe noemt en niet naar zichzelf?"
+      }
+    ],
+    "plot_en_structuur": [
+      {
+        "vraag": "Hoe is het verhaal opgebouwd?",
+        "anker": "drie delen: Penseel, Zwaard, En toen - lineair chronologisch met tijdsprongen",
+        "doorvraag": "Waarom eindigt het boek met een kort derde deel in plaats van in deel II?"
+      },
+      {
+        "vraag": "Vat de plot samen in vijf zinnen.",
+        "anker": "samenvatting.kort en samenvatting.per_deel trefwoorden"
+      },
+      {
+        "vraag": "Hoe wordt Fransjes ongeluk in het boek verteld?",
+        "anker": "niet in de openingsscène maar geleidelijk via flashbacks onthuld",
+        "doorvraag": "Waarom kiest Wieringa ervoor het ongeluk niet aan het begin volledig te vertellen?"
+      }
+    ],
+    "perspectief_en_vertelling": [
+      {
+        "vraag": "Vanuit welk perspectief is het boek geschreven?",
+        "anker": "ik-perspectief Fransje, wisselend belevend en beschouwend",
+        "doorvraag": "Wat zijn de beperkingen van dit perspectief? Wat weet de lezer niet zeker?"
+      },
+      {
+        "vraag": "Fransje kan niet spreken. Hoe communiceert hij dan in het boek?",
+        "anker": "schrijft op blaadjes, schrijft dagboeken; zijn stem is uitsluitend intern en schriftelijk",
+        "doorvraag": "Hoe beïnvloedt dit zijn rol als chroniqueur?"
+      },
+      {
+        "vraag": "Hoe weet de lezer meer over PJ dan Fransje aanvankelijk weet?",
+        "anker": "het boek-in-het-boek van Metz geeft in een andere stijl aanvullende informatie over PJ",
+        "doorvraag": "Wat is het effect van die techniek op de lezer?"
+      }
+    ],
+    "thematiek": [
+      {
+        "vraag": "Wat zijn de hoofdthema's van Joe Speedboot?",
+        "anker": "thematiek: desillusie, vriendschap en verraad, buitenstaanderschap, beweging vs stilstand, schrijverschap",
+        "doorvraag": "Welk thema vind jij het sterkst uitgewerkt en waarom?"
+      },
+      {
+        "vraag": "Hoe werkt het thema desillusie in dit boek?",
+        "anker": "thematiek desillusie: Fransje (briketten, gebroken arm), Joe (PJ verloren, naam onthuld, Parijs-Dakar niet voltooid), PJ (huwelijk als compromis)",
+        "doorvraag": "Is desillusie in dit boek iets negatiefs, of ook een vorm van volwassen worden?"
+      },
+      {
+        "vraag": "Joe wordt door Fransje als een soort Messias gezien. Wat bedoelt Fransje daarmee?",
+        "anker": "sleutelcitaat: 'Joe is een verlosser zonder belofte; hij heeft geen vooruitgang gebracht, alleen beweging'",
+        "doorvraag": "Maakt Joe zijn belofte als verlosser waar? En wat zegt dat over het idee van verlossing?"
+      }
+    ],
+    "motieven": [
+      {
+        "vraag": "Welke leidmotieven herken je in Joe Speedboot?",
+        "anker": "motieven: beweging/kinetica, de naam als identiteit, het vliegtuig, de feloek, de Muizenstad, Metz' roman",
+        "doorvraag": "Welk motief vind jij het meest veelzeggend?"
+      },
+      {
+        "vraag": "Bespreek het motief van de naam aan de hand van tekstplaatsen.",
+        "anker": "Joe kiest zijn naam bij de radio; de onthulling in Poznan; het vliegtuig als wraak",
+        "doorvraag": "Waarom is het kennen van Joes echte naam zo'n verraad?"
+      },
+      {
+        "vraag": "Wat symboliseert het vliegtuig dat Joe bouwt?",
+        "anker": "vrijheid, vindingrijkheid, overstijgen van beperkingen; keert terug als wraaktuig in deel III",
+        "doorvraag": "Hoe verandert de betekenis van het vliegtuig tussen deel I en deel III?"
+      }
+    ],
+    "personages": [
+      {
+        "vraag": "Hoe ontwikkelt Fransje zich in het boek?",
+        "anker": "van passieve chroniqueur naar actief armworstelaar; desillusies ontmantelen zijn illusies",
+        "doorvraag": "Is Fransje aan het einde van het boek verder gekomen of heeft hij iets verloren?"
+      },
+      {
+        "vraag": "Hoe wordt PJ in het boek neergezet?",
+        "anker": "eerst als ideaalbeeld, later als complex beschadigd personage via Metz' roman",
+        "doorvraag": "Wie heeft er gelijk over PJ: Fransje, Joe of Metz?"
+      },
+      {
+        "vraag": "Waarom verdwijnt Joe aan het einde uit Lomark?",
+        "anker": "gedesillusioneerd: PJ verloren aan Christof, naam onthuld, Parijs-Dakar niet voltooid; rijdt naar Papa Afrika",
+        "doorvraag": "Is Joes verdwijning een keuze of een vlucht?"
+      }
+    ],
+    "tijd_en_context": [
+      {
+        "vraag": "Wanneer en waar speelt het verhaal zich af?",
+        "anker": "fictief dorp Lomark (gebaseerd op Huissen in de Over-Betuwe); PJ's komst in 1993 als enige expliciete datering",
+        "doorvraag": "Waarom kiest Wieringa een fictief dorp in plaats van een bestaand dorp?"
+      },
+      {
+        "vraag": "Wanneer is het boek geschreven en uitgegeven?",
+        "anker": "uitgave 2005; Wieringa's vierde roman; doorbraak bij groot publiek",
+        "doorvraag": "Wieringa schreef het boek in een klooster in Huissen. Wat zegt dat over de verhouding tussen auteur en stof?"
+      },
+      {
+        "vraag": "Welke culturele verwijzingen komen er in het boek voor?",
+        "anker": "Jimi Hendrix 'Hey Joe', 'Het boek van de vijf ringen' (Japanse samoeraiwijsheid), Arthur Metz als fictieve auteur",
+        "doorvraag": "Wat doen die verwijzingen voor het karakter van Joe respectievelijk Fransje?"
+      }
+    ],
+    "stroming_en_oeuvre": [
+      {
+        "vraag": "In welk genre valt Joe Speedboot?",
+        "anker": "psychologische roman, coming-of-age",
+        "doorvraag": "Is het ook een coming-of-age-roman als de hoofdpersoon fysiek nauwelijks kan 'groeien'?"
+      },
+      {
+        "vraag": "Hoe past Joe Speedboot in het oeuvre van Tommy Wieringa?",
+        "anker": "vierde roman, doorbraakwerk; Wieringa is ook columnist en maatschappelijk geëngageerd schrijver",
+        "doorvraag": "Herken je in Joe Speedboot al iets van de maatschappelijke betrokkenheid die zijn latere werk kenmerkt?"
+      },
+      {
+        "vraag": "Welke prijzen won het boek?",
+        "anker": "Ferdinand Bordewijkprijs 2006 gewonnen; genomineerd voor NS Publieksprijs, Libris, AKO, Gouden Uil",
+        "doorvraag": "Wat denk jij dat de jury bij de Ferdinand Bordewijkprijs aantrok in dit boek?"
+      }
+    ],
+    "mening_en_waardering": [
+      {
+        "vraag": "Wat vond je van het boek?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "stijl: humor en variatie in register",
+          "personages: Joe als mythos of als teleurstelling",
+          "tempo: actie in deel II vs filosofische passages",
+          "slot: bevredigend of te open?"
+        ]
+      },
+      {
+        "vraag": "Zou je Joe Speedboot aanraden aan een klasgenoot?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "herkenbaarheid: vriendenkring, verliefdheid, buitenstaanderschap",
+          "toegankelijkheid: lineair verhaal, heldere taal",
+          "diepte: filosofische passages vereisen geduld"
+        ]
+      },
+      {
+        "vraag": "Wat vond je het sterkste deel van het boek?",
+        "onderbouwingsrichtingen": [
+          "deel I: opbouw vriendenkring en introductie Joe",
+          "armworstelscènes in deel II: spannend en concreet",
+          "de onthulling van Joes naam in Poznan",
+          "deel III als laconiek afscheid"
+        ]
+      }
+    ],
+    "cross_book": [
+      {
+        "vraag": "Welk ander boek op je lijst heeft een vergelijkbaar thema van buitenstaanderschap of desillusie?",
+        "anker": "cross_book_verbindingen"
+      },
+      {
+        "vraag": "Vergelijk de vriendenkring in Joe Speedboot met die in een ander boek dat je gelezen hebt.",
+        "anker": "vriendschap als thema: dynamiek, verraad, loyaliteit"
+      },
+      {
+        "vraag": "Het smalt van Lize Spit speelt ook in een dorpse vriendenkring. Wat zijn overeenkomsten en verschillen met Joe Speedboot?",
+        "anker": "beide: beslotenheid van het dorp, vriendschap die verzuurt, verraad; verschil: perspectief, toon"
+      }
+    ],
+    "film_en_adaptatie": [
+      {
+        "vraag": "Er is in 2026 een verfilming uitgebracht. Hoe zou jij Joe Speedboot casten?",
+        "anker": "verfilming met Tobias Kersloot als Joe; BALDR Film",
+        "doorvraag": "Welke scène uit het boek zou jij het moeilijkst te verfilmen vinden en waarom?"
+      },
+      {
+        "vraag": "Wieringa hield via een rechtszaak een eerdere verfilming tegen. Wat zegt dat over zijn verhouding tot zijn eigen boek?",
+        "anker": "eerste poging IJswater Films tegengehouden in 2008; Wieringa vond het een afbreuk aan zijn verhaal",
+        "doorvraag": "Wat zou er verloren gaan als je Fransjes innerlijk leven zou moeten verfilmen?"
+      }
+    ],
+    "verrassingsvragen": [
+      {
+        "vraag": "Als Joe nog één keer terugkeerde naar Lomark, wat zou hij dan doen?",
+        "type": "open/speculatief"
+      },
+      {
+        "vraag": "Was er iets in het boek dat je niet begreep of waarmee je het niet eens was?",
+        "anker": "existentiële passages, Fransjes passiviteit, PJ's motivaties zijn bewust ambigu gehouden"
+      },
+      {
+        "vraag": "Fransje zegt over zichzelf: 'Ik doe nergens aan mee. Onmogelijk.' Maar is dat waar?",
+        "type": "open/reflectief op personage"
+      }
+    ],
+    "leesechtheid": [
+      {
+        "vraag": "Als je één scène aan een klasgenoot zou voorlezen, welke kies je dan? En wat gebeurt er in die scène precies?",
+        "tactiek": "scene-voorkeur forceren",
+        "signaal_gelezen": "Noemt een scène die niet in elke samenvatting centraal staat, zoals de vlucht met het vliegtuig, de worstelpartij in de kroeg, de tewaterlating van de feloek, of het moment waarop Fransje zijn vaders sloperij bezoekt en de muur van onverkochte briketten ziet. Kan de scène navertellen met zintuiglijke details.",
+        "signaal_niet_gelezen": "Kiest de openingsscène of de ontknoping in Poznan (meest besproken in samenvattingen). Beschrijft de scène vaag en abstract zonder textuur."
+      },
+      {
+        "vraag": "Was er een deel waar je dacht: schiet nou eens op?",
+        "tactiek": "tempo-vraag",
+        "signaal_gelezen": "Noemt een concrete sectie, zoals de filosofische bespiegelingen van Fransje, of het uitgebreide stuk over de papierbriketten, en kan toelichten waarom dat langzamer las.",
+        "signaal_niet_gelezen": "Zegt 'nee, eigenlijk niet' of geeft een generieke 'het was soms saai' zonder specificatie."
+      },
+      {
+        "vraag": "Is er iets in het boek waarvan je dacht: dat had ik niet verwacht?",
+        "tactiek": "verrassings-vraag",
+        "signaal_gelezen": "Noemt een detail buiten de grote plotwendingen, zoals de absurde doodsoorzaak van Engel (hond valt van een flat), de echte naam van Joe (Achiel Stephan), of de onthulling dat nooit één briket verkocht is.",
+        "signaal_niet_gelezen": "Verwijst naar de onthulling van Joes naam of het vliegtuig met de sleep als verrassing - die staan in elke samenvatting."
+      },
+      {
+        "vraag": "Behalve Fransje en Joe, welk personage is jou het meest bijgebleven?",
+        "tactiek": "bij-personage-check",
+        "signaal_gelezen": "Noemt een personage dat niet uitgebreid in korte samenvattingen staat, zoals Engel (zijn hulp bij het plassen, zijn womanizer-gedrag, zijn absurde dood), Papa Afrika (het verhaal van zijn geliefde in Egypte, het afgenomen paspoort), of Regina Ratzinger.",
+        "signaal_niet_gelezen": "Noemt alleen PJ of Christof, die in elke samenvatting uitgebreid voorkomen."
+      },
+      {
+        "vraag": "Dacht je ergens: dit is te toevallig, had Wieringa dit anders kunnen aanpakken?",
+        "tactiek": "zelfkritiek uitlokken",
+        "signaal_gelezen": "Kan een concreet bezwaar formuleren, zoals dat Fransje uitgerekend bij de bomaanslag van Joe terechtkomt via zijn broers, of dat PJ's Metz-roman precies op het juiste moment verschijnt.",
+        "signaal_niet_gelezen": "Zegt 'nee, alles klopte' of herhaalt abstracte kritiek ('het was soms te filosofisch') zonder tekstbinding."
+      }
+    ]
+  },
+  "_meta": {
+    "bronnen_geconsulteerd": [
+      "lezenvoordelijst.nl docenteninfo (niveau 4, Joe Speedboot)",
+      "scholieren.com ZWG-verslag door Cees (2005)",
+      "nl.wikipedia.org/wiki/Joe_Speedboot_(boek)"
+    ],
+    "samenstelling": "Eigen synthese van meerdere bronnen; geen letterlijke overnames met uitzondering van korte citaten (flaptekst, eerste zin, sleutelcitaten) onder citeerrecht.",
+    "geharvest": "2026-04-20",
+    "schema_versie": "0.2-uitgebreid"
+  }
+}

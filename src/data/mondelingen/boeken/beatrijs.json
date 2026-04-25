@@ -1,0 +1,588 @@
+{
+  "slug": "beatrijs",
+  "titel": "Beatrijs",
+  "auteur": {
+    "naam": "Onbekend",
+    "sortname": "Onbekend",
+    "geboren": null,
+    "overleden": null,
+    "biografische_context": "De dichter van Beatrijs is anoniem gebleven. Vermoedelijk was het een professioneel voordrachtskunstenaar, een zogenoemde 'spreker', die zijn brood verdiende met dichten en voordragen en van hof tot hof trok. Dit zou kunnen blijken uit de openingszin, die gelezen wordt als de typische klacht van de broodschrijver. De auteur was werkzaam in het Brabantse gebied, mogelijk in de omgeving van Brussel. Namen als Diederic van Assenede en Jacob van Maerlant zijn als mogelijke auteurs gesuggereerd, maar worden algemeen afgewezen: zij leefden in de dertiende eeuw, niet in Brabant, en het dichten was voor hen geen beroep. Onderzoeker Robert Guiette noemde de anonieme dichter een groot dichter én een bijzonder scherpzinnig waarnemer en psycholoog. Ook Frits van Oostrom beschouwt de auteur als een echte literator die uit beschikbaar materiaal een boeiend levensverhaal wist te componeren.",
+    "positie_literatuur": "De anonieme dichter van Beatrijs wordt door onderzoekers gerekend tot de beste Middelnederlandse schrijvers. Zijn versie van de Beatrijslegende geldt als het hoogtepunt van de Middelnederlandse vertelkunst en werd door Guiette aangeduid als 'sans doute la rédaction la plus parfaite du thème' - ongetwijfeld de meest volmaakte uitwerking van het thema, van alle 54 middeleeuwse versies in uiteenlopende talen. De tekst was na zijn herontdekking in 1841 door W.J.A. Jonckbloet een van de meest gewaardeerde en meest besproken teksten uit de veertiende eeuw.",
+    "hoofdwerken": [
+      {
+        "titel": "Beatrijs",
+        "jaar": null,
+        "type": "enig overgeleverd werk",
+        "opmerking": "Gedateerd rond 1270 (op basis van flaptekst hertaling) tot veertiende eeuw (handschrift circa 1374); één enkel bewaard handschrift"
+      }
+    ]
+  },
+  "uitgave": {
+    "eerste_druk": 1963,
+    "uitgeverij": "Taal & Teken",
+    "plaats": null,
+    "isbn_13": null,
+    "pagina_ongeveer": 47,
+    "oplage_eerste_maanden": null,
+    "opmerking_oplage": "De editie van Taal & Teken (1982, eerste druk in deze reeks 1963) telt 47 pagina's en is één van de meest gebruikte schooledities. Er bestaan talloze hertalingen en bewerkingen, waaronder de hertaling door Willem Wilmink (1995, Prometheus) en de editie van Theo Meder (1995). Sedert 1841 zijn er volgens de inventaris van Remco Sleiderink 46 hertalingen of bewerkingen in het Nederlands verschenen."
+  },
+  "classificatie": {
+    "vak": "nederlands",
+    "leeftijdsgroep": "15-18",
+    "lezen_voor_lijst_niveaus": [
+      4
+    ],
+    "niveau_primair": 4,
+    "niveau_opmerking": "Ingedeeld op niveau 4 van de lezenvoordelijst (15-18 jaar). N2- en N3-lezers kunnen het in hertaling lezen; N5-lezers kunnen de originele Middelnederlandse tekst bestuderen naast de hertaling. De originele tekst is nadrukkelijk niet aanbevolen voor N4 of lager.",
+    "geschikt_voor": [
+      "vmbo bovenbouw",
+      "havo bovenbouw",
+      "vwo bovenbouw"
+    ],
+    "genres": [
+      "Marialegende",
+      "middeleeuws mirakelgedicht",
+      "voordrachtstekst"
+    ],
+    "literaire_periode": "Middeleeuwen (veertiende eeuw)",
+    "stroming_invloed": [
+      "Middelnederlandse letterkunde",
+      "hoofse literatuur",
+      "religieuze literatuur"
+    ]
+  },
+  "bron_urls": {
+    "lezenvoordelijst_leerling": "https://www.jeugdbibliotheek.nl/12-18-jaar/lezen-voor-de-lijst/15-18-jaar/niveau-4/beatrijs.html",
+    "lezenvoordelijst_docent": "https://www.lezenvoordelijst.nl/docenten-15-18/niveau-4/beatrijs/",
+    "scholieren_hub": "https://www.scholieren.com/boek/beatrijs-onbekend",
+    "wikipedia_nl": "https://nl.wikipedia.org/wiki/Beatrijs"
+  },
+  "flaptekst": "De Marialegende Beatrijs - geschreven rond 1270 - wordt algemeen beschouwd als het hoogtepunt van onze middeleeuwse vertelkunst. Het verhaal geeft een goed beeld van de belangrijke rol die Maria in de geloofsbeleving van de middeleeuwse mensen speelde.\n\nDrie vormen van liegt beheersen de gebeurtenissen. De lichamelijke liefde die de non Beaterijs tot zonde brengt, de moederliefde die haar naar een nieuwe zonde leidt en haar liefde tot Maria die de zonde opheft. Ontrouw, trouw, berouw, genade en ontferming zijn de voornaamste motieven in dit prachtige verhaal.",
+  "eerste_zin": "Schrijven levert me slechts weinig op. De mensen raden me aan het te laten en mijn geest niet te pijnigen.",
+  "eerste_zin_analyse": "De openingszinnen worden gelezen als de typische klacht van de broodschrijver, de professionele voordrachtskunstenaar die zijn levensonderhoud verdiende met dichten. De verteller voert zichzelf meteen op als een ik-figuur die tegelijk dichter en voordrager is. Dit authenticeert het verhaal - de verteller beweert het van een monnik gehoord te hebben - en plaatst de lezer direct in de middeleeuwse vertelconventie waarbij de voordrachtskunstenaar aanwezig is in zijn eigen tekst.",
+  "motto": null,
+  "structuur": {
+    "indeling": "Proloog + drie herkenbare fases, chronologisch verteld in 1038 verzen (rijmende paarsgewijze verzen)",
+    "episodes": [
+      {
+        "nr": 1,
+        "naam": "Inleiding en vertrek",
+        "jaar": null,
+        "trefwoord": "Beatrijs' liefde, de brief, het vertrek uit het klooster"
+      },
+      {
+        "nr": 2,
+        "naam": "De zeven vette jaren en de val",
+        "jaar": null,
+        "trefwoord": "zeven jaar rijkdom, verlating door de minnaar, prostitutie buiten de stad"
+      },
+      {
+        "nr": 3,
+        "naam": "De tweede cyclus van zeven jaar en de terugkeer",
+        "jaar": null,
+        "trefwoord": "berouw, bedelen, de weduwe, drie visioenen, terugkeer in het klooster"
+      },
+      {
+        "nr": 4,
+        "naam": "Biecht en vergeving",
+        "jaar": null,
+        "trefwoord": "het visioen van de appel, de biecht bij de abt, de zorg voor de kinderen"
+      }
+    ],
+    "chronologie": "Strikt chronologisch verteld, met grote tijdsverdichtingen: zeven jaar rijkdom wordt in enkele zinnen samengevat, zeven jaar prostitutie eveneens. De vertelde tijd omvat veertien jaar buiten het klooster. Op verschillende plaatsen worden toekomstige gebeurtenissen aangekondigd.",
+    "compositie_opmerking": "Het verhaal is opgebouwd in twee symmetrische cycli van zeven jaar (vette en magere jaren), wat een bijbelse getallensymboliek oplevert. De driedelingstructuur van de visioenen (twee keer niet gehoorzamen, derde keer wel) is eveneens strak gecomponeerd. De biechtepisode aan het eind wordt door sommige onderzoekers (Guiette) als een latere toevoeging van een tweede auteur beschouwd; anderen (Roland Draux) zien het als integraal onderdeel van het originele werk."
+  },
+  "perspectief": {
+    "type_hoofd": "Externe verteller (ik-figuur die samenvalt met de voordrager), met wisselende interne blik op Beatrijs",
+    "type_proloog": "Ik-verteller die het verhaal presenteert als gehoord van broeder Gijsbrecht",
+    "opmerking": "De verteller treedt op als ik-figuur die het verhaal van een monnik, broeder Gijsbrecht, heeft vernomen. Dit is een middeleeuws authentificatieprocédé: de verteller geeft zijn bron om het verhaal geloofwaardig te maken, terwijl hij weet dat die bron uiteindelijk teruggaat op de verhalen van Caesarius van Heisterbach. De ik-figuur mengt zich op verschillende plaatsen direct in de vertelling om te commentariëren, zijsporen te bewandelen of persoonages te verdedigen - zoals wanneer hij het Beatrijs niet kwalijk neemt dat zij de liefde niet kon weerstaan.",
+    "implicaties_voor_betekenis": "De aanwezigheid van de verteller als commentator geeft het verhaal een moraliserende laag zonder het volledig te reduceren tot een preek. De verteller begrijpt Beatrijs en neemt haar in bescherming. Dit humaniseert het mirakelgegeven: het gaat niet alleen om goddelijke tussenkomst, maar om menselijk begrip voor menselijke zwakte."
+  },
+  "samenvatting": {
+    "kort": "Beatrijs, een jonge kosteres in een vrouwenklooster, is al jaren verliefd op een jeugdliefde. Na een langdurige innerlijke strijd besluit ze haar habijt achter te laten op het Mariaaltaar en met haar geliefde te vluchten. Zeven jaar leven ze voorspoedig en krijgen twee zoons, maar als het geld op is en de man haar verlaat, ziet Beatrijs zich gedwongen haar lichaam te verkopen om haar kinderen te voeden. Na een tweede cyclus van zeven jaar krijgt zij berouw, bidt tot Maria en trekt bedelend naar haar voormalige klooster. Daar blijkt dat Maria in de veertien jaar haar plaats in het klooster heeft ingenomen: niemand merkte haar afwezigheid. Na drie visioenen keert Beatrijs terug, biecht haar zonden bij de abt en wordt vergeven.",
+    "per_fase": {
+      "fase_1_inleiding_en_vertrek": "Het verhaal begint met een ik-verteller die zegt een verhaal te willen vertellen over een non, een gedichte dat hij van broeder Gijsbrecht heeft gehoord. Beatrijs is een jonge vrouw van adellijke afkomst die door haar ouders naar het klooster is gestuurd en er kosteres is geworden. Haar werk voert zij ijverig en toegewijd uit. Maar al vanaf haar twaalfde jaar is zij verliefd op een jongen, een jeugdliefde die zij nooit heeft kunnen vergeten. De duivel speelt een rol door in haar onophoudelijk zondige verlangens te wekken; de verteller maakt duidelijk dat hij Beatrijs hiervoor niet veroordeelt, want de liefde is onweerstaanbaar voor de mens. Na een periode van innerlijk conflict besluit Beatrijs haar geliefde per brief uit te nodigen. Hij komt naar het klooster en spreekt met haar door het kleine venster (het fensterkijn). Hij belooft haar eeuwige trouw en voldoende geld om zeven jaar luxueus te leven. Acht dagen later, na de metten (het nachtgebed), legt Beatrijs haar habijt neer op het Mariaaltaar en hangt de sleutels voor het Mariabeeld - zodat zij bij het passeren door de andere nonnen direct gevonden zullen worden. In haar onderkleed verlaat zij het klooster en treft haar geliefde onder de egelantier in de kloostertuin. Hij heeft voor haar een blauw bovenkleed meegebracht. Te paard verlaten zij de streek. Onderweg komen zij langs een bloeiende open plek in het bos - de locus amoenus - en stelt de jongeman voor daar het minnespel te spelen. Beatrijs reageert verontwaardigd: een vrouw van stand bedrijft de liefde niet in het open veld als een vrouw zonder eergevoel. De jongeman geeft Venus de schuld en zij vergeeft hem. Zij vestigen zich in een stad gelegen in een mooi dal.",
+      "fase_2_zeven_vette_jaren_val_en_prostitutie": "Met het geld dat de jongeman had meegenomen - vijfhonderd pond zilver - leven Beatrijs en haar geliefde gedurende zeven jaar een onbezorgd en welvarend bestaan. Zij krijgen twee zoons. Na deze zeven vette jaren is al het geld op en moeten zij hun bezittingen verkopen om in hun levensonderhoud te voorzien. Ook die opbrengst raken zij kwijt. Bedelen gaat hen te ver - voor Beatrijs vanwege haar adellijke afkomst, die het als de diepste schande beschouwt te moeten bedelen in de stad waar zij herkend zou kunnen worden. Als bovendien een hongersnood uitbreekt, verlaat de geliefde haar en vertrekt naar zijn geboorteplaats, zijn belofte van eeuwige trouw brekend. Beatrijs blijft achter met de twee jonge kinderen. Zij kan niet spinnen of weven - ook dat is een teken van haar hogere afkomst, deze vaardigheden leerde zij nooit - en heeft geen middelen van bestaan. Zij besluit haar lichaam te verkopen buiten de stadsmuren, waar zij in het geheim kan werken zonder herkend te worden door haar medeburgers en zo de schande van armoede voor hen verborgen kan houden. Prostitutie beschouwde zij als zonde, maar niet als schande. Zo slaagt zij erin haar kinderen gedurende de volgende zeven jaar te voeden. Ondanks haar zondige levenswandel blijft zij Maria trouw door elke dag de zeven Mariagebeden te bidden en te hopen op vergeving.",
+      "fase_3_berouw_de_weduwe_en_terugkeer": "Na veertien jaar buiten het klooster - zeven vette en zeven magere jaren - is Beatrijs de last van haar zonden niet meer te dragen. Zij heeft zo diep berouw dat zij, zo bidt zij tot Maria, liever een brandende oven in zou kruipen als zij daarmee van haar zonden verlost zou worden. Zij stopt met de prostitutie, trekt als bedelaarster van stad naar stad en komt uiteindelijk in de buurt van haar vroegere klooster. Daar vindt zij onderdak bij een weduwe. In een gesprek met de weduwe vraagt Beatrijs naar de geruchten over de non die veertien jaar geleden zou zijn vertrokken. De weduwe is verontwaardigd en stelt dat de kosteres altijd onberispelijk heeft gediend. Als Beatrijs naar de namen van de ouders van de kosteres vraagt, noemt de weduwe haar eigen ouders: Beatrijs beseft dat zij in veertien jaar niet gemist is. Maria heeft haar taak overgenomen. Die nacht heeft Beatrijs, nadat zij met berouw heeft gebeden, een eerste visioen: een stem roept haar op terug te keren naar het klooster, want Maria heeft voor haar bemiddeld. De deuren staan open. Beatrijs durft het niet te geloven - het zou de duivel kunnen zijn die haar bedriegt - en vraagt om een tweede en derde teken. De tweede nacht klinkt de stem opnieuw. De derde nacht, terwijl Beatrijs wakker blijft, daalt een helder licht neer en klinkt een stem: 'U doet ten onrechte niet wat ik u zeg; immers Maria beveelt het u door mijn tussenkomst. U zou wel eens te lang kunnen wachten. Ga zonder aarzelen naar het klooster. U vindt de deuren wijd geopend: u kunt gaan waar u wilt. Uw kloosterkleding vindt u terug op het altaar.' Na dit derde visioen vertrouwt Beatrijs haar kinderen toe aan de weduwe, verlaat hen 's nachts terwijl zij hen bedekt met haar kleren, en keert terug naar het klooster. De poort staat inderdaad open. Zij vindt haar habijt en sleutels terug op de plek waar zij ze veertien jaar eerder had achtergelaten.",
+      "fase_4_biecht_en_vergeving": "Beatrijs neemt haar taken als kosteres onmiddellijk weer op, zonder dat iemand haar afwezigheid heeft opgemerkt. De weduwe, die met de achtergelaten kinderen geen raad weet, klopt aan bij het klooster en krijgt de toezegging dat het klooster de zorg voor de kinderen op zich neemt. Beatrijs blijft angstig vanwege de last van haar zonden en wordt steeds verleid door de duivel om haar schaamte niet te tonen en de zonden te verzwijgen. In een visioen ziet zij een jongeman met een dood kind in zijn armen die een appel omhoog gooit en weer opvangt alsof het een spel is. Als zij vraagt wat dit betekent, antwoordt hij dat het een gelijkenis is voor haar gebeden: doordat zij zichzelf verzwelgt in haar zonden zonder te biechten, ontvangt God haar gebeden niet. Alleen de biecht kan haar verlossen; de abt zal haar vergeven. Na dit visioen biecht Beatrijs bij de visiterende abt haar gehele levensverhaal. De abt vergeeft haar en neemt haar zonden anoniem op in zijn preek, zodat anderen ervan kunnen leren. Hij neemt ook de zorg voor haar twee zoons op zich en brengt hen naar een ander klooster, waar zij vrome mensen worden. Pas op dit punt in het verhaal - als alles is afgehandeld en Beatrijs is vergeven - noemt de verteller haar bij naam: Beatrijs. Het verhaal sluit af met lof voor Maria en God.",
+      "bevat_spoilers": true
+    }
+  },
+  "personages": {
+    "hoofdpersoon": {
+      "Beatrijs": {
+        "rol": "hoofdpersoon, titelfiguur",
+        "leeftijd_begin": null,
+        "leeftijd_einde": null,
+        "beroep": "kosteres in een vrouwenklooster",
+        "afkomst": "Adellijk; door haar ouders naar het klooster gestuurd",
+        "karakter": "Toegewijd, ijverig in haar kloostertaken, maar al desde jeugd verliefd op een jongen buiten het klooster. Trots vanwege haar adellijke afkomst: zij weigert te bedelen binnen de stad waar zij herkend kan worden, en kiest prostitutie buiten de stadsmuren boven zichtbare schande. Gelovig: ondanks haar zondige levenswandel blijft zij elke dag de zeven Mariagebeden bidden.",
+        "ontwikkeling": "Beatrijs doorloopt geen klassieke innerlijke ontwikkeling in de moderne zin. De middeleeuwse verteltradities vereisten dit ook niet: zij was van begin tot eind een gelovige vrouw die Maria trouw bleef. Wat verandert is haar bereidheid haar zonden op te biechten en zich te vernederen door te bedelen - het overwinnen van haar trots. Voor een hedendaagse lezer is het opvallend dat de tekst nauwelijks stilstaat bij de emotionele verwerking van haar ervaringen met liefde, verraad, armoede, moederschap en prostitutie.",
+        "naamgeving": "De verteller noemt haar pas bij naam als zij haar biecht heeft afgelegd en vergeven is. Daarvoor wordt zij aangeduid als 'de non' of 'de vrouw'. Dit is dramatisch effectief: de naam Beatrijs - waarschijnlijk afgeleid van het Latijnse woord voor 'geluksbrengster' - wordt pas uitgesproken als zij daadwerkelijk verlost is.",
+        "functie": "Beatrijs belichaamt de mogelijkheid van berouw en vergeving, ongeacht de ernst van de zonden. Zij is een exemplarische figuur: haar verhaal demonstreert dat wie Maria trouw blijft, ook in de zwaarste zonde, uiteindelijk gered kan worden."
+      }
+    },
+    "bijfiguren": [
+      {
+        "naam": "Maria",
+        "rol": "hemelse beschermster en plaatsvervangster",
+        "karakter": "In het verhaal is Maria geen gesprekspartner maar een handelende kracht. Zij neemt veertien jaar lang de taken van Beatrijs over in het klooster, bemiddelt bij God en regelt uiteindelijk haar terugkeer.",
+        "ontwikkeling": null,
+        "functie": "Maria is de eigenlijke hoofdfiguur in theologische zin. De legende draait om haar barmhartigheid en haar vermogen de meest zondige mensen te redden. Haar gedaanteverwisseling als kosteres is het centrale mirakel. Zij kan niet voorkomen dat Beatrijs bedrogen wordt en in armoede en prostitutie vervalt, maar redt haar van publieke schande en excommunicatie."
+      },
+      {
+        "naam": "De jongeman (minnaar)",
+        "rol": "Beatrijs' jeugdliefde",
+        "karakter": "Bereid zijn geliefde op te halen; heeft vijfhonderd pond zilver gespaard. Maakt de vergissing Beatrijs voor het minnespel uit te nodigen op de open weg (locus amoenus), wat haar adellijke trots kwetst. Belooft eeuwige trouw.",
+        "ontwikkeling": "Als het geld op is en de hongersnood toeslaat, breekt hij zijn belofte en verlaat hij Beatrijs met de twee kinderen. Keert terug naar zijn geboorteplaats. Speelt daarna geen rol meer in het verhaal.",
+        "functie": "De minnaar vertegenwoordigt de tijdelijkheid en onbetrouwbaarheid van de aardse liefde, in contrast met de eeuwige trouw van Maria. Zijn vertrek is de aanleiding voor Beatrijs' diepste val, maar ook indirect de oorzaak van haar uiteindelijke bekering."
+      },
+      {
+        "naam": "Broeder Gijsbrecht",
+        "rol": "tussenliggende bron van het verhaal",
+        "karakter": null,
+        "ontwikkeling": null,
+        "functie": "Middeleeuwse authentificatiefiguur: de verteller beweert het verhaal van deze monnik te hebben gehoord, die het op zijn beurt in boeken had gevonden. Dit technisch middel - de keten van vertellers - maakt het verhaal geloofwaardig voor het middeleeuwse publiek. Wellicht kende Gijsbrecht beide versies van Caesarius van Heisterbach."
+      },
+      {
+        "naam": "De weduwe",
+        "rol": "gastvrouw en tijdelijke pleegmoeder",
+        "karakter": "Een barmhartige vrouw die Beatrijs onderdak geeft. Verdedigt de reputatie van de kosteres met kracht als Beatrijs haar verhaal in twijfel trekt.",
+        "ontwikkeling": null,
+        "functie": "De weduwe fungeert als informatiekanaal: via haar ontdekt Beatrijs dat zij veertien jaar niet gemist is. Zij vangt ook de kinderen op wanneer Beatrijs 's nachts vertrekt naar het klooster, en klopt aan bij het klooster als zij niet meer voor hen kan zorgen."
+      },
+      {
+        "naam": "De abt",
+        "rol": "biechtvader en slotfiguur",
+        "karakter": "Begripvol en discreet; hij vergeeft Beatrijs, vertelt haar verhaal anoniem aan de kloostergemeenschap en neemt de zorg voor haar kinderen op zich.",
+        "ontwikkeling": null,
+        "functie": "De abt vertegenwoordigt het institutionele gezag van de Kerk dat het mirakel bekrachtigt en publiek maakt. Door haar verhaal te bewaren en anoniem door te vertellen, waakt hij voor haar eer terwijl hij anderen laat leren van het mirakel."
+      },
+      {
+        "naam": "De twee zoons van Beatrijs",
+        "rol": "kinderen, slachtoffers van de omstandigheden",
+        "karakter": null,
+        "ontwikkeling": "Worden door de abt meegenomen naar een ander klooster, waar zij vrome mensen worden.",
+        "functie": "De kinderen zijn een toevoeging van de Middelnederlandse auteur ten opzichte van de bron bij Caesarius. Zij vergroten Beatrijs' nood (moederliefde als motief voor de prostitutie) en binden haar lot aan de institutionele opvang via de abt."
+      }
+    ]
+  },
+  "thematiek": {
+    "hoofdthemas": [
+      {
+        "naam": "Mariaverering en goddelijke barmhartigheid",
+        "uitwerking": "Het verhaal is primair een Marialegende: het demonstreert de macht en de grenzeloze barmhartigheid van Maria als middelares tussen de zondige mens en God. Wie Maria trouw blijft - al is die trouw slechts een dagelijks gebed midden in een leven van zonde - kan altijd op haar bescherming rekenen. Maria neemt Beatrijs' taak over, redt haar van schande en excommunicatie, en regelt via de visioenen haar terugkeer. Geen zonde is te groot om vergeven te worden mits er oprecht berouw is."
+      },
+      {
+        "naam": "Liefde, zonde en berouw",
+        "uitwerking": "De flaptekst formuleert het kernconflict: drie vormen van liefde beheersen de gebeurtenissen - de lichamelijke liefde die Beatrijs tot zonde brengt, de moederliefde die haar naar nieuwe zonde leidt, en de liefde tot Maria die de zonde opheft. De aardse liefde is niet simpelweg slecht: de auteur toont begrip voor de onweerstaanbare kracht van de minne en neemt het Beatrijs niet kwalijk. De morele weg loopt via berouw en biecht, niet via het vermijden van gevoelens."
+      },
+      {
+        "naam": "Eer en schande als sociale krachten",
+        "uitwerking": "Beatrijs' keuzes worden sterk bepaald door het middeleeuwse eer-en-schande-denken. Prostitutie buiten de stadsmuren verkiest zij boven bedelen in de stad, omdat bedelen publieke schande is en prostitutie een privézonde. Maria kan niet voorkomen dat Beatrijs zondig leeft, maar redt haar van maatschappelijke schande. Pas als het berouw over de zonde zelf groot genoeg is - en niet alleen de angst voor schande - accepteert Beatrijs de vernedering van het bedelen. Dit onderscheid tussen zonde (interne morele toestand) en schande (sociale reputatie) is een hoofs-adellijk waardesysteem dat door het verhaal heen loopt."
+      },
+      {
+        "naam": "Trouw en ontrouw",
+        "uitwerking": "Ontrouw is een van de centrale motieven: Beatrijs is ontrouw aan haar kloostergeloften, de minnaar is ontrouw aan zijn belofte van eeuwige trouw. Hier tegenover staat de onwankelbare trouw van Maria aan wie haar vereert. De getallensymboliek van veertien jaar (twee maal zeven) benadrukt dat zelfs een lange periode van ontrouw overbrugd kan worden door duurzame trouw in het gebed."
+      },
+      {
+        "naam": "Biecht en het zielenheil",
+        "uitwerking": "De laatste fase van het verhaal - door sommige onderzoekers als een toevoeging van een tweede auteur beschouwd - plaatst de biecht als onmisbare voorwaarde voor werkelijke vergeving. Het visioen van de appel maakt duidelijk: berouw alleen is niet voldoende; zonder biecht worden Beatrijs' gebeden niet ontvangen. Dit is een expliciete moraaltheologische boodschap die aansluit bij de middeleeuwse nadruk op de sacramenten als noodzakelijke weg naar het zielenheil."
+      }
+    ]
+  },
+  "motieven": [
+    {
+      "naam": "Getallensymboliek: zeven, veertien, drie en vijf",
+      "betekenis": "Zeven is het heilige getal in bijbelse context en staat voor een grote periode. Beatrijs' belevenissen verlopen in twee cycli van zeven jaar (vette jaren en magere jaren), een parallel met de zeven vette en zeven magere jaren in Genesis (de droom van de farao). Drie is het goddelijke getal van de Heilige Drie-eenheid: Beatrijs ontvangt drie visioenen en weigert na twee keer te gehoorzamen, omdat twee het aardse getal is dat aan de duivel toebehoort. Pas het derde visioen, goddelijk bevestigd, brengt haar in beweging. Het getal vijf is verbonden met Maria vanwege de vijf letters in haar naam; de auteur wijdt vijf regels aan de eer van Maria aan het begin van het verhaal.",
+      "tekstplaatsen": [
+        "Zeven jaar rijkdom, gevolgd door zeven jaar armoede en prostitutie",
+        "Het eerste visioen: Beatrijs gelooft niet, vreest de duivel",
+        "Het tweede visioen: nogmaals twijfel",
+        "Het derde visioen: het heldere licht, de stem die spreekt",
+        "De vijf openingsregels over Maria"
+      ]
+    },
+    {
+      "naam": "Blauw-wit kleurensymboliek",
+      "betekenis": "Als Beatrijs het klooster verlaat, trekt zij haar witte onderkleed aan en krijgt van haar minnaar een blauw bovenkleed. Blauw is de kleur van Maria als hemelkoningin; wit staat voor reinheid en onschuld. De combinatie blauw-wit is de kleurencombinatie van de heilige Maagd. Dit kleedt Beatrijs bij haar vertrek in Mariakleuren - als een bruidskleed. In de hoofse minnetraditie staat blauw ook voor trouw en wit voor onschuld.",
+      "tekstplaatsen": [
+        "Het vertrek uit het klooster: Beatrijs in haar hemd, de minnaar brengt het blauwe opperkleed (vers 272)"
+      ]
+    },
+    {
+      "naam": "De egelantier",
+      "betekenis": "Beatrijs en haar minnaar ontmoeten elkaar onder de egelantier in de kloostertuin. In de middeleeuwse literatuur symboliseert de egelantier als witte roos zowel de hemelse als de aardse liefde, in het bijzonder de reine liefde van de vrouw. Liefdesscènes in middeleeuwse teksten spelen zich traditioneel af in een boomgaard met een bloeiende egelantier.",
+      "tekstplaatsen": [
+        "De ontmoetingsscène in de kloostertuin (vers 268)"
+      ]
+    },
+    {
+      "naam": "De locus amoenus",
+      "betekenis": "De bloeiende bosweide met zingende vogels en welriekende bloemen langs de weg is het topos van de locus amoenus uit de hoofse minnelyriek. De minnaar vraagt hier het minnespel te spelen. Beatrijs' weigering is geen preutsheid maar een uiting van stand: een dame van stand bedrijft de liefde niet in de open natuur.",
+      "tekstplaatsen": [
+        "De scène op de bosweide (vers 310-364)"
+      ]
+    },
+    {
+      "naam": "Het habijt en de sleutels op het altaar",
+      "betekenis": "Beatrijs' habijt en sleutels - de attributen van haar functie als kosteres - worden neergelegd bij het Mariaaltaar. Dit is tegelijk een gebaar van afscheid en een opdracht aan Maria: de sleutels worden gegarandeerd gevonden, want elke non moet bij het passeren kijken naar het beeld. Als Beatrijs veertien jaar later terugkeert, vindt zij de habijt en sleutels precies terug op de plek waar zij ze achterliet. Maria heeft ze bewaard. Het motief verbindt vertrek en terugkeer.",
+      "tekstplaatsen": [
+        "Vertrek: het achterlaten op het Maria-altaar",
+        "Terugkeer: het terugvinden op het altaar"
+      ]
+    },
+    {
+      "naam": "Het visioen van de appel",
+      "betekenis": "In een visioen ziet Beatrijs een jongeman die een appel boven een dood kind gooit en opvangt als een spel. De verklaring: zolang Beatrijs haar gebeden vermengt met ongebiechte zonden zonder ze te overhandigen aan de biechtvader, zijn ze vruchteloos - net als het spel met de appel boven het dode kind. Het visioen dwingt haar de drempel naar de biecht te nemen.",
+      "tekstplaatsen": [
+        "Het visioen kort voor de biecht (vers 932-970)"
+      ]
+    }
+  ],
+  "stijl_en_taal": {
+    "kenmerken": "Het werk is geschreven in paarrijmende achtlettergrepige verzen (koppelvers), wat kenmerkend is voor Middelnederlandse epiek. De stijl is in de hertaling door Willem Wilmink en anderen vrij toegankelijk; het Middelnederlands origineel is voor hedendaagse lezers zonder begeleiding niet leesbaar. De auteur besteedt opvallend veel aandacht aan de innerlijke beleving van Beatrijs: haar gebeden, haar twijfels, haar berouw. Dit is uitzonderlijk voor een middeleeuws mirakelgedicht en typeert de dichter als een bijzonder inlevingsgericht schrijver.",
+    "register_verschuivingen": "Het verhaal wisselt tussen dramatisch uitgesponnen scènes (het vertrek, het eerste visioen, de veldscène) en snelle samenvattingen van jaren in enkele zinnen. De verteller intervenieert regelmatig om te commentariëren, te verdedigen of de strekking te verhelderen.",
+    "karakteriseringstechniek": "Beatrijs wordt gekarakteriseerd via haar handelingen en gebeden, niet via uitgebreide beschrijvingen. De minnaar blijft relatief schematisch. De weduwe is een levensechte figuur die in haar verontwaardigde uitval over de reputatie van de kosteres opvallend naturalistisch getekend is."
+  },
+  "decor": {
+    "hoofdlocaties": [
+      "Het vrouwenklooster (niet nader gelokaliseerd)",
+      "Een stad gelegen in een mooi dal (niet nader gelokaliseerd)",
+      "Het open veld buiten de stadsmuren",
+      "De omgeving van het vroegere klooster (het huis van de weduwe)"
+    ],
+    "beeldsymbolisch_belang": "Het klooster staat voor veiligheid, toewijding en de bescherming van Maria. De stad in het dal staat voor de wereld buiten het klooster: aanvankelijk mooi en welvarend, later armoedig en gevaarlijk. Het open veld - zowel in de minnescène als in de prostitutie - is de plek van schande en zonde. De tegenovergestelde bewegingen (klooster verlaten - klooster betreden) structureren het hele verhaal."
+  },
+  "titelverklaring": {
+    "oppervlakkig": "De titel verwijst naar de naam van de hoofdpersoon. Omdat het oorspronkelijke werk geen titel had, koos W.J.A. Jonckbloet bij zijn publicatie in 1841 de naam van het hoofdpersonage.",
+    "dieper": "Opvallend is dat de vrouw in het verhaal pas bij naam wordt genoemd - Beatrijs - als zij volledig vergeven is en haar biecht heeft afgelegd. De naam, waarschijnlijk afgeleid van het Latijnse woord voor 'geluksbrengster', wordt zo ook thematisch: zij brengt uiteindelijk geluk aan zichzelf en haar zoons, en het mirakel dat via haar verhaal wordt verteld, brengt geloof en hoop aan de toehoorders."
+  },
+  "historische_context": {
+    "periode_boek": "Veertiende eeuw (handschrift circa 1374; het gedicht zelf mogelijk eerder, rond 1270 of in de veertiende eeuw)",
+    "handschrift_informatie": "Het enige bewaard gebleven handschrift bevindt zich in de Koninklijke Bibliotheek in Den Haag (signatuur KW 76 E 5). Het is een luxueus verzamelhandschrift op perkament, circa 1374 in Brabant vervaardigd, mogelijk in de omgeving van Brussel. Het handschrift bevat 8 folia, is geschreven in littera textualis en is verlucht met een gehistorieerde initiaal die Beatrijs knielend voor Maria toont. In hetzelfde handschrift bevindt zich een tekst van Jacob van Maerlant. Het oorspronkelijke werk had geen titel.",
+    "bronnen_en_oorsprong": "De legende gaat terug op twee exempelen van de cisterciënzermonnik Caesarius van Heisterbach (begin dertiende eeuw): een zeer korte versie en een langere versie in Latijns proza, opgenomen in zijn Dialogus Miraculorum (1223) en Libri Octo Miraculorum (1227). De Middelnederlandse versie bevat ongeveer twintig keer zoveel woorden als de Latijnse bron. De aanvullingen - waaronder de kinderen, de weduwe, de adellijke achtergrond van Beatrijs en de biechtepisode - zijn de creatieve bijdrage van de Middelnederlandse dichter.",
+    "beoogd_publiek": "Het verhaal was bedoeld voor een hoofs-adellijk lekenpubliek, niet voor geestelijken. Dit blijkt uit de hoofse waarden en het eer-en-schande-denken in de tekst. Het beoogde publiek bestond hoogstwaarschijnlijk uit kapitaalkrachtige leken, mogelijk aan het Brabantse hof in Brussel.",
+    "receptiegeschiedenis": "In de middeleeuwen was het verhaal vermoedelijk niet bijzonder populair, gezien het feit dat er slechts één handschrift bewaard is. Na de herontdekking door W.J.A. Jonckbloet in 1841 beleefde het een literaire triomftocht. Uit een studie van Robert Guiette (1927) blijkt dat van de 54 middeleeuwse versies van dit mirakelverhaal de Middelnederlandse de mooiste is. In 2011 vond er nog een internationaal congres plaats over het thema 'Beatrijs de wereld in', met meer dan honderd kenners en vertalers uit negentien taalgebieden."
+  },
+  "receptie_en_prijzen": {
+    "verfilming": null,
+    "toneelbewerking": null,
+    "hertalingen_selectie": [
+      {
+        "jaar": 2007,
+        "bewerker": "Anke Passenier",
+        "titel": "Beatrijs. Het middeleeuwse verhaal van de verliefde non",
+        "uitgever": "Uitgeverij Boekenbent, Barneveld"
+      },
+      {
+        "jaar": 1995,
+        "bewerker": "Willem Wilmink",
+        "titel": "Beatrijs. Een middeleeuws Maria-mirakel",
+        "uitgever": "Prometheus, Amsterdam"
+      },
+      {
+        "jaar": 1907,
+        "bewerker": "P.C. Boutens",
+        "titel": "Beatrijs in de XXe eeuw",
+        "opmerking": "Herberijming van 380 regels, zonder kinderen en biecht; kende 35 drukken tijdens Boutens' leven en werd voorgedragen door onder anderen prinses Juliana"
+      }
+    ],
+    "herontdekking": "W.J.A. Jonckbloet publiceerde het werk in 1841 en gaf het de titel naar de hoofdpersoon; daarvóór werd de tekst gezien als de zoveelste mirakelgeschiedenis."
+  },
+  "sleutelcitaten": [
+    {
+      "citaat": "U doet ten onrechte niet wat ik u zeg; immers Maria beveelt het u door mijn tussenkomst. U zou wel eens te lang kunnen wachten. Ga zonder aarzelen naar het klooster. U vindt de deuren wijd geopend: u kunt gaan waar u wilt. Uw kloosterkleding vindt u terug op het altaar.",
+      "context": "De stem in het derde visioen, omgeven door een fel licht, spreekt Beatrijs toe terwijl zij wakker is. Dit is het keerpunt: na twee keer weigeren gehoorzaamt zij nu.",
+      "relevantie_mondeling": "Toont het drietalschema van de visioenen en de theologische boodschap: berouw is noodzakelijk maar niet voldoende; de goddelijke stem - niet de duivel - verlangt terugkeer."
+    },
+    {
+      "citaat": "Ach, God, wat huilde ze die nacht in stilte voor haar bed. Ze zei: 'Ik kan alleen mijn oprecht gemeend berouw aanbieden. Maria, vrouwe sta mij bij. Ik verafschuw mijn zonden zo erg dat ik zonder aarzeling in een vlammende oven zou kruipen als ik daardoor van mijn zonden bevrijd zou worden.'",
+      "context": "Beatrijs' nachtelijk gebed na het gesprek met de weduwe, als zij beseft dat zij in veertien jaar niet gemist is.",
+      "relevantie_mondeling": "Toont de intensiteit van het berouw en de directe relatie tussen Beatrijs en Maria als persoonlijke pleitbezorgster. Illustreert ook het thema: berouw gaat aan de biecht vooraf maar is op zichzelf niet voldoende."
+    },
+    {
+      "citaat": "Wat zeg u, onbehouwen pummel! Moet ik hier in 't gras gaan liggen als een vrouw die zonder eergevoel geld met haar lichaam verdient?",
+      "context": "Beatrijs' reactie als haar minnaar bij de locus amoenus voorstelt het minnespel te spelen in het open veld.",
+      "relevantie_mondeling": "Illustreert het hoofse eer-en-schande-denken. Beatrijs' reactie is geen preutsheid maar een kwestie van stand. Ironisch is dat zij later inderdaad haar lichaam verkoopt in het open veld - maar dan uit bittere noodzaak, wat haar schande onzichtbaar houdt voor de stad."
+    }
+  ],
+  "cross_book_verbindingen": {
+    "andere_middeleeuwse_teksten_vergelijkbaar": [
+      "Elckerlyc (vijftiende eeuw) - middeleeuws moraliteitsspel over biecht en zielenheil",
+      "Van den Vos Reynaerde - Middelnederlandse dierfabel, andere toonzetting maar zelfde periode en voordrachtscontext"
+    ],
+    "vergelijkbare_thematiek_zonde_en_vergeving": [
+      "De donkere kamer van Damokles (W.F. Hermans) - schuldvraag en identiteit",
+      "In de naam van de vader (thematiek schuld en kerk)"
+    ],
+    "vergelijkbare_thematiek_vrouwenlevens_en_kerk": []
+  },
+  "mondeling_aandachtspunten_per_niveau": {
+    "N2_N3": "Lees in hertaling (Wilmink of Taal & Teken). Focus op het verhaal zelf: wie is Beatrijs, wat doet zij, hoe loopt het af. Het eer-en-schande-onderscheid (waarom prostitutie en geen bedelen?) als instap voor middeleeuwse waarden. Maria als vergevende kracht.",
+    "N4": "Bovenop N3: getallensymboliek (7, 14, 3, 5), de kleursymboliek (blauw-wit), de hoofse context van de locus amoenus-scène, de twee mogelijke auteurs, het onderscheid tussen zonde en schande. De rol van broeder Gijsbrecht als authentificatieprocédé.",
+    "N5": "Bovenop N4: vergelijking originele Middelnederlandse tekst met hertaling, de relatie tot Caesarius van Heisterbach en de Latijnse bronnen, de vraagstelling rond één of twee auteurs (Guiette vs. Draux), de overlevering van het handschrift, Middelnederlandse verstechniek (koppelvers), de positie van de tekst in de brede internationale verspreidingsgeschiedenis van het mirakelverhaal."
+  },
+  "mondelingvragen": {
+    "basics": [
+      {
+        "vraag": "Hoe begint het boek?",
+        "anker": "eerste_zin: de ik-verteller klaagt dat schrijven hem weinig oplevert",
+        "doorvraag": "Waarom begint een middeleeuwse dichter met een klacht over zijn beroep?"
+      },
+      {
+        "vraag": "Hoe eindigt het boek?",
+        "anker": "Beatrijs biecht bij de abt, wordt vergeven, de abt neemt haar zoons mee; het verhaal sluit af met lof voor Maria en God",
+        "doorvraag": "Waarom eindigt het verhaal met de biecht en niet simpelweg met de terugkeer in het klooster?"
+      },
+      {
+        "vraag": "Wie zijn de belangrijkste personages?",
+        "anker": "Beatrijs en Maria; verder de minnaar, de weduwe en de abt als bijfiguren",
+        "doorvraag": "Maria treedt nooit letterlijk sprekend op. Hoe weet je dan dat zij een hoofdpersoon is?"
+      },
+      {
+        "vraag": "Wat betekent de titel?",
+        "anker": "titelverklaring: naam van het hoofdpersonage, pas uitgesproken na de vergeving; mogelijk afgeleid van 'geluksbrengster'",
+        "doorvraag": "De naam Beatrijs wordt pas aan het einde van het verhaal uitgesproken. Wat is het effect daarvan?"
+      },
+      {
+        "vraag": "Wat voor soort tekst is Beatrijs?",
+        "anker": "Middelnederlandse Marialegende, geschreven als voordrachtstekst in paarrijmende verzen",
+        "doorvraag": "Hoe merk je dat dit bedoeld was om voor te dragen en niet om te lezen?"
+      }
+    ],
+    "plot_en_structuur": [
+      {
+        "vraag": "Hoe is het verhaal opgebouwd?",
+        "anker": "Drie fases in twee cycli van zeven jaar plus de biechtepisode; strikt chronologisch maar met grote tijdsverdichtingen",
+        "doorvraag": "Waarom worden zeven jaar rijkdom en zeven jaar prostitutie zo snel samengevat, terwijl het vertrek uit het klooster uitvoerig beschreven wordt?"
+      },
+      {
+        "vraag": "Vat de plot samen in vijf zinnen.",
+        "anker": "samenvatting.kort"
+      },
+      {
+        "vraag": "Waarom kiest Beatrijs voor prostitutie en niet voor bedelen?",
+        "anker": "Adellijke afkomst: bedelen is publieke schande in de stad waar zij herkend kan worden; prostitutie buiten de stadsmuren is een privézonde",
+        "doorvraag": "Is dit een moreel aanvaardbare keuze voor de middeleeuwse toehoorder? En voor ons?"
+      },
+      {
+        "vraag": "Waarom gehoorzaamt Beatrijs pas bij het derde visioen?",
+        "anker": "Getallensymboliek: twee is het aardse getal van de duivel; drie is het goddelijke getal van de Drie-eenheid",
+        "doorvraag": "Wat zegt dit over hoe de middeleeuwen naar cijfers keken?"
+      }
+    ],
+    "perspectief_en_vertelling": [
+      {
+        "vraag": "Vanuit welk perspectief is het verhaal verteld?",
+        "anker": "Externe ik-verteller die samenvalt met de voordrachtskunstenaar; hij mengt zich in het verhaal om te commentariëren",
+        "doorvraag": "Op welke momenten mengt de verteller zich direct in het verhaal? Wat zegt hij dan?"
+      },
+      {
+        "vraag": "Wat is het effect van het authentificatieprocédé met broeder Gijsbrecht?",
+        "anker": "De verteller verwijst naar een monnik als bron om het verhaal geloofwaardig te maken; middeleeuwse vertelconventie",
+        "doorvraag": "Vind je dit geloofwaardig? Waarom wel of niet?"
+      }
+    ],
+    "thematiek": [
+      {
+        "vraag": "Wat zijn de hoofdthema's van Beatrijs?",
+        "anker": "Mariaverering, liefde en zonde, eer en schande, trouw en ontrouw, biecht en zielenheil",
+        "doorvraag": "Welk thema vind jij het meest actueel?"
+      },
+      {
+        "vraag": "Wat is het verschil tussen zonde en schande in dit verhaal?",
+        "anker": "Zonde is een interne morele toestand tegenover God; schande is publieke reputatieschade tegenover de gemeenschap. Maria redt Beatrijs van schande; de biecht redt haar van zonde.",
+        "doorvraag": "Herken je dit onderscheid ook in de samenleving van nu?"
+      },
+      {
+        "vraag": "Is Beatrijs een religieus verhaal of een menselijk verhaal?",
+        "anker": "Beide: het is formeel een Marialegende, maar de auteur maakt van Beatrijs een mens van vlees en bloed met tegenstrijdige gevoelens. De religieuze moraal is ingebed in een humaan verhaal over passie en neergang.",
+        "doorvraag": "Wat zou verloren gaan als je het religieuze kader weglaat?"
+      }
+    ],
+    "motieven": [
+      {
+        "vraag": "Welke motieven herken je in Beatrijs?",
+        "anker": "Getallensymboliek (7, 14, 3, 5), blauw-wit kleursymboliek, de egelantier, de locus amoenus, het habijt en de sleutels op het altaar, het visioen van de appel",
+        "doorvraag": "Welk motief vind je het sterkst uitgewerkt?"
+      },
+      {
+        "vraag": "Bespreek de getallensymboliek in Beatrijs met voorbeelden.",
+        "anker": "Zeven vette en zeven magere jaren (parallel Genesis); drie visioenen (goddelijk getal vs. aards getal 2); vijf openingsregels voor Maria (vijf letters in haar naam)",
+        "doorvraag": "Wat zegt het gebruik van getallen over hoe de middeleeuwen naar de wereld keken?"
+      },
+      {
+        "vraag": "Wat betekent het blauwe kleed dat Beatrijs van haar minnaar krijgt?",
+        "anker": "Blauw is de kleur van Maria als hemelkoningin; wit (haar onderkleed) staat voor reinheid. De combinatie is de kledingkleur van de heilige Maagd, maar ook in de hoofse traditie: blauw voor trouw, wit voor onschuld.",
+        "doorvraag": "Wat is het effect als je weet dat Beatrijs bij haar vertrek in Mariakleuren gekleed gaat?"
+      }
+    ],
+    "personages": [
+      {
+        "vraag": "Hoe ontwikkelt Beatrijs zich in het verhaal?",
+        "anker": "Zij ontwikkelt zich niet in de moderne psychologische zin; wat verandert is haar bereidheid tot vernedering (bedelen accepteren) en het overwinnen van de schaamte om te biechten",
+        "doorvraag": "Vind je het een gemis dat haar ervaringen met liefde, verraad, armoede en moederschap nauwelijks worden verwerkt in haar karakter?"
+      },
+      {
+        "vraag": "Welke functie heeft de minnaar in het verhaal?",
+        "anker": "Hij vertegenwoordigt de tijdelijkheid en onbetrouwbaarheid van de aardse liefde, in contrast met de eeuwige trouw van Maria",
+        "doorvraag": "Is de minnaar schuldig? Of is hij ook een slachtoffer van de omstandigheden?"
+      },
+      {
+        "vraag": "Waarom speelt Maria zo'n grote rol terwijl zij nooit echt optreedt als sprekend personage?",
+        "anker": "Maria handelt via Beatrijs' gebeden, via haar plaatsvervangend optreden als kosteres en via de visioenen. Zij is aanwezig als stille, bemiddelende kracht.",
+        "doorvraag": "Hoe zou het verhaal er anders uitzien als Maria letterlijk zou verschijnen en spreken?"
+      }
+    ],
+    "tijd_en_context": [
+      {
+        "vraag": "Wanneer en hoe is Beatrijs tot stand gekomen?",
+        "anker": "Het handschrift dateert van circa 1374, vervaardigd in Brabant. Het gedicht zelf is mogelijk ouder. Één handschrift is bewaard, in de Koninklijke Bibliotheek in Den Haag.",
+        "doorvraag": "Wat zegt het feit dat er maar één handschrift bewaard is over de populariteit van het werk in de middeleeuwen?"
+      },
+      {
+        "vraag": "Voor welk publiek was Beatrijs bedoeld?",
+        "anker": "Hoofs-adellijk lekenpubliek; niet voor geestelijken. Het hoofse eer-en-schande-denken en de verwijzingen naar hoofse gedragscodes wijzen op dit publiek.",
+        "doorvraag": "Hoe merk je in de tekst dat dit voor adellijk publiek was en niet voor gewone gelovigen?"
+      },
+      {
+        "vraag": "Waar gaat het verhaal uiteindelijk op terug?",
+        "anker": "Op twee exempelen van de cisterciënzermonnik Caesarius van Heisterbach (begin dertiende eeuw), opgenomen in zijn Latijnse verhaalverzamelingen",
+        "doorvraag": "Wat heeft de Middelnederlandse dichter toegevoegd aan de Latijnse bron? Wat is zijn eigen bijdrage?"
+      }
+    ],
+    "stroming_en_oeuvre": [
+      {
+        "vraag": "In welke literaire traditie staat Beatrijs?",
+        "anker": "Middelnederlandse literatuur; Marialegende; hoofse literatuur; mirakeltraditie",
+        "doorvraag": "Beatrijs combineert religieuze en hoofse elementen. Welk element overheerst in jouw lezing?"
+      },
+      {
+        "vraag": "Wat maakt Beatrijs uitzonderlijk ten opzichte van andere Marialegendes?",
+        "anker": "De aandacht voor Beatrijs' innerlijke beleving, haar gebeden, twijfels en overwegingen; de toevoeging van de kinderen en de weduwe; de biechtepisode. Robert Guiette noemde het ongetwijfeld de meest volmaakte uitwerking van het thema.",
+        "doorvraag": "Guiette vergeleek 54 middeleeuwse versies van dit verhaal in allerlei talen. Wat zegt het dat de Middelnederlandse versie de mooiste wordt gevonden?"
+      },
+      {
+        "vraag": "Hoe was de tekst in de middeleeuwen bedoeld om te beleven?",
+        "anker": "Als voordrachtstekst: de dichter was de eerste voordrager, hij sprak een publiek toe. Dit verklaart de ik-verteller en de directe interventies in het verhaal.",
+        "doorvraag": "Hoe verandert het als je weet dat dit ooit hardop werd voorgedragen voor een groep luisteraars in plaats van stilzwijgend gelezen?"
+      }
+    ],
+    "mening_en_waardering": [
+      {
+        "vraag": "Wat vond je van het verhaal?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "De religieuze symboliek: toegankelijk of afstandelijk?",
+          "De personageontwikkeling: voldoende of te vlak?",
+          "De moraal: herkenbaar of volledig middeleeuws?",
+          "De hertaling versus het origineel: wat gaat verloren in vertaling?"
+        ]
+      },
+      {
+        "vraag": "Zou je Beatrijs aanraden aan een medeleerling?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "De beknoptheid en overzichtelijkheid van het verhaal",
+          "De historische afstand en de noodzaak van contextkennis",
+          "Het verschil tussen lezen in hertaling en in het origineel",
+          "De relevantie van de thema's voor nu"
+        ]
+      },
+      {
+        "vraag": "Wat vond je het sterkste deel van het verhaal?",
+        "onderbouwingsrichtingen": [
+          "De scène waarbij Beatrijs het habijt neerlegt op het altaar",
+          "De verontwaardigde reactie op de locus amoenus-scène",
+          "Het gesprek met de weduwe en de ontdekking dat zij niet gemist is",
+          "Het derde visioen met het heldere licht"
+        ]
+      }
+    ],
+    "cross_book": [
+      {
+        "vraag": "Welk ander boek op je lijst behandelt vergelijkbare thema's?",
+        "anker": "cross_book_verbindingen; thema's als schuld, zonde, vergeving en de verhouding tussen individu en geloof"
+      },
+      {
+        "vraag": "Vergelijk Beatrijs met een ander middeleeuws werk dat je kent.",
+        "anker": "Vergelijk met Elckerlyc (biecht en zielenheil) of Van den Vos Reynaerde (Middelnederlandse verteltraditie)"
+      },
+      {
+        "vraag": "Het thema 'ontrouw van een geliefde die terugkeert' komt vaker voor in de literatuur. Welk ander boek ken je met dit thema?",
+        "anker": "(open; verbinding naar eigen leeslijst)"
+      }
+    ],
+    "film_en_adaptatie": [
+      {
+        "vraag": "Wist je dat P.C. Boutens in 1907 een bewerking maakte van Beatrijs? Wat veranderde hij?",
+        "anker": "Boutens maakte een herberijming van slechts 380 regels zonder de kinderen, de weduwe en de biecht; op het einde laat hij een oude man het verhaal vertellen aan de zusters",
+        "doorvraag": "Wat verliest het verhaal als je de biecht weglaat?"
+      }
+    ],
+    "verrassingsvragen": [
+      {
+        "vraag": "Wat zou jij anders hebben gedaan dan Beatrijs?",
+        "type": "open/reflectief"
+      },
+      {
+        "vraag": "Was er iets in het verhaal dat je vreemd of onlogisch vond?",
+        "anker": "Mogelijke antwoorden: dat Maria veertien jaar de taken van Beatrijs overneemt zonder dat iemand het merkt; dat Beatrijs de kinderen 's nachts alleen achterlaat bij de weduwe; dat de biecht zo lang uitgesteld wordt",
+        "doorvraag": "Hoe verklaart de tekst dit? Of doet hij dat niet?"
+      },
+      {
+        "vraag": "Wie heeft het meeste schuld aan Beatrijs' situatie?",
+        "type": "open/moreel",
+        "onderbouwingsrichtingen": [
+          "De minnaar die zijn belofte breekt",
+          "De ouders die haar naar het klooster stuurden",
+          "De duivel als verleider",
+          "Beatrijs zelf"
+        ]
+      }
+    ],
+    "leesechtheid": [
+      {
+        "vraag": "Als je één scène aan een klasgenoot zou voorlezen, welke kies je dan? En wat gebeurt er precies in die scène?",
+        "tactiek": "scene-voorkeur forceren",
+        "signaal_gelezen": "Noemt een scène die niet in de standaardsamenvatting uitgebreid beschreven staat, zoals de scène waarbij Beatrijs haar kinderen 's nachts toedekt met haar kleren voor zij vertrekt, de reactie van de weduwe op Beatrijs' vragen, of het gesprek door het fensterkijn met de minnaar. Kan de scène navertellen met zintuiglijke details.",
+        "signaal_niet_gelezen": "Kiest de vertrekscène of de terugkeerscène (beide ruim beschreven in elke samenvatting) en kan de scène niet verlevendigen met eigen woorden."
+      },
+      {
+        "vraag": "Was er een deel waar je dacht: kom op, nu moet er iets gebeuren?",
+        "tactiek": "tempo-vraag",
+        "signaal_gelezen": "Benoemt een concrete sectie die als langdradig of repetitief ervaren werd, zoals de samenvatting van de zeven jaar prostitutie, de herhaalde gebeden, of het driedubbele visioen.",
+        "signaal_niet_gelezen": "Zegt 'nee, het was overal spannend' of geeft een generiek antwoord zonder specificatie."
+      },
+      {
+        "vraag": "Is er iets in het verhaal waarvan je dacht: dat had ik niet verwacht?",
+        "tactiek": "verrassings-vraag",
+        "signaal_gelezen": "Noemt een detail buiten de grote plotlijnen, zoals het feit dat de minnaar Venus de schuld geeft van zijn lust bij de locus amoenus-scène, of dat de tekst zegt dat Beatrijs haar kinderen achterlaat terwijl zij hen bedekt met haar eigen kleren, of het visioen van de appel en het dode kind.",
+        "signaal_niet_gelezen": "Noemt als verrassing dat Maria de taken van Beatrijs overnam of dat zij niet gemist werd - dit staat in elke samenvatting centraal."
+      },
+      {
+        "vraag": "Behalve Beatrijs, welk personage is jou het meest bijgebleven en waarom?",
+        "tactiek": "bijpersonage-check",
+        "signaal_gelezen": "Noemt de weduwe met haar verontwaardigde reactie, of broeder Gijsbrecht als authentificatiefiguur, of de abt die de kinderen meeneemt, of de minnaar met zijn Venusuitvlucht.",
+        "signaal_niet_gelezen": "Noemt alleen Maria of de minnaar in algemene bewoordingen die in elke samenvatting voorkomen."
+      },
+      {
+        "vraag": "Dacht je ergens: dit is wel erg toevallig, had de dichter dit anders kunnen doen?",
+        "tactiek": "zelfkritiek uitlokken",
+        "signaal_gelezen": "Formuleert een concreet bezwaar, zoals dat het wel erg toevallig is dat Beatrijs precies bij de weduwe terecht komt die alles weet over het klooster, of dat Maria veertien jaar ongemerkt de taken van een kosteres kan overnemen.",
+        "signaal_niet_gelezen": "Zegt 'nee, ik vond het allemaal logisch' of herhaalt abstracte criticasters-opmerkingen zonder koppeling aan een concrete tekstepisode."
+      }
+    ]
+  },
+  "_meta": {
+    "bronnen_geconsulteerd": [
+      "lezenvoordelijst.nl docenteninfo niveau 4 - Beatrijs",
+      "scholieren.com Zeker Weten Goed verslag Beatrijs (2019)",
+      "nl.wikipedia.org/wiki/Beatrijs"
+    ],
+    "samenstelling": "Eigen synthese van meerdere bronnen; geen letterlijke overnames met uitzondering van korte citaten (flaptekst, eerste zin, sleutelcitaten) onder citeerrecht.",
+    "geharvest": "2026-04-20",
+    "schema_versie": "0.2-uitgebreid"
+  }
+}

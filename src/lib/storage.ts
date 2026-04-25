@@ -1,7 +1,6 @@
 import { ListProgress, WordProgress, SessionResult, RekentoetsBlockResult, RekentoetsProgress } from "./types";
 import { getInitialProgress } from "./leitner";
 import { pushProgress, getToken } from "./sync";
-import { syncWordProgress, syncListMeta, syncStreakDay } from "./supabase/sync";
 
 const PROGRESS_KEY = "woordjes-leren-progress";
 const SESSIONS_KEY = "woordjes-leren-sessions";
@@ -71,14 +70,6 @@ export function updateWordProgress(
   trackGlobalPracticeDay(today);
 
   saveStorage(all);
-
-  // Sync naar Supabase als ingelogd (fire-and-forget)
-  syncWordProgress(listId, wordProgress);
-  syncListMeta(listId, {
-    practiceDays: all[listId].practiceDays,
-    sessionsCompleted: all[listId].sessionsCompleted,
-    lastPracticed: all[listId].lastPracticed,
-  });
 }
 
 export function incrementSessionCount(listId: string) {
@@ -196,8 +187,6 @@ export function trackGlobalPracticeDay(today?: string) {
     data.days.sort();
     saveStreakData(data);
   }
-  // Sync naar Supabase als ingelogd
-  syncStreakDay(day);
 }
 
 /** Calculate current streak (consecutive days ending today or yesterday) */

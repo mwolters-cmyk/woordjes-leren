@@ -1,0 +1,671 @@
+{
+  "slug": "karakter",
+  "titel": "Karakter",
+  "auteur": {
+    "naam": "Ferdinand Bordewijk",
+    "sortname": "Bordewijk, Ferdinand",
+    "geboren": "1884-10-10",
+    "overleden": "1965-04-28",
+    "biografische_context": "Bordewijk werd geboren in Amsterdam. Zijn gezin verhuisde in 1894 naar Den Haag, waar hij tot zijn dood zou blijven wonen. Hij studeerde rechten in Leiden en werd in 1913 beëdigd als advocaat. Zijn beroepspraktijk als advocaat in Rotterdam kleurt zijn literaire werk sterk: kantooromgevingen, rechtszaken en juridische procedures vormen een terugkerend decor. Tijdens de Tweede Wereldoorlog was hij actief in het kunstenaarsverzet. Bij een bombardement op het Bezuidenhout verloor hij zijn omvangrijke bibliotheek. Na de oorlog maakte hij deel uit van een raad die collaboratie van kunstenaars beoordeelde.",
+    "positie_literatuur": "Bordewijk wordt beschouwd als een van de belangrijkste auteurs uit de Nederlandse literatuur en zeker uit het interbellum. Hij geldt als de meest typische vertegenwoordiger van de Nieuwe Zakelijkheid. Naar aanleiding van zijn roman Bint is gesproken van een 'gewapend-betonstijl', een kenschets van zijn sobere stijl met ellipsen, enkelvoudige zinnen en beperkt gebruik van bijvoeglijke naamwoorden.",
+    "hoofdwerken": [
+      {
+        "titel": "Blokken",
+        "jaar": 1931,
+        "type": "roman"
+      },
+      {
+        "titel": "Knorrende beesten",
+        "jaar": 1933,
+        "type": "roman"
+      },
+      {
+        "titel": "Bint",
+        "jaar": 1934,
+        "type": "roman"
+      },
+      {
+        "titel": "Karakter",
+        "jaar": 1938,
+        "type": "roman",
+        "opmerking": "Meest gelezen en herdrukte werk; verfilmd in 1997"
+      }
+    ]
+  },
+  "uitgave": {
+    "eerste_druk": 1938,
+    "uitgeverij": null,
+    "plaats": null,
+    "isbn_13": null,
+    "pagina_ongeveer": 250,
+    "oplage_eerste_maanden": null,
+    "opmerking_oplage": "Het boek beleefde tot 1998 minstens zevenendertig drukken en wordt nog steeds herdrukt."
+  },
+  "classificatie": {
+    "vak": "nederlands",
+    "leeftijdsgroep": "15-18",
+    "lezen_voor_lijst_niveaus": [
+      4
+    ],
+    "niveau_primair": 4,
+    "niveau_opmerking": "Ingedeeld op niveau 4 (lezenvoordelijst.nl). De docenteninfo bespreekt toegankelijkheid voor N3 t/m N5: voor N3 zijn de filosofische beschouwingen en verouderd vocabulaire een struikelblok, voor N5 bieden stijl, surrealistisch getinte passages en psychologische diepgang extra aanknopingspunten.",
+    "geschikt_voor": [
+      "havo bovenbouw",
+      "vwo bovenbouw"
+    ],
+    "genres": [
+      "psychologische roman",
+      "bildungsroman"
+    ],
+    "literaire_periode": "interbellum",
+    "stroming_invloed": [
+      "Nieuwe Zakelijkheid"
+    ]
+  },
+  "bron_urls": {
+    "lezenvoordelijst_leerling": "https://www.jeugdbibliotheek.nl/12-18-jaar/lezen-voor-de-lijst/15-18-jaar/niveau-4/karakter.html",
+    "lezenvoordelijst_docent": "https://www.lezenvoordelijst.nl/docenten-15-18/niveau-4/karakter/",
+    "scholieren_hub": "https://www.scholieren.com/boek/karakter-ferdinand-bordewijk",
+    "wikipedia_nl": "https://nl.wikipedia.org/wiki/Karakter_(boek)"
+  },
+  "flaptekst": "Katadreuffe is bezeten van het verlangen advocaat te worden. Als zoon van een arme ongehuwde moeder in het vooroorlogse Rotterdam zet hij alles op alles om zijn doel te bereiken. De machtige deurwaarder Dreverhaven, zijn vader, werkt hem in alle opzichten tegen. Waarom? Twee onbuigzame karakters in een strijd die tot het uiterste lijkt te gaan - zelfs de liefde wordt…",
+  "eerste_zin": null,
+  "motto": {
+    "citaat": "A sadder and wiser man / he rose the morrow morn",
+    "bron": "Samuel Taylor Coleridge, The Rime of the Ancient Mariner (1798)",
+    "context": "In Coleridges ballade vertelt een zeeman hoe hij, na het neerschieten van een geluksbrengende albatros, wordt achtervolgd door ongeluk en sindsdien zwervend gedreven is zijn verhaal te vertellen. Het motto is afkomstig uit de slotverzen: de luisteraar staat de volgende ochtend op als een droeviger en wijzer mens.",
+    "interpretatie": "Het motto verwijst naar het te laat inzien wat werkelijk belangrijk is in het leven. Tegelijk toont het dat men kan leren van eigen en andermans fouten. In relatie tot de roman: Katadreuffe bereikt zijn doel, maar heeft daarvoor de liefde en menselijke nabijheid opgeofferd. Pas aan het einde, in de confrontatie met zijn vader, begint hij te begrijpen wat zijn strijd hem heeft gekost en wat die vader werkelijk voor hem betekende."
+  },
+  "structuur": {
+    "indeling": "Negenentwintig hoofdstukken met korte titels in plaats van nummers",
+    "episodes": null,
+    "per_hoofdstuk": "De hoofdstukken zijn niet genummerd maar elk voorzien van een korte, passende titel. De structuur volgt de levensloop van Jacob Willem Katadreuffe van zijn verwekking tot zijn beëdiging als advocaat op achtentwintigjarige leeftijd.",
+    "chronologie": "Het verhaal wordt chronologisch verteld, letterlijk ab ovo: vanaf de conceptie van de boreling. De tijdssprongen die worden gemaakt zijn helder aangegeven; hoofdstuktitels wijzen de weg. Vertelde tijd: ongeveer 1903 tot 1931. Soms keert de verteller kort terug op een eerder beschreven situatie om die uitgebreider uit te werken.",
+    "compositie_opmerking": "Er is één doorgaande verhaallijn: de ontwikkeling van Jacob Katadreuffe. Incidenteel wordt een uitstapje gemaakt naar de beleving of geschiedenis van de vader Dreverhaven, maar dit maakt het geheel niet complexer. De auctoriale verteller is nadrukkelijk aanwezig en becommentarieert de gebeurtenissen, blikt vooruit en achteruit."
+  },
+  "perspectief": {
+    "type_hoofd": "Auctoriaal (alwetende verteller die ook commentaar geeft, vergelijkt en vooruitblikt)",
+    "type_proloog": null,
+    "opmerking": "Vanaf het begin is er sprake van een sterk aanwezige auctoriale verteller. Deze treedt regelmatig op de voorgrond om te becommentariëren, te vergelijken of filosofisch te reflecteren. Geregeld treedt de verteller terug en beleeft de lezer de situatie vrij direct vanuit een personage, doorgaans de hoofdpersoon, soms een bijpersoon. Voor N3-lezers kan het commentaar op momenten te belerend aanvoelen; ervaren lezers waarderen de gelaagdheid.",
+    "implicaties_voor_betekenis": "De aanwezigheid van de auctoriale verteller ondersteunt de thematiek van karaktervorming: de lezer wordt niet alleen door Katadreuffes eigen beleving geleid, maar krijgt ook een buiten-perspectief dat de betekenis van diens strijd expliciteert. Dit maakt de roman tegelijk toegankelijk en interpretatief rijk."
+  },
+  "samenvatting": {
+    "kort": "Jacob Willem Katadreuffe is het buitenechtelijke kind van de deurwaarder Dreverhaven en zijn voormalige dienstmeisje Joba. Joba weigert te trouwen, Dreverhaven te erkennen, en zelfs de alimentatie aan te nemen; zij voedt haar zoon in armoede op. Katadreuffe opent na zijn lagere school een sigarenwinkel, gaat failliet, en werkt zich van klerk tot advocaat. Op die weg wordt hij telkens gedwarsboomd door zijn vader, die meerdere malen zijn faillissement aanvraagt. Aan het einde van de roman suggereert Dreverhaven dat zijn tegenwerking eigenlijk meewerking was: door zijn zoon het leven moeilijk te maken, maakte hij hem groot.",
+    "per_fase": {
+      "fase_1_herkomst_en_jeugd": "De roman begint met de herkomst van Katadreuffe. De deurwaarder A.B. Dreverhaven had zich opgedrongen aan zijn achttienjarige dienstmeisje Jacoba (Joba) Katadreuffe, al was het contact niet geheel tegen haar zin. Joba raakt zwanger, verlaat Dreverhavens dienst en weigert zijn herhaalde huwelijksaanzoeken. Ze wijst ook de alimentatie af die Dreverhaven vrijwillig tot twaalfmaal toe aanbiedt, en vertelt haar zoon niets over zijn vader. Een aanzoek van de schipper Harm Knol Hein wijst ze eveneens af: niet uit rancune, maar uit trots en een onafhankelijke wil. Jacob Willem groeit op in armoede bij zijn stugge, zwijgzame moeder. Hun omgang is formeel en koud van buiten, maar draagt een zware emotionele lading die geen van beiden weet te uiten.",
+      "fase_2_sigarenwinkel_en_eerste_faillissementen": "Na de lagere school opent Katadreuffe met een voorschot van de bank een sigarenzaakje. De winkel mislukt. Het is de eerste keer dat hij zijn vader ontmoet als tegenstander: Dreverhaven blijkt achter het aangevraagde faillissement te steken. Katadreuffes enige bezit op dat moment is een stapeltje boeken ter waarde van vijftien gulden; het faillissement wordt aanvankelijk afgewezen wegens gebrek aan baten. Jaren later, op het moment dat Katadreuffe zich een positie op een advocatenkantoor heeft verworven en het faillissement vrijwel vergeten is, laat Dreverhaven hem alsnog met succes bankroet verklaren en smoort daarmee nagenoeg diens juridische carrière in de kiem. Katadreuffe draagt de vernedering, betaalt zijn schulden af en hervat zijn weg.",
+      "fase_3_advocatenkantoor_en_studie": "De Gankelaar, een kennis, biedt Katadreuffe een baan aan op het advocatenkantoor van meneer Stroomkoning. Staand voor de naamborden van het kantoor weet Katadreuffe met zekerheid: zijn doel is advocaat worden. Hij werkt overdag als klerk en studeert 's avonds voor zijn staatsexamen. Hij trekt in bij de familie Graanoost, die boven het kantoor woont. Op het kantoor werken meerdere vrouwen die zich tot hem aangetrokken voelen, maar hij negeert hen. De enige voor wie hij iets voelt is Lorna te George, de secretaresse van Stroomkoning. De aantrekking is wederzijds maar wordt nooit uitgesproken; Katadreuffe plaatst zijn carrière consequent boven elk persoonlijk gevoel. Nadat hij via de Gankelaar hoort dat Dreverhaven ook achter een woekerbankje zat waarmee hij eerder te maken kreeg, daagt hij zijn vader bewust uit door bij diens kantoor een lening aan te vragen voor zijn studie. De lening krijgt hij. Hij gaat in Leiden studeren.",
+      "fase_4_derde_faillissement_en_afronding_studie": "Dreverhaven eist zonder aanwijsbare reden de bijna volledig afgeloste lening op en vraagt voor de derde maal het faillissement van zijn zoon aan. Dit verzoek wordt afgewezen: Katadreuffe kan zijn studie voltooien. Lorna te George dient ontslag in bij Stroomkoning; wanneer Katadreuffe haar maanden later tegenkomt langs de rivier, heet ze mevrouw Telger en loopt achter een kinderwagen. Te laat beseft hij dat hij oprechte liefde voor haar koesterde. Na zijn studies wordt bezwaar gemaakt tegen zijn beëdiging als advocaat: men vermoedt communistische achtergronden vanwege zijn vriendschap met Jan Maan. Het bezwaar wordt afgewezen.",
+      "fase_5_ontknoping_en_laatste_ontmoeting": "Nadat Katadreuffe is beëdigd als advocaat, zoekt hij zijn vader op voor een laatste ontmoeting. In zijn ogen heeft hij Dreverhaven overwonnen: hij is hoger opgekomen en heeft zich niet klein laten krijgen. Dan suggereert de vader dat de tegenwerking geen tegenwerking was: door zijn zoon het leven zo moeilijk mogelijk te maken, zou hij hem juist groot hebben gemaakt. Of Dreverhaven dit oprecht meent of slechts achteraf construeert, laat Bordewijk open. Pas in een vergevorderd stadium van zijn moeders ziekte ontdekt Katadreuffe bovendien dat zij nooit het geld heeft aangeraakt dat hij haar stuurde om haar armoede te verlichten: alles staat op een spaarbankboekje dat voor hem is bedoeld. Ook de bewijzen van Dreverhavens generositeit tegenover zijn moeder ontdekt hij pas nadat hij het contact met zijn vader heeft verbroken.",
+      "bevat_spoilers": true
+    }
+  },
+  "personages": {
+    "hoofdpersoon": {
+      "Jacob Willem Katadreuffe": {
+        "rol": "hoofdpersoon, focalisator",
+        "leeftijd_begin": 0,
+        "leeftijd_einde": 28,
+        "beroep": "klerk op advocatenkantoor, later beëdigd advocaat",
+        "karakter": "Ambitieus, koppig, trots en stug. Katadreuffe bezit een onbuigzame wil om hogerop te komen, maar mist het vermogen om menselijke nabijheid te accepteren. Hij is een knappe man die vrouwen aantrekt, maar zichzelf de liefde ontzegt ten behoeve van zijn doel. Zijn koppigheid en trots heeft hij van zijn moeder; zijn ambitie om zijn vader te overtreffen is zijn eigen motor.",
+        "ontwikkeling": "Katadreuffe ontwikkelt zich van arm, vaderloze klerkenjongen tot beëdigd advocaat. Zijn karakter verhardt en scherpt zich aan op de weerstand die hij ondervindt. Pas aan het einde van de roman begint hij te beseffen wat die strijd hem heeft gekost op menselijk vlak: de liefde voor Lorna te George, echte vriendschap, en de verborgen genegenheid van zowel moeder als vader.",
+        "functie": "De roman is de weergave van zijn karaktervorming. Katadreuffe is tegelijk held en gevangene van zijn eigen karakter: zijn sterkte is ook zijn beperking."
+      }
+    },
+    "bijfiguren": [
+      {
+        "naam": "A.B. Dreverhaven",
+        "rol": "vader van Katadreuffe, deurwaarder",
+        "karakter": "Een grote, brede, gevreesde man die als deurwaarder nietsontziend te werk gaat. Hij marcheert door de straten met zijn jas wapperend en wordt door velen gemeden. Zijn naam past bij zijn eigenschappen: wilskrachtig en ruw.",
+        "ontwikkeling": "Dreverhaven lijkt gedurende de roman onveranderlijk: een blok dat zijn zoon tegenwerkt. Pas in de slotscène onthult hij een andere laag, wanneer hij suggereert dat zijn tegenwerking eigenlijk steun was. Of dit geloofwaardig is, blijft de centrale open vraag van de roman.",
+        "functie": "Dreverhaven is de antagonist die tegelijk de motor is van Katadreuffes ontwikkeling. Hij vertegenwoordigt de schaduwzijde van een sterk karakter: zijn meedogenloze doelgerichtheid staat menselijk contact in de weg. Bordewijk geeft hem een naam die zijn aard spiegelt."
+      },
+      {
+        "naam": "Joba (Jacoba) Katadreuffe",
+        "rol": "moeder van Katadreuffe, voormalig dienstmeisje van Dreverhaven",
+        "karakter": "Koppig, trots en zwijgzaam. Ze voedt Jacob alleen op in armoede, weigert Dreverhavens alimentatie en alle huwelijksaanzoeken. In het begin een sterke vrouw; lichamelijk takt ze steeds verder af door haar zware werkomstandigheden.",
+        "ontwikkeling": "Joba verzwakt lichamelijk naarmate de roman vordert. Pas na haar nagenoeg volledige aftakeling ontdekt Katadreuffe dat zij het geld dat hij haar stuurde nooit heeft aangeraakt: het staat op een spaarbankboekje voor hem. Dit onthult achteraf een verborgen liefdevolle intentie achter haar schijnbare kilheid.",
+        "functie": "Joba vertegenwoordigt het derde pijler van het 'karakter' in de titeltrilogie. Haar drijfveer is niet rancune jegens Dreverhaven maar trots en zelfredzaamheid. Ze geeft Jacob zijn meest wezenlijke karaktertrekken mee."
+      },
+      {
+        "naam": "Jan Maan",
+        "rol": "kostganger bij Joba Katadreuffe, enige echte vriend van Katadreuffe",
+        "karakter": "Communist, werkt als machine-bankwerker in een fabriek. Een milder, socialer mens dan Katadreuffe. Heeft Katadreuffe geld geleend toen die krap zat.",
+        "ontwikkeling": "Jan Maan verandert weinig; hij blijft trouw aan zijn politieke overtuigingen. Zijn communistische achtergrond vormt op het einde een bedreiging voor Katadreuffes beëdiging.",
+        "functie": "Jan Maan is het mildere tegengewicht voor Katadreuffes stugge gedrevenheid. Hij vertegenwoordigt de menselijke warmte waarvan Katadreuffe zich door zijn ambities vervreemdt."
+      },
+      {
+        "naam": "Lorna te George",
+        "rol": "secretaresse van mr. Stroomkoning op het advocatenkantoor",
+        "karakter": "Bekwaam, mooi, ingetogen. Ze doet haar werk altijd keurig en goed. Er is een wederzijdse maar nooit uitgesproken aantrekking tussen haar en Katadreuffe.",
+        "ontwikkeling": "Lorna dient haar ontslag in bij Stroomkoning. Wanneer Katadreuffe haar later tegenkomt, heet ze mevrouw Telger en loopt achter een kinderwagen. Ze heeft haar leven verder gebouwd terwijl Katadreuffe stilstond in zijn carrièredwang.",
+        "functie": "Lorna belichaamt de liefde en het persoonlijke geluk dat Katadreuffe opoffert aan zijn ambitie. Te laat beseft hij dat hij echte gevoelens voor haar koesterde. Ze vertegenwoordigt de schaduwzijde van een te sterk karakter."
+      },
+      {
+        "naam": "mr. Stroomkoning",
+        "rol": "advocaat, werkgever van Katadreuffe",
+        "karakter": "Machtig en gezaghebbend. Zijn naam past bij zijn positie: hij is de 'koning' van de rechtspraktijk.",
+        "ontwikkeling": null,
+        "functie": "Stroomkoning belichaamt het doel waarnaar Katadreuffe streeft: hij is het levende voorbeeld van de advocaat-autoriteit. Zijn naam is een van de sprekende namen waarmee Bordewijk personages karakteriseert."
+      },
+      {
+        "naam": "De Gankelaar",
+        "rol": "tussenpersoon die Katadreuffe aan een baan helpt op het advocatenkantoor",
+        "karakter": null,
+        "ontwikkeling": null,
+        "functie": "De Gankelaar is de katalysator voor Katadreuffes carrière: hij brengt hem in contact met het advocatenkantoor en onthult later dat Dreverhaven achter het woekerbankje stak. Hij fungeert als informatieverstrekker op sleutelmomenten."
+      },
+      {
+        "naam": "Rentenstein",
+        "rol": "frauderende bureauchef",
+        "karakter": null,
+        "ontwikkeling": null,
+        "functie": "Een bijfiguur met een veelzeggende naam die zijn aard verraadt. Bordewijk gebruikt hem als onderdeel van het grotere kantoorpersoneel waartegen Katadreuffe zich moet handhaven."
+      },
+      {
+        "naam": "Den Hieperboree",
+        "rol": "angstaanjagende assistent van Dreverhaven",
+        "karakter": null,
+        "ontwikkeling": null,
+        "functie": "Onderdeel van Dreverhavens dreigingsuniverse; een bijfiguur wiens naam de angst oproept die Dreverhavens omgeving uitstraalt."
+      },
+      {
+        "naam": "Juffrouw Sibculo",
+        "rol": "personage in de kantooromgeving",
+        "karakter": "Katadreuffe heeft aanvankelijk een hekel aan haar; later groeit zijn waardering voor haar.",
+        "ontwikkeling": "Sibculo's ontwikkeling wordt weergegeven vanuit Katadreuffes veranderende blik: ze illustreert hoe zijn vermogen tot nuance en menselijkheid geleidelijk rijpt.",
+        "functie": "Zij is een van de bijpersonen die een eigen ontwikkeling doormaakten vanuit Katadreuffes waarneming, en die laten zien dat ook zijn oordeelsvermogen over mensen rijpt."
+      },
+      {
+        "naam": "Familie Graanoost",
+        "rol": "kostgezin van Katadreuffe, woonachtig boven het advocatenkantoor",
+        "karakter": null,
+        "ontwikkeling": null,
+        "functie": "Belichaamt de stabiele, alledaagse omgeving waarin Katadreuffe studeert en groeit."
+      }
+    ]
+  },
+  "thematiek": {
+    "hoofdthemas": [
+      {
+        "naam": "Karaktervorming en de kracht van tegenstand",
+        "uitwerking": "Het centrale thema is de ontwikkeling van een sterk karakter onder extreme druk. Katadreuffe groeit op zonder vader, in armoede, en moet elke stap omhoog bevechten tegen de actieve tegenwerking van Dreverhaven. De slotscène kantelt het perspectief radicaal: de vader suggereert dat die tegenwerking in werkelijkheid opvoeding was. Bordewijk laat daarmee open of karakter wordt gevormd dóór tegenstand, of dat die suggestie een zelfrechtvaardiging is van een man die nooit vader durfde te zijn. De roman stelt de vraag of een sterk karakter een deugd of een gevangenis is."
+      },
+      {
+        "naam": "De schaduwzijden van ambitie",
+        "uitwerking": "Katadreuffe bereikt zijn doel, maar de prijs is hoog. Hij offert de liefde voor Lorna te George op aan zijn carrière, vervreemdt van zijn enige vriend Jan Maan door diens politieke gevaar, en houdt zijn moeder op emotionele afstand. Bordewijk schreef in 1938 dat in zijn romans 'een ondeugd of de overdrijving van een deugd uiteindelijk naar de ondergang voert'. Katadreuffes onbuigzame wil is een deugd die tegelijk zijn menselijke isolement veroorzaakt. Hij wint de maatschappelijke strijd maar verliest op het persoonlijke vlak."
+      },
+      {
+        "naam": "De vader-zoonrelatie en onuitgesproken genegenheid",
+        "uitwerking": "Vader, moeder en zoon zijn allen verbonden door een sterke emotionele band die ze niet kunnen of willen hanteren. Ze omgaan elkaar op formele, afstandelijke wijze, erkennen elkaars behoeften slechts indirect en soms op bizarre wijze. Dreverhaven biedt zijn woedende zoon meermalen een mes aan waarmee deze hem kan aanvallen: een perverse manier om nabijheid toe te laten. Joba bewaart elk door Katadreuffe gestuurd geldstuk voor hem. Pas aan het einde worden de tekenen van verborgen genegenheid zichtbaar, en dan is het contact al verbroken. Het te laat of onvoldoende aanvaarden van gevoelens is een leidmotief van het verhaal."
+      },
+      {
+        "naam": "Sociale mobiliteit en klassenstrijd in het interbellum",
+        "uitwerking": "De roman speelt in het Rotterdam van na de Eerste Wereldoorlog tot eind jaren dertig, een periode van economische crisis en sociale spanningen. Katadreuffe is een arbeiderskind dat zich omhoogwerkt in een wereld van kantoren, advocaten en deurwaarders. Zijn klim vraagt niet alleen talent en doorzettingsvermogen, maar ook politieke behendigheid: zijn vriendschap met de communist Jan Maan vormt op het einde een reëel gevaar voor zijn beëdiging. De roman tekent zo ook een maatschappij waarin afkomst en politieke kleur levensbepalend zijn."
+      },
+      {
+        "naam": "Trots als tweesnijdend zwaard",
+        "uitwerking": "Zowel Joba als Katadreuffe als Dreverhaven zijn gedreven door een onwrikbare trots die hen tegelijk sterk en eenzaam maakt. Joba weigert hulp die haar leven zou verlichten. Katadreuffe weigert aanvankelijk de lening van zijn vader. Dreverhaven rechtvaardigt zijn handelen als karakteropbouw. Geen van drieën is in staat toe te geven of te ontvangen. De roman toont hoe trots en zelfstandigheid, in overdrijving, menselijk contact onmogelijk maken."
+      }
+    ]
+  },
+  "motieven": [
+    {
+      "naam": "De naam als karakterspiegel",
+      "betekenis": "Bordewijk geeft zijn personages namen die hun eigenschappen of maatschappelijke positie weerspiegelen. Dreverhaven klinkt als een dreigend, ruig havengebied - passend bij de gevreesde deurwaarder. Stroomkoning suggereert macht en gezag. Rentenstein verraadt zijn frauduleuze aard. Katadreuffe is een vreemde, harde klank die bij de introductie van de roman letterlijk wordt uitgesproken als: 'deze naam op zijn Nederlands uit te spreken'.",
+      "tekstplaatsen": [
+        {
+          "context": "Opening van de roman: toelichting op de uitspraak van de naam Katadreuffe"
+        },
+        {
+          "context": "Bordewijk laat Stroomkoning fungeren als de machtige advocaat wiens naam zijn positie samenvat"
+        },
+        {
+          "context": "Den Hieperboree als angstaanjagende assistent van Dreverhaven"
+        }
+      ]
+    },
+    {
+      "naam": "Het mes",
+      "betekenis": "Meerdere malen biedt Dreverhaven zijn woedende zoon een mes aan waarmee deze hem kan aanvallen. Het mes is een bizarre uitdrukking van verborgen toenadering: de vader laat zijn zoon dicht genoeg komen om hem te kunnen raken, en erkent daarmee indirect diens woede als legitiem. Het is ook een pervers aanbod van gelijkwaardigheid.",
+      "tekstplaatsen": [
+        {
+          "context": "Bij de ontmoetingen tussen vader en zoon in Dreverhavens kantoor, waarbij het mes uit Dreverhavens handen wordt geslagen"
+        }
+      ]
+    },
+    {
+      "naam": "Faillissement en financiële strijd",
+      "betekenis": "Het herhaalde aanvragen van Katadreuffes faillissement door Dreverhaven is het concrete instrument van de vader-zoonstrijd. Tegelijk is het een motief van telkens herboren ambitie: elk faillissement dwingt Katadreuffe opnieuw te beginnen en zich te bewijzen. De drie faillissementsaanvragen structureren de roman als een drievoudige beproeving.",
+      "tekstplaatsen": [
+        {
+          "context": "Eerste faillissement na de sigarenwinkel - wordt afgewezen wegens gebrek aan baten (stapeltje boeken ter waarde van vijftien gulden)"
+        },
+        {
+          "context": "Tweede faillissement op het moment dat Katadreuffe net grip heeft op zijn carrière bij Stroomkoning"
+        },
+        {
+          "context": "Derde faillissementsaanvraag na het opvorderen van de bijna afgeloste lening - wordt afgewezen zodat Katadreuffe zijn studie kan voltooien"
+        }
+      ]
+    },
+    {
+      "naam": "Geld als verborgen genegenheid",
+      "betekenis": "Zowel Dreverhaven als Joba drukken gevoelens uit via geld in plaats van woorden of aanraking. Dreverhaven biedt tot twaalfmaal toe vrijwillig alimentatie aan. Joba weigert alles - maar spaart het geld dat Katadreuffe haar stuurt onaangeroerd op voor hemzelf. Geld circuleert in de roman als een gecodeerde taal van genegenheid die niemand hardop durft te spreken.",
+      "tekstplaatsen": [
+        {
+          "context": "Dreverhavens twaalfvoudige alimentatieaanbod, door Joba geweigerd"
+        },
+        {
+          "context": "Het spaarbankboekje dat Katadreuffe ontdekt tijdens de ziekte van zijn moeder: al het geld dat hij haar stuurde staat er onaangeroerd op"
+        }
+      ]
+    },
+    {
+      "naam": "Rotterdam als decor en karakter",
+      "betekenis": "De roman speelt zich hoofdzakelijk af in Rotterdam, door Katadreuffe aangeduid als de internationale stad - in contrast met Den Haag, 'die pest stad'. Rotterdam is meer dan coulisse: de havenstad met haar zakelijkheid, ruwheid en internationale allure weerspiegelt Dreverhavens karakter en de meedogenloze wereld waarin Katadreuffe omhoogklimmen moet. Bordewijks eigen advocatenpraktijk was in Rotterdam.",
+      "tekstplaatsen": [
+        {
+          "context": "Wandelingen van Katadreuffe langs de rivier; de rivier als ruimtelijk symbool voor de stroom van het leven"
+        },
+        {
+          "context": "Het kantoor van Stroomkoning als de ruimte van aspiratie; het kantoor van Dreverhaven als de ruimte van dreiging"
+        }
+      ]
+    },
+    {
+      "naam": "Surrealistisch-impressionistische beschrijvingen",
+      "betekenis": "Bordewijk laat zich zo nu en dan gaan in beschrijvingen die doen denken aan schilderijen van Carel Willink of Dick Ket. Hij roept surrealistische taferelen op, met name in beschrijvingen van personen, gebouwen en buitensituaties in Rotterdam. Dit vormt een opvallend contrast met de verder sobere, zakelijke stijl.",
+      "tekstplaatsen": [
+        {
+          "context": "Beschrijvingen van Dreverhaven in het straatbeeld, marcherende gestalte met wapperende jas"
+        }
+      ]
+    }
+  ],
+  "stijl_en_taal": {
+    "kenmerken": "Sober, ingehouden en precies. Kenmerkend zijn de korte zinnen, soms tot ellipsen gereduceerd, en het spaarzame gebruik van bijvoeglijke naamwoorden. Dit wordt wel aangeduid als 'gewapend-betonstijl'. Het taalgebruik is gedateerd (1938) maar door zijn moderniteit tegelijk strak en niet weelderig. Sommige woorden zijn voor hedendaagse lezers onbekend (bv. 'sjappietouwer').",
+    "register_verschuivingen": "Wisselend tussen sobere actie en uitgebreide filosofische beschouwing. De beschouwende passages over Katadreuffes ontwikkeling zijn breedvoerig en liggen op N5-niveau; rake typeringen in enkelvoudige zinnen compenseren dit. Dialogen variëren van eenvoudig tot breedvoerig.",
+    "karakteriseringstechniek": "Alleen het hoofdpersonage wordt volledig uitgewerkt. Bijfiguren worden in enkele krachtige lijnen neergezet, mede via hun sprekende namen. Open plekken in de vertelling bouwen spanning op over verloop en motieven."
+  },
+  "decor": {
+    "hoofdlocaties": [
+      "Rotterdam (kantoor Stroomkoning, kantoor Dreverhaven, straten en rivier)",
+      "Den Haag (twee korte uitjes)",
+      "Leiden (studie Katadreuffe)"
+    ],
+    "beeldsymbolisch_belang": "Rotterdam is de dominante ruimte en belichaamt de meedogenloze, zakelijke wereld van de roman. De rivier duikt meermalen op als ruimtelijk anker voor momenten van overdenking. De kantoren van Stroomkoning en Dreverhaven zijn ruimtelijk contrast: het ene het doel, het andere de bedreiging."
+  },
+  "titelverklaring": {
+    "oppervlakkig": "De titel verwijst naar de drie hoofdpersonages die allen een sterk, eigenzinnig karakter bezitten: Dreverhaven, Joba en Katadreuffe. De ondertitel 'Roman van zoon en vader' verwijst rechtstreeks naar het centrale conflict.",
+    "dieper": "Karakter heeft in de roman een dubbele lading. Enerzijds is het de eigenschap die alle drie de hoofdfiguren deelt: onbuigzaamheid, trots, eigenwil. Anderzijds is het de vraag wat karakter kost: Katadreuffe vormt zijn karakter ten koste van liefde, vriendschap en menselijke nabijheid. Bordewijk toont dat een sterk karakter een overdrijving van een deugd is - en dat overdrijving zijn eigen prijs heeft."
+  },
+  "historische_context": {
+    "periode_boek": "circa 1903-1931",
+    "belangrijkste_historische_gebeurtenissen_in_boek": [
+      "Interbellum: economische crisis van de jaren twintig en dertig als achtergrond voor Katadreuffes sociale klim",
+      "Politieke spanningen in het interbellum: toespelingen op de NSB (het 'oranje-blanje-bleuvlaggetje') en de CPH (Communistische Partij Holland) herkenbaar voor ingewijden",
+      "Eerste Wereldoorlog als historische achtergrond van de periode"
+    ],
+    "historische_personen_als_inspiratie": null
+  },
+  "receptie_en_prijzen": {
+    "verkoop_eerste_maanden": null,
+    "oplage_totaal": "Tot minstens de zevenendertigste druk in 1998; wordt nog steeds herdrukt",
+    "vertalingen": null,
+    "verfilming": {
+      "jaar": 1997,
+      "regisseur": "Mike van Diem",
+      "acteurs_belangrijk": null,
+      "prijzen": [
+        "Oscar beste niet-Engelstalige film 1998",
+        "Gouden Kalf"
+      ],
+      "opmerking": "Het filmscript verwerkt ook elementen uit de postuum gepubliceerde novelle Dreverhaven en Katadreuffe. Het einde van de film wijkt af van het boek."
+    },
+    "televisiebewerking": {
+      "jaar": 1971,
+      "medium": "televisieserie",
+      "acteurs_belangrijk": [
+        "Ko van Dijk jr. (vader)",
+        "Lex van Delden (zoon)"
+      ]
+    },
+    "toneelbewerking": [
+      {
+        "jaar": 2008,
+        "bewerker": "Peter Sonneveld",
+        "gezelschap": "Bonheur, Rotterdam"
+      },
+      {
+        "jaar": 2010,
+        "bewerker": "Ger Thijs",
+        "regie": "Ger Thijs",
+        "acteurs": [
+          "Joost Prinsen (Dreverhaven)",
+          "Waldemar Torenstra (Katadreuffe)"
+        ]
+      }
+    ]
+  },
+  "sleutelcitaten": [
+    {
+      "citaat": "A sadder and wiser man / he rose the morrow morn",
+      "spreker": "Samuel Taylor Coleridge (motto)",
+      "context": "Motto van de roman, ontleend aan The Rime of the Ancient Mariner.",
+      "relevantie_mondeling": "Het motto kondigt aan dat de roman gaat over leren van fouten en het te laat inzien van wat werkelijk belangrijk is. Katadreuffe bereikt zijn doel maar betaalt een hoge menselijke prijs."
+    },
+    {
+      "citaat": "Van mijn romans meen ik te mogen zeggen: 'Een ondeugd of de overdrijving van een deugd voert uiteindelijk naar de ondergang.'",
+      "spreker": "Ferdinand Bordewijk (1938, buiten de roman)",
+      "context": "Bordewijks eigen poëtica-uitspraak uit het jaar van verschijning van Karakter.",
+      "relevantie_mondeling": "Sleutelt aan het hart van de interpretatie: Katadreuffes onbuigzame karakter is een overdreven deugd die hem isoleert. Bruikbaar om de thematiek te articuleren."
+    }
+  ],
+  "cross_book_verbindingen": {
+    "andere_bordewijk_op_lezen_voor_lijst": [
+      "Bint (1934) - eveneens niveau 4, vergelijkbare zakelijke stijl en thematiek van autoriteit"
+    ],
+    "andere_bildungsromans_vergelijkbaar": [
+      "Max Havelaar (Multatuli, 1860) - sociale klim en maatschappijkritiek",
+      "De avonden (Gerard Reve, 1947) - generatieconflict en vervreemding"
+    ],
+    "vergelijkbare_thematiek_vader_zoon": [
+      "Turks fruit (Jan Wolkers) - gebroken relaties en onvermogen tot genegenheid",
+      "De donkere kamer van Damokles (W.F. Hermans, 1958) - identiteit en dubbelzinnige loyaliteiten"
+    ],
+    "vergelijkbare_stijl": [
+      "Bint (Bordewijk) - gewapend-betonstijl, auctoriale verteller, sobere karaktertekening"
+    ]
+  },
+  "mondeling_aandachtspunten_per_niveau": {
+    "N3": "Focus op de verhaallijn van Katadreuffe, de drie faillissementen als structurerend element, de titelbetekenis (drie karakters), en de basale tegenstelling tussen vader en zoon. Wie werkt wie tegen, en waarom? Wat betekent het einde?",
+    "N4": "Bovenop N3: stijlkenmerk Nieuwe Zakelijkheid (ellipsen, sobere zinsbouw, weinig bijvoeglijke naamwoorden), de functie van de auctoriale verteller, de betekenis van het motto, de sprekende namen als karakterisatietechniek, en de psychologie van de drie hoofdfiguren.",
+    "N5": "Bovenop N4: Bordewijks eigen poëtica ('overdrijving van een deugd voert naar de ondergang'), de surrealistisch-impressionistische stijlpassages in contrast met de zakelijke toon, de historische context van het interbellum inclusief politieke toespelingen, oeuvre-vergelijking met Bint, en de open vraag of Dreverhavens slotbewering geloofwaardig is."
+  },
+  "mondelingvragen": {
+    "basics": [
+      {
+        "vraag": "Waar gaat het boek over?",
+        "anker": "samenvatting.kort",
+        "doorvraag": "Is het boek meer een succesverhaal of een tragedie?"
+      },
+      {
+        "vraag": "Hoe eindigt het boek?",
+        "anker": "samenvatting.per_fase.fase_5_ontknoping_en_laatste_ontmoeting",
+        "doorvraag": "Geloof jij Dreverhaven wanneer hij zegt dat zijn tegenwerking eigenlijk meewerking was?"
+      },
+      {
+        "vraag": "Wie zijn de hoofdpersonen?",
+        "anker": "personages.hoofdpersoon + personages.bijfiguren (Dreverhaven, Joba, Jan Maan, Lorna)",
+        "doorvraag": "Waarom heet het boek 'Karakter' en niet naar één van de personages?"
+      },
+      {
+        "vraag": "Wat betekent het motto?",
+        "anker": "motto.citaat + motto.interpretatie",
+        "doorvraag": "Op wie in de roman is het motto het meest van toepassing?"
+      },
+      {
+        "vraag": "Wat betekent de titel?",
+        "anker": "titelverklaring.oppervlakkig + titelverklaring.dieper",
+        "doorvraag": "Is een sterk karakter in dit boek een deugd of een probleem?"
+      }
+    ],
+    "plot_en_structuur": [
+      {
+        "vraag": "Hoe is het verhaal opgebouwd?",
+        "anker": "structuur.indeling + structuur.chronologie",
+        "doorvraag": "Waarom begint Bordewijk letterlijk bij de verwekking van Katadreuffe?"
+      },
+      {
+        "vraag": "Vat de plot samen in vijf zinnen.",
+        "anker": "samenvatting.kort + samenvatting.per_fase trefwoorden"
+      },
+      {
+        "vraag": "Welke rol spelen de drie faillissementen in de structuur van het verhaal?",
+        "anker": "motieven 'Faillissement en financiële strijd'",
+        "doorvraag": "Waarom wordt het derde faillissement afgewezen terwijl het tweede slaagt?"
+      },
+      {
+        "vraag": "Is er een open einde?",
+        "anker": "samenvatting.per_fase.fase_5 + thematiek: de slotsuggesting van Dreverhaven blijft open"
+      }
+    ],
+    "perspectief_en_vertelling": [
+      {
+        "vraag": "Vanuit welk perspectief is het boek geschreven?",
+        "anker": "perspectief.type_hoofd",
+        "doorvraag": "Wat is het effect van een verteller die commentaar geeft op de personages?"
+      },
+      {
+        "vraag": "Is de verteller neutraal?",
+        "anker": "perspectief.opmerking: verteller becommentarieert, blikt vooruit, geeft oordelen",
+        "doorvraag": "Kun je een voorbeeld geven van een moment waarop de verteller commentaar levert?"
+      },
+      {
+        "vraag": "Hoe weet de lezer wat Katadreuffe denkt?",
+        "anker": "perspectief: wisselend auctoriaal en personaal; verteller treedt terug voor beleving vanuit personage"
+      }
+    ],
+    "thematiek": [
+      {
+        "vraag": "Wat zijn de hoofdthema's van Karakter?",
+        "anker": "thematiek.hoofdthemas",
+        "doorvraag": "Welk thema vond jij het meest overtuigend uitgewerkt?"
+      },
+      {
+        "vraag": "Hoe werkt het thema van de vader-zoonrelatie in dit boek?",
+        "anker": "thematiek.hoofdthemas 'De vader-zoonrelatie en onuitgesproken genegenheid'",
+        "doorvraag": "Is Dreverhaven een slechte vader of een goede vader op zijn eigen manier?"
+      },
+      {
+        "vraag": "Bordewijk schreef dat in zijn romans 'een ondeugd of de overdrijving van een deugd uiteindelijk naar de ondergang voert'. Herken je dat in Karakter?",
+        "anker": "sleutelcitaten[1] + thematiek 'Schaduwzijden van ambitie'",
+        "doorvraag": "Wat gaat Katadreuffe te ver? En Dreverhaven?"
+      },
+      {
+        "vraag": "Is Karakter een succesverhaal of een verhaal over verlies?",
+        "anker": "thematiek.hoofdthemas 'De schaduwzijden van ambitie' + Lorna, Jan Maan"
+      }
+    ],
+    "motieven": [
+      {
+        "vraag": "Welke terugkerende motieven herken je?",
+        "anker": "motieven[] - mes, faillissement, geld als genegenheid, namen, Rotterdam"
+      },
+      {
+        "vraag": "Waarom biedt Dreverhaven zijn zoon herhaaldelijk een mes aan?",
+        "anker": "motieven 'Het mes'",
+        "doorvraag": "Wat zegt dit over de verhouding tussen vader en zoon?"
+      },
+      {
+        "vraag": "Welke betekenis heeft geld in deze roman?",
+        "anker": "motieven 'Geld als verborgen genegenheid'",
+        "doorvraag": "Waarom spaart Joba het geld dat Katadreuffe haar stuurt in plaats van het te gebruiken?"
+      },
+      {
+        "vraag": "Waarom geeft Bordewijk zijn personages zulke opvallende namen?",
+        "anker": "motieven 'De naam als karakterspiegel' + Wikipedia: Dreverhaven, Stroomkoning, Rentenstein, Den Hieperboree"
+      }
+    ],
+    "personages": [
+      {
+        "vraag": "Hoe ontwikkelt Katadreuffe zich in de roman?",
+        "anker": "personages.hoofdpersoon.Jacob Willem Katadreuffe.ontwikkeling",
+        "doorvraag": "Is hij aan het einde een beter of een gelukkiger mens dan aan het begin?"
+      },
+      {
+        "vraag": "Wat voor vrouw is Joba Katadreuffe?",
+        "anker": "personages.bijfiguren Joba",
+        "doorvraag": "Waarom weigert ze Dreverhavens alimentatie? Is dat moedig of koppig?"
+      },
+      {
+        "vraag": "Welke functie heeft Lorna te George?",
+        "anker": "personages.bijfiguren Lorna + thematiek 'schaduwzijden van ambitie'",
+        "doorvraag": "Waarom houdt Katadreuffe haar op afstand?"
+      },
+      {
+        "vraag": "Is Jan Maan een goede vriend voor Katadreuffe?",
+        "anker": "personages.bijfiguren Jan Maan",
+        "doorvraag": "Hoe bedreigt Jan Maans politieke activisme Katadreuffes carrière?"
+      }
+    ],
+    "tijd_en_context": [
+      {
+        "vraag": "Wanneer speelt het verhaal?",
+        "anker": "historische_context.periode_boek: circa 1903-1931",
+        "doorvraag": "Waarom is de crisisperiode van de jaren twintig en dertig relevant voor Katadreuffes verhaal?"
+      },
+      {
+        "vraag": "Wanneer is Karakter geschreven en hoe merk je dat aan het boek?",
+        "anker": "uitgave.eerste_druk 1938 + stijl_en_taal.kenmerken: gedateerd vocabulaire, moderne strakheid"
+      },
+      {
+        "vraag": "Welke politieke context speelt mee in de roman?",
+        "anker": "historische_context: NSB, CPH, interbellum + mondeling_aandachtspunten_per_niveau N4/N5"
+      }
+    ],
+    "stroming_en_oeuvre": [
+      {
+        "vraag": "In welke literaire stroming hoort Karakter thuis?",
+        "anker": "classificatie.stroming_invloed: Nieuwe Zakelijkheid",
+        "doorvraag": "Wat zijn de kenmerken van de Nieuwe Zakelijkheid en hoe zie je die terug in Bordewijks stijl?"
+      },
+      {
+        "vraag": "Wat wordt bedoeld met 'gewapend-betonstijl'?",
+        "anker": "auteur.positie_literatuur + stijl_en_taal.kenmerken",
+        "doorvraag": "Kun je een voorbeeld geven van zo'n zin of passage?"
+      },
+      {
+        "vraag": "Welke andere werken heeft Bordewijk geschreven?",
+        "anker": "auteur.hoofdwerken",
+        "doorvraag": "Hoe verhoudt Karakter zich tot Bint wat betreft stijl en thematiek?"
+      }
+    ],
+    "mening_en_waardering": [
+      {
+        "vraag": "Wat vond je van het boek?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "stijl: sober en precies of te kil?",
+          "thema: herkenbaar of te ver af?",
+          "personages: kun je je inleven in Katadreuffes keuzes?",
+          "einde: bevredigend of onbevredigend?"
+        ]
+      },
+      {
+        "vraag": "Zou je het aanraden aan een medeleerling?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "niveau van de taal",
+          "aanwezigheid actie versus beschouwing",
+          "relevantie van ambitie-thema voor jongeren",
+          "moeilijkheidsgraad eerste hoofdstukken"
+        ]
+      },
+      {
+        "vraag": "Wat vond je het sterkste deel?",
+        "onderbouwingsrichtingen": [
+          "de slotscène met de suggestie van Dreverhaven",
+          "de ontdekking van het spaarbankboekje van Joba",
+          "het mislukken van Katadreuffes liefde voor Lorna",
+          "de tweede faillissementsaanvraag als dramatisch hoogtepunt"
+        ]
+      },
+      {
+        "vraag": "Vond je Dreverhaven een geloofwaardig personage?",
+        "anker": "thematiek + personages.bijfiguren Dreverhaven",
+        "onderbouwingsrichtingen": [
+          "is zijn slotsuggesting oprecht of zelfrechtvaardiging?",
+          "hoe verhoudt zijn dreiging zich tot zijn verborgen loyaliteit?"
+        ]
+      }
+    ],
+    "cross_book": [
+      {
+        "vraag": "Welk ander boek op je lijst heeft een vergelijkbaar thema?",
+        "anker": "cross_book_verbindingen"
+      },
+      {
+        "vraag": "Vergelijk Karakter met Bint: wat hebben beide romans gemeen?",
+        "anker": "cross_book_verbindingen.andere_bordewijk_op_lezen_voor_lijst: zelfde stijl, thematiek van autoriteit en karaktervorming"
+      },
+      {
+        "vraag": "Karakter is een bildungsroman. Welke andere bildungsroman heb je gelezen en hoe vergelijkt die met Karakter?",
+        "anker": "classificatie.genres: bildungsroman + cross_book_verbindingen"
+      }
+    ],
+    "film_en_adaptatie": [
+      {
+        "vraag": "Heb je de verfilming van Karakter gezien? Wat zijn de belangrijkste verschillen met het boek?",
+        "anker": "receptie_en_prijzen.verfilming: film verwerkt ook novelle Dreverhaven en Katadreuffe; einde wijkt af",
+        "doorvraag": "Wat gaat er verloren als je een roman verfilmt?"
+      },
+      {
+        "vraag": "De film Karakter won een Oscar. Wat zegt dat over de universele aantrekkingskracht van het verhaal?",
+        "anker": "receptie_en_prijzen.verfilming.prijzen",
+        "doorvraag": "Welk thema spreekt ook een buitenlands publiek aan?"
+      }
+    ],
+    "verrassingsvragen": [
+      {
+        "vraag": "Wat zou je aan Bordewijk willen vragen als hij nog leefde?",
+        "type": "open/persoonlijk"
+      },
+      {
+        "vraag": "Was er iets in het boek dat je niet begreep of dat je vreemd vond?",
+        "anker": "stijl: surrealistisch-impressionistische passages; gedateerd vocabulaire; open einde Dreverhaven"
+      },
+      {
+        "vraag": "Als jij Katadreuffe was, had je dan anders gehandeld tegenover Lorna te George?",
+        "type": "open/reflectief"
+      },
+      {
+        "vraag": "Bordewijk had zijn eigen advocatenpraktijk in Rotterdam. Hoe merk je dat aan het boek?",
+        "anker": "auteur.biografische_context + decor.hoofdlocaties + stijl_en_taal"
+      }
+    ],
+    "leesechtheid": [
+      {
+        "vraag": "Als je één scène aan een klasgenoot zou voorlezen, welke kies je dan? Wat gebeurt er in die scène?",
+        "tactiek": "scene-voorkeur forceren",
+        "signaal_gelezen": "Noemt een bijscène die niet in de standaardsamenvatting centraal staat, bijvoorbeeld een ontmoeting met juffrouw Sibculo, een beschrijving van de wandeling langs de rivier, het gesprek met de Gankelaar over de baan, of een van de surrealistisch getinte beschrijvingen van Rotterdam. Kan de scène navertellen met zintuiglijke details.",
+        "signaal_niet_gelezen": "Kiest uitsluitend de slotscène of de sigarenwinkel-mislukking (die in elke samenvatting staan). Beschrijft de scène met abstracte termen zonder textuur."
+      },
+      {
+        "vraag": "Was er een deel waar je dacht: kom op, nu moet er iets gebeuren?",
+        "tactiek": "tempo-vraag",
+        "signaal_gelezen": "Benoemt een concrete sectie - bijvoorbeeld de filosofische beschouwingen van de auctoriale verteller, de overgang tussen twee faillissementen, of een dialoog die lang duurt - en legt uit waarom het daar stagneerde.",
+        "signaal_niet_gelezen": "Zegt 'nee, ik vond het spannend' zonder specificatie, of geeft een generiek antwoord over 'het begin was moeilijk'."
+      },
+      {
+        "vraag": "Is er iets in het boek waarvan je dacht: hé, dat had ik niet verwacht?",
+        "tactiek": "verrassings-vraag",
+        "signaal_gelezen": "Noemt een detail buiten de grote plotonthulling - bijvoorbeeld dat Joba tot twaalfmaal toe de alimentatie had geweigerd maar het spaarbankboekje voor hem bewaarde, of dat het bezwaar tegen Katadreuffes beëdiging op communistische gronden werd ingediend, of een detail over een bijfiguur als juffrouw Sibculo.",
+        "signaal_niet_gelezen": "Verwijst alleen naar de slotsuggesting van Dreverhaven over de meewerking, of naar het spaarbankboekje - die staan in vrijwel alle samenvattingen."
+      },
+      {
+        "vraag": "Behalve Katadreuffe, welk personage is jou het meest bijgebleven en waarom?",
+        "tactiek": "bijpersonage-check",
+        "signaal_gelezen": "Noemt een personage dat niet uitgebreid in korte samenvattingen staat - juffrouw Sibculo, de Gankelaar in een specifieke scène, Rentenstein, Den Hieperboree, de familie Graanoost. Kan toelichten wat dat personage deed in het boek.",
+        "signaal_niet_gelezen": "Noemt alleen Dreverhaven, Joba of Lorna te George - allen prominenten in elke samenvatting."
+      },
+      {
+        "vraag": "Dacht je ergens in het boek: dit klopt niet, dit is te toevallig, of dit had Bordewijk anders kunnen doen?",
+        "tactiek": "zelfkritiek uitlokken",
+        "signaal_gelezen": "Formuleert een concreet bezwaar op basis van een tekstpassage - bv. dat de toenadering tussen Katadreuffe en Lorna erg impliciet blijft, dat de verteller soms te sturend commentaar geeft, of dat de surrealistisch-impressionistische passages afbreken van het tempo.",
+        "signaal_niet_gelezen": "Zegt 'nee, ik vond alles logisch', of herhaalt abstracte kritiek die online te vinden is zoals 'het taalgebruik is te moeilijk'."
+      }
+    ]
+  },
+  "_meta": {
+    "bronnen_geconsulteerd": [
+      "lezenvoordelijst.nl docenteninfo (niveau 4, Karakter)",
+      "scholieren.com boekverslag Karakter door Ferdinand Bordewijk (2001)",
+      "nl.wikipedia.org/wiki/Karakter_(boek)"
+    ],
+    "samenstelling": "Eigen synthese van meerdere bronnen; geen letterlijke overnames met uitzondering van korte citaten (flaptekst, motto, sleutelcitaten) onder citeerrecht.",
+    "geharvest": "2026-04-20",
+    "schema_versie": "0.2-uitgebreid"
+  }
+}

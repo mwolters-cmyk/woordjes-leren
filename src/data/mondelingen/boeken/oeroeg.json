@@ -1,0 +1,654 @@
+{
+  "slug": "oeroeg",
+  "titel": "Oeroeg",
+  "auteur": {
+    "naam": "Hella S. Haasse",
+    "sortname": "Haasse, Hella S.",
+    "geboren": "1918-02-02",
+    "overleden": "2011-09-29",
+    "biografische_context": "Geboren in Batavia (het huidige Jakarta), Nederlands-Indië, en opgegroeid op Java. Ze bracht een groot deel van haar jeugd door in de kolonie voordat ze naar Nederland verhuisde. Die vroege jaren in Indië lieten een diepe indruk na en vormden de inspiratiebron voor haar Indische werk. In haar eigen woorden was Oeroeg 'een statement van heimwee en genegenheid ten aanzien van het land waar ik geboren en opgegroeid ben'. Die persoonlijke verbondenheid met Nederlands-Indië verklaart zowel de gedetailleerde landschapsbeschrijvingen als de emotionele lading van de thematiek.",
+    "positie_literatuur": "Haasse geldt als een van de belangrijkste Nederlandse schrijfsters van de twintigste eeuw. Haar werk omvat romans, novellen, essays en toneelstukken. Ze wordt gerekend tot de naoorlogse Nederlandse literatuur en verwierf groot aanzien met haar historische en Indische romans. Oeroeg was haar prozadebuut en werd direct een klassiek werk in de Nederlandstalige literatuur; het verschijnt in de literaire canon.",
+    "hoofdwerken": [
+      {
+        "titel": "Oeroeg",
+        "jaar": 1948,
+        "type": "debuut",
+        "opmerking": "Boekenweekgeschenk 1948; prozadebuut"
+      },
+      {
+        "titel": "Heren van de thee",
+        "jaar": 1992,
+        "opmerking": "Tweede Indische roman; groot commercieel succes"
+      },
+      {
+        "titel": "Sleuteloog",
+        "jaar": 2002,
+        "opmerking": "Derde en laatste Indische roman; niveau 4 op lezenvoordelijst.nl"
+      }
+    ]
+  },
+  "uitgave": {
+    "eerste_druk": 1948,
+    "uitgeverij": "Querido",
+    "plaats": "Amsterdam",
+    "isbn_13": "9789021440286",
+    "pagina_ongeveer": 128,
+    "oplage_eerste_maanden": 145000,
+    "opmerking_oplage": "Verscheen in 1948 als boekenweekgeschenk, aanvankelijk anoniem onder het motto 'Soeka toelis' (Indonesisch voor 'Ik hou van schrijven'). Groeide uit tot een van de meest herdrukte Nederlandse novellen; in 2009 opnieuw gratis verspreid via de campagne Nederland Leest. Inmiddels in elf talen vertaald, waaronder in 2009 voor het eerst in het Indonesisch."
+  },
+  "classificatie": {
+    "vak": "nederlands",
+    "leeftijdsgroep": "15-18",
+    "lezen_voor_lijst_niveaus": [
+      3
+    ],
+    "niveau_primair": 3,
+    "niveau_opmerking": "Ingedeeld op niveau 3 op lezenvoordelijst.nl. De geringe omvang en het enkelvoudige vertelperspectief maken de novelle toegankelijk voor N2-lezers, maar het open einde, de sobere verteltrant zonder veel actie en de koloniale thematiek vragen om reflectievermogen dat typisch is voor N3. N4-lezers kunnen de novelle in oeuvrecontext plaatsen en de verteltechniek dieper analyseren.",
+    "geschikt_voor": [
+      "vmbo bovenbouw",
+      "havo bovenbouw",
+      "vwo bovenbouw"
+    ],
+    "genres": [
+      "novelle",
+      "tendensroman",
+      "Indische roman"
+    ],
+    "literaire_periode": "Nederlandstalige naoorlogse literatuur, verschenen 1948",
+    "stroming_invloed": []
+  },
+  "bron_urls": {
+    "lezenvoordelijst_leerling": "https://www.jeugdbibliotheek.nl/12-18-jaar/lezen-voor-de-lijst/15-18-jaar/niveau-3/oeroeg.html",
+    "lezenvoordelijst_docent": "https://www.lezenvoordelijst.nl/docenten-15-18/niveau-3/",
+    "scholieren_hub": "https://www.scholieren.com/boek/oeroeg-hella-s-haasse",
+    "wikipedia_nl": "https://nl.wikipedia.org/wiki/Oeroeg_(boek)"
+  },
+  "flaptekst": "Oeroeg was mijn vriend. Zo begint het beroemde prozadebuut van Hella Haasse, dat in 1948 als Boekenweekgeschenk verscheen en inmiddels in elf talen is vertaald. Het is het aangrijpende verhaal van de vriendschap tussen een Indonesische jongen en de zoon van een Nederlandse administrateur in het Nederlands-Indië van voor de Tweede Wereldoorlog. Geleidelijk groeien de twee jongens uit elkaar. Wanneer de ik-figuur, de Nederlandse jongen, na een studie uit Delft terugkeert in het Indië dat nog net geen Indonesië is geworden, blijkt hun verwijdering te zijn uitgegroeid tot een kloof. Oeroeg heeft gekozen: voor zijn volk en tegen de Nederlanders, dus ook tegen zijn vriend. Vertwijfeld vraagt de ik zich af of hij voorgoed een vreemde zal zijn in het land van zijn geboorte.",
+  "eerste_zin": "Oeroeg was mijn vriend.",
+  "eerste_zin_analyse": "De opening is tegelijk simpel en veelzeggend. De verleden tijd ('was') verraat onmiddellijk dat de vriendschap voorbij is; dit is geen verhaal over een bestaande vriendschap maar over het terugblikken op iets dat verloren ging. De naam Oeroeg staat voorop, in de titelpositie, wat aangeeft dat de Indonesische jongen het centrum van de herinnering is. De ik-verteller plaatst zichzelf al in de eerste zin in een passieve, observerende positie: hij definieert zichzelf uitsluitend in relatie tot Oeroeg.",
+  "motto": {
+    "citaat": "Soeka toelis",
+    "bron": "Indonesisch motto op de eerste anonieme uitgave",
+    "context": "Het boek verscheen anoniem als boekenweekgeschenk in 1948. Onder dit motto namen anonieme auteurs deel aan een prijsvraag.",
+    "interpretatie": "Het motto 'Soeka toelis' (Ik hou van schrijven) plaatst de novelle direct in de Indonesische taalwereld en benadrukt de persoonlijke, affectieve verhouding van de auteur tot haar stof. Het is een verklaring van liefde, niet alleen voor schrijven, maar impliciet ook voor het land en de taal waaruit het verhaal voortkomt."
+  },
+  "structuur": {
+    "indeling": "Één doorlopende tekst zonder hoofdstukindeling; verteld als grote terugblik (flashback) vanuit een anonieme ik-verteller",
+    "fases": [
+      {
+        "nr": 1,
+        "naam": "Opening en terugblik-inzet",
+        "trefwoord": "herinneringsmetafoor en vroegste jeugd op Kebon Djati",
+        "functie": "De verteller introduceert zichzelf als terugblikkende instantie via de vergelijking met toverplaatjes. De vroegste jeugd op de onderneming wordt beschreven: de vertrouwde omgeving van Kebon Djati, de band met Oeroegs familie, de vanzelfsprekende vriendschap."
+      },
+      {
+        "nr": 2,
+        "naam": "Telaga Hideung en de dood van Deppoh",
+        "trefwoord": "het Zwarte Meer; dood van Oeroegs vader",
+        "functie": "Het dramatische keerpunt in de vroege jeugd: het uitje naar het mysterieuze meer, de verdrinkingsdood van Deppoh, de schuld van de Nederlandse volwassenen. De vriendschap wordt voortgezet maar de sociale ongelijkheid is voortaan onmiskenbaar aanwezig."
+      },
+      {
+        "nr": 3,
+        "naam": "Soekaboemi en Lida",
+        "trefwoord": "Lida's pension; scheiding ouders ik-figuur; Oeroeg als beschermeling",
+        "functie": "Beide jongens belanden in het pension van Lida. De breuk in het gezin van de ik-figuur loopt parallel aan de toenemende emancipatie van Oeroeg. Lida neemt Oeroeg onder haar hoede, wat de jongens in een nieuwe ongelijke verhouding plaatst: nu is het de welwillende Hollandse beschermvrouwe die Oeroegs kansen bepaalt."
+      },
+      {
+        "nr": 4,
+        "naam": "Batavia en het internaat",
+        "trefwoord": "HBS Batavia; groeiende vervreemding; Abdullah",
+        "functie": "Op het internaat in Batavia blijkt het onderscheid tussen inlander en Nederlander onoverbrugbaar voor de sociale omgeving. Oeroeg wijkt uit naar de MULO en later naar de NIAS in Soerabaja. De vriendschap bestaat nog slechts in naam; Oeroeg oriënteert zich op een nieuwe omgeving en nieuwe idealen, waaronder de opkomende nationalistische beweging."
+      },
+      {
+        "nr": 5,
+        "naam": "Vertrek en definitieve breuk",
+        "trefwoord": "afscheidsbezoek; Oeroegs radicalisering; ik-figuur naar Delft",
+        "functie": "Het bezoek dat de ik-figuur voor zijn vertrek naar Nederland brengt aan Oeroeg mondt uit in een confrontatie. Oeroeg keert zich expliciet tegen al wat Nederlands en blank is. De ik-figuur herkent zijn vriend niet meer en aanvaardt dat de vriendschap voorbij is."
+      },
+      {
+        "nr": 6,
+        "naam": "Terugkeer en slotscène bij Telaga Hideung",
+        "trefwoord": "onafhankelijkheidsstrijd; expeditie; schutter bij het meer",
+        "functie": "Na de Tweede Wereldoorlog keert de ik-figuur terug naar een Indonesië in strijd om zijn onafhankelijkheid. Bij het Zwarte Meer wordt hij bedreigd door een haveloos uitziende schutter die hij meent te herkennen als Oeroeg. De schutter drijft hem weg. De ik-figuur verlaat de plek zonder zekerheid, met alleen de vraag of hij voorgoed een vreemde is in zijn geboorteland."
+      }
+    ],
+    "chronologie": "De novelle wordt verteld als één grote terugblik. Binnen de flashback is de volgorde chronologisch, met duidelijk gemarkeerde tijdssprongen. De vertelde tijd beslaat ruwweg twintig tot dertig jaar; de verteltekst is 128 pagina's. Aan het einde van de novelle keert de ik-figuur terug naar het heden van de verteller, dat slechts in enkele zinnen is beschreven.",
+    "compositie_opmerking": "De novelle is ongedeeld: geen hoofdstukken, geen tussentitels. Dit benadrukt de vloeiende werking van herinnering. De tekst bevat wel vooruitwijzingen: de volwassen verteller laat incidenteel doorschemeren dat hij bepaalde feiten achteraf heeft begrepen. Wikipedia vergelijkt de structuur met een detectiveverhaal: losse fragmenten worden gaandeweg verbonden tot een geheel, vergelijkbaar met het krasplaatje-beeld waarmee de novelle zichzelf introduceert."
+  },
+  "perspectief": {
+    "type_hoofd": "Eerstepersoonsverteller (ik-verteller), achteraf vertellend; de ik-figuur is zowel verteller als focalisator",
+    "type_proloog": null,
+    "opmerking": "De ik-verteller blikt terug op zijn eigen verleden. Hij is een personagegebonden verteller: de lezer krijgt alleen informatie die de ik-figuur zelf bezit of heeft kunnen reconstrueren. Dit heeft een cruciaal gevolg: Oeroegs innerlijk blijft grotendeels onzichtbaar. De verteller kan zijn vriend niet doorgronden, en die onmogelijkheid is tegelijk thema van de novelle. De verteller geeft dit zelf aan in de herinneringsmetafoor waarmee de novelle opent: herinneringen worden zichtbaar zoals een verborgen afbeelding op een toverplaatje, stukje voor stukje, maar nooit volledig.",
+    "implicaties_voor_betekenis": "Doordat de lezer alleen toegang heeft tot de gedachten van de ik-figuur en nooit rechtstreeks tot die van Oeroeg, blijft Oeroeg een raadsel. Dit ondersteunt het centrale thema: twee mensen uit verschillende culturen kunnen nooit volledig in elkaars wereld doordringen, hoe hecht de vriendschap ook was. De onwetendheid van de verteller over Oeroegs beweegredenen is niet een tekort van de novelle, maar haar kern."
+  },
+  "samenvatting": {
+    "kort": "Een naamloze Nederlandse ik-verteller blikt terug op zijn jeugd in Nederlands-Indië en zijn vriendschap met Oeroeg, de zoon van een inlandse mandoer op de onderneming van zijn vader. Als kinderen zijn de jongens onafscheidelijk, maar gaandeweg drijven ze uiteen: door de dood van Oeroegs vader, de beschermheerschap van de Hollandse Lida, het besef van koloniale ongelijkheid, en uiteindelijk Oeroegs keuze voor het Indonesische nationalisme. Wanneer de ik-figuur na de Tweede Wereldoorlog terugkeert naar het inmiddels in strijd om zijn onafhankelijkheid verkerende Indonesië, wordt hij bij het Zwarte Meer bedreigd door een schutter die hij meent te herkennen als zijn vroegere vriend. Hij verlaat het land in onzekerheid: of hij ooit werkelijk iemand heeft doorgrond, en of hij voorgoed een vreemde is in het land van zijn geboorte.",
+    "in_fases": {
+      "fase_1_vroegste_jeugd_kebon_djati": "De ik-figuur groeit op op de onderneming Kebon Djati, waar zijn vader administrateur is. Oeroeg is de zoon van Deppoh, de mandoer op die onderneming, en diens vrouw Sidris. De twee jongens worden rond dezelfde tijd geboren en groeien samen op. Ze zijn zo innig bevriend dat de ik-figuur vloeiender Soendanees spreekt dan Nederlands. Zijn ouders, en met name zijn vader, keuren die vriendschap af: de inlander hoort niet op gelijke voet te staan met de blanke administrateurszoon. Om het probleem op te lossen wordt mijnheer Bollinger aangetrokken als privé-onderwijzer Nederlands. Oeroeg luistert van opzij mee bij de lessen en pikt er het nodige van op. Bollinger heeft ondertussen een verhouding met de moeder van de ik-figuur, die lijdt aan eenzaamheid en verveling. De jongens beleven hun kinderjaren op en rond de onderneming, in de bossen en langs de rivieren van Java.",
+      "fase_2_telaga_hideung_deppoh": "Op een avond organiseert het gezelschap van volwassenen een uitstapje naar Telaga Hideung, het Zwarte Meer, een plek die bij de inlandse bevolking bekendstaat als huizende voor boze geesten. Het gezelschap is aangeschoten en gedraagt zich roekeloos. Ze varen op een vlot het duistere meer op; het vlot breekt doormidden. De ik-figuur raakt in het water verstrikt en dreigt te verdrinken. Deppoh duikt naar hem toe om hem te redden, maar raakt zelf verstrikt in waterplanten en verdrinkt. De dood van Deppoh is een keerpunt. Het schuldgevoel van de Nederlandse volwassenen leidt tot een compenserende regeling: Oeroeg mag op de onderneming blijven wonen en zijn scholing wordt door de familie van de ik-figuur betaald. Zijn moeder en de andere kinderen verhuizen naar familieleden in een desa. De ik-figuur wordt jarenlang geplaagd door nachtmerries over de verdrinkingsdood.",
+      "fase_3_soekaboemi_lida": "De ouders van de ik-figuur scheiden. Mijnheer Bollinger vertrekt naar Europa. De vader van de ik-figuur gaat op wereldreis en regelt een verblijfplaats voor zijn zoon bij Lida, een Hollandse die een pension runt in Soekaboemi. Lida is ongetrouwd, werkte als verpleegster, en werd destijds meegestuurd naar Indië door vrienden die met elkaar trouwden, waarna zij achterbleef als de derde die overtollig was. Lida herkent Oeroegs intelligentie en ambities en neemt hem ook op in haar pension. Ze betaalt zijn opleiding en ziet hem als haar beschermeling, bijna als het kind dat zij nooit had. Oeroeg profiteert van haar welwillendheid maar laat weinig van zijn innerlijk zien. Beiden gaan naar school in Soekaboemi, elk naar een andere school: de ik-figuur naar de Nederlandse instelling, Oeroeg naar de school voor inlandse leerlingen. Ze reizen samen maar bewegen zich al in verschillende werelden.",
+      "fase_4_batavia_internaat_vervreemding": "De ik-figuur gaat naar de HBS in Batavia en verblijft op het internaat. Later komt ook Oeroeg naar het internaat, omdat Lida heeft gemerkt dat hij moeite heeft met structuur en zijn grenzen overschrijdt. Op het internaat blijkt dat Oeroegs positie als inlander hem uitsluit van de wereld van zijn Hollandse medeleerlingen. Na verloop van tijd verlaat hij de HBS en gaat naar de MULO, waar voornamelijk Indo-Europese kinderen zitten. Hier voelt hij zich beter op zijn plaats. Via Abdullah Harudin, een vriend die zijn nationalistische gezindheid deelt, vindt Oeroeg aansluiting bij een politiek geëngageerde kring van studenten. Hij studeert later medicijnen aan de NIAS in Soerabaja. De vader van de ik-figuur is inmiddels teruggekeerd van zijn wereldreis met een nieuwe vrouw, Eugenie. De ik-figuur brengt de vakanties door op de onderneming, waar hij zich nooit werkelijk thuis heeft gevoeld. Hij bezoekt ook Telaga Hideung, maar het meer voelt veranderd, onherkenbaar, wat hem een gevoel van ontheemd zijn geeft.",
+      "fase_5_vertrek_breuk": "Voor zijn vertrek naar Nederland, waar hij aan de TH in Delft zal gaan studeren, brengt de ik-figuur een bezoek aan Oeroeg. De gesprekken verlopen moeizaam. Oeroeg heeft zich volledig gekeerd tegen het Nederlandse koloniale bewind en tegen de blanken in het algemeen. Hij is gegroeid tot een overtuigde nationalist die zijn vroegere vriendschap met de ik-figuur als iets van een ander leven beschouwt. De ik-figuur herkent zijn vriend nauwelijks terug. Het bezoek mondt uit in een scherpe woordenwisseling. De ik-figuur vertrekt naar Nederland met de wetenschap dat de vriendschap voorbij is. Gedurende zijn studiejaren in Delft is er nog sporadisch contact via Lida, maar steeds minder. Oeroegs naam duikt op in berichten over de nationalistische beweging.",
+      "fase_6_terugkeer_slotscene": "Na de Tweede Wereldoorlog en de Japanse bezetting keert de ik-figuur terug naar wat nu Indonesië aan het worden is. Het land staat in het teken van de onafhankelijkheidsstrijd. De onderneming is veranderd, de wereld van zijn jeugd is goeddeels verdwenen. Tijdens een expeditie bezoekt hij voor het laatst Telaga Hideung. Bij het meer wordt hij plotseling bedreigd door een haveloos geklede inlander die hem onder schot houdt en hem in het Soendanees toeroept dat hij weg moet gaan. De ik-figuur meent Oeroeg te herkennen in deze figuur. Wanneer zijn expeditieleden naderen, verdwijnt de schutter geruisloos in het struikgewas. De ik-figuur weet het niet zeker en zal het nooit met zekerheid weten. De novelle eindigt met de vraag of hij voorgoed een vreemde is in het land van zijn geboorte.",
+      "bevat_spoilers": true
+    }
+  },
+  "personages": {
+    "hoofdpersoon": {
+      "Ik-figuur": {
+        "rol": "verteller en focalisator; naamloze Nederlandse hoofdpersoon",
+        "leeftijd_begin": "jong kind (precieze leeftijd niet vermeld)",
+        "leeftijd_einde": "volwassene na de Tweede Wereldoorlog",
+        "beroep": "ingenieur (gestudeerd in Delft)",
+        "karakter": "De ik-figuur is een middelmatige leerling, niet uitzonderlijk intelligent maar ook niet dom. Hij is naïef in zijn kijk op de koloniale verhoudingen: hij begrijpt aanvankelijk niet waarom zijn vader zijn vriendschap met Oeroeg afkeurt, noch waarom andere Nederlanders Oeroeg anders behandelen. Hij is gevoelig en gehecht aan Oeroeg, maar heeft tegelijk moeite om Oeroegs innerlijk te begrijpen. Hij is passief: hij laat de wereld aan zich voorbijgaan en observeert eerder dan dat hij ingrijpt.",
+        "ontwikkeling": "De ik-figuur maakt weinig actieve ontwikkeling door. Zijn verandering bestaat niet in groei maar in het geleidelijk aanvaarden van verlies: het verlies van zijn vriend, van zijn geboorteland, van de illusie dat hij daar thuishoort. Aan het einde staat hij in de openlucht van Indonesië met lege handen en een onbeantwoorde vraag.",
+        "functie": "Door zijn beperkte perspectief en onvermogen om Oeroeg te doorgronden belichaamt de ik-figuur de onmogelijkheid van wederzijds begrip tussen kolonisator en gekoloniseerde. Zijn naïviteit en goede bedoelingen nemen de structurele ongelijkheid niet weg."
+      }
+    },
+    "bijfiguren": [
+      {
+        "naam": "Oeroeg",
+        "rol": "titelpersonage, jeugdvriend van de ik-figuur",
+        "afkomst": "Zoon van Deppoh (mandoer op de onderneming) en Sidris",
+        "karakter": "Bedachtzaam, teruggetrokken, zwijgzaam. Zijn blik is donker en spiedend, altijd waakzaam. Hij is intelligent en ambitieus: hij wil meer dan het lot dat zijn afkomst hem toebedacht lijkt. Hij schaamt zich aanvankelijk voor zijn inlandse afkomst en probeert die te verbergen, maar keert later radicaal terug naar zijn Indonesische identiteit.",
+        "ontwikkeling": "Oeroeg doorloopt de sterkste ontwikkeling van alle personages. Van een kind dat meeliftte op de vriendschap met een Hollandse jongen, via een jongere die zijn inlandse achtergrond verloochende, tot een overtuigde nationalist die zich volledig afkeert van de Nederlandse koloniale wereld. Die boog is echter niet direct zichtbaar: de lezer ziet Oeroeg altijd door de ogen van de ik-figuur, die zijn beweegredenen nooit volledig begrijpt.",
+        "functie": "Oeroeg is het raadsel van de novelle. Hij symboliseert tegelijk de Indonesische natie in haar strijd om zelfbepaling, en de onkenbaarheid van de ander. Het leidmotief van zijn blik (zoekend, dreigend, zijdelings) karakteriseert hem zonder hem ooit te verklaren."
+      },
+      {
+        "naam": "Vader van de ik-figuur",
+        "rol": "Nederlandse administrateur op Kebon Djati",
+        "karakter": "Koel, afstandelijk tegenover zijn eigen zoon, gedistantieerd. Draagt een typisch koloniaal wereldbeeld uit: de inlandse bevolking hoort in haar stand te blijven. Zijn afkeuring van de vriendschap met Oeroeg weerspiegelt de heersende koloniale normen.",
+        "ontwikkeling": null,
+        "functie": "Belichaamt het Nederlandse koloniale denken dat de ik-figuur omringt maar zelf nooit volledig overneemt. Zijn onvermogen tot verbinding met zijn eigen zoon spiegelt het onvermogen van de koloniale structuur om werkelijk contact te maken met de inlandse bevolking."
+      },
+      {
+        "naam": "Moeder van de ik-figuur",
+        "rol": "echtgenote van de administrateur",
+        "karakter": "Eenzaam, zwak en ziekelijk. Heeft nauwelijks interesse in de opvoeding van haar zoon en laat die over aan de baboe. Lijdt aan hoofdpijnen en blijft veel thuis. Begint een affaire met mijnheer Bollinger.",
+        "ontwikkeling": "Verlaat uiteindelijk man en kind en vertrekt naar Europa.",
+        "functie": "Haar afwezige moederschap laat de ik-figuur emotioneel in de steek, waardoor zijn band met Oeroeg des te belangrijker wordt. Haar vertrek symboliseert de desintegratie van het koloniale gezin."
+      },
+      {
+        "naam": "Deppoh",
+        "rol": "vader van Oeroeg, mandoer op de onderneming",
+        "karakter": "Liefdevol, betrokken bij zijn gezin.",
+        "ontwikkeling": "Sterft in het Zwarte Meer terwijl hij de ik-figuur tracht te redden.",
+        "functie": "Zijn dood is het eerste grote keerpunt in de novelle en de eerste concrete daad van opoffering van een inlander voor een Nederlander. De schuld die hieruit voortvloeit bepaalt de verdere relatie tussen de Nederlandse familie en Oeroeg."
+      },
+      {
+        "naam": "Sidris",
+        "rol": "moeder van Oeroeg",
+        "karakter": "Leeft sober op de onderneming met haar gezin. Na de dood van Deppoh verslechteren haar omstandigheden sterk; ze verhuist met haar kinderen naar een bescheiden desawoning.",
+        "ontwikkeling": null,
+        "functie": "Haar terugval in armoede na Deppoh's dood maakt de sociale ongelijkheid zichtbaar die onder de oppervlakte van de vriendschap lag."
+      },
+      {
+        "naam": "Mijnheer Bollinger",
+        "rol": "privé-onderwijzer van de ik-figuur",
+        "karakter": "Wordt ingehuurd om de ik-figuur behoorlijk Nederlands te leren. Heeft een affaire met de moeder van de ik-figuur.",
+        "ontwikkeling": "Vertrekt naar Europa na de breuk in het gezin.",
+        "functie": "Zijn lessen zijn ook de indirecte scholing van Oeroeg, die altijd meeluistert. Bollinger is een katalysator voor het uiteenvallen van het gezin."
+      },
+      {
+        "naam": "Gerard Stokman",
+        "rol": "opvolger van Bollinger op de onderneming",
+        "karakter": "Avontuurlijk, pragmatisch, neemt de twee jongens mee op jachtexpeditie. Hanteert een nuchtere levensvisie: hij beschouwt de inheemse bevolking als gelijkwaardig aan de Nederlander. Op de vraag van de ik-figuur of Oeroeg minder is dan zij, antwoordt hij: 'Iedereen is anders dan een ander. Maar minder of meer zijn door de kleur van je gezicht of door wat je vader is - dat is nonsens.'",
+        "ontwikkeling": null,
+        "functie": "Tegenwicht voor het koloniale denken van de vader van de ik-figuur. Zijn relativerende houding maakt indruk op de jongens, maar kan het systeem niet veranderen."
+      },
+      {
+        "naam": "Lida",
+        "rol": "eigenaresse van een pension in Soekaboemi",
+        "karakter": "Nederlands, ongetrouwd, oorspronkelijk verpleegster. Came na Indië met een bevriend stel dat met elkaar trouwde, waarna zij als derde overtollig achterbleef. Voelt sympathie voor het groeiende Indonesische nationalisme, ondanks haar eigen blanke achtergrond. Fascineert zich door Oeroegs intelligentie en ziet in hem het kind dat ze zelf nooit heeft gehad.",
+        "ontwikkeling": "Betaalt Oeroegs gehele opleiding. Haar welwillendheid stuit uiteindelijk op Oeroegs eigenzinnigheid.",
+        "functie": "Lida vertegenwoordigt de welwillende, paternalistische kant van de koloniale relatie: ze wil het beste voor Oeroeg, maar op haar eigen voorwaarden en vanuit haar eigen perspectief. Die goede bedoelingen lossen de structurele ongelijkheid niet op."
+      },
+      {
+        "naam": "Abdullah Harudin",
+        "rol": "vriend van Oeroeg op het internaat en later bij de NIAS",
+        "karakter": "Deelt Oeroegs nationalistische overtuiging. In hem vindt Oeroeg een geestverwant die zijn politieke idealen bevestigt en versterkt.",
+        "ontwikkeling": null,
+        "functie": "Abdullah is de figuur die Oeroeg definitief in de richting van het Indonesisch nationalisme trekt en hem weglokt uit de Nederlandse invloedssfeer."
+      },
+      {
+        "naam": "Eugenie",
+        "rol": "tweede vrouw van de vader van de ik-figuur",
+        "karakter": null,
+        "ontwikkeling": null,
+        "functie": "Haar komst markeert de definitieve verschuiving in het gezinsleven van de ik-figuur: zijn vader sticht een nieuw gezin, de ik-figuur is een buitenstaander in zijn eigen vaderhuishouding."
+      }
+    ]
+  },
+  "thematiek": {
+    "hoofdthemas": [
+      {
+        "naam": "Vriendschap over de grens van cultuur en klasse",
+        "uitwerking": "De novelle stelt de vraag of een werkelijke vriendschap mogelijk is tussen twee mensen wier levensomstandigheden structureel ongelijk zijn. Als kinderen ervaren de jongens die ongelijkheid nauwelijks; hun band is puur en vanzelfsprekend. Maar naarmate ze ouder worden, dringen de koloniale structuren door in hun verhouding: de ene jongen gaat naar de Hollandse school, de andere naar de inlandse school; de ene heeft een toekomst als ingenieur, de andere is afhankelijk van de goodwill van een Hollandse weldoenster. De vriendschap overleeft die structurele ongelijkheid niet. Dat is niet de schuld van één van de twee: het is het onvermijdelijke gevolg van het systeem waarin ze leven."
+      },
+      {
+        "naam": "Kolonialisme en de onmogelijkheid van wederzijds begrip",
+        "uitwerking": "De ik-figuur begrijpt Oeroeg niet, kan hem niet doorgronden, en realisatiseert zich aan het einde dat hij dit misschien nooit heeft gekund. Die ondoorgrondelijkheid is niet persoonlijk maar structureel: de koloniale verhouding maakt echte gelijkwaardigheid onmogelijk, en zonder gelijkwaardigheid is er ook geen echt begrip. Dit thema wordt technisch versterkt door de keuze voor een ik-verteller die Oeroegs innerlijk nooit rechtstreeks kan weergeven."
+      },
+      {
+        "naam": "Identiteit en zelfbepaling",
+        "uitwerking": "Oeroeg worstelt gedurende de hele novelle met zijn identiteit. Eerst verloochent hij zijn inlandse afkomst en probeert hij op te gaan in de Hollandse wereld; later keert hij die keuze radicaal om en omhelst hij zijn Indonesische identiteit, gekoppeld aan het politieke streven naar onafhankelijkheid. Die zoektocht wordt mede geïllustreerd door het leidmotief van zijn blik: van zoekend en gespannen naar dreigend en fel. Zijn uiteindelijke keuze voor zijn volk en tegen de Nederlanders is geen impuls maar het eindpunt van een lang innerlijk proces."
+      },
+      {
+        "naam": "Thuishoren en ontheemding",
+        "uitwerking": "De ik-figuur is geboren in Indië maar is Nederlander; hij wordt naar Nederland gestuurd om te studeren maar voelt zich daar niet thuis; hij keert terug naar Indonesië maar is daar inmiddels een vreemdeling. Zijn twijfelachtige thuishoren wordt van het begin af weergegeven: hij spreekt als kind beter Soendanees dan Nederlands, wat zijn ouders verontrust. Aan het einde stelt hij zichzelf de vraag of hij voorgoed een vreemde is in het land van zijn geboorte. Die vraag blijft onbeantwoord: 'De tijd zal het leren.'"
+      },
+      {
+        "naam": "De dekolonisering van Nederlands-Indië",
+        "uitwerking": "De novelle is geschreven in 1948, op het moment dat de onafhankelijkheidsstrijd van Indonesië volop aan de gang is. Die politieke context is aanwezig op de achtergrond van het hele verhaal en wordt op het einde letterlijk: de ik-figuur keert terug naar een kolonie die ophoudt te bestaan. De slotscène bij Telaga Hideung is een belichaming van deze politieke werkelijkheid: de voormalige gekoloniseerde stuurt de kolonisator weg uit het land dat hem niet meer toebehoort."
+      }
+    ]
+  },
+  "motieven": [
+    {
+      "naam": "Telaga Hideung (het Zwarte Meer)",
+      "betekenis": "Het meer verandert van betekenis gedurende de novelle en functioneert als een prisma voor de gevoelens van de ik-figuur. Aanvankelijk is het een legendarische, gevaarlijke plek bezet door boze geesten. Dan wordt het de plek van Deppoh's dood en de sluimerende schuld. Later ervaart de ik-figuur het als een onheilspellende plek waarvan de bodem de kleur van gestold bloed heeft. Ten slotte is het meer een symbool voor de ondoorgrondelijkheid van Oeroeg zelf en voor de dekolonisering: de ik-figuur vergelijkt Oeroeg expliciet met het meer: duister met een onpeilbare diepte. In de slotscène stuurt het meer (in de gedaante van Oeroeg) de ik-figuur definitief weg.",
+      "tekstplaatsen": [
+        {
+          "fase": "Fase 2",
+          "context": "Uitstapje naar het meer; Deppoh verdrinkt; boze geesten en nacht als atmosferisch kader"
+        },
+        {
+          "fase": "Fase 4",
+          "context": "De ik-figuur keert terug naar het meer in de vakantie; het meer voelt niet meer vertrouwd aan"
+        },
+        {
+          "fase": "Fase 6",
+          "context": "Slotscène: de ik-figuur wordt bedreigd bij het meer door de vermoedelijke Oeroeg; het meer omschreven als 'oeroude kraterput' met 'bloedreflexen en grijpstengels onder de zwarte oppervlakte'"
+        }
+      ]
+    },
+    {
+      "naam": "De blik van Oeroeg (leidmotief)",
+      "betekenis": "Haasse gebruikt de blik van Oeroeg als een terugkerend formeel middel om zijn karakter te typeren zonder zijn innerlijk prijs te geven. De beschrijvingen van zijn ogen en blik volgen een ontwikkeling van zoekend en gespannen in zijn jeugd naar dreigend en fel aan het einde. Dit leidmotief maakt Oeroegs emancipatie zichtbaar zonder zijn gedachten rechtstreeks te tonen, en benadrukt tegelijk dat hij altijd een onpeilbare figuur blijft voor de ik-verteller.",
+      "tekstplaatsen": [
+        {
+          "fase": "Vroege jeugd",
+          "context": "'gespannen, zoekende blik' — Oeroeg kijkt mee bij de lessen van Bollinger"
+        },
+        {
+          "fase": "Soekaboemi",
+          "context": "Oeroeg glimlacht 'door halfgesloten oogleden opzij' als hem de toekomst van klerk wordt voorgespiegeld"
+        },
+        {
+          "fase": "Batavia/internaat",
+          "context": "'zijdelingse, als het ware naar binnen gekeerde blik' als zijn medeleerlingen een scheldwoord aan zijn adres laten vallen"
+        },
+        {
+          "fase": "Soerabaja/radicalisering",
+          "context": "'donkere, spiedende blik' die nooit uit zijn ogen week"
+        },
+        {
+          "fase": "Slotscène",
+          "context": "'een felle, en toch blinde blik' — de definitieve confrontatie bij het meer"
+        }
+      ]
+    },
+    {
+      "naam": "Toverplaatjes / krasplaatjes (herinneringsmetafoor)",
+      "betekenis": "De ik-figuur vergelijkt zijn herinneringen met toverplaatjes: gele plaatjes die je met een potlood moet krassen tot een verborgen afbeelding verschijnt. Dit beeld introduceert de vertelsituatie: het is geen volledig verhaal dat ineens verteld wordt, maar een reconstructie van stukje bij beetje zichtbaar wordende herinneringen. Het impliceert ook dat er altijd iets verborgen blijft, niet volledig zichtbaar te maken.",
+      "tekstplaatsen": [
+        {
+          "fase": "Opening",
+          "context": "Eerste alinea van de novelle: de vergelijking met toverplaatjes als omschrijving van de manier waarop Oeroeg in de herinnering verschijnt"
+        }
+      ]
+    },
+    {
+      "naam": "De natuur als spiegel en voorbode",
+      "betekenis": "Haasse beschrijft het Indische landschap uitvoerig en functioneel. De natuur is niet louter decor maar weerspiegelt de stemming van de ik-figuur en kondigt dramatische gebeurtenissen aan. In de nacht van Deppoh's dood creëren de nachtgeluiden en het duistere meer een sfeer van dreiging voordat het onheil zich voltrekt. Later projecteert de ik-figuur zijn gevoel van verlies en vreemdheid op hetzelfde landschap.",
+      "tekstplaatsen": [
+        {
+          "fase": "Fase 2",
+          "context": "Beschrijving van het meer in het holst van de nacht, nachtdieren, boze geesten — vlak voor Deppoh's verdrinkingsdood"
+        },
+        {
+          "fase": "Fase 4",
+          "context": "Bezoek aan het meer voelt onbehaaglijk en onherkenbaar: de ik-figuur projecteert zijn vervreemding op de omgeving"
+        },
+        {
+          "fase": "Fase 6",
+          "context": "Het meer als 'verborgen rijk' met 'bloedreflexen en grijpstengels': natuur als spiegel van politieke werkelijkheid"
+        }
+      ]
+    },
+    {
+      "naam": "De naam Oeroeg",
+      "betekenis": "Volgens een reactie in de scholieren.com-commentaren zou de naam Oeroeg 'aardverschuiving' betekenen in het Soendanees, wat zou verwijzen naar de ingrijpende verandering die Oeroeg doormaakt. Deze verklaring circuleert maar is niet bevestigd in de primaire bronnen. De titel plaatst de Indonesische jongen centraal, niet de naamloze Nederlandse verteller.",
+      "tekstplaatsen": []
+    }
+  ],
+  "stijl_en_taal": {
+    "kenmerken": "De novelle is geschreven in een verzorgd maar niet overladen Nederlands uit 1948. De zinsbouw wisselt: naast lange, complexe zinnen komen ook zeer korte voor. De woordvolgorde wijkt soms af van het hedendaagse gebruik, wat de tekst een licht archaïsch karakter geeft. De stijl is sober en suggestief: Haasse zegt niet alles, maar laat ruimte voor de lezer om in te vullen. Landschapsbeschrijvingen zijn een opvallend element: ze zijn uitgebreid maar functioneel, zelden louter decoratief.",
+    "register_verschuivingen": "De toon is overwegend contemplatiefs en retrospectief. Dialogen komen weinig voor. De verteller analyseert zijn herinneringen meer dan dat hij ze dramatisch ensceneert. Dit geeft de novelle een lyrisch, meditatief karakter dat niet op iedereen even goed overkomt.",
+    "indische_woorden": "De tekst bevat een aanzienlijk aantal Soendanese en Indische woorden (baboe, dessa, mandoer, pendopo, e.d.) die nergens worden verklaard. Betekenissen moeten uit de context worden afgeleid. Dit is voor sommige lezers een drempel maar ook een stijlkeuze: de vreemdheid van die woorden maakt de Indische wereld voelbaar.",
+    "karakteriseringstechniek": "Oeroeg wordt bijna uitsluitend van buitenaf gekarakteriseerd via zijn gedrag, zijn zwijgen en zijn blik. De ik-figuur heeft geen toegang tot zijn innerlijk. Bijfiguren worden beknopt maar treffend neergezet."
+  },
+  "decor": {
+    "hoofdlocaties": [
+      "Kebon Djati (de onderneming waar de ik-figuur opgroeit, op Java)",
+      "Telaga Hideung (het Zwarte Meer, gebaseerd op de echte Telaga Warna)",
+      "Soekaboemi (pension van Lida)",
+      "Batavia (HBS-internaat; ook geboortestad van Haasse zelf)",
+      "Soerabaja (NIAS, artsenschool; ook stad waar Haasse naar school ging)",
+      "Delft (studie van de ik-figuur)",
+      "Indonesië in de onafhankelijkheidsstrijd (terugkeer na WOII)"
+    ],
+    "beeldsymbolisch_belang": "De onderneming Kebon Djati staat voor de koloniale orde die de vriendschap zowel mogelijk maakt als ondermijnt. Telaga Hideung is het meest geladen symbool van de novelle: gevaar, schuld, ondoorgrondelijkheid en definitieve afrekening zijn er alle aan verbonden. De desa van Oeroegs moeder staat voor de wereld waaruit Oeroeg stamt en waarnaar hij terugkeert. De geografische beweging van de ik-figuur (Indië → Nederland → Indië) beeldt zijn ontheemding uit."
+  },
+  "titelverklaring": {
+    "oppervlakkig": "Oeroeg is de naam van de Indonesische jeugdvriend van de ik-verteller, het personage om wie het hele verhaal draait.",
+    "dieper": "Door een Indonesische naam als titel te kiezen plaatst Haasse de gekoloniseerde centraal, niet de Nederlander die het verhaal vertelt. Dat is een opmerkelijke keuze: de ik-figuur is de verteller, maar Oeroeg is de eigenlijke protagonist. De naam staat voor alles wat de ik-figuur niet heeft kunnen doorgronden: een ander mens, een andere cultuur, een land dat zijn eigen lot opeist."
+  },
+  "historische_context": {
+    "periode_boek": "Vroege jeugd in de jaren 1920-30 tot de onafhankelijkheidsstrijd van Indonesië rond 1945-1948",
+    "publicatie_context": "De novelle verscheen in 1948, op het moment dat de Indonesische onafhankelijkheidsoorlog in volle gang was. Nederland voerde politionele acties uit in wat het officieel nog beschouwde als zijn kolonie. Haasse schreef de novelle vanuit Nederland, met heimwee naar het land van haar geboorte, op het moment dat dat land haar voor altijd zou ontvallen.",
+    "belangrijkste_historische_gebeurtenissen_in_boek": [
+      "Het koloniale bestuur in Nederlands-Indië en de dagelijkse koloniale hiërarchie",
+      "De Japanse bezetting van Nederlands-Indië (1942-1945) wordt slechts zijdelings vermeld",
+      "De Indonesische onafhankelijkheidsstrijd (1945-1949) als context van de slotscène",
+      "De eerste politionele actie van Nederland in Indië (context van de terugkeer van de ik-figuur)"
+    ],
+    "historische_personen_als_inspiratie": []
+  },
+  "receptie_en_prijzen": {
+    "verkoop_eerste_maanden": null,
+    "oplage_eerste_druk": 145000,
+    "vertalingen": "In elf talen, waaronder in 2009 voor het eerst in het Indonesisch",
+    "verfilming": null,
+    "prijzen": [
+      {
+        "naam": "Nederland Leest",
+        "jaar": 2009,
+        "toelichting": "De novelle werd in oktober 2009 gratis verspreid via de openbare bibliotheken in het kader van de campagne Nederland Leest."
+      }
+    ],
+    "canonisering": "De novelle heeft een vaste plek in de literaire canon van de Nederlandstalige literatuur. Generaties middelbare scholieren lazen het voor hun eindexamen. Het behoort tot de standaardteksten op de leeslijst.",
+    "indonesische_receptie": "Bij de Indonesische vertaling in 2009 reageerden Indonesische lezers positief; zij identificeerden zich met Oeroeg als symbool voor Indonesië en zagen in de roman een eerlijkere verbeelding van de koloniale geschiedenis dan ze hadden verwacht van een Nederlandse schrijfster."
+  },
+  "sleutelcitaten": [
+    {
+      "citaat": "Oeroeg was mijn vriend.",
+      "context": "Eerste zin van de novelle.",
+      "relevantie_mondeling": "De verleden tijd verraadt direct dat de vriendschap voorbij is. Deze zin is het vertrekpunt van alle analyse: wat het betekent dat zij vrienden wáren en niet zijn."
+    },
+    {
+      "citaat": "het is, in de vorm van een verbeelding, een 'statement' van heimwee en genegenheid ten aanzien van het land waar ik geboren en opgegroeid ben, en daarachter, daaronder, van een verlangen de donkere helft van mijzelf, de helft in de schaduw, die ik niet ken, te ontraadselen.",
+      "spreker": "Hella S. Haasse",
+      "context": "Uit haar autobiografie van 1967, over de betekenis van Oeroeg.",
+      "relevantie_mondeling": "Haasse legt zelf de dubbele lading van de novelle bloot: heimwee naar Indië én de poging om het onbekende en donkere in zichzelf te begrijpen. De 'donkere helft' verwijst zowel naar het Indonesische landschap als naar het deel van zichzelf dat ze nooit volledig heeft kunnen doorgronden."
+    },
+    {
+      "citaat": "Ben ik voorgoed een vreemde in het land van mijn geboorte, op de grond vanwaar ik niet verplant wil zijn? De tijd zal het leren.",
+      "context": "Slotzin van de novelle.",
+      "relevantie_mondeling": "Het open einde: geen antwoord, alleen de vraag. Typerend voor de hele novelle, die eerder vragen stelt dan oplossingen biedt. Geschikt als aanknopingspunt voor een discussie over ontheemding, kolonialisme en identiteit."
+    },
+    {
+      "citaat": "Iedereen is anders dan een ander. Maar minder of meer zijn door de kleur van je gezicht of door wat je vader is - dat is nonsens.",
+      "spreker": "Gerard Stokman",
+      "context": "Antwoord op de vraag van de ik-figuur of Oeroeg minder is dan zij, nadat een klasgenoot Oeroeg heeft uitgescholden.",
+      "relevantie_mondeling": "Het tegenwicht voor het koloniale denken in de novelle. Gerard is de enige volwassene die expliciet stelling neemt. Zijn woorden contrasteren met de feitelijke praktijk: de ongelijkheid bestaat wel degelijk, wat Gerards nuchtere gelijkheidsidee confronteert."
+    }
+  ],
+  "cross_book_verbindingen": {
+    "andere_haasse_op_lezen_voor_lijst": [
+      "Heren van de thee (1992) - tweede Indische roman",
+      "Sleuteloog (2002) - derde en laatste Indische roman; niveau 4 op lezenvoordelijst.nl"
+    ],
+    "vergelijkbare_indische_romans": [
+      "Max Havelaar (Multatuli, 1860) - kolonialisme, morele aanklacht, klassieker",
+      "De tienduizend dingen (Maria Dermout, 1955) - Nederlands-Indische setting, herinneringsstructuur"
+    ],
+    "vergelijkbare_thematiek_vriendschap_cultuurverschil": [
+      "Aanslag (Harry Mulisch) - schuld, herinneringsstructuur, naoorlogse verwerking",
+      "Het bittere kruid (Marga Minco) - verlies, oorlog, Nederlands perspectief"
+    ]
+  },
+  "mondeling_aandachtspunten_per_niveau": {
+    "N2": "Focus op de vriendschapsthematiek en de basale verhaallijn. Identificeer de twee hoofdpersonages en beschrijf hoe hun vriendschap verandert. Het open einde kan als probleem worden ervaren; bespreek wat de ik-figuur wil weten maar niet kan weten.",
+    "N3": "Bovenop N2: analyseer de koloniale verhoudingen als onderliggende oorzaak van het uiteenvallen van de vriendschap. Bespreek de symbolische functie van Telaga Hideung. Reflecteer op de keuze voor een ik-verteller die Oeroegs innerlijk niet kan zien. Leg verband tussen de persoonlijke vriendschapsbreuk en de historische dekolonisering.",
+    "N4": "Bovenop N3: leidmotief van Oeroegs blik traceren en analyseren. Oeuvrecontext van Haasse (Indische romans). Vergelijking met Heren van de thee of Sleuteloog. Haasses eigen autobiografische uitspraak over de novelle als 'statement van heimwee' betrekken bij de interpretatie. Verteltechnische keuzes bespreken: wat betekent het dat de ik-figuur Oeroeg nooit van binnenuit kent?"
+  },
+  "mondelingvragen": {
+    "basics": [
+      {
+        "vraag": "Hoe begint het boek?",
+        "anker": "eerste_zin: 'Oeroeg was mijn vriend.'",
+        "doorvraag": "Waarom staat de vriendschap meteen in de verleden tijd? Wat vertelt die eerste zin over hoe het verhaal zal aflopen?"
+      },
+      {
+        "vraag": "Hoe eindigt het boek?",
+        "anker": "slotzin: 'Ben ik voorgoed een vreemde in het land van mijn geboorte, op de grond vanwaar ik niet verplant wil zijn? De tijd zal het leren.'",
+        "doorvraag": "Waarom geeft Haasse geen antwoord op die vraag? Wat is het effect van dit open einde?"
+      },
+      {
+        "vraag": "Wie zijn de hoofdpersonages?",
+        "anker": "De naamloze ik-figuur en Oeroeg; ook Lida, Deppoh, Gerard spelen een rol",
+        "doorvraag": "Waarom heeft de ik-figuur geen naam, maar draagt de novelle de naam van Oeroeg?"
+      },
+      {
+        "vraag": "Wat betekent de titel?",
+        "anker": "titelverklaring: naam van de Indonesische vriend; ook: de gekoloniseerde centraal stellen",
+        "doorvraag": "Wie is eigenlijk de hoofdpersoon: de verteller of Oeroeg? Verdedig je antwoord."
+      },
+      {
+        "vraag": "Wanneer en waar speelt het verhaal zich af?",
+        "anker": "Nederlands-Indië (Java), van de jaren twintig-dertig tot de onafhankelijkheidsstrijd rond 1945-1948",
+        "doorvraag": "Waarom is de historische context van de dekolonisering belangrijk voor het begrijpen van de novelle?"
+      }
+    ],
+    "plot_en_structuur": [
+      {
+        "vraag": "Hoe is het verhaal opgebouwd?",
+        "anker": "structuur: één doorlopende tekst, geen hoofdstukken; grote terugblik (flashback) met chronologische opbouw en tijdssprongen",
+        "doorvraag": "Wat is het effect van de keuze voor een doorlopende tekst zonder hoofdstukken? Hoe werkt dat samen met het thema van herinnering?"
+      },
+      {
+        "vraag": "Vat de plot samen in vijf zinnen.",
+        "anker": "samenvatting.kort + in_fases trefwoorden"
+      },
+      {
+        "vraag": "Welk moment beschouw jij als het echte keerpunt in de vriendschap?",
+        "anker": "Meerdere antwoorden mogelijk: dood van Deppoh, komst bij Lida, confrontatie voor vertrek naar Delft, slotscène",
+        "doorvraag": "Is de vriendschapsbreuk het gevolg van één moment, of was ze al langzaam aan het slijten?"
+      },
+      {
+        "vraag": "Wat is de functie van de herinneringsmetafoor aan het begin?",
+        "anker": "motief toverplaatjes/krasplaatjes: herinnering als verborgen beeld dat stukje voor stukje zichtbaar wordt",
+        "doorvraag": "Wat suggereert deze metafoor over de volledigheid van wat de verteller ons vertelt?"
+      }
+    ],
+    "perspectief_en_vertelling": [
+      {
+        "vraag": "Vanuit welk perspectief is het boek geschreven?",
+        "anker": "perspectief: eerstepersoonsverteller, achteraf vertellend; de ik-figuur is zowel verteller als focalisator",
+        "doorvraag": "Wat is het gevolg van dit perspectief voor wat we wel en niet weten over Oeroeg?"
+      },
+      {
+        "vraag": "Wat weet de verteller wel en wat weet hij niet?",
+        "anker": "De verteller kent zijn eigen gevoelens en waarnemingen, maar heeft nooit toegang tot Oeroegs innerlijk. Dit is een thematische keuze, niet een technisch mankement.",
+        "doorvraag": "Had de novelle anders gelezen als we ook Oeroegs gedachten hadden kunnen lezen? Wat zou er dan verloren gaan?"
+      },
+      {
+        "vraag": "Vertelt de ik-figuur het verhaal op het moment dat het gebeurt, of later?",
+        "anker": "Achteraf vertellend: de volwassen ik-figuur blikt terug; de verleden tijd van 'Oeroeg was mijn vriend' bevestigt dit",
+        "doorvraag": "Wat weet de volwassen verteller dat de jonge jongen nog niet wist? Geef een voorbeeld."
+      }
+    ],
+    "thematiek": [
+      {
+        "vraag": "Wat zijn de hoofdthema's van Oeroeg?",
+        "anker": "thematiek.hoofdthemas: vriendschap over cultuurgrens, kolonialisme en onbegrip, identiteit en zelfbepaling, ontheemding, dekolonisering",
+        "doorvraag": "Welk thema vind jij het centrale thema? Onderbouw je keuze met een voorbeeld uit de tekst."
+      },
+      {
+        "vraag": "Is Oeroeg in de eerste plaats een verhaal over vriendschap of over kolonialisme?",
+        "anker": "Beide thema's zijn onscheidbaar: de vriendschapsbreuk ís de koloniale breuk. De persoonlijke en politieke lagen versterken elkaar.",
+        "doorvraag": "Kun je je een voorstelling maken van dezelfde vriendschap in een niet-koloniale context? Zou die stand houden?"
+      },
+      {
+        "vraag": "Wat bedoelt Haasse met 'de donkere helft van mijzelf' in haar autobiografie?",
+        "anker": "sleutelcitaten: Haasse beschrijft de novelle als een poging de onbekende, schaduwkant van zichzelf te doorgronden — de Indonesische helft, het onpeilbare andere",
+        "doorvraag": "Welke personage of welk motief in de novelle belichaamt die 'donkere helft' het sterkst?"
+      }
+    ],
+    "motieven": [
+      {
+        "vraag": "Welke motieven herken je in de novelle?",
+        "anker": "motieven: Telaga Hideung, blik van Oeroeg, toverplaatjes/krasplaatjes, de natuur als spiegel",
+        "doorvraag": "Welk motief vind je het sterkst uitgewerkt en waarom?"
+      },
+      {
+        "vraag": "Wat is de symbolische betekenis van Telaga Hideung? Bespreek minimaal twee tekstplaatsen.",
+        "anker": "motieven Telaga Hideung: gevaar en boze geesten → schuld door Deppoh's dood → onheilsplek met bloedreflexen → symbool voor Oeroegs ondoorgrondelijkheid → dekolonisering in de slotscène",
+        "doorvraag": "Het meer heeft niet één vaste betekenis maar verandert door het verhaal heen. Wat zegt dat over de manier waarop Haasse symbolen gebruikt?"
+      },
+      {
+        "vraag": "Wat is een leidmotief? En welk leidmotief herken je in Oeroeg?",
+        "anker": "leidmotief: formeel element dat telkens terugkeert om een personage of situatie te typeren. In Oeroeg: de blik van Oeroeg, van zoekend/gespannen naar dreigend/fel",
+        "doorvraag": "Volg de ontwikkeling van Oeroegs blik door de novelle. Wat vertelt die ontwikkeling over zijn innerlijke verandering?"
+      }
+    ],
+    "personages": [
+      {
+        "vraag": "Hoe ontwikkelt Oeroeg zich gedurende de novelle?",
+        "anker": "personages Oeroeg: van meeliften op de vriendschap → verloochenen van inlandse afkomst → nationalistische overtuiging → radicale afwijzing van al het Nederlandse",
+        "doorvraag": "Is Oeroegs keuze voor het nationalisme begrijpelijk vanuit zijn perspectief? Wat heeft hij allemaal meegemaakt dat die keuze verklaart?"
+      },
+      {
+        "vraag": "Waarom maakt de ik-figuur zelf zo weinig ontwikkeling door?",
+        "anker": "De ik-figuur observeert en ontvangt; zijn ontwikkeling zit in het geleidelijk aanvaarden van verlies, niet in actief handelen. Dit is een thematische keuze: het koloniale subject kijkt toe terwijl de gekoloniseerde de geschiedenis maakt.",
+        "doorvraag": "Is de passiviteit van de ik-figuur een karaktereigenschap of een structurele positie?"
+      },
+      {
+        "vraag": "Welke rol speelt Lida in de novelle?",
+        "anker": "personages Lida: welwillende beschermvrouwe die Oeroegs opleiding betaalt; belichaamt paternalistische goede bedoelingen die de structurele ongelijkheid niet opheffen",
+        "doorvraag": "Is Lida's houding tegenover Oeroeg werkelijk gelijkwaardig of draagt ze toch de koloniale verhoudingen in zich?"
+      },
+      {
+        "vraag": "Wat is de functie van Gerard Stokman in de novelle?",
+        "anker": "personages Gerard: tegenwicht voor koloniaal denken; zijn uitspraak over gelijkwaardigheid contrasteert met de feitelijke praktijk",
+        "doorvraag": "Gerard zegt dat ongelijkheid op basis van huidskleur nonsens is, maar verandert hij iets aan de werkelijkheid? Wat zegt dat?"
+      }
+    ],
+    "tijd_en_context": [
+      {
+        "vraag": "Wanneer speelt het verhaal zich af en wanneer is het geschreven?",
+        "anker": "Verhaal: jaren twintig-dertig tot ca. 1947-1948 (Indonesische onafhankelijkheidsstrijd). Geschreven en gepubliceerd: 1948, als boekenweekgeschenk.",
+        "doorvraag": "Waarom is het relevant dat Haasse dit schreef op het moment dat Indonesië vocht voor zijn onafhankelijkheid?"
+      },
+      {
+        "vraag": "Wat weet je van de Indonesische onafhankelijkheidsstrijd en hoe is die zichtbaar in de novelle?",
+        "anker": "historische_context: koloniale hiërarchie, Japanse bezetting op de achtergrond, politionele acties; slotscène als literaire verbeelding van dekolonisering",
+        "doorvraag": "Hoe anders zou de novelle zijn als ze in 1930 was geschreven, voor het opkomen van het nationalisme?"
+      },
+      {
+        "vraag": "Hella Haasse groeide zelf op in Indië. Hoe is dat merkbaar in de novelle?",
+        "anker": "biografische_context + sleutelcitaat Haasse over heimwee en 'de donkere helft van mijzelf'; gedetailleerde landschapsbeschrijvingen; Batavia en Soerabaja als locaties die overeenkomen met haar eigen jeugd",
+        "doorvraag": "Maakt de autobiografische basis de novelle geloofwaardiger of minder objectief?"
+      }
+    ],
+    "stroming_en_oeuvre": [
+      {
+        "vraag": "In welke literaire traditie past Oeroeg?",
+        "anker": "Nederlandstalige naoorlogse literatuur; Indische literatuur; tendensroman (classificatie Wikipedia); aanknoping bij de bredere categorie van postkoloniale literatuur",
+        "doorvraag": "Wat maakt een roman tot een tendensroman? Is Oeroeg een pleidooi voor iets?"
+      },
+      {
+        "vraag": "Haasse schreef drie Indische romans. Welke zijn dat en wat is hun gemeenschappelijke thema?",
+        "anker": "auteur.hoofdwerken: Oeroeg (1948), Heren van de thee (1992), Sleuteloog (2002); alle drie gaan over de verhouding Nederland-Nederlands-Indië",
+        "doorvraag": "Haasse schreef de eerste en de laatste Indische roman met vijftig jaar ertussen. Wat zegt dat over het belang van dit thema voor haar?"
+      }
+    ],
+    "mening_en_waardering": [
+      {
+        "vraag": "Wat vond je van het boek?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "stijl: sober en suggestief of te terughoudend?",
+          "thema: kolonialisme en vriendschap herkenbaar of ver van je bed?",
+          "Oeroeg als raadsel: bevrijdend of frustrerend?",
+          "open einde: werkt dat of wil je meer?",
+          "gebrek aan actie en dialoog: stoort dat of past het?"
+        ]
+      },
+      {
+        "vraag": "Zou je de novelle aanraden aan een medeleerling?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "omvang (kort: uitnodigend)",
+          "thema (geschiedenis/kolonialisme: interessant voor wie dat boeit)",
+          "stijl (geen actie, meditatief: niet voor iedereen)",
+          "maatschappelijke relevantie (postkoloniaal debat nog actueel)"
+        ]
+      },
+      {
+        "vraag": "Welk personage sprak je het meest aan en waarom?",
+        "onderbouwingsrichtingen": [
+          "Oeroeg: fascinerende figuur die je nooit helemaal begrijpt",
+          "Gerard: realistische gelijkheidsidealist in een ongelijk systeem",
+          "Lida: sympathiek maar ook paternalistisch",
+          "de ik-figuur: juist door zijn passiviteit herkenbaar of juist irritant"
+        ]
+      }
+    ],
+    "cross_book": [
+      {
+        "vraag": "Welk ander boek op je lijst heeft een vergelijkbaar thema?",
+        "anker": "cross_book_verbindingen",
+        "doorvraag": "Vergelijk hoe de twee boeken omgaan met het thema van identiteit of van verlies."
+      },
+      {
+        "vraag": "Vergelijk Oeroeg met Max Havelaar van Multatuli. Welk boek klaagt het kolonialisme explicieter aan?",
+        "anker": "Max Havelaar is een directe morele aanklacht; Oeroeg is subtieler en werkt via persoonlijke relaties. Beide laten de koloniale ongelijkheid zien, maar op andere manieren.",
+        "doorvraag": "Welke aanpak vind jij effectiever om de lezer te raken: de directe aanklacht of het persoonlijke verhaal?"
+      }
+    ],
+    "leesechtheid": [
+      {
+        "vraag": "Als je één scène aan een klasgenoot zou voorlezen, welke kies je dan? En wat gebeurt er in die scène?",
+        "tactiek": "scene-voorkeur forceren",
+        "signaal_gelezen": "Noemt een scène buiten de standaardontknoping, zoals de jachtexpeditie met Gerard, het bezoek aan Sidris in haar verarmde desawoning, het huiswerk maken in Soekaboemi, of het moment waarop een klasgenoot Oeroeg uitscheldt en de ik-figuur voor het eerst realiseert hoe anderen naar Oeroeg kijken. Kan de scène zintuiglijk beschrijven.",
+        "signaal_niet_gelezen": "Kiest de slotscène bij het meer (aanwezig in elke samenvatting) of de openingszin en kan de scène niet verder uitwerken dan de plot."
+      },
+      {
+        "vraag": "Was er een deel waar je dacht: kom op, nu moet er iets gebeuren?",
+        "tactiek": "tempo-vraag",
+        "signaal_gelezen": "Benoemt een concreet stuk — de jaren in Soekaboemi, de schoolperiode, de lange aanloop naar de confrontatie voor Delft — en kan toelichten waarom het traag voelde.",
+        "signaal_niet_gelezen": "Zegt 'nee, het was spannend' of geeft een vage klacht over 'de beschrijvingen' zonder specificatie."
+      },
+      {
+        "vraag": "Is er iets in het boek dat je niet had verwacht?",
+        "tactiek": "verrassings-vraag",
+        "signaal_gelezen": "Noemt een detail buiten de grote verhaallijn: dat Lida zelf ook eenzaam en verdrongen is in haar eigen verhaal, dat Gerard een nuchtere gelijkheidsopvatting heeft terwijl de vader juist het tegendeel is, dat Oeroegs moeder zo in armoede hertrekt na Deppoh's dood, dat de verteller nooit zeker weet of de schutter echt Oeroeg is.",
+        "signaal_niet_gelezen": "Noemt alleen de slotscène of de dood van Deppoh, die beide centraal in samenvattingen staan."
+      },
+      {
+        "vraag": "Behalve de twee hoofdpersonen, welk personage is jou het meest bijgebleven en waarom?",
+        "tactiek": "bij-personage-check",
+        "signaal_gelezen": "Noemt Lida, Gerard, Deppoh, Sidris of Abdullah en kan iets concreets zeggen over zijn/haar rol of karakter buiten het hoofdplot.",
+        "signaal_niet_gelezen": "Kan geen bijfiguur noemen of beperkt zich tot een vage omschrijving ('de vader')."
+      },
+      {
+        "vraag": "Dacht je ergens dat Haasse het anders had kunnen aanpakken? Iets dat niet klopte of te makkelijk was?",
+        "tactiek": "zelfkritiek uitlokken",
+        "signaal_gelezen": "Formuleert een concreet bezwaar: het open einde kan als ontwijkend worden ervaren, het gebrek aan dialoog maakt Oeroeg onbereikbaar maar ook onecht, de tijdssprongen gaan erg snel over cruciale jaren heen, de toverplaatjes-metafoor is misschien wat opzichtig.",
+        "signaal_niet_gelezen": "Zegt 'nee, alles was logisch' of herhaalt een generieke klacht die online circuleert zonder die te koppelen aan een concrete tekstplaats."
+      }
+    ]
+  },
+  "_meta": {
+    "bronnen_geconsulteerd": [
+      "lezenvoordelijst.nl docenteninfo (niveau 3, Oeroeg)",
+      "scholieren.com ZWG-verslag door Annemieke (2015) inclusief commentaren",
+      "nl.wikipedia.org/wiki/Oeroeg_(boek)"
+    ],
+    "samenstelling": "Eigen synthese van drie bronnen; geen letterlijke overnames met uitzondering van korte citaten (flaptekst, eerste zin, motto, sleutelcitaten, Haasse-autobiografiecitaat) onder citeerrecht. Feitelijke onzekerheden zijn weggelaten of als onzeker gemarkeerd.",
+    "geharvest": "2026-04-20",
+    "schema_versie": "0.2-uitgebreid"
+  }
+}

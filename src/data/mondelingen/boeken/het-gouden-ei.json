@@ -1,0 +1,590 @@
+{
+  "slug": "het-gouden-ei",
+  "titel": "Het gouden ei",
+  "auteur": {
+    "naam": "Tim Krabbé",
+    "sortname": "Krabbé, Tim",
+    "geboren": "1943-04-04",
+    "overleden": null,
+    "biografische_context": "Geboren in Amsterdam. Krabbé is een veelzijdig schrijver die ook bekend staat als schaakgrootmeester en wielrenner. Zijn literaire werk kenmerkt zich door strakke, sobere stijl en psychologische spanning. Hij debuteerde in 1968 en schreef zowel romans als novellen. Zijn werk combineert vaak spanning met diepere psychologische en existentiële vragen.",
+    "positie_literatuur": "Krabbé behoort tot de bekendere Nederlandse auteurs van de twintigste en eenentwintigste eeuw. Hij is populair bij een breed publiek en wordt geregeld op middelbare-schoolleeslijsten geplaatst. Het gouden ei is zijn meest gelezen werk en staat in onderzoek naar leeslijsten te boek als het meest gelezen boek in de bovenbouw havo/vwo.",
+    "hoofdwerken": [
+      {
+        "titel": "Een ochtend als elke andere",
+        "jaar": 1968,
+        "type": "debuut"
+      },
+      {
+        "titel": "Het gouden ei",
+        "jaar": 1984
+      },
+      {
+        "titel": "De renner",
+        "jaar": 1978
+      },
+      {
+        "titel": "Het schaakgenootschap",
+        "jaar": 2003
+      }
+    ]
+  },
+  "uitgave": {
+    "eerste_druk": 1984,
+    "uitgeverij": "Prometheus",
+    "plaats": "Amsterdam",
+    "isbn_13": "9789044618068",
+    "pagina_ongeveer": 97,
+    "oplage_eerste_maanden": null,
+    "opmerking_oplage": "Het boek is ook verschenen als Bulkboek en als Grote Lijster. Het is vertaald in het Duits, Engels, Frans, Italiaans, Pools, Zweeds, Deens, Noors en Japans."
+  },
+  "classificatie": {
+    "vak": "nederlands",
+    "leeftijdsgroep": "15-18",
+    "lezen_voor_lijst_niveaus": [
+      3
+    ],
+    "niveau_primair": 3,
+    "niveau_opmerking": "Ingedeeld op niveau 3 bij lezenvoordelijst.nl. N2-lezers lezen het als spannend misdaadverhaal; N3-lezers zijn in staat om met secundaire literatuur het menselijk tekort in relaties te herkennen; N4-lezers kunnen een relatie leggen met het verhaal van Orpheus en Eurydice.",
+    "geschikt_voor": [
+      "vmbo bovenbouw",
+      "havo bovenbouw",
+      "vwo bovenbouw"
+    ],
+    "genres": [
+      "thriller",
+      "psychologische roman",
+      "novelle",
+      "avonturenroman"
+    ],
+    "literaire_periode": "jaren '80 van de twintigste eeuw",
+    "stroming_invloed": []
+  },
+  "bron_urls": {
+    "lezenvoordelijst_leerling": "https://www.jeugdbibliotheek.nl/12-18-jaar/lezen-voor-de-lijst/15-18-jaar/niveau-3/het-gouden-ei.html",
+    "lezenvoordelijst_docent": "https://www.lezenvoordelijst.nl/docenten-15-18/niveau-3/het-gouden-ei/",
+    "scholieren_hub": "https://www.scholieren.com/boek/het-gouden-ei-tim-krabbe",
+    "wikipedia_nl": "https://nl.wikipedia.org/wiki/Het_gouden_ei"
+  },
+  "flaptekst": "Rex pakte het polaroid-toestel uit Saskia's mand en maakte een foto van het benzinestation. Een grapje voor zometeen, maar hij zag ook de blikken al voor zich die kennissen, Saskia en hijzelf elkaar nog jaren later zouden toewerpen als ze het onderschrift in het album zagen: TOTAL-tankstation met daarin Saskia, enkele minuten voordat zij voor het eerst op de Autoroute zal chauffeuren. De foto aan een punt houdend keek hij hoe het TOTAL station en de geparkeerde auto's, haast of ze even leefden, uit de chemicaliën opdoemden.",
+  "eerste_zin": "Gelijkmatig als ruimteschepen bewogen de cabines vol toeristen zich over de lange brede weg naar het zuiden.",
+  "eerste_zin_analyse": "De vergelijking met ruimteschepen creëert direct een sfeer van vervreemding en kosmische onverschilligheid. De toeristen bewegen zich gelijkmatig, routineus, alsof niets kan mislopen. Dit introduceert subtiel het thema van de alledaagsheid die zomaar kan kantelen in het onherstelbare. De openingszin verwijst tevens vooruit naar Saskia's droom van het gouden ei dat door het heelal zweeft: de ruimte als symbool van grenzeloze isolatie.",
+  "motto": null,
+  "structuur": {
+    "indeling": "Vijf hoofdstukken met wisselend perspectief",
+    "episodes": [
+      {
+        "nr": 1,
+        "naam": "Hoofdstuk 1",
+        "trefwoord": "de vakantiereis en de verdwijning van Saskia bij het TOTAL-benzinestation"
+      },
+      {
+        "nr": 2,
+        "naam": "Hoofdstuk 2",
+        "trefwoord": "kennismaking met Raymond Lemorne: zijn voorgeschiedenis en zijn motivatie"
+      },
+      {
+        "nr": 3,
+        "naam": "Hoofdstuk 3",
+        "trefwoord": "Rex acht jaar later met Lieneke op vakantie; Saskia's verdwijning laat hem niet los"
+      },
+      {
+        "nr": 4,
+        "naam": "Hoofdstuk 4",
+        "trefwoord": "Lemorne zoekt Rex op en biedt hem het antwoord mits Rex hetzelfde ondergaat"
+      },
+      {
+        "nr": 5,
+        "naam": "Hoofdstuk 5",
+        "trefwoord": "Rex wordt levend begraven; de definitieve verdwijning van beiden"
+      }
+    ],
+    "chronologie": "Niet-chronologisch. Het verhaal begint bij de verdwijning van Saskia, wisselt daarna naar de voorgeschiedenis van Lemorne, gaat terug naar Rex jaren later, en mondt uit in Rex' eigen ondergang. De lezer weet daardoor eerder dan Rex wat er is gebeurd en wacht gespannen af hoe Rex zijn lot tegemoet gaat.",
+    "compositie_opmerking": "Het wisselende perspectief is de belangrijkste compositietechniek. Doordat de lezer Lemorne leert kennen voordat Rex hem ontmoet, ontstaat dramatische ironie: de lezer ziet Rex zijn eigen ondergang ingaan. Vanaf hoofdstuk drie weten lezers meer dan de personages in het boek."
+  },
+  "perspectief": {
+    "type_hoofd": "Personaal (derde persoon), afwisselend gefocaliseerd vanuit Rex en vanuit Lemorne",
+    "type_proloog": null,
+    "opmerking": "Het perspectief wisselt per hoofdstuk. Hoofdstukken over Rex zijn gefocaliseerd vanuit Rex; het hoofdstuk over Lemorne is gefocaliseerd vanuit Lemorne. Er is discussie over of er sprake is van een personale dan wel auctoriale verteller: doordat de verteller niet expliciet buiten de personages treedt maar de lezer wel meer weet dan Rex, neigt het verhaal naar een personale hij/zij-verteller met strategisch gekozen focalisatie. De wisselingen zorgen voor de dramatische ironie die de spanning draagt.",
+    "implicaties_voor_betekenis": "De perspectiefwisseling is functioneel voor de thematiek: door ook Lemornes binnenkant te tonen, wordt hij niet louter een monster maar een mens met een eigen, zieke logica. Dit maakt het verhaal onrustbarender dan een gewone misdaadroman."
+  },
+  "samenvatting": {
+    "kort": "Rex Hofman en zijn vriendin Saskia Ehlvest zijn op weg naar een vakantiehuisje in Zuid-Frankrijk. Bij een TOTAL-benzinestation verdwijnt Saskia spoorloos als ze drankjes gaat halen. Rex zoekt haar tevergeefs. Acht jaar later wordt hij benaderd door Raymond Lemorne, een Franse scheikundeleraar die beweert te weten wat er met Saskia is gebeurd. Lemorne wil Rex het antwoord geven, maar op één voorwaarde: Rex moet hetzelfde ondergaan als Saskia. Rex stemt in, en wordt net als zij levend begraven. Beiden zijn voor de buitenwereld voorgoed verdwenen.",
+    "per_hoofdstuk": {
+      "hoofdstuk_1": "Rex Hofman en Saskia Ehlvest zijn als stel op vakantie onderweg naar een huisje boven de Middellandse Zee bij Hyères in Zuid-Frankrijk. Omdat de kilometerteller van hun auto al een tijdje defect is, houden ze de kilometerstand met de hand bij om op tijd te kunnen tanken. Saskia wil na het tanken ook haar rijangst overwinnen: ze heeft haar rijbewijs, maar heeft sindsdien nauwelijks gereden. Ze besluit dat ze de rest van de rit achter het stuur zal plaatsnemen.\n\nBij een TOTAL-benzinestation halen ze benzine en maakt Rex met een polaroidcamera een foto van het station als herinnering. Daarna gaat Saskia naar binnen om wat te drinken te halen. Ze komt niet meer terug. Rex zoekt het tankstation door, vraagt het personeel: ze hebben haar gezien, ze liep met drankjes naar buiten, maar daarna niet meer. Als Rex terugloopt naar de auto, ontdekt hij dat de fietsen van het dak verdwenen zijn. Saskia is niet te vinden.\n\nRex schakelt de politie in, er volgen zoekacties en krantenberichten, maar er komt geen antwoord. Langzaam moet Rex accepteren dat hij niet weet wat er met Saskia is gebeurd en dat hij er misschien nooit achter zal komen. Hij kan niet rouwen omdat er geen zekerheid is over haar lot. De herinnering aan Saskia en het raadsel van haar verdwijning blijven hem achtervolgen.",
+      "hoofdstuk_2": "In dit hoofdstuk verschuift het perspectief naar Raymond Lemorne, een 41-jarige Franse scheikundeleraar met een vrouw en twee kinderen. De lezer leert hem kennen zonder dat onmiddellijk duidelijk is wat zijn relatie is met de verdwijning van Saskia.\n\nLemorne heeft zijn hele leven een obsessie ontwikkeld die voortkomt uit een vroege ervaring: als jonge man redde hij een klein meisje van de verdrinking. Die ultieme goede daad bracht hem ertoe zich af te vragen of hij ook in staat was tot het ultieme kwaad. Dit idee liet hem niet meer los. Hij raakte geobsedeerd door de gedachte aan de perfecte misdaad: een daad die hij kon volbrengen zonder ooit gepakt te worden, waarbij hij volledige controle had over leven en dood van een ander.\n\nJaren later bereidde Lemorne zijn misdaad minutieus voor. Hij koos willekeurig een vrouwelijk slachtoffer: iemand die hem aan zijn dochter deed denken. Bij het TOTAL-tankstation zag hij Saskia. Hij praatte haar aan onder het voorwendsel dat hij handelde in sleutelhangers, nadat zij zijn sleutelhanger mooi had gevonden. Hij lokte haar mee naar zijn auto, bedwelmde haar met zelfgemaakte chloroform en nam haar mee. Saskia is levend begraven.\n\nDoor dit hoofdstuk te lezen weet de lezer vóór Rex wat er met Saskia is gebeurd. Dit schept de dramatische ironie die de rest van het boek beheerst.",
+      "hoofdstuk_3": "Acht jaar na Saskia's verdwijning is Rex met Lieneke op vakantie. Lieneke is een vrouw die één jaar jonger is dan Saskia was. Rex en Lieneke hebben het goed samen en spreken veel over gevoelens, maar Saskia's naam valt regelmatig: de verdwijning is nooit opgelost en Rex kan haar niet loslaten. Hij kan niet echt rouwen, want er is geen zekerheid dat Saskia dood is.\n\nRex heeft geprobeerd zijn leven weer op te pakken, maar het raadsel rond Saskia's lot laat een gat dat hij niet kan opvullen. Zijn relatie met Lieneke is oprecht, maar ook een poging om verder te gaan. Tegelijk illustreert dit hoofdstuk hoe de onzekerheid over een verdwijning het rouwproces blokkeert: men kan de dood van een geliefde niet verwerken als men niet weet of die dood heeft plaatsgevonden.\n\nDit hoofdstuk vertraagt het verhaal bewust: het toont de slepende gevolgen van de verdwijning voor Rex' psyche en zijn dagelijks leven.",
+      "hoofdstuk_4": "Op een dag meldt zich bij Rex thuis een Franssprekende man die zegt Raymond Lemorne te heten. Hij vertelt Rex dat hij weet wat er met Saskia is gebeurd. Maar hij heeft één voorwaarde: Rex krijgt het antwoord alleen als hij bereid is hetzelfde te ondergaan als Saskia.\n\nRex staat voor een onmogelijke keuze: het niet-weten verdragen, of de kennis kopen met een prijs die hem het leven kan kosten. Omdat de obsessie met Saskia's lot hem al acht jaar niet heeft losgelaten, besluit Rex in te stemmen. Lemorne haalt hem op met de auto en rijdt naar het TOTAL-benzinestation.\n\nOnderweg en ter plaatse legt Lemorne aan Rex uit hoe hij Saskia heeft ontvoerd en wat er met haar is gebeurd. Hij vertelt over zijn levenslange obsessie met de perfecte misdaad, zijn redding van het meisje als moreel nulpunt en zijn zoektocht naar het tegenovergestelde. Rex krijgt vervolgens een slaapmiddel toegediend en valt in slaap. Terwijl hij wacht op zijn eigen bewusteloosheid, begrijpt hij al wat er staat te gebeuren: hij zal hetzelfde lot ondergaan als Saskia.",
+      "hoofdstuk_5": "Rex wordt wakker in het donker. Hij ligt op een matras, opgesloten onder de grond in een kist. Langzaam dringt het tot hem door: hij is levend begraven, precies zoals Saskia dat eerder was. De herinnering aan Saskia's nachtmerrie dringt zich aan hem op: als kind droomde zij dat ze opgesloten zat in een gouden ei dat door het heelal zweefde, in absolute duisternis, voor altijd, zonder te kunnen sterven.\n\nRex begrijpt dat hij nu zelf die droom beleeft. Het motief van het gouden ei verbindt zich met zijn eigen situatie: de totale eenzaamheid, de onmogelijkheid van ontsnapping, het opgesloten zijn in iets dat zowel zijn wereld als zijn gevangenis is. Hij beseft dat Saskia hier zo heeft gelegen, wetend dat hij niet kon komen.\n\nVoor de buitenwereld verdwijnen Rex en Saskia voorgoed. Er komt geen melding, geen oplossing. De slotzin luidt: 'Van geen van beiden werd ooit nog iets vernomen – ze leken van de aardbodem verdwenen.' Lemorne is nooit gepakt. De perfecte misdaad is volbracht.",
+      "bevat_spoilers": true
+    }
+  },
+  "personages": {
+    "hoofdpersoon": {
+      "Rex Hofman": {
+        "rol": "hoofdpersoon, focalisator in de meeste hoofdstukken",
+        "leeftijd_begin": null,
+        "leeftijd_einde": null,
+        "beroep": null,
+        "karakter": "Rex is een vriendelijke, doorzettende man met een diepe gehechtheid aan Saskia. Hij laat zich niet snel iets vertellen en wil tot het uiterste gaan om het raadsel van haar verdwijning te ontrafelen. Over zijn uiterlijk wordt in het boek nauwelijks iets gezegd.",
+        "ontwikkeling": "Rex ontwikkelt zich van een verliefd iemand op vakantie naar een man die volledig geconsumeerd wordt door het niet-weten. Zijn beslissing om Lemornes aanbod te accepteren is de culminatie van acht jaar obsessie: hij kiest kennis boven zelfbehoud. Zijn ondergang is daarmee zowel tragisch als, in zijn eigen logica, consistent.",
+        "functie": "Rex fungeert als de personage met wie de lezer meeleeft. Zijn positie als onwetende tegenover de wetende lezer creëert de dramatische spanning. Tegelijkertijd vertegenwoordigt hij de universele menselijke behoefte om te weten wat er met een geliefde is gebeurd, ook als die kennis vernietigend is."
+      }
+    },
+    "bijfiguren": [
+      {
+        "naam": "Saskia Ehlvest",
+        "rol": "Rex' vriendin, slachtoffer van de ontvoering",
+        "karakter": "Saskia wordt beschreven als een vriendelijke, roodharige vrouw. Ze is enigszins ijdel en hecht aan orde. Ze heeft een rijbewijs maar rijdt zelden uit angst. Ze heeft een terugkerende nachtmerrie over een gouden ei dat door het heelal zweeft.",
+        "ontwikkeling": "Saskia is als personage na haar verdwijning vrijwel afwezig, maar haar aanwezigheid overheerst het hele boek via Rex' herinnering en obsessie.",
+        "functie": "Saskia's droom van het gouden ei vormt de sleutelmetafoor van het boek. Haar verdwijning is de motor van de hele plot. Ze vertegenwoordigt de geliefde die men niet kan terugvinden en niet kan loslaten."
+      },
+      {
+        "naam": "Raymond Lemorne",
+        "rol": "antagonist, ontvoerder en moordenaar",
+        "leeftijd": 41,
+        "beroep": "scheikundeleraar op een middelbare school in Frankrijk",
+        "karakter": "Lemorne is getrouwd en heeft twee kinderen. Hij wordt niet gepresenteerd als een sadist die geniet van andermans pijn, maar als een man met een koude, intellectuele obsessie: de perfecte misdaad plegen. Zijn motivatie is filosofisch van aard: hij redde ooit een kind en vroeg zich af of hij ook tot het ultieme kwaad in staat was.",
+        "ontwikkeling": "Lemorne verandert nauwelijks. Zijn obsessie is al lang voor de roman gevormd. Hij zoekt Rex op uit een onverklaarbare behoefte om zijn daad te delen, wat zijn enige kwetsbare punt is.",
+        "functie": "Lemorne vertegenwoordigt het raadsel van het kwaad: niet het demonische, maar het calculerende, koude kwaad dat een gewone façade heeft. Zijn aanwezigheid stelt de vraag hoe een normaal uitziend mens tot het onvoorstelbare in staat kan zijn."
+      },
+      {
+        "naam": "Lieneke",
+        "rol": "Rex' vriendin acht jaar na de verdwijning",
+        "karakter": "Lieneke is een jaar jonger dan Saskia was. Ze heeft een goede verstandhouding met Rex en spreekt openlijk over gevoelens.",
+        "ontwikkeling": "Lieneke verdwijnt na Rex' vermissing uit het verhaal zonder dat haar lot wordt uitgewerkt.",
+        "functie": "Lieneke toont dat Rex probeert verder te leven, maar tegelijk dat Saskia's schaduw nooit echt wijkt. Haar aanwezigheid markeert de verstreken tijd en de onvolledige verwerking van het verlies."
+      }
+    ]
+  },
+  "thematiek": {
+    "hoofdthemas": [
+      {
+        "naam": "De obsessieve behoefte aan kennis over het lot van een geliefde",
+        "uitwerking": "Het centrale thema is de vraag hoever iemand gaat om te weten wat er met een geliefde is gebeurd. Rex kan niet rouwen, niet verder leven, niet loslaten zolang hij niet weet wat Saskia is overkomen. Uiteindelijk betaalt hij die kennis met zijn eigen leven. Het boek stelt de vraag of dat een rationele of irrationele keuze is, en geeft geen eenduidig antwoord."
+      },
+      {
+        "naam": "Het menselijk tekort in relaties en de onbereikbaarheid van de ander",
+        "uitwerking": "Achter de thrillerfacade schuilt een existentieel thema: zelfs in een hechte liefdesrelatie blijft de ander ten diepste onbereikbaar. Saskia's droom van het gouden ei beeldt dit uit: het ei zweeft alleen door het heelal en kan alleen ontsnappen als het een ander ei ontmoet, maar de kans daarop is astronomisch klein. De relatie tussen Rex en Saskia is innig, maar haar lot speelt zich af in een ruimte waartoe hij geen toegang heeft."
+      },
+      {
+        "naam": "Het raadsel van het kwaad",
+        "uitwerking": "Lemorne is geen karikatuur van een moordenaar. Hij is een gewone man met een gezin en een baan, die tot een monsterlijke daad in staat blijkt. De roman onderzoekt hoe iemand zo'n obsessie ontwikkelt en legt die obsessie bloot zonder haar te verklaren of te rechtvaardigen. Dit maakt het kwaad in het boek beangstigender dan in veel andere misdaadverhalen."
+      },
+      {
+        "naam": "Eenzaamheid en isolatie",
+        "uitwerking": "Zowel letterlijk als figuurlijk is isolatie een centraal thema. Saskia's droom van het gouden ei staat voor absolute eenzaamheid: opgesloten, onbereikbaar, voor altijd alleen. Deze eenzaamheid wordt gerealiseerd in haar dood en in Rex' lot aan het einde. Maar ook in het dagelijks leven van Rex na de verdwijning is er sprake van isolatie: hij kan zijn verdriet niet delen omdat er geen zekerheid is, hij kan niet rouwen, hij staat er alleen voor."
+      },
+      {
+        "naam": "De perfecte misdaad en controle over leven en dood",
+        "uitwerking": "Lemorne is gedreven door de wens de perfecte, onoplosbare misdaad te begaan. Dit motief plaatst het verhaal in het domein van de intellectuele thriller, maar ook van de filosofische roman: wat drijft iemand tot zo'n wens? De roman suggereert dat de obsessie met absolute controle een reactie is op de fundamentele oncontroleerbaarheid van het leven."
+      }
+    ]
+  },
+  "motieven": [
+    {
+      "naam": "Het gouden ei (Saskia's droom)",
+      "betekenis": "Het gouden ei is de centrale metafoor van de roman. Als kind droomde Saskia dat ze opgesloten zat in een gouden ei dat door het heelal zweefde, in totale duisternis, zonder sterren, voor altijd, en dat ze er niet uit kon en niet dood kon gaan. Uit het ei kon ze alleen ontsnappen als het een tweede gouden ei zou ontmoeten, maar het heelal is zo groot. De droom staat voor absolute eenzaamheid en isolatie, voor het opgesloten zijn in jezelf, en voor de nagenoeg onmogelijke kans op verbinding met een ander. Aan het einde van het boek realiseert Rex zich dat Saskia's nachtmerrie letterlijk werkelijkheid is geworden: levend begraven is het fysieke equivalent van de droom.",
+      "tekstplaatsen": [
+        {
+          "context": "Saskia vertelt Rex over haar nachtmerrie van het gouden ei als kind; de droom keert meerdere malen terug als referentie in het boek"
+        },
+        {
+          "context": "Rex, wakker in de kist, verbindt zijn situatie bewust met Saskia's droom: 'Willen slapen, niet kunnen slapen en slapen werden samen één gedachte: Saskia overkwam op dit moment iets gruwelijks. Het was alsof hij voelde wat zij nu voelde - de angst en de eenzaamheid van het Gouden Ei, en alsof daarmee zijn wens eindelijk in vervulling was gegaan: één met haar worden.' (blz. 25)"
+        }
+      ]
+    },
+    {
+      "naam": "Het number 8 / acht",
+      "betekenis": "Het getal 8 keert op verschillende manieren terug in het boek. Acht jaar na Saskia's verdwijning pakt Rex de draad op; het lievelingsgetal van Saskia zou 8 zijn; twee eieren die elkaar raken vormen het cijfer 8; een 8 op zijn zij is het oneindigheidssymbool, wat verwijst naar de oneindige ruimte uit Saskia's droom. Dit motief verbindt het alledaagse (cijfers, tijd) met de existentiële thematiek.",
+      "tekstplaatsen": [
+        {
+          "context": "Acht jaar na de verdwijning van Saskia begint de tweede verhaallijn met Rex en Lieneke"
+        },
+        {
+          "context": "Lezerscommentaar op scholieren.com wijst op meerdere verschijningen van het getal 8 in de tekst, waaronder de munten bij het 8e paaltje"
+        }
+      ]
+    },
+    {
+      "naam": "De polaroidfoto",
+      "betekenis": "Rex maakt bij het TOTAL-benzinestation een polaroidfoto van Saskia als grappige herinnering voor later. De foto beeldt het moment net vóór de catastrofe uit. Het opdoemen van het beeld uit de chemicaliën - zoals beschreven in de flaptekst - staat voor het tijdelijke zichtbaar worden van iets wat snel weer verdwijnt. De foto is een voorteken: Saskia zal verdwijnen zoals een beeld dat niet goed bewaard wordt vervaagt.",
+      "tekstplaatsen": [
+        {
+          "context": "Flaptekst: 'Rex pakte het polaroid-toestel uit Saskia's mand en maakte een foto van het benzinestation. [...] De foto aan een punt houdend keek hij hoe het TOTAL station en de geparkeerde auto's, haast of ze even leefden, uit de chemicaliën opdoemden.'"
+        }
+      ]
+    },
+    {
+      "naam": "De verdwijning van de fietsen",
+      "betekenis": "Als Rex terugloopt naar zijn auto ontdekt hij dat de fietsen van het dak zijn verdwenen. Dit detail markeert het moment waarop de verdwijning van Saskia onherstelbaar duidelijk wordt: iemand heeft niet alleen Saskia meegenomen maar ook de fietsen gestolen of verplaatst als teken dat er externe actie heeft plaatsgevonden. Het concrete, alledaagse detail maakt de verdwijning plotseling tastbaar en griezelig.",
+      "tekstplaatsen": [
+        {
+          "context": "Einde van hoofdstuk 1: Rex keert terug van zijn zoektocht naar de auto en ziet de lege fietsendrager"
+        }
+      ]
+    },
+    {
+      "naam": "De ruimte / het heelal",
+      "betekenis": "Het heelal als beeld voor de oneindigheid en de isolatie. Zowel de openingszin (toeristen als ruimteschepen) als Saskia's droom (het ei in het heelal) gebruiken kosmische beeldspraak. Dit motief benadrukt hoe klein en eenzaam de mens is, en hoe groot de afstand tussen mensen kan zijn.",
+      "tekstplaatsen": [
+        {
+          "context": "Eerste zin: 'Gelijkmatig als ruimteschepen bewogen de cabines vol toeristen zich over de lange brede weg naar het zuiden.'"
+        },
+        {
+          "context": "Saskia's droom: het gouden ei zweeft door het heelal; alles was zwart, er waren niet eens sterren"
+        }
+      ]
+    }
+  ],
+  "stijl_en_taal": {
+    "kenmerken": "Krabbé schrijft uiterst sober en economisch. Hij gebruikt geen woord te veel en geen overbodige details. De zinnen zijn kort en helder. Er is weinig uitgebreide karakterbeschrijving; personages worden vooral zichtbaar door wat ze doen en meemaken. Deze stijl zorgt voor een hoog leestempo en intensiveert de spanning.",
+    "register_verschuivingen": "Het eerste hoofdstuk heeft een ogenschijnlijk lichte, vakantieachtige toon die snel omslaat. Het tweede hoofdstuk, over Lemorne, is koeler en analytischer van toon, passend bij zijn karakter. De latere hoofdstukken zijn meer intens en intiem.",
+    "karakteriseringstechniek": "Personages worden summier geïntroduceerd. De lezer leert hen kennen via hun handelingen en gedachten, niet via uitgebreide beschrijvingen. Dit is een bewuste stijlkeuze die zorgt voor snelheid en betrokkenheid."
+  },
+  "decor": {
+    "hoofdlocaties": [
+      "De snelweg naar Zuid-Frankrijk (Autoroute)",
+      "Het TOTAL-benzinestation in Frankrijk",
+      "Italië (vakantie Rex en Lieneke)",
+      "Nederland (Rex' woning waar Lemorne zich meldt)"
+    ],
+    "beeldsymbolisch_belang": "Het benzinestation is een niet-plek: anoniem, vluchtig, bedoeld als korte stop. Juist op deze transitplek verdwijnt Saskia. De betekenis is dat het onherstelbare niet op markante of speciale plaatsen hoeft te gebeuren, maar juist in de gewone, alledaagse doorsnede van het leven."
+  },
+  "titelverklaring": {
+    "oppervlakkig": "De titel verwijst naar een terugkerende droom van Saskia. Als kind droomde zij dat ze opgesloten zat in een gouden ei dat door het heelal zweef, omringd door duisternis zonder sterren, voor altijd, zonder te kunnen sterven of ontsnappen.",
+    "dieper": "Het gouden ei staat voor de absolute eenzaamheid en isolatie die zowel Saskia als Rex uiteindelijk ten deel valt. Het beeld van het ei verbindt ook de twee geliefden: twee eieren die elkaar raken vormen het getal 8, het oneindigheidssymbool. Tegelijk verwijst het ei naar de onmogelijke wens naar verbinding: alleen als het ei een tweede ei ontmoet kan het ontsnappen, maar de kans is astronomisch klein. Het gouden ei is een metafoor voor de menselijke conditie: opgesloten in jezelf, verlangend naar de ander, maar die ander fundamenteel onbereikbaar."
+  },
+  "historische_context": {
+    "periode_boek": "Jaren zeventig-tachtig van de twintigste eeuw (geïmpliceerd door de tijdsaanduidingen: Lemorne was in 1950 zestien jaar; de hoofdhandeling speelt zich af in de jaren daarna, met name rond 1971 en acht jaar later)",
+    "belangrijkste_historische_gebeurtenissen_in_boek": [],
+    "historische_personen_als_inspiratie": []
+  },
+  "receptie_en_prijzen": {
+    "verkoop_eerste_maanden": null,
+    "oplage_totaal": null,
+    "vertalingen": "Vertaald in het Duits, Engels, Frans, Italiaans, Pools, Zweeds, Deens, Noors en Japans",
+    "verfilming": [
+      {
+        "jaar": 1988,
+        "titel": "Spoorloos",
+        "regisseur": "George Sluizer",
+        "opmerking": "Nederlandse verfilming"
+      },
+      {
+        "jaar": 1993,
+        "titel": "The Vanishing",
+        "regisseur": "George Sluizer",
+        "opmerking": "Engelstalige remake door dezelfde regisseur; ook de Engelse vertaling van het boek draagt deze titel"
+      }
+    ],
+    "toneelbewerking": {
+      "jaar": "2011-2012",
+      "opmerking": "In dat seizoen was in Nederlandse theaters een toneelbewerking te zien"
+    },
+    "prijzen": [
+      {
+        "jaar": 1993,
+        "naam": "Diepzeeprijs",
+        "omschrijving": "Prijs voor door havo- en vwo-scholieren meest gewaardeerde schrijvers"
+      }
+    ],
+    "recensie_citaten": [
+      "Krabbe introduceert zijn personages summier, je leert ze vooral kennen door hetgeen ze meemaken. Dat levert de lezer een hoop tijdwinst op; voor je het weet zit je in het verhaal.",
+      "Het fascinerende aan dit boek is dat achter een eenvoudige gebeurtenis een sterke gedachtegang schuilt. De verschillende technieken die de Krabbé gebruikt zorgen voor optimale spanningsbogen."
+    ]
+  },
+  "sleutelcitaten": [
+    {
+      "citaat": "Willen slapen, niet kunnen slapen en slapen werden samen één gedachte: Saskia overkwam op dit moment iets gruwelijks. Het was alsof hij voelde wat zij nu voelde - de angst en de eenzaamheid van het Gouden Ei, en alsof daarmee zijn wens eindelijk in vervulling was gegaan: één met haar worden.",
+      "context": "Rex in de kist, wanneer hij de verbinding legt tussen zijn situatie en Saskia's nachtmerrie.",
+      "relevantie_mondeling": "Dit citaat verbindt de titel, de thematiek van eenzaamheid, de obsessieve liefde van Rex en zijn uiteindelijke lot. Tevens illustreert het de tragische paradox: eenwording met Saskia is alleen mogelijk in de dood."
+    },
+    {
+      "citaat": "Hij lag in een kist, levend begraven. Dat dit Saskia was aangedaan! Dat zij hier zo had gelegen, smekend dat hij haar zou komen redden, tegelijk zeker wetend dat hij niet kòn komen..",
+      "context": "Rex in de kist aan het einde van het boek.",
+      "relevantie_mondeling": "Illustreert Rex' bewustwording en de tragiek van zijn keuze: hij heeft het gewild om te weten, en nu weet hij het."
+    },
+    {
+      "citaat": "Van geen van beiden werd ooit nog iets vernomen – ze leken van de aardbodem verdwenen.",
+      "context": "Slotzin van het boek.",
+      "relevantie_mondeling": "De slotzin sluit het verhaal definitief af vanuit het perspectief van de buitenwereld. De perfecte misdaad is volbracht. Het is tevens een echo van de openingsverdwijning: de ruimteschepen zijn verdwenen in het heelal."
+    }
+  ],
+  "cross_book_verbindingen": {
+    "andere_krabbe_op_lezen_voor_lijst": [
+      "De renner (1978)"
+    ],
+    "andere_thrillers_vergelijkbaar": [
+      "Spoorloos (verfilming, 1988)"
+    ],
+    "vergelijkbare_thematiek_verlies_geliefde": [
+      "Hersenschimmen (J. Bernlef, 1984) - verlies van de ander door dementie, onbereikbaarheid",
+      "De donkere kamer van Damokles (W.F. Hermans, 1958) - identiteit, obsessie, verdwijning"
+    ],
+    "vergelijkbare_thematiek_obsessie": [
+      "Turks fruit (Jan Wolkers, 1969) - obsessieve liefde en verlies"
+    ]
+  },
+  "mondeling_aandachtspunten_per_niveau": {
+    "N2": "Focus op de verhaallijn en de spannende plot: wie is de dader, hoe verdwijnt Saskia, waarom gaat Rex mee met Lemorne. De perspectiefwisseling kan aanvankelijk verwarring geven maar wordt begrijpelijk zodra de link Rex-Lemorne gelegd is.",
+    "N3": "Bovenop N2: de thematiek van menselijk tekort in relaties bespreken, de betekenis van Saskia's droom en de titelverklaring, de dramatische ironie als verteltechniek, de stijlkenmerken van Krabbé (soberheid, economie).",
+    "N4": "Bovenop N3: de relatie met het verhaal van Orpheus en Eurydice (queeste naar de onderwereld om de geliefde terug te halen; het falen van die queeste), de filosofische dimensie van Lemornes motivatie, het getal-8-motief, de kosmische beeldspraak."
+  },
+  "mondelingvragen": {
+    "basics": [
+      {
+        "vraag": "Hoe begint het boek?",
+        "anker": "eerste_zin: toeristen als ruimteschepen op weg naar het zuiden",
+        "doorvraag": "Waarom vergelijkt Krabbé de toeristen met ruimteschepen? Wat zegt dat over de sfeer?"
+      },
+      {
+        "vraag": "Hoe eindigt het boek?",
+        "anker": "Rex wordt levend begraven; slotzin: van geen van beiden werd ooit nog iets vernomen",
+        "doorvraag": "Is dit een open of gesloten einde? Wat weten we wel en wat weten we niet?"
+      },
+      {
+        "vraag": "Wie zijn de hoofdpersonen?",
+        "anker": "Rex Hofman en Raymond Lemorne als de twee centrale figuren; Saskia als afwezige aanwezige",
+        "doorvraag": "Waarom is Lemorne ook een soort hoofdpersoon, terwijl hij de antagonist is?"
+      },
+      {
+        "vraag": "Wat betekent de titel?",
+        "anker": "titelverklaring: Saskia's droom van het gouden ei als metafoor voor eenzaamheid en isolatie",
+        "doorvraag": "Waarom is het ei van goud? Wat voegt dat materiaal toe aan de betekenis?"
+      },
+      {
+        "vraag": "Wat is de eerste zin en waarom is die opvallend?",
+        "anker": "eerste_zin_analyse: kosmische vergelijking introduceert thema van isolatie en vervreemding",
+        "doorvraag": "Kun je een verband leggen tussen de eerste zin en het einde van het boek?"
+      }
+    ],
+    "plot_en_structuur": [
+      {
+        "vraag": "Hoe is het verhaal opgebouwd?",
+        "anker": "vijf hoofdstukken met wisselend perspectief; niet-chronologisch",
+        "doorvraag": "Waarom kiest Krabbé voor een niet-chronologische volgorde?"
+      },
+      {
+        "vraag": "Vat de plot samen in vijf zinnen.",
+        "anker": "samenvatting.kort"
+      },
+      {
+        "vraag": "Wanneer weet de lezer meer dan Rex? Wat is het effect daarvan?",
+        "anker": "dramatische ironie: na hoofdstuk 2 weet de lezer Lemornes identiteit en Saskia's lot; Rex niet",
+        "doorvraag": "Hoe beïnvloedt dat je gevoel bij Rex' beslissing om met Lemorne mee te gaan?"
+      },
+      {
+        "vraag": "Is de vertelvolgorde chronologisch? Leg uit.",
+        "anker": "structuur.chronologie: niet-chronologisch; het verhaal over Lemorne wordt tussenin geplaatst"
+      }
+    ],
+    "perspectief_en_vertelling": [
+      {
+        "vraag": "Vanuit welk perspectief is het boek geschreven?",
+        "anker": "personaal perspectief, wisselend tussen Rex en Lemorne",
+        "doorvraag": "Waarom toont Krabbé ook het perspectief van de dader?"
+      },
+      {
+        "vraag": "Welk type verteller gebruikt Krabbé?",
+        "anker": "personale hij/zij-verteller; discussie over auctoriaal vs personaal mogelijk",
+        "doorvraag": "Als het een alwetende verteller was, zou dat de spanning veranderen?"
+      },
+      {
+        "vraag": "Wat is dramatische ironie? Geef een voorbeeld uit dit boek.",
+        "anker": "lezer weet na hoofdstuk 2 wat er met Saskia is gebeurd; Rex weet dat niet tot Lemorne het hem vertelt"
+      }
+    ],
+    "thematiek": [
+      {
+        "vraag": "Wat zijn de hoofdthema's van Het gouden ei?",
+        "anker": "thematiek.hoofdthemas: obsessieve behoefte aan kennis, onbereikbaarheid van de ander, raadsel van het kwaad, eenzaamheid, perfecte misdaad",
+        "doorvraag": "Welk thema vind jij het belangrijkst en waarom?"
+      },
+      {
+        "vraag": "Waarom kan Rex niet verder leven na Saskia's verdwijning?",
+        "anker": "thema rouw en onzekerheid: zonder zekerheid over de dood kan men niet rouwen",
+        "doorvraag": "Is Rex' beslissing om met Lemorne mee te gaan rationeel of irrationeel?"
+      },
+      {
+        "vraag": "Wat zegt het boek over de onbereikbaarheid van de ander?",
+        "anker": "thema menselijk tekort: Saskia's droom als beeld; zelfs in liefde blijft de ander fundamenteel alleen",
+        "doorvraag": "Hoe verhoudt zich dit thema tot het einde, waar Rex 'één wil worden' met Saskia?"
+      }
+    ],
+    "motieven": [
+      {
+        "vraag": "Welke motieven herken je in het boek?",
+        "anker": "motieven: gouden ei, getal 8, polaroidfoto, verdwijning fietsen, ruimte/heelal"
+      },
+      {
+        "vraag": "Bespreek het motief van het gouden ei met tekstplaatsen.",
+        "anker": "motieven[0]: Saskia's droom, Rex' bewustwording in de kist, citaat blz. 25",
+        "doorvraag": "Waarom is het ei van goud en niet van steen of hout?"
+      },
+      {
+        "vraag": "Wat is de functie van de polaroidfoto aan het begin?",
+        "anker": "motieven polaroidfoto: beeld dat opdoemt en kan vervagen; voorteken van Saskia's verdwijning",
+        "doorvraag": "Hoe verbindt de foto het begin met het einde van het boek?"
+      }
+    ],
+    "personages": [
+      {
+        "vraag": "Hoe ontwikkelt Rex zich in het boek?",
+        "anker": "personages.hoofdpersoon.Rex: van verliefd vakantieganger naar door obsessie geconsumeerd man die zijn dood kiest voor kennis",
+        "doorvraag": "Is Rex een held of een dwaas? Of allebei?"
+      },
+      {
+        "vraag": "Wat drijft Lemorne? Is hij een monster?",
+        "anker": "personages.bijfiguren Lemorne: koude intellectuele obsessie, niet sadisme; gewone façade",
+        "doorvraag": "Maakt het feit dat Lemorne een normaal gezinsleven heeft hem angstaanjagender of juist minder?"
+      },
+      {
+        "vraag": "Welke functie heeft Lieneke in het verhaal?",
+        "anker": "personages.bijfiguren Lieneke: toont verstreken tijd en mislukte verwerking; Saskia's schaduw blijft aanwezig",
+        "doorvraag": "Waarom kiest Krabbé een vrouw die bijna even oud is als Saskia?"
+      },
+      {
+        "vraag": "Hoe wordt Saskia als personage neergezet ondanks haar vroege verdwijning?",
+        "anker": "Saskia is aanwezig via haar droom, Rex' herinneringen en het raadsel rond haar lot",
+        "doorvraag": "Kun je je een echt beeld vormen van Saskia als persoon? Wat zegt dat over Krabbés schrijfstijl?"
+      }
+    ],
+    "tijd_en_context": [
+      {
+        "vraag": "Wanneer speelt het verhaal zich af?",
+        "anker": "historische_context: impliciet jaren zeventig-tachtig; Lemorne in 1950 zestien jaar; hoofdhandeling na 1971",
+        "doorvraag": "Maakt het uit wanneer het verhaal zich afspeelt, of had het net zo goed nu kunnen zijn?"
+      },
+      {
+        "vraag": "Wanneer is het boek geschreven en is dat relevant?",
+        "anker": "uitgave 1984; jaren '80 van de twintigste eeuw",
+        "doorvraag": "Zou het verhaal anders zijn als het vandaag zou spelen, met mobiele telefoons en bewakingscamera's bij het tankstation?"
+      }
+    ],
+    "stroming_en_oeuvre": [
+      {
+        "vraag": "In welk genre past Het gouden ei?",
+        "anker": "classificatie.genres: thriller, psychologische roman, novelle",
+        "doorvraag": "Is het meer een thriller of meer een psychologische roman? Onderbouw je antwoord."
+      },
+      {
+        "vraag": "Ken je andere werken van Tim Krabbé? Hoe past dit boek daarin?",
+        "anker": "auteur.hoofdwerken: De renner, Het schaakgenootschap",
+        "doorvraag": "Krabbé schrijft ook over sport. Zie je overeenkomsten in thematiek of stijl?"
+      },
+      {
+        "vraag": "Voor welk niveau staat dit boek ingedeeld en vind jij dat terecht?",
+        "anker": "classificatie.niveau_primair: 3; niveau_opmerking",
+        "doorvraag": "Wat maakt het boek moeilijker of makkelijker dan je verwachtte?"
+      }
+    ],
+    "mening_en_waardering": [
+      {
+        "vraag": "Wat vond je van het boek?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "stijl: sober en economisch",
+          "spanning via dramatische ironie",
+          "thema: hoe ver ga je voor kennis",
+          "einde: bevredigend of juist niet?"
+        ]
+      },
+      {
+        "vraag": "Zou je het aanraden aan een medeleerling?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "kort en toegankelijk",
+          "spanning",
+          "existentieel thema dat aanzet tot nadenken",
+          "einde kan frustrerend zijn"
+        ]
+      },
+      {
+        "vraag": "Was Rex' beslissing om met Lemorne mee te gaan begrijpelijk voor jou?",
+        "anker": "thema obsessie en rouw; de keuze tussen niet-weten en gevaarlijke kennis",
+        "doorvraag": "Zou jij hetzelfde hebben gedaan?"
+      }
+    ],
+    "cross_book": [
+      {
+        "vraag": "Welk ander boek op je lijst heeft een vergelijkbaar thema?",
+        "anker": "cross_book_verbindingen"
+      },
+      {
+        "vraag": "Vergelijk Het gouden ei met een ander boek op je lijst qua schrijfstijl.",
+        "anker": "stijl_en_taal: sober, economisch, weinig details - vergelijk met een auteur die uitgebreider schrijft"
+      },
+      {
+        "vraag": "Vergelijk de spanning in Het gouden ei met die in een ander boek dat je hebt gelezen.",
+        "anker": "spanning via dramatische ironie vs spanning via mystery of actie"
+      }
+    ],
+    "film_en_adaptatie": [
+      {
+        "vraag": "Het gouden ei is verfilmd als Spoorloos. Heb je de film gezien? Wat zijn je verwachtingen?",
+        "anker": "receptie_en_prijzen.verfilming: Spoorloos (1988) en The Vanishing (1993), beide George Sluizer"
+      },
+      {
+        "vraag": "Waarom zou dezelfde regisseur zowel de Nederlandse als de Amerikaanse versie maken?",
+        "anker": "George Sluizer maakte beide versies; bekendheid van het verhaal internationaal"
+      }
+    ],
+    "verrassingsvragen": [
+      {
+        "vraag": "Wat zou je aan Tim Krabbé willen vragen als je hem kon spreken?",
+        "type": "open/persoonlijk"
+      },
+      {
+        "vraag": "Was er iets in het boek dat je niet begreep of dat je vreemd vond?",
+        "anker": "moeilijkheidsgraad per niveau: perspectiefwisseling; Lemornes motivatie"
+      },
+      {
+        "vraag": "Als je zelf de schrijver was, had je het einde anders geschreven?",
+        "type": "open/reflectief"
+      }
+    ],
+    "leesechtheid": [
+      {
+        "vraag": "Als je één scène aan een klasgenoot zou voorlezen, welke kies je dan? En wat gebeurt er in die scène?",
+        "tactiek": "scene-voorkeur forceren",
+        "signaal_gelezen": "Noemt een scène die niet in de standaardsamenvatting centraal staat, zoals de polaroidfoto die opdoemt, het gesprek tussen Rex en het benzinestationpersoneel, of de beschrijving van Rex die de fietsen mist. Kan de scène in eigen woorden navertellen met zintuiglijke details.",
+        "signaal_niet_gelezen": "Kiest de verdwijning van Saskia of het eindscène (levend begraven) en beschrijft die met abstracte termen zonder concrete details uit de tekst."
+      },
+      {
+        "vraag": "Was er een deel waar je dacht: nu moet er iets gebeuren, het gaat te langzaam?",
+        "tactiek": "tempo-vraag",
+        "signaal_gelezen": "Benoemt een concreet hoofdstuk of een specifieke passage, bijvoorbeeld het hoofdstuk met Lieneke als rustiger tussenspel, en legt kort uit waarom het daar stagneerde.",
+        "signaal_niet_gelezen": "Zegt 'nee, helemaal niet' of geeft een vage beschrijving zonder aanwijsbare tekstplaats."
+      },
+      {
+        "vraag": "Is er iets in het boek dat je verraste, buiten de grote plotwending?",
+        "tactiek": "verrassings-vraag",
+        "signaal_gelezen": "Noemt een klein detail buiten de ontknoping, zoals het feit dat de fietsen van het dak verdwenen waren, of dat Lemorne een gezin heeft, of de exacte manier waarop Saskia gelokt werd via de sleutelhanger.",
+        "signaal_niet_gelezen": "Verwijst alleen naar de ontknoping (Rex wordt levend begraven) of Lemornes motivatie, beide standaard in elke samenvatting."
+      },
+      {
+        "vraag": "Behalve Rex, welk personage is jou het meest bijgebleven en waarom?",
+        "tactiek": "bijpersonage-check",
+        "signaal_gelezen": "Noemt Lieneke en beschrijft haar rol concreet, of gaat dieper in op Lemornes achtergrond dan de basisfeiten, of benoemt het benzinestationpersoneel als degenen die Saskia het laatste hebben gezien.",
+        "signaal_niet_gelezen": "Noemt alleen Lemorne en Saskia met informatie die in elke samenvatting staat."
+      },
+      {
+        "vraag": "Vond je ergens dat Krabbé iets niet geloofwaardig uitwerkte?",
+        "tactiek": "zelfkritiek uitlokken",
+        "signaal_gelezen": "Kan een concreet bezwaar formuleren, zoals dat Lemorne Rex opzoekt (wat strategisch dom is voor iemand die de perfecte misdaad wil plegen), of dat Rex zo gemakkelijk instemt met Lemornes voorstel.",
+        "signaal_niet_gelezen": "Zegt 'alles klopte wel' of herhaalt een generieke kritiek als 'het was soms te kort' zonder specifieke tekstverwijzing."
+      }
+    ]
+  },
+  "_meta": {
+    "bronnen_geconsulteerd": [
+      "lezenvoordelijst.nl docenteninfo niveau 3 - Het gouden ei",
+      "scholieren.com ZWG-verslag door Jessica (2018)",
+      "nl.wikipedia.org/wiki/Het_gouden_ei",
+      "commentaren onder ZWG-verslag scholieren.com (correcties en aanvullingen)"
+    ],
+    "samenstelling": "Eigen synthese van meerdere bronnen; geen letterlijke overnames met uitzondering van korte citaten (flaptekst, eerste zin, sleutelcitaten) onder citeerrecht.",
+    "geharvest": "2026-04-20",
+    "schema_versie": "0.2-uitgebreid"
+  }
+}

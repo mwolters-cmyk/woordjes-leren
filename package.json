@@ -9,7 +9,8 @@
     "lint": "next lint",
     "import": "node scripts/import-photos.mjs",
     "import:dry": "node scripts/import-photos.mjs --dry-run",
-    "update-registry": "node scripts/update-registry.mjs"
+    "update-registry": "node scripts/update-registry.mjs",
+    "sync-mondelingen": "node scripts/sync-mondelingen.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",

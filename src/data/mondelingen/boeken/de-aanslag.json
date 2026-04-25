@@ -1,0 +1,373 @@
+{
+  "slug": "de-aanslag",
+  "titel": "De aanslag",
+  "auteur": {
+    "naam": "Harry Mulisch",
+    "sortname": "Mulisch, Harry",
+    "geboren": "1927-07-29",
+    "overleden": "2010-10-30",
+    "biografische_context": "Geboren in Haarlem uit een Oostenrijks-Duitse vader die met de Duitse bezetter collaboreerde, en een Joodse moeder. Zijn vader hielp zijn moeder en Harry gedurende de oorlog uit Duitse handen te houden. Zei later: 'Ik ben de Tweede Wereldoorlog'. Deze biografische band met de oorlog kleurt bijna al zijn werk.",
+    "positie_literatuur": "Een van 'de Grote Drie' van de Nederlandse naoorlogse literatuur (met W.F. Hermans en Gerard Reve). Onderlinge verhoudingen waren stekelig; vooral Reve en Mulisch maakten openlijk ruzie.",
+    "hoofdwerken": [
+      {"titel": "Archibald Strohalm", "jaar": 1952, "type": "debuut"},
+      {"titel": "Het stenen bruidsbed", "jaar": 1959},
+      {"titel": "De zaak 40/61", "jaar": 1962, "type": "non-fictie", "opmerking": "Reportage over Eichmann-proces; biografische sleuteltekst voor oorlogsthema"},
+      {"titel": "Twee vrouwen", "jaar": 1975},
+      {"titel": "De aanslag", "jaar": 1982, "type": "doorbraakroman"},
+      {"titel": "De ontdekking van de hemel", "jaar": 1992, "opmerking": "Magnum opus; in 2007 door publiek verkozen tot beste Nederlandse boek aller tijden"},
+      {"titel": "De procedure", "jaar": 1998},
+      {"titel": "Siegfried", "jaar": 2001}
+    ]
+  },
+
+  "uitgave": {
+    "eerste_druk": 1982,
+    "uitgeverij": "De Bezige Bij",
+    "plaats": "Amsterdam",
+    "isbn_13": "9789023443780",
+    "pagina_ongeveer": 236,
+    "oplage_eerste_maanden": 200000,
+    "opmerking_oplage": "Binnen enkele maanden na verschijning 200.000 exemplaren verkocht; inmiddels 55+ drukken; in vele talen vertaald."
+  },
+
+  "classificatie": {
+    "vak": "nederlands",
+    "leeftijdsgroep": "15-18",
+    "lezen_voor_lijst_niveaus": [3, 4, 5],
+    "niveau_primair": 4,
+    "niveau_opmerking": "Primair op lezenvoordelijst.nl ingedeeld op N4; bij analyse bespreken de docenteninfo-dimensies N3, N4 én N5. Geschikt voor ambitieuze N3, typische N4, verdiepende N5.",
+    "geschikt_voor": ["vmbo-t bovenbouw", "havo bovenbouw", "vwo bovenbouw"],
+    "genres": ["oorlogsroman", "psychologische roman", "historische roman"],
+    "literaire_periode": "jaren '80 van de twintigste eeuw",
+    "stroming_invloed": ["existentialisme"]
+  },
+
+  "bron_urls": {
+    "lezenvoordelijst_leerling": "https://www.jeugdbibliotheek.nl/12-18-jaar/lezen-voor-de-lijst/15-18-jaar/niveau-4/de-aanslag.html",
+    "lezenvoordelijst_docent": "https://www.lezenvoordelijst.nl/docenten-15-18/niveau-4/de-aanslag/?docenteninfo",
+    "scholieren_hub": "https://www.scholieren.com/boek/de-aanslag-harry-mulisch",
+    "wikipedia_nl": "https://nl.wikipedia.org/wiki/De_aanslag_(roman)"
+  },
+
+  "flaptekst": "Fake Ploeg, een collaborerende inspecteur van politie, berucht om zijn wreedheid, fietst tijdens zijn spertijd door de buitenwijken van Haarlem naar huis. Door de winterse avond klinken plotseling zes scherpe knallen. Ploeg ligt dood op de stoep voor een rijtje van vier huizen, waarvan er een door de familie Steenwijk wordt bewoond. De verschrikkelijke gevolgen van deze gebeurtenis zullen de dan twaalfjarige Anton Steenwijk zijn hele leven lang blijven achtervolgen.",
+
+  "eerste_zin": "Ver, ver weg in de tweede wereldoorlog woonde een zekere Anton Steenwijk met zijn ouders en zijn broer aan de rand van Haarlem.",
+  "eerste_zin_analyse": "De opening lijkt op een sprookjesbegin ('Ver, ver weg...'), wat een afstand creëert tussen verteller en gebeurtenissen - alsof de oorlog een legende is. Dit introduceert direct het motief van tijd en herinnering: het verhaal wordt verteld als iets ver afgelegen, terwijl het thema juist is dat het verleden níet wegraakt.",
+
+  "motto": {
+    "citaat": "Overal was het al dag, maar hier was het nacht, neen, meer dan nacht.",
+    "bron": "Plinius de Jongere, Epistulae VI, 16",
+    "context": "Uit de brief waarin Plinius de uitbarsting van de Vesuvius in 79 n.Chr. beschrijft, waarbij zijn oom Plinius de Oudere omkwam.",
+    "interpretatie": "De tegenstelling tussen dag en nacht introduceert het tijdmotief. Net als bij de Vesuvius-uitbarsting verduistert één catastrofe alles. Ook een voorzegging van de rook, as en vuur in de roman (brandende huis, sigaret-as, Antons keuken)."
+  },
+
+  "structuur": {
+    "indeling": "Proloog + vijf episodes, elk met een jaartal als kop",
+    "episodes": [
+      {"nr": 0, "naam": "Proloog", "jaar": "tijdloos", "functie": "Beschrijving van de vier huizen en de situatie voor de aanslag, verteld vanuit alwetende verteller in sprookjesregister"},
+      {"nr": 1, "naam": "Eerste episode", "jaar": 1945, "trefwoord": "de aanslag"},
+      {"nr": 2, "naam": "Tweede episode", "jaar": 1952, "trefwoord": "terugkeer naar de straat"},
+      {"nr": 3, "naam": "Derde episode", "jaar": 1956, "trefwoord": "Fake Ploeg jr."},
+      {"nr": 4, "naam": "Vierde episode", "jaar": 1966, "trefwoord": "Cor Takes & Truus Coster"},
+      {"nr": 5, "naam": "Laatste episode", "jaar": 1981, "trefwoord": "Karin Korteweg & de ontknoping"}
+    ],
+    "chronologie": "Lineair chronologisch, maar met grote tijdsprongen (7, 4, 10, 15 jaar). Vertelde tijd: bijna 37 jaar. Jaartallen bij elke deelkop ankeren de lezer.",
+    "compositie_opmerking": "Elke episode begint met een beschrijving van de tussenliggende jaren en eindigt met een ontmoeting die een nieuw puzzelstuk onthult. Dit maakt het een queeste-structuur vermomd als chronologie."
+  },
+
+  "perspectief": {
+    "type_hoofd": "Personaal vanuit Anton (derde persoon, Antons bewustzijn)",
+    "type_proloog": "Alwetende/auctoriale verteller",
+    "opmerking": "In de proloog is de verteller nadrukkelijk aanwezig als alwetende vertelinstantie ('sprookjesstem'). In de episodes verschuift het naar Antons perspectief, maar de verteller blijft voortdurend op afstand commenteren - de lezer kijkt méér óp Anton dan mét hem mee. Deze dubbelheid is voor N3 een struikelblok, voor N5 een hoofdthema.",
+    "implicaties_voor_betekenis": "Het gelaagde perspectief ondersteunt de thematiek: Anton probeert weg te kijken van zijn verleden, maar de verteller dwingt de lezer (en langzaam Anton) om te kijken. De ontwikkeling zit daardoor niet in de personages maar in de vertelstem."
+  },
+
+  "samenvatting": {
+    "kort": "Op een winteravond in 1945 wordt voor het huis van de familie Steenwijk in Haarlem de NSB'er Fake Ploeg doodgeschoten. De buren verplaatsen het lijk naar de stoep van de Steenwijks, met catastrofale gevolgen: Antons ouders en broer worden geëxecuteerd, het huis afgebrand. In vier episodes (1952, 1956, 1966, 1981) ontmoet Anton bij toeval steeds iemand die een stukje van de waarheid kent. Pas op het einde krijgt hij het volledige beeld.",
+
+    "per_episode": {
+      "proloog": "De verteller beschrijft in sprookjesregister de vier huizen aan een kade in Haarlem: 'Welgelegen' (familie Beumer), 'Buitenrust' (Steenwijk), 'Nooitgedacht' (stuurman Korteweg en dochter Karin, verpleegster) en 'Rustenburg' (echtpaar Aarts, teruggetrokken). De huizen staan geïsoleerd; aan de overkant boerderijen. Anton speelt op braakliggend land achter de huizen.",
+
+      "eerste_episode_1945": "Januari 1945, hongerwinter. De familie Steenwijk (vader, moeder, Peter 17, Anton 12) zit in de eetkamer mens-erger-je-niet te spelen. Zes schoten klinken: Fake Ploeg, collaborerend politie-inspecteur, is doodgeschoten terwijl hij voorbijfietste. Kort daarop verslepen meneer Korteweg en Karin het lijk van voor hun huis naar de stoep van de Steenwijks. Peter grijpt een wapen en wil het lijk terugleggen; na een ruzie met zijn ouders rent hij naar buiten. De Duitsers arriveren. Antons ouders worden meegenomen, Peter vlucht, het huis wordt in brand gestoken. Anton wordt naar een politiebureau in Heemstede gebracht. In de donkere cel spreekt hij met een vrouw (wier gezicht hij niet ziet); zij troost hem. De volgende dag wordt hij naar zijn oom Peter van Liempt en tante in Amsterdam gebracht. Onderweg overleeft een luchtaanval op de vrachtwagen.",
+
+      "tweede_episode_1952": "Anton is 19, studeert medicijnen in Amsterdam. Pas na de bevrijding hoorde hij dat zijn ouders én Peter diezelfde avond zijn doodgeschoten. Op uitnodiging van studiegenoot De Graaff bezoekt hij een feest in Haarlem. Wanneer daar macabere grappen over Korea versus WO II worden gemaakt, vertrekt Anton - niet zozeer vanwege de grappen, volgens latere lezersinterpretatie, als vanwege politieke desinteresse. Hij loopt terug naar zijn oude kade. Mevrouw Beumer nodigt hem binnen en vertelt dat Korteweg is verhuisd en dat er een monument op de plek van zijn huis staat. Op het monument vindt hij de namen van zijn ouders, maar niet van Peter (die niet als gijzelaar wordt erkend).",
+
+      "derde_episode_1956": "Anton specialiseert zich in anesthesie, woont op kamers. Tijdens communistische onlusten in Amsterdam (Hongarije-crisis) is hij getuige van politiegeweld en herkent in de menigte Fake Ploeg jr., de zoon van de vermoorde NSB'er, die ooit bij Anton in de klas zat. Anton nodigt hem thuis uit. Fake jr. werkt in een huishoudzaak, is verarmd en verdedigt zijn vader: de communisten hadden de oorlog veroorzaakt, zijn vader werd vermoord omdat hij gelijk had. In een uitbarsting gooit Fake jr. een steen door de kamer en vertrekt - maar komt terug om Anton te bedanken dat die op school altijd voor hem opkwam.",
+
+      "vierde_episode_1966": "Anton is arts-assistent, getrouwd met Saskia de Graaff (zus van zijn studiegenoot; ontmoet in Londen, vader was ambassadeur in Athene); ze hebben een dochter Sandra. Op de begrafenis van een oud-verzetsvriend van zijn schoonvader ontmoet hij Cor Takes, die bekent Fake Ploeg te hebben doodgeschoten ('Ik schoot eerst in zijn rug, en toen in zijn buik, terwijl ik hem voorbij fietste'). Cor vraagt Anton of híj weet waarom Ploeg niet voor het huis van de Aartsen is gelegd. Cor vertelt bovendien dat hij niet alleen was: zijn vriendin Truus Coster deed mee. Anton beseft dat Truus de vrouw in zijn cel was. Truus werd drie weken voor de bevrijding geëxecuteerd. Op een foto bij Takes ziet Anton dat Truus op Saskia lijkt in de blik - mogelijk werd hij daarom verliefd op Saskia. Takes blijft emotioneel in de oorlog zitten (muurkaart met oorlogsfronten; krantenartikel over de vrijlating van Willy Lages).",
+
+      "laatste_episode_1981": "Anton is rond de 50, gescheiden van Saskia, getrouwd met Liesbeth, heeft een zoon Peter (vernoemd naar zijn broer). Hij bezit huizen in Nederland en Toscane. In Toscane krijgt hij een paniekaanval door een witte tafelaansteker in dobbelsteenvorm - het triggert flashbacks. Hij bezoekt met Sandra het monument en Truus' graf. Tijdens de Antikernwapendemonstratie van 21 november 1981 in Amsterdam - waar hij enkel komt omdat zijn tandarts weigert hem anders te helpen - ontmoet hij zijn zwangere dochter Sandra én, onverwacht, Karin Korteweg. Zij onthult twee ontbrekende puzzelstukken: (1) haar vader wilde het lijk niet op de stoep van de Aartsen leggen omdat hij wist dat die al twee jaar een joods gezin onderdak boden, en (2) haar vader verplaatste het lijk om zijn geliefde hagedissen-verzameling te sparen (die hij vermoedde dat de Duitsers zouden vernietigen als ze in zijn huis zochten). Diezelfde avond vermoordde Korteweg zijn hagedissen; in 1948 pleegde hij zelfmoord uit angst voor Antons wraak. Anton loopt weg, in verwarring over de ingewikkeldheid van de schuldvraag, en laat zich meevoeren in de demonstratiestoet, samen met zijn zoon Peter.",
+
+      "bevat_spoilers": true
+    }
+  },
+
+  "personages": {
+    "hoofdpersoon": {
+      "Anton Steenwijk": {
+        "rol": "hoofdpersoon, focalisator",
+        "leeftijd_begin": 12,
+        "leeftijd_einde": 48,
+        "beroep": "anesthesist",
+        "karakter": "Rustig, teruggetrokken, passief. Weinig geïnteresseerd in politiek of actualiteit. Laat het leven aan zich voorbijtrekken. Houdt zich bezig met lezen en puzzels. Bezit meerdere huizen (waaronder in Italië).",
+        "ontwikkeling": "Anton ontwikkelt zich bijna niet als personage; zijn 'ontwikkeling' is het geleidelijk ontvangen van informatie die hij liever niet had gewild. Pas in de laatste episode accepteert hij dat de oorlog onlosmakelijk deel van hem is.",
+        "functie": "Anton is eerder een filter voor de gebeurtenissen dan een acterend subject. Dit versterkt de thematiek: ook zonder actief zoeken komt het verleden je achterna."
+      }
+    },
+    "bijfiguren": [
+      {"naam": "Peter Steenwijk", "rol": "Antons oudere broer", "leeftijd_1945": 17, "lot": "Grijpt het wapen bij het lijk, vlucht de Kortewegs binnen, wordt onder schot gehouden en diezelfde nacht door Duitsers doodgeschoten. Wordt niet als gijzelaar erkend, staat niet op het monument."},
+      {"naam": "meneer en mevrouw Steenwijk", "rol": "Antons ouders", "lot": "Geëxecuteerd op de avond van de aanslag als represaille."},
+      {"naam": "Fake Ploeg (sr.)", "rol": "Collaborerend politie-inspecteur, NSB'er", "functie": "Het slachtoffer van de aanslag; het begin van alles. Staat voor het collaborerende Nederland."},
+      {"naam": "Fake Ploeg jr.", "rol": "zoon van Ploeg, Antons schoolgenoot", "ontwikkeling": "Ooit gepest op school om zijn vader (Anton kwam voor hem op). Verarmd na vaders dood, werkt in huishoudzaak. Verdedigt zijn vader, uit eigen woede en rouw.", "functie": "Spiegelfiguur voor Anton: ook hij verloor zijn vader door de aanslag, maar trekt tegenovergestelde conclusies."},
+      {"naam": "Karin Korteweg", "rol": "buurmeisje, verpleegster", "functie": "Houdster van het laatste ontbrekende puzzelstuk. Ontmoet Anton in 1981 op de demonstratie en onthult beide verborgen motieven (hagedissen + joden bij Aartsen)."},
+      {"naam": "meneer Korteweg", "rol": "Karins vader, stuurman op grote vaart", "ontwikkeling": "Verplaatste het lijk om zijn hagedissen te redden; wist van de onderduikers bij Aartsen. Vermoordt diezelfde avond zijn hagedissen, vlucht na de oorlog naar Nieuw-Zeeland, pleegt in 1948 zelfmoord uit vrees voor Antons wraak.", "functie": "Het meest schuldbewuste personage - maar tegelijk niet als slecht te duiden: zijn motief (hagedissen) is bizar, zijn tweede motief (de Aartsen niet in gevaar brengen) is juist moreel hoogstaand."},
+      {"naam": "Cor Takes", "rol": "verzetsstrijder, een van de aanslagplegers", "historische_inspiratie": "Gebaseerd op Jan Bonekamp", "functie": "Blijft emotioneel in de oorlog vastzitten; voor hem is de oorlog nooit voorbij. Spiegelfiguur voor Anton die wèl probeert los te komen."},
+      {"naam": "Truus Coster", "rol": "verzetsstrijdster, medepleegster van de aanslag, geliefde van Cor Takes", "historische_inspiratie": "Gebaseerd op Hannie Schaft", "lot": "Drie weken voor de bevrijding geëxecuteerd. De vrouw in Antons cel.", "functie": "De onzichtbare vrouw in het donker wordt geleidelijk zichtbaar. Haar uiterlijk wordt - letterlijk via foto - in Saskia geprojecteerd."},
+      {"naam": "Saskia de Graaff", "rol": "Antons eerste vrouw", "familie": "Dochter van een diplomaat, ambassadeur in Athene. Moeder van Sandra.", "functie": "Vervanging voor Truus? Anton's onbewuste keuze: Saskia's blik lijkt op die van Truus op de foto."},
+      {"naam": "Sandra", "rol": "Antons dochter uit eerste huwelijk", "ontwikkeling": "Aan einde van het boek zwanger, 19, vriendje dat Anton niet bevalt. Bezoekt samen met Anton het monument en Truus' graf."},
+      {"naam": "Liesbeth", "rol": "Antons tweede vrouw, moeder van zijn zoon Peter"},
+      {"naam": "Peter (Antons zoon)", "rol": "Zoon uit tweede huwelijk, vernoemd naar zijn omgekomen broer", "functie": "Namengeving als poging tot verzoening met het verleden."},
+      {"naam": "Familie Beumer", "rol": "buren in 'Welgelegen'", "functie": "In 1952 de eerste post-oorlog-informant over het monument."},
+      {"naam": "Echtpaar Aarts", "rol": "buren in 'Rustenburg' - teruggetrokken", "geheim": "Boden al twee jaar een joods gezin onderdak; dit is het verborgen motief waarom Korteweg het lijk niet bij hen neerlegde."},
+      {"naam": "Oom Peter van Liempt en tante", "rol": "Antons adoptief-ouders in Amsterdam"}
+    ]
+  },
+
+  "thematiek": {
+    "hoofdthemas": [
+      {
+        "naam": "Schuld en de schuldvraag",
+        "uitwerking": "Wie is schuldig aan het drama? De directe daders (verzet) - of de collaborateurs wier aanwezigheid het verzet opriep? De Kortewegs die het lijk verplaatsten - of de Duitsers die represailles uitvoerden? Mulisch geeft geen enkel antwoord: elke schuld is relatieve schuld. De traditionele morele helderheid van een oorlogsverhaal wordt ondermijnd."
+      },
+      {
+        "naam": "Toeval en noodlot",
+        "uitwerking": "Waarom dit huis, deze avond, deze jongen? Mulisch laat zien dat levens worden bepaald door toevalligheden (welk huis, welke hagedissen, welke onderduikers) - maar tegelijk voelen die toevalligheden als noodlot omdat ze onomkeerbaar zijn. Het dobbelsteenmotief is hier de belichaming van."
+      },
+      {
+        "naam": "Tijd, herinnering en verwerking",
+        "uitwerking": "Hoe werkt een trauma door in decennia? Anton probeert te vergeten, maar het verleden dwingt zich elke 7-10 jaar op in een nieuwe ontmoeting. Parallel daarmee: de maatschappelijke verwerking van WOII (communisten-rellen, Lages-vrijlating, atoombewapening-demo) - de oorlog is nooit 'klaar'."
+      },
+      {
+        "naam": "Politieke onverschilligheid versus geëngageerdheid",
+        "uitwerking": "Anton is exemplarisch politiek ongeïnteresseerd. In elke episode bevindt hij zich tussen politiek actieve mensen (communisten, verzetsveteranen, demonstranten) - en distantieert zich. Tegelijk dwingt het boek de lezer zich af te vragen of die distantie houdbaar is."
+      }
+    ]
+  },
+
+  "motieven": [
+    {
+      "naam": "Dobbelsteenmotief",
+      "betekenis": "Toeval, lot, kans. Elke verschijning markeert een kantelpunt.",
+      "tekstplaatsen": [
+        {"episode": "Eerste episode", "context": "Anton stopt de dobbelsteen in zijn zak op moment van de schoten: 'Hij merkte dat hij nog steeds de dobbelsteen in zijn hand had en stopte hem in zijn zak.' (eerste episode, deel 2)"},
+        {"episode": "Eerste episode", "context": "De volgende ochtend voelt hij iets in zijn zak: 'het was de dobbelsteen.' (eerste episode, deel 4) - de dobbelsteen is hem meegereisd naar zijn nieuwe leven"},
+        {"episode": "Laatste episode", "context": "In zijn Toscaanse huis valt zijn oog op een witte tafelaansteker in dobbelsteenvorm; paniekaanval, de puzzelstukjes vallen op hun plaats"}
+      ]
+    },
+    {
+      "naam": "Visgraatmotief",
+      "betekenis": "Patronen en herhaling in de structuur van het boek zelf. Minder expliciet dan het dobbelsteenmotief."
+    },
+    {
+      "naam": "As en vuur",
+      "tekstplaatsen": [
+        "Het brandende ouderlijk huis",
+        "De kachel in Antons jeugd en later",
+        "De smeulende asbak van Takes",
+        "Vesuvius-as in het motto"
+      ],
+      "betekenis": "Verbinding tussen de kleine alledaagse (asbak) en de grote catastrofe (brandend huis, Vesuvius). As als dat wat overblijft na vernietiging - maar ook als dat waaruit nieuw leven ontstaat."
+    },
+    {
+      "naam": "Duisternis en licht",
+      "tekstplaatsen": [
+        "De donkere cel waar Anton Truus niet kan zien",
+        "De foto waarop hij haar eindelijk ziet",
+        "Het motto: 'meer dan nacht'"
+      ],
+      "betekenis": "Kennis vs onwetendheid; wat verborgen bleef komt geleidelijk in het licht."
+    },
+    {
+      "naam": "Spiegels en tegenhangers",
+      "tekstplaatsen": [
+        "Anton en Fake Ploeg jr.: beiden vaderloos door dezelfde aanslag, tegengestelde conclusies",
+        "Anton en Cor Takes: beiden getekend, Anton kijkt weg, Takes kan niet wegkijken",
+        "Truus en Saskia: uiterlijke echo, onbewuste keuze"
+      ]
+    }
+  ],
+
+  "stijl_en_taal": {
+    "kenmerken": "Heldere, eenvoudige zinsbouw; weinig moeilijke woorden. Beeldspraak (vooral vergelijkingen) is rijk maar toegankelijk. Enkele Duitse en Latijnse zinnen blijven onvertaald - bedoeld als emotionele barrière, niet als informatieblok.",
+    "register_verschuivingen": "Proloog in sprookjesregister; eerste episode in actie-register; latere episodes contemplatiever; sterk gebruik van filosofische bespiegelingen via vertellersinterventie.",
+    "karakteriseringstechniek": "Veel stereotiepen voor bijfiguren; Anton zelf blijft opzettelijk vaag - dit is functie, niet zwakte."
+  },
+
+  "decor": {
+    "hoofdlocaties": ["Haarlem (kade aan het kanaal - fictief maar plausibel)", "Heemstede (politiebureau)", "Amsterdam", "Toscane"],
+    "beeldsymbolisch_belang": "De vier huizen met hun burgerlijke namen ('Welgelegen', 'Buitenrust', 'Nooitgedacht', 'Rustenburg') ironiseren het burgerlijke veiligheidsideaal dat de oorlog doorbreekt - 'Nooitgedacht' klinkt na de aanslag bijna als een slechte grap."
+  },
+
+  "titelverklaring": {
+    "oppervlakkig": "De aanslag verwijst naar de moord op Fake Ploeg in januari 1945, de gebeurtenis die Antons leven bepaalt.",
+    "dieper": "De 'aanslag' is ook breder: elke ontmoeting die Anton met het verleden heeft, is een aanslag op zijn geconstrueerde vergetelheid. De oorlog doet een aanslag op Antons leven - niet één keer, maar telkens opnieuw gedurende 37 jaar."
+  },
+
+  "historische_context": {
+    "periode_boek": "1945-1981",
+    "belangrijkste_historische_gebeurtenissen_in_boek": [
+      "Hongerwinter 1944-45 en bevrijding",
+      "Korea-oorlog (opgevoerd in 1952 als generatieconflict)",
+      "Hongaarse Opstand 1956 (in derde episode verwerkt als 'communistische relletjes')",
+      "Vrijlating Willy Lages (1966) - in vierde episode",
+      "Antikernwapendemonstratie van 21 november 1981 - letterlijke setting laatste episode"
+    ],
+    "historische_personen_als_inspiratie": [
+      {"romanfiguur": "Cor Takes", "historisch": "Jan Bonekamp", "beschrijving": "Verzetsstrijder in de Raad van Verzet, pleegde met Hannie Schaft aanslagen op NSB'ers; gedood 1944"},
+      {"romanfiguur": "Truus Coster", "historisch": "Hannie Schaft", "beschrijving": "'Het meisje met het rode haar'; verzetsstrijdster, geëxecuteerd drie weken voor bevrijding"}
+    ]
+  },
+
+  "receptie_en_prijzen": {
+    "verkoop_eerste_maanden": "200.000 exemplaren",
+    "oplage_totaal": "Ruim 1,5 miljoen, 55+ drukken",
+    "vertalingen": "In meer dan 25 talen",
+    "verfilming": {
+      "jaar": 1986,
+      "regisseur": "Fons Rademakers",
+      "acteurs_belangrijk": ["Derek de Lint (Anton)", "Marc van Uchelen (jonge Anton)", "Monique van de Ven", "John Kraaijkamp sr.", "Huub van der Lubbe"],
+      "prijzen": ["Oscar beste niet-Engelstalige film 1987", "Golden Globe beste buitenlandse film 1987", "Gouden Kalf beste acteur (Kraaijkamp sr.) 1986"]
+    },
+    "toneelbewerking": {"jaar": 2011, "bewerker": "Léon van der Sanden", "regie": "Ursul de Geer"},
+    "stripbewerking": {"jaar": 2015, "tekenaar": "Milan Hulsing", "uitgever": "Oog en Blik / De Bezige Bij"},
+    "recensie_citaten": [
+      "Alles hangt met alles samen, de details zijn tegelijk alomvattend. De aanslag is zelfs zo goed geconstrueerd, dat ook de fouten een functie hebben.",
+      "De aanslag is niet alleen een harmonieus geheel van karaktertekening, stijl en een sterk plot. Het verhaal vertelt meer dan een verhaal."
+    ]
+  },
+
+  "sleutelcitaten": [
+    {"citaat": "Luister. Laten we opstaan en weggaan en er nooit op terugkomen. Er valt niets op te lossen, werkelijk niet.", "context": "Anton wil aan het einde weglopen van Karin's onthullingen - maar doet het niet.", "relevantie_mondeling": "Typerend voor Antons conflict tussen willen vergeten en moeten weten"},
+    {"citaat": "Ik schoot eerst in zijn rug, en toen in zijn buik, terwijl ik hem voorbij fietste.", "spreker": "Cor Takes", "context": "Bekentenis tijdens de begrafenis in 1966.", "relevantie_mondeling": "Koele feitelijkheid waarmee het verzet over eigen daden spreekt; contrast met Antons emotie"}
+  ],
+
+  "cross_book_verbindingen": {
+    "andere_mulisch_op_lezen_voor_lijst": ["Het stenen bruidsbed (1959) - niveau 6", "De ontdekking van de hemel (1992)", "De procedure (1998)", "Siegfried (2001)", "De zaak '40-'61 (non-fictie sleuteltekst)"],
+    "andere_oorlogsromans_vergelijkbaar": ["Bezonken rood (Jeroen Brouwers, 1981) - Japanse kamp, trauma-thematiek", "De donkere kamer van Damokles (W.F. Hermans, 1958) - verzet/twijfelachtige identiteit", "Het behouden huis (Hermans) - WOII"],
+    "vergelijkbare_thematiek_schuldvraag": ["Kaas (Willem Elsschot) - schuld/falen", "Tirza (Grunberg) - verborgen waarheid"]
+  },
+
+  "mondeling_aandachtspunten_per_niveau": {
+    "N3": "Focus op verhaallijn, morele vraag 'wie is schuldig', symbolen (dobbelsteen, vuur). Biografische link Mulisch-oorlog eenvoudig benoembaar.",
+    "N4": "Bovenop N3: structuur (5 episodes, tijdssprongen), perspectiefwisseling proloog/rest, motto-interpretatie, motivatie bijfiguren (vooral Korteweg, Ploeg jr., Takes).",
+    "N5": "Bovenop N4: verteltechniek (afstand verteller-Anton), oeuvre-context (De zaak 40/61 als biografisch/filosofisch fundament), existentialistische thematiek, Mulisch' poëtica, receptiegeschiedenis, historische inspiratie (Schaft/Bonekamp)."
+  },
+
+  "mondelingvragen": {
+    "basics": [
+      {"vraag": "Hoe begint het boek?", "anker": "eerste_zin + proloog in sprookjesregister", "doorvraag": "Waarom juist een sprookjesregister voor een oorlogsroman?"},
+      {"vraag": "Hoe eindigt het boek?", "anker": "Anton loopt weg bij Karin na onthullingen, voegt zich in demonstratiestoet met zoon Peter", "doorvraag": "Waarom eindigt Mulisch in een demonstratie en niet in een persoonlijke afsluiting?"},
+      {"vraag": "Wie zijn de hoofdpersonen?", "anker": "Anton Steenwijk + 14 bijfiguren in schema", "doorvraag": "Waarom noemt Mulisch het verhaal niet naar één van hen?"},
+      {"vraag": "Verklaar het motto.", "anker": "Plinius over Vesuvius-uitbarsting: 'meer dan nacht'", "doorvraag": "Hoe verhoudt het motto zich tot het einde van het boek?"},
+      {"vraag": "Wat betekent de titel?", "anker": "titelverklaring oppervlakkig + dieper", "doorvraag": "Op wie of wat pleegt het boek allemaal een aanslag?"}
+    ],
+    "plot_en_structuur": [
+      {"vraag": "Hoe is het verhaal opgebouwd?", "anker": "proloog + 5 episodes met jaartallen (1945-1981)", "doorvraag": "Waarom deze tijdsprongen en niet een doorlopende vertelling?"},
+      {"vraag": "Vat de plot samen in 5 zinnen.", "anker": "samenvatting.kort + per_episode trefwoorden"},
+      {"vraag": "Waarom begint elke episode met een nieuwe ontmoeting?", "anker": "queeste-structuur: elk puzzelstuk via toevallige ontmoeting"}
+    ],
+    "perspectief_en_vertelling": [
+      {"vraag": "Vanuit welk perspectief is het boek geschreven?", "anker": "perspectief.type_hoofd + proloog-uitzondering", "doorvraag": "Wat is het effect van de verteller die op afstand commenteert?"},
+      {"vraag": "Waarom is de proloog anders verteld dan de rest?", "anker": "sprookjesregister proloog vs personaal Anton"}
+    ],
+    "thematiek": [
+      {"vraag": "Wat zijn de hoofdthema's van De aanslag?", "anker": "thematiek.hoofdthemas (schuld, toeval/noodlot, tijd/herinnering, politieke (on)verschilligheid)"},
+      {"vraag": "Hoe werkt het thema schuld in dit boek?", "anker": "thematiek.hoofdthemas[0]", "doorvraag": "Is er überhaupt iemand volledig schuldig of volledig onschuldig?"},
+      {"vraag": "Is De aanslag een oorlogsroman of iets anders?", "anker": "genre + thematiek - het boek gebruikt de oorlog als casus voor bredere filosofische vragen"}
+    ],
+    "motieven": [
+      {"vraag": "Welke motieven herken je?", "anker": "motieven[] met tekstplaatsen per motief"},
+      {"vraag": "Bespreek het dobbelsteenmotief met tekstplaatsen.", "anker": "motieven[0].tekstplaatsen", "doorvraag": "Staat de dobbelsteen voor toeval of voor lot?"},
+      {"vraag": "Waarom kiest Mulisch as en vuur als terugkerend motief?", "anker": "motieven 'As en vuur' - verbinding klein-groot (asbak vs brandend huis)"}
+    ],
+    "personages": [
+      {"vraag": "Hoe ontwikkelt Anton zich in het boek?", "anker": "personages.hoofdpersoon.Anton.ontwikkeling - ontwikkeling zit in informatie, niet in karakter"},
+      {"vraag": "Welke functie heeft Fake Ploeg jr.?", "anker": "personages.bijfiguren - spiegelfiguur Anton"},
+      {"vraag": "Waarom doodt meneer Korteweg zijn hagedissen?", "anker": "personages.bijfiguren Korteweg + laatste_episode_1981"}
+    ],
+    "tijd_en_context": [
+      {"vraag": "Wanneer speelt het verhaal zich af?", "anker": "structuur.episodes jaartallen"},
+      {"vraag": "Wanneer is het geschreven en waarom is dat relevant?", "anker": "uitgave.eerste_druk 1982 - vlak na WOII-herdenkingsgolf, Koude Oorlog, atoomdreiging"},
+      {"vraag": "Welke historische gebeurtenissen komen aan bod?", "anker": "historische_context.belangrijkste_historische_gebeurtenissen_in_boek"},
+      {"vraag": "Op welke historische personen zijn de personages gebaseerd?", "anker": "historische_context.historische_personen_als_inspiratie (Schaft, Bonekamp)"}
+    ],
+    "stroming_en_oeuvre": [
+      {"vraag": "In welke literaire stroming plaats je dit?", "anker": "classificatie.stroming_invloed - existentialisme"},
+      {"vraag": "Hoe past De aanslag in Mulisch' oeuvre?", "anker": "auteur.hoofdwerken + auteur.biografische_context"},
+      {"vraag": "Wie waren de Grote Drie en wat is Mulisch' positie daarin?", "anker": "auteur.positie_literatuur"}
+    ],
+    "mening_en_waardering": [
+      {"vraag": "Wat vond je van het boek?", "anker": "(persoonlijk)", "onderbouwingsrichtingen": ["stijl: helder maar bespiegelend", "thema: schuldvraag houdbaar/niet?", "personages: afstand tot Anton", "structuur: tijdsprongen werken wel/niet?"]},
+      {"vraag": "Zou je het aanraden aan een medeleerling?", "anker": "(persoonlijk)", "onderbouwingsrichtingen": ["niveau-passendheid", "leesbaarheid", "relevantie voor nu"]},
+      {"vraag": "Wat vond je het sterkste deel?", "onderbouwingsrichtingen": ["eerste episode (actie)", "motivatieonthulling (slot)", "Fake Ploeg jr.-ontmoeting (spiegelfiguur)"]}
+    ],
+    "cross_book": [
+      {"vraag": "Welk ander boek op je lijst heeft een vergelijkbaar thema?", "anker": "cross_book_verbindingen"},
+      {"vraag": "Vergelijk met Bezonken rood (Brouwers) qua verwerking oorlogstrauma.", "anker": "cross_book_verbindingen.andere_oorlogsromans_vergelijkbaar"},
+      {"vraag": "Vergelijk De aanslag en De donkere kamer van Damokles qua schuldvraag.", "anker": "beide: schuld is niet zwart-wit"}
+    ],
+    "film_en_adaptatie": [
+      {"vraag": "Heb je de verfilming gezien? Wat zijn de verschillen?", "anker": "receptie_en_prijzen.verfilming"},
+      {"vraag": "Waarom won de film een Oscar?", "anker": "verfilming.prijzen + aandacht voor thema internationaal herkenbaar"}
+    ],
+    "verrassingsvragen": [
+      {"vraag": "Wat zou je aan Mulisch willen vragen als hij nog leefde?", "type": "open/persoonlijk"},
+      {"vraag": "Was er iets dat je niet begreep in het boek?", "anker": "moeilijkheid_per_niveau - wat typisch moeilijk is per niveau"},
+      {"vraag": "Welk personage zou je willen zijn en waarom niet?", "type": "open/reflectief"}
+    ],
+    "leesechtheid": [
+      {
+        "vraag": "Als je één scène aan een klasgenoot zou voorlezen, welke kies je dan? En wat gebeurt er in die scène?",
+        "tactiek": "scene-voorkeur forceren",
+        "signaal_gelezen": "Noemt een bijscène of een moment dat niet in de standaardsamenvatting centraal staat (bv. de luchtaanval op de vrachtwagen, de scene met mevrouw Beumer, de tafelaansteker in Toscane). Kan de scene in eigen woorden navertellen met textuur.",
+        "signaal_niet_gelezen": "Kiest de openingsscène of de ontknoping (standaard in elke samenvatting). Beschrijft de scene met abstract vocabulaire zonder zintuiglijke details."
+      },
+      {
+        "vraag": "Was er een deel waar je dacht: kom op, nu moet er iets gebeuren?",
+        "tactiek": "tempo-vraag",
+        "signaal_gelezen": "Benoemt een concrete sectie (bv. de middendelen, het jaar 1952 of 1956, de filosofische bespiegelingen) en kan kort toelichten waarom het daar stagneerde.",
+        "signaal_niet_gelezen": "Zegt 'nee eigenlijk niet', of geeft een generieke 'soms was het saai' zonder specificatie."
+      },
+      {
+        "vraag": "Is er iets in het boek waarvan je dacht: hé, dat had ik niet verwacht?",
+        "tactiek": "verrassings-vraag",
+        "signaal_gelezen": "Noemt een klein detail dat buiten de plotontknoping valt - bv. dat Antons zoon Peter heet, dat Korteweg naar Nieuw-Zeeland vlucht, dat Saskia's vader ambassadeur was in Athene.",
+        "signaal_niet_gelezen": "Verwijst naar de grote plottwist (hagedissen-motief of joden bij Aartsen). Die staan in elke samenvatting."
+      },
+      {
+        "vraag": "Behalve de hoofdpersoon, welk personage is jou het meest bijgebleven en waarom?",
+        "tactiek": "bij-personage-check",
+        "signaal_gelezen": "Noemt een bijfiguur die niet in korte samenvattingen uitgewerkt is - bv. mevrouw Beumer, oom Peter van Liempt, Sandra's vriend, of de vader van Saskia.",
+        "signaal_niet_gelezen": "Noemt alleen Takes, Karin of Fake Ploeg jr. (allen ruim in elke samenvatting)."
+      },
+      {
+        "vraag": "Dacht je ergens in het boek: dit klopt niet, dit is te toevallig, had Mulisch anders kunnen doen?",
+        "tactiek": "zelfkritiek uitlokken",
+        "signaal_gelezen": "Kan een concreet bezwaar formuleren tegen een stuk tekst - bv. dat Karin op zo'n atoomdemonstratie bij Anton uitkomt (te toevallig), of dat Saskia's gelijkenis met Truus aan de haren getrokken is.",
+        "signaal_niet_gelezen": "Zegt 'nee, ik vond alles logisch', of herhaalt abstracte kritiekpunten die online te vinden zijn ('het is te filosofisch')."
+      }
+    ]
+  },
+
+  "_meta": {
+    "bronnen_geconsulteerd": [
+      "lezenvoordelijst.nl docenteninfo",
+      "scholieren.com ZWG-verslag door Vivian (2017)",
+      "nl.wikipedia.org/wiki/De_aanslag_(roman)",
+      "commentaren onder ZWG-verslag (correcties t.a.v. samenvatting)"
+    ],
+    "samenstelling": "Eigen synthese van meerdere bronnen; geen letterlijke overnames met uitzondering van korte citaten (flaptekst, eerste zin, motto, sleutelcitaten) onder citeerrecht.",
+    "geharvest": "2026-04-20",
+    "schema_versie": "0.2-uitgebreid"
+  }
+}

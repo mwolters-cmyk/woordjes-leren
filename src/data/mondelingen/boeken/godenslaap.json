@@ -1,0 +1,578 @@
+{
+  "slug": "godenslaap",
+  "titel": "Godenslaap",
+  "auteur": {
+    "naam": "Erwin Mortier",
+    "sortname": "Mortier, Erwin",
+    "geboren": "1965-11-28",
+    "overleden": null,
+    "biografische_context": "Geboren in Nevele (Oost-Vlaanderen) en opgegroeid in Hansbeke, een klein dorp aan de zuidgrens van het Meetjesland. Studeerde kunstgeschiedenis in Gent en was van 1991 tot 2001 werkzaam als wetenschappelijk medewerker in het Dr. Guislain Museum, waar hij zich bezighield met de geschiedenis van de psychiatrie. Vanaf 1999 leeft hij uitsluitend van zijn schrijverschap. Naast romans schrijft hij gedichten, essays en columns voor onder andere De Morgen en de klassieke zender Klara. Van 2005 tot begin 2007 was hij stadsdichter van Gent. Een constante in zijn oeuvre is de aandacht voor taal als drager van herinnering. Zijn betrokkenheid bij de herdenking van de Eerste Wereldoorlog leidde naast Godenslaap tot drie vertalingen van oorlogsgetuigenissen van verpleegsters uit die periode.",
+    "positie_literatuur": "Mortier geldt als een van de toonaangevende Vlaamse prozaschrijvers van zijn generatie. Hij onderscheidt zich door een poëtische, sterk beeldende stijl die door critici herhaaldelijk wordt vergeleken met het proza uit de jaren dertig. In Vlaanderen is hij de drijvende kracht achter de literaire herdenking van de Eerste Wereldoorlog. Zijn werk wordt in vertaling uitgegeven in onder meer Frankrijk, Groot-Brittannië, Duitsland en Bulgarije.",
+    "hoofdwerken": [
+      {
+        "titel": "Marcel",
+        "jaar": 1999,
+        "type": "debuut"
+      },
+      {
+        "titel": "Mijn tweede huid",
+        "jaar": 2000
+      },
+      {
+        "titel": "Sluitertijd",
+        "jaar": 2002
+      },
+      {
+        "titel": "Alle dagen samen",
+        "jaar": 2004
+      },
+      {
+        "titel": "Godenslaap",
+        "jaar": 2008,
+        "type": "doorbraakroman"
+      },
+      {
+        "titel": "Gestameld liedboek: Moedergetijden",
+        "jaar": 2011
+      },
+      {
+        "titel": "De spiegelingen",
+        "jaar": 2014,
+        "opmerking": "Vervolg op Godenslaap, vanuit het perspectief van Edgard Demont"
+      },
+      {
+        "titel": "De onbevlekte",
+        "jaar": 2020
+      }
+    ]
+  },
+  "uitgave": {
+    "eerste_druk": 2008,
+    "uitgeverij": "De Bezige Bij",
+    "plaats": "Amsterdam",
+    "isbn_13": null,
+    "pagina_ongeveer": 400,
+    "oplage_eerste_maanden": null,
+    "opmerking_oplage": "Omvangrijke roman van meer dan 400 pagina's. Bekroond met de AKO-literatuurprijs 2009 en de Tzum-prijs 2009 voor de beste literaire zin."
+  },
+  "classificatie": {
+    "vak": "nederlands",
+    "leeftijdsgroep": "15-18",
+    "lezen_voor_lijst_niveaus": [
+      6
+    ],
+    "niveau_primair": 6,
+    "niveau_opmerking": "Op lezenvoordelijst.nl ingedeeld op N6. Expliciet ontraden aan beginnende N5-lezers vanwege de archaïsch-poëtische stijl, het gedateerde vocabulaire, de complexe associatieve structuur en de vereiste cultureel-historische en literaire achtergrondkennis. Vergevorderde N5-lezers komen in aanmerking.",
+    "geschikt_voor": [
+      "vwo bovenbouw"
+    ],
+    "genres": [
+      "historische roman",
+      "psychologische roman",
+      "oorlogsroman"
+    ],
+    "literaire_periode": "begin eenentwintigste eeuw",
+    "stroming_invloed": [
+      "neoromantisme",
+      "modernisme"
+    ]
+  },
+  "bron_urls": {
+    "lezenvoordelijst_docent": "https://www.lezenvoordelijst.nl/docenten-15-18/niveau-6/godenslaap/",
+    "scholieren_hub": null,
+    "wikipedia_nl": "https://nl.wikipedia.org/wiki/Erwin_Mortier"
+  },
+  "flaptekst": "Met De spiegelingen voegt Erwin Mortier aan zijn panoramische schildering van België, die hij aanving in zijn bekroonde roman Godenslaap, een nieuw paneel toe.",
+  "eerste_zin": null,
+  "eerste_zin_analyse": null,
+  "motto": null,
+  "structuur": {
+    "indeling": "Associatieve roman met wisselende tijdlagen; geen strikte hoofdstukindeling in klassieke zin. Het verhaal wordt verteld als een reeks herinneringen en associaties van de bejaarde Helena, onderbroken door terugkeer naar haar hedendaagse situatie.",
+    "episodes": null,
+    "fases": [
+      {
+        "naam": "Hedendaags kader",
+        "beschrijving": "De hoogbejaarde Helena bevindt zich thuis, verzorgd door de jonge Vlaams-Marokkaanse vrouw Rachida. Vanuit deze positie vlak voor het levenseinde mijmert en schrijft zij over haar verleden. Dit kader keert telkens terug als ankerpunt in het heden."
+      },
+      {
+        "naam": "Vooroorlogse jeugd en aanloop tot 1914",
+        "beschrijving": "Helena beschrijft haar opgroeien in een Belgische stad aan de rivier. Haar vader is eigenaar van meerdere winkels. Haar moeder stamt uit Artesië in Noord-Frankrijk. Jaarlijks brengt het gezin de zomermaanden door in het ouderlijk huis van de moeder in Noord-Frankrijk. De jonge Helena groeit op samen met haar broer Edgard, van wie al vroeg duidelijk wordt dat hij homoseksueel is."
+      },
+      {
+        "naam": "Oorlogsjaren 1914-1918",
+        "beschrijving": "Aan het einde van de zomer van 1914 breekt de oorlog uit. Het gezin kan niet terugkeren naar hun Belgische woonplaats en blijft vastzitten in Noord-Frankrijk, vlak achter de frontlinies. De vader verblijft in de stad in België. In deze periode groeit Helena op van meisje tot jonge vrouw, tegen de achtergrond van het geweld en de vernietiging van de oorlog. Ze leert de Engelse oorlogsfotograaf Matthew Herbert kennen. Hij neemt haar mee op zijn tochten naar het front, waar hij fotoreportages maakt van verwoeste dorpen en verlaten slagvelden. Hun kennismaking groeit uit tot een liefdesrelatie die onlosmakelijk verbonden is met de beelden van de oorlog. Haar broer Edgard meldt zich aan voor militaire dienst en raakt ernstig gewond. Helena en Matthew trouwen en krijgen samen een dochter."
+      },
+      {
+        "naam": "Terugblik op latere levensfasen",
+        "beschrijving": "Fragmentarisch komt de lezer iets te weten over het leven van Helena na de oorlog: haar huwelijk met Matthew, haar relatie met haar dochter die evenals haar relatie met haar moeder als problematisch wordt omschreven. De bejaarde Helena verwerkt schrijvend het verleden, waarbij herinneringen niet lineair maar als brokstukken opduiken."
+      },
+      {
+        "naam": "Slotperspectief: Rachida",
+        "beschrijving": "Op de laatste pagina's verschuift het perspectief van Helena naar Rachida, de jonge verzorgster. Rachida vertelt Helena het verhaal van haar overgrootvader Saïd. Dit slotperspectief verbindt de Eerste Wereldoorlog met de postkoloniale aanwezigheid van migranten in België en opent het thema van geheugen en identiteit over generaties."
+      }
+    ],
+    "chronologie": "Het verhaal wordt niet lineair verteld. De bejaarde Helena vertelt schrijvend en mijmerend; herinneringen duiken op in associatieve volgorde. Tijdsprongen zijn veelvuldig en worden niet expliciet aangekondigd. De lezer moet het verhaal reconstrueren uit fragmenten. De nadruk ligt op de periode 1914-1918, maar verleden en heden wisselen voortdurend.",
+    "compositie_opmerking": "De roman is opgebouwd als een stroom van herinneringen en associaties, vergelijkbaar met een interieurmonoloog. De fragmentarische structuur is functioneel: zij weerspiegelt hoe het geheugen van een bejaarde werkt en hoe de oorlog als een ingrijpende onderbreking de tijdsbeleving voor altijd heeft verstoord."
+  },
+  "perspectief": {
+    "type_hoofd": "Ik-verteller Helena (grotendeels vertellend ik, soms belevend ik)",
+    "type_proloog": null,
+    "opmerking": "Helena treedt op als ik-verteller die terugblikt op haar leven. Het is overwegend een vertellend ik dat met afstand reflecteert op het verleden; slechts hier en daar is er een belevend ik dat de lezer dichter bij de beleving brengt. Op de laatste pagina's verschuift het perspectief opvallend naar Rachida, die aan Helena het verhaal vertelt van haar overgrootvader Saïd. Dit perspectiefverschuiving is de enige echte breuk in de vertelsituatie en draagt thematische betekenis.",
+    "implicaties_voor_betekenis": "De keuze voor een ik-verteller op hoge leeftijd die schrijvend terugblikt, benadrukt dat herinneringen altijd gekleurd zijn door het heden van de verteller. Helena reconstrueert haar leven; de lezer reconstrueert op zijn beurt het verhaal uit haar fragmenten. De perspectiefwisseling naar Rachida aan het slot opent het boek naar een bredere geschiedenis van geweld en verplaatsing die verder reikt dan de Eerste Wereldoorlog."
+  },
+  "samenvatting": {
+    "kort": "De bijna honderdjarige Helena Demont blikt schrijvend terug op haar leven. Ze groeide op in België en bracht als kind de zomers door in Noord-Frankrijk. Toen de Eerste Wereldoorlog uitbrak in de zomer van 1914, kon het gezin niet terugkeren naar huis. Helena groeide op in de jaren 1914-1918 vlak achter de frontlinies, leerde de Engelse oorlogsfotograaf Matthew Herbert kennen, trouwde met hem en kreeg een dochter. Haar homoseksuele broer Edgard raakte in de oorlog zwaar gewond. De relaties van Helena met haar moeder en later met haar eigen dochter zijn problematisch. Vanuit haar hedendaagse situatie, verzorgd door de jonge Rachida, dolt zij schrijvend brokstukken van herinnering op.",
+    "per_fase": {
+      "hedendaags_kader": "De roman wordt verteld vanuit het perspectief van de bijna honderdjarige Helena Demont. Zij bevindt zich in haar woning en wordt verzorgd door de jonge Vlaams-Marokkaanse vrouw Rachida. Helena schrijft en mijmert. Haar lichaam is oud en verzwakt; haar geest leeft in het verleden. De relatie tussen Helena en Rachida is subtiel aanwezig als het heden van de roman, maar wordt inhoudelijk niet uitgewerkt: de hoge ouderdom en de bijbehorende lichamelijke ongemakken dienen vooral om te onderstrepen dat Helena met haar hoofd volledig in het verleden vertoeft. Op de allerlaatste pagina's verschuift het perspectief naar Rachida, die het woord neemt en aan Helena het verhaal vertelt van haar overgrootvader Saïd. In dit slotmoment raakt de Eerste Wereldoorlog verbonden met een andere geschiedenis van geweld en verplaatsing, en worden de generaties van oorlogsslachtoffers en nabestaanden over culturele grenzen heen met elkaar verbonden.",
+      "vooroorlogse_jeugd": "Helena beschrijft haar opgroeien in een Belgische stad aan de rivier. Haar vader bezit verscheidene winkels in de stad en vertegenwoordigt de gegoede burgerlijke wereld van voor de oorlog. Haar moeder is afkomstig uit Artesië, de streek in Noord-Frankrijk die later het middelpunt van de frontlinies zal worden. Ieder jaar trekt het gezin naar Frankrijk om de zomermaanden door te brengen in het ouderlijk huis van de moeder. Dit huis in Noord-Frankrijk is de plek waar de oorlog Helena zal overvallen. Helena groeit op samen met haar broer Edgard; zijn homoseksualiteit is een onderstroom die het gezinsleven kleurt. De relatie tussen Helena en haar moeder is al in deze vroege fase niet ongecompliceerd: er is een zekere afstand en onbegrip die zich later zal herhalen in Helena's verhouding tot haar eigen dochter.",
+      "oorlogsjaren_1914_1918": "Aan het einde van de zomer van 1914 breekt de Eerste Wereldoorlog uit. Het gezin kan niet terugkeren naar zijn woonplaats in België; de vader blijft achter in de stad terwijl moeder en kinderen vastzitten in Noord-Frankrijk. De streek wordt frontgebied: het huis van de moeder bevindt zich vlak achter de linies. Helena maakt van dichtbij de verwoesting mee - de vernielde dorpen, de gewonde soldaten, het oorlogsgeweld dat de wereld van haar kinderjaren voorgoed uitwist. In deze context leert zij de Engelse oorlogsfotograaf Matthew Herbert kennen. Matthew maakt fotoreportages van de slagvelden en verlaten dorpen; hij neemt Helena mee op zijn tochten en toont haar de verschrikkingen van de moderne oorlog via de lens van zijn camera. Haar ontluikende liefde voor Matthew is onlosmakelijk verbonden met de beelden van de oorlog die zij samen aanschouwen. Haar broer Edgard meldt zich aan voor militaire dienst, gedreven door idealisme of door een verlangen te ontsnappen aan de verstikkende situatie. Hij raakt ernstig gewond bij een bomaanslag. Aan het einde van de oorlog trouwen Helena en Matthew; zij krijgen samen een dochter.",
+      "latere_levensfasen_en_relaties": "Fragmentarisch en associatief ontvouwt de lezer ook iets van het leven van Helena na de oorlog. Haar huwelijk met Matthew en het moederschap worden aangestipt, maar de roman concentreert zich niet op de naoorlogse jaren als zodanig. Wat wel nadrukkelijk aanwezig is, zijn de problematische verhoudingen: met haar moeder heeft Helena nooit een onbezorgde band gehad, en diezelfde moeilijkheid keert terug in de relatie met haar eigen dochter. De oorlog heeft Helena gevormd in de meest vormende jaren van haar leven; de herinneringen aan die periode zijn levendiger en dwingender dan de jaren die volgden. Schrijvend probeert zij haar leven te ordenen, maar de herinneringen laten zich niet lineair rangschikken: zij duiken op als brokstukken, associatief en fragmentarisch.",
+      "bevat_spoilers": true
+    }
+  },
+  "personages": {
+    "hoofdpersoon": {
+      "Helena Demont": {
+        "rol": "ik-verteller, hoofdpersoon",
+        "leeftijd_begin": "kind (ca. 1914)",
+        "leeftijd_einde": "bijna honderd jaar (heden van de roman)",
+        "beroep": null,
+        "karakter": "Helena is een vrouw die haar leven lang heeft waargenomen en gevoeld maar zelden heeft ingegrepen. Als meisje is zij een aandachtig observator van de wereld om haar heen; als jonge vrouw wordt zij gevormd door de confrontatie met oorlogsgeweld en de liefde voor Matthew. Op hoge leeftijd is zij schrijvend op zoek naar samenhang in een leven dat door de oorlog definitief in tweeën is gebroken.",
+        "ontwikkeling": "De eigenlijke ontwikkeling van Helena speelt zich af in de verleden-lagen: het meisje dat opgroeit tot vrouw temidden van oorlogsgeweld. In het heden van de roman is Helena oud en terugblikkend; haar 'ontwikkeling' is het schrijvende ordenen van fragmenten. De lezer reconstrueert haar leven mee.",
+        "functie": "Helena fungeert als filter en getuige. Haar perspectief maakt de Eerste Wereldoorlog zichtbaar als iets wat mensen van binnenuit vormt en vermorzelt, niet als externe historische gebeurtenis maar als ingrijpende persoonlijke ervaring."
+      }
+    },
+    "bijfiguren": [
+      {
+        "naam": "Edgard Demont",
+        "rol": "broer van Helena",
+        "karakter": "Homoseksueel; zijn geaardheid is aanwezig als een onderstroom in het gezinsleven. Meldt zich aan voor militaire dienst en raakt zwaar gewond.",
+        "lot": "Ernstig gewond door een bomaanslag tijdens de oorlog. Zijn lot en zijn homoseksualiteit worden in het vervolg De spiegelingen (2014) centraal gesteld, waarbij hij de ik-figuur wordt.",
+        "functie": "Edgard representeert de kwetsbare idealist die door de oorlog gebroken wordt. Zijn homoseksualiteit plaatst hem buitenstaander in de burgerlijke wereld van zijn familie; de oorlog maakt hem tevens letterlijk een buitenstaander."
+      },
+      {
+        "naam": "Matthew Herbert",
+        "rol": "Engelse oorlogsfotograaf, later echtgenoot van Helena",
+        "karakter": "Neemt Helena mee op zijn tochten langs het front. Via zijn camera bemiddelt hij tussen de verschrikkingen van de oorlog en Helena's blik. Zowel in Godenslaap als in De spiegelingen wordt zijn biseksuele aantrekkingskracht gesuggereerd.",
+        "ontwikkeling": "Zijn rol in Godenslaap is die van de man die de jonge Helena de werkelijkheid van de oorlog toont en haar daarmee vormt. Hij trouwt met Helena en krijgt een dochter bij haar.",
+        "functie": "Matthew verbindt de privésfeer van de liefde met de publieke sfeer van de oorlog. Zijn fotografie thematiseert de verhouding tussen beeld, werkelijkheid en herinnering."
+      },
+      {
+        "naam": "Moeder van Helena",
+        "rol": "moeder van Helena en Edgard, afkomstig uit Artesië",
+        "karakter": "De relatie tussen Helena en haar moeder is problematisch en gekenmerkt door afstand en onbegrip. De moeder is de schakel met Noord-Frankrijk en daarmee de reden dat het gezin tijdens de oorlog in het frontgebied vastloopt.",
+        "functie": "Staat voor de gebroken overdracht tussen generaties. De moeilijke moeder-dochterverhouding herhaalt zich in de relatie van Helena met haar eigen dochter, waardoor een patroon van familiaal onbegrip zichtbaar wordt."
+      },
+      {
+        "naam": "Vader van Helena",
+        "rol": "eigenaar van meerdere winkels in de Belgische stad",
+        "karakter": "Vertegenwoordigt de burgerlijke, vooroorlogse wereld. Verblijft tijdens de oorlogsjaren in de stad in België terwijl zijn gezin vastgehouden wordt in Noord-Frankrijk.",
+        "functie": "Zijn afwezigheid tijdens de oorlogsjaren onderstreept de ontwrichting van het gezin en de burgerlijke wereld die de oorlog vernietigt."
+      },
+      {
+        "naam": "Dochter van Helena",
+        "rol": "kind van Helena en Matthew",
+        "karakter": "De relatie tussen Helena en haar dochter is, net als die met haar eigen moeder, problematisch. Details worden niet uitgewerkt.",
+        "functie": "Continueert het thema van de gebroken overdracht tussen generaties, nu in de postoorlogse tijd."
+      },
+      {
+        "naam": "Rachida",
+        "rol": "jonge Vlaams-Marokkaanse verzorgster van Helena",
+        "karakter": "Vertegenwoordigt het hedendaagse, multiculturele België. Haar aanwezigheid naast de bijna honderdjarige Helena plaatst de oorlog in een breder historisch perspectief.",
+        "ontwikkeling": "Op de laatste pagina's verschuift het perspectief naar Rachida, die aan Helena het verhaal vertelt van haar overgrootvader Saïd. Dit is het enige moment waarop Rachida als actieve verteller optreedt.",
+        "functie": "Rachida verbindt de Eerste Wereldoorlog met postkoloniale geschiedenissen en migratie. Haar verhaal van Saïd opent de roman naar een bredere reflectie op geweld, verplaatsing en herinnering over culturele grenzen."
+      }
+    ]
+  },
+  "thematiek": {
+    "hoofdthemas": [
+      {
+        "naam": "Oorlog als vormende kracht",
+        "uitwerking": "De Eerste Wereldoorlog is in Godenslaap niet in de eerste plaats een historische achtergrond maar een ingrijpende persoonlijke ervaring die de hoofdpersoon in haar meest vormbare jaren overvalt. Helena groeit op als jonge vrouw tussen 1914 en 1918 vlak achter de frontlinies. De verschrikkingen die zij via Matthew en via directe aanschouwing ervaart, vormen haar karakter en haar blik op de wereld definitief. Mortier laat zien hoe oorlog niet alleen levens vernietigt maar ook de binnenkant van mensen herschrijft: hun manier van kijken, voelen en herinneren."
+      },
+      {
+        "naam": "Herinnering en de constructie van het verleden",
+        "uitwerking": "Het boek is gebouwd op de vraag hoe herinnering werkt. Helena blikt op hoge leeftijd terug en schrijft haar leven, maar haar herinneringen gehoorzamen niet aan een lineaire orde: zij duiken op als brokstukken, associatief en fragmentarisch. De structuur van de roman weerspiegelt dit: de lezer moet het verhaal reconstrueren uit de stukken die Helena aandraagt. Daarmee stelt Mortier de vraag of het verleden ooit volledig te reconstrueren valt, en of schrijven een manier is om te begrijpen of slechts om te overleven."
+      },
+      {
+        "naam": "Gebroken familiebanden en overdracht tussen generaties",
+        "uitwerking": "De relaties tussen Helena en haar moeder, en later tussen Helena en haar eigen dochter, zijn telkens gekenmerkt door afstand en onbegrip. Dit patroon van gefaalde overdracht suggereert dat de oorlog niet alleen de directe slachtoffers treft maar de structuur van familierelaties voor generaties aantast. Wat niet kan worden uitgesproken of overgedragen, herhaalt zich. Het slotperspectief van Rachida, die het verhaal van haar overgrootvader Saïd vertelt, breidt dit thema uit naar een postkoloniale context."
+      },
+      {
+        "naam": "Liefde en geweld als onlosmakelijk verbonden",
+        "uitwerking": "De liefde van Helena voor Matthew ontluikt terwijl zij samen de verwoesting van dorpen en slagvelden aanschouwen. Mortier weigert de intieme sfeer te scheiden van de publieke sfeer van het geweld: het verliefd worden is ondenkbaar zonder de context van de oorlog, en de oorlogservaringen worden kleurt door de prille liefde. Dit maakt de roman tot een ongemakkelijk onderzoek naar hoe schoonheid en verschrikking gelijktijdig aanwezig kunnen zijn."
+      },
+      {
+        "naam": "Maatschappijkritiek en het failliet van de burgerlijke wereld",
+        "uitwerking": "De vooroorlogse wereld die Mortier beschrijft, is een wereld van burgerlijke zekerheid en zelfgenoegzaamheid. Die wereld wordt door de oorlog radicaal vernietigd. De roman bevat, grotendeels impliciet, een kritiek op een beschaving die haar eigen vernietiging in de hand heeft gewerkt. De N6-lezer die de cultureel-historische verwijzingen kan duiden, ontdekt in de roman een laag van maatschappijkritiek die voor de minder ervaren lezer verborgen blijft."
+      }
+    ]
+  },
+  "motieven": [
+    {
+      "naam": "Beeld en fotografie",
+      "betekenis": "Matthews werk als oorlogsfotograaf plaatst het motief van het beeld centraal. Fotografie bevriest de werkelijkheid en maakt van verwoesting documentatie. De spanning tussen het esthetische oog van de fotograaf en de verschrikking die hij vastlegt, loopt als een onderstroom door de roman.",
+      "tekstplaatsen": []
+    },
+    {
+      "naam": "De rivier en het water",
+      "betekenis": "Helena groeit op in een stad aan de rivier; haar moeder stamt uit Artesië. Water functioneert in de roman als beeld van voortgang, tijd en onontkoombaarheid. De rivier verbindt het Belgische verleden met het Franse heden van de oorlogsjaren.",
+      "tekstplaatsen": []
+    },
+    {
+      "naam": "Mythologische en bijbelse verwijzingen",
+      "betekenis": "Mortier gebruikt verwijzingen naar de klassieke oudheid en de bijbel als beeldende laag. Voorbeelden die door de docenteninfo worden aangestipt zijn de val van Troje, de vleugels van Nike, het dies irae en het bloed aan de deurposten van de Israëlieten. Deze verwijzingen verdiepen de betekenis voor de belezen lezer zonder noodzakelijk te zijn voor een basislezing.",
+      "tekstplaatsen": []
+    },
+    {
+      "naam": "De archaïsch-poëtische zin als stijlmotief",
+      "betekenis": "De zinsbouw van Mortier is zelf een motief: de lange, uitwaaierende zinnen met brede vergelijkingen imiteren de traagheid van herinnering en de overdaad van het beeldende geheugen. Een voorbeeld uit de roman: 'Maar als wij ons ieder jaarlijks aan het einde van de lente met de trein naar zee begaven, zoals iedereen die zich de luxe van een paar vrije dagen kon permitteren, leek dat land zo klein, zo petieterig, dat het gedaver van de locomotief en de rijtuigen zich door de bodem scheen voort te zetten tot aan de grenzen, alsof het niet meer was dan een natie van bordkarton, een geschilderde achtergrond voor een groepsportret of het achterplan van een operette.' (blz. 67)",
+      "tekstplaatsen": [
+        {
+          "context": "Beschrijving van treinreis naar zee",
+          "citaat": "Maar als wij ons ieder jaarlijks aan het einde van de lente met de trein naar zee begaven, zoals iedereen die zich de luxe van een paar vrije dagen kon permitteren, leek dat land zo klein, zo petieterig, dat het gedaver van de locomotief en de rijtuigen zich door de bodem scheen voort te zetten tot aan de grenzen, alsof het niet meer was dan een natie van bordkarton, een geschilderde achtergrond voor een groepsportret of het achterplan van een operette.",
+          "pagina": 67
+        }
+      ]
+    },
+    {
+      "naam": "Slaap en bewusteloosheid",
+      "betekenis": "De titel Godenslaap verwijst naar de slaap van de goden, het onbewuste voortleven van een wereld die op het punt staat vernietigd te worden. De vooroorlogse burgerlijke beschaving 'slaapt' als de goden: onwetend, zelfgenoegzaam, niet in staat de catastrofe te zien die nadert. Slaap is tevens het beeld van de dood en van de vergetelheid die Helena probeert te doorkruisen door te schrijven.",
+      "tekstplaatsen": []
+    }
+  ],
+  "stijl_en_taal": {
+    "kenmerken": "Mortiers stijl is beeldend en poëtisch, met breed uitgesponnen vergelijkingen, metonymia en metaforen. De zinnen zijn soms erg lang en doen archaïsch aan, alsof zij uit een Homerisch gedicht stammen of uit proza van de jaren dertig. Het vocabulaire is gedateerd en bevat woorden als harpij, wade, grotesk, zerp, bigot, serge, wegel, nervatuur, obus, vestimentair, precieus, embonpoint, monkeling en regaal. Naast Nederlands komen sporadisch korte zinnen in het Engels of Frans voor.",
+    "register_verschuivingen": "Het register is doorlopend verheven en literair; er zijn geen scherpe breuken in register zoals in De aanslag. Wel is er een verschuiving op de laatste pagina's wanneer Rachida het woord neemt.",
+    "karakteriseringstechniek": "Personages worden gekarakteriseerd via minutieuze beschrijving van alledaagse gebaren en handelingen, en via de associatieve herinneringen van Helena. Directe karakterisering is schaars; de lezer leidt karakters af uit wat Helena opmerkt en hoe zij dat beschrijft."
+  },
+  "decor": {
+    "hoofdlocaties": [
+      "Een Belgische stad aan de rivier (niet nader benoemd)",
+      "Artesië, Noord-Frankrijk (ouderlijk huis van Helena's moeder, frontgebied 1914-1918)",
+      "Het heden van de roman: Helena's woning in België"
+    ],
+    "beeldsymbolisch_belang": "Noord-Frankrijk is de plek waar de vooroorlogse zomervakantie omslaat in een meerdere jaren durende oorlogservaring. De vertrouwde vakantiebestemming wordt frontgebied; het huiselijke en het gewelddadige vallen samen. Dit beeldsymbolisch samenval is cruciaal voor het thema van de roman: de beschaving die in zichzelf haar eigen vernietiging draagt."
+  },
+  "titelverklaring": {
+    "oppervlakkig": "Godenslaap verwijst naar de slaap van de Olympische goden: een toestand van onbewust voortleven, verheven boven de aardse werkelijkheid, niet wakker voor wat er gaande is.",
+    "dieper": "De titel karakteriseert de vooroorlogse burgerlijke beschaving als een cultuur in diepe slaap: zelfgenoegzaam, blind voor de catastrofe die zij zelf voorbereidt. De goden slapen terwijl de mensen hun wereld vernietigen. De titel bevat ook een elegische lading: de wereld die verdwijnt, wordt als een slapende god beschreven - mooi, onwetend en gedoemd."
+  },
+  "historische_context": {
+    "periode_boek": "1914-1918 (met kader in het hedendaagse België)",
+    "belangrijkste_historische_gebeurtenissen_in_boek": [
+      "Het uitbreken van de Eerste Wereldoorlog in augustus 1914",
+      "De bezetting van België en de vastgelopen frontlinie in Noord-Frankrijk en Vlaanderen",
+      "Het leven vlak achter de frontlinies: verwoeste dorpen, slagvelden, veldhospitalen",
+      "De oorlogsfotografie als nieuwe manier van documenteren"
+    ],
+    "historische_personen_als_inspiratie": null,
+    "research_context": "Tijdens zijn research voor Godenslaap ontdekte Mortier het oorlogsdagboek van de Amerikaanse verpleegkundige en schrijfster Ellen Newbold La Motte, getiteld The backwash of war (1916). Dit boek biedt een genadeloos realistisch beeld van de oorlog aan het Europese front. Publicatie ervan was in de Verenigde Staten tot 1934 verboden. Mortier vertaalde het in 2009 onder de titel Het kielzog van de oorlog. Hij vertaalde in de aanloop naar de herdenkingen van 2014 nog twee vergelijkbare getuigenissen: Verboden gebied van Mary Borden (vertaling 2011) en Dagboek zonder data van Enid Bagnold (vertaling 2012)."
+  },
+  "receptie_en_prijzen": {
+    "verkoop_eerste_maanden": null,
+    "oplage_totaal": null,
+    "vertalingen": "Vertaald in meerdere talen, onder andere in het Duits (Götterschlaf, vert. Christiane Kuby) en in het Engels (While the Gods Were Sleeping).",
+    "verfilming": null,
+    "toneelbewerking": null,
+    "stripbewerking": null,
+    "prijzen": [
+      {
+        "naam": "AKO-Literatuurprijs",
+        "jaar": 2009,
+        "opmerking": "Voor Godenslaap"
+      },
+      {
+        "naam": "Tzum-prijs voor de beste literaire zin",
+        "jaar": 2009,
+        "opmerking": "Voor een zin uit Godenslaap"
+      },
+      {
+        "naam": "Else Otten-Preis",
+        "jaar": 2012,
+        "opmerking": "Voor de Duitse vertaling Götterschlaf door Christiane Kuby"
+      }
+    ],
+    "nominaties": [
+      {
+        "naam": "Independent Foreign Fiction Prize",
+        "jaar": null,
+        "opmerking": "Voor de Engelse vertaling While the Gods Were Sleeping"
+      }
+    ],
+    "recensie_citaten": []
+  },
+  "sleutelcitaten": [
+    {
+      "citaat": "Maar als wij ons ieder jaarlijks aan het einde van de lente met de trein naar zee begaven, zoals iedereen die zich de luxe van een paar vrije dagen kon permitteren, leek dat land zo klein, zo petieterig, dat het gedaver van de locomotief en de rijtuigen zich door de bodem scheen voort te zetten tot aan de grenzen, alsof het niet meer was dan een natie van bordkarton, een geschilderde achtergrond voor een groepsportret of het achterplan van een operette.",
+      "context": "Helena beschrijft de treinreis naar zee; de zin illustreert de archaïsch-poëtische stijl en de ironische ondertoon over de kwetsbaarheid van de burgerlijke natiestaat.",
+      "relevantie_mondeling": "Dit citaat is aangeduid als winnaar van de Tzum-prijs voor de beste literaire zin 2009. Het illustreert Mortiers stijl, zijn vergelijkingen, zijn ironische blik op de burgerlijke wereld en het thema van de broze beschaving."
+    }
+  ],
+  "cross_book_verbindingen": {
+    "vervolg_in_oeuvre": [
+      "De spiegelingen (2014) - vervolg vanuit perspectief van Edgards broer Edgard Demont; vormt samen met Godenslaap een tweeluik of panorama van België rond de Eerste Wereldoorlog"
+    ],
+    "andere_mortier_op_lezen_voor_lijst": [
+      "Marcel (1999) - debuut",
+      "Sluitertijd (2002)"
+    ],
+    "andere_oorlogsromans_vergelijkbaar": [
+      "Het verdriet van België (Hugo Claus, 1983) - thematische overeenkomsten: Belgische identiteit, collaboratie en oorlog als achtergrond voor opgroeien",
+      "Oorlog en terpentijn (Stefan Hertmans, 2013) - vergelijkbaar in stijl en in het reconstrueren van een leven via herinneringen over de Eerste Wereldoorlog",
+      "Post voor mevrouw Bromley (Stefan Brijs) - Eerste Wereldoorlog als thema"
+    ],
+    "vergelijkbare_thematiek_herinnering": [
+      "De aanslag (Harry Mulisch, 1982) - herinnering, trauma en de vraag hoe het verleden doorwerkt in het heden"
+    ]
+  },
+  "mondeling_aandachtspunten_per_niveau": {
+    "N4": "Niet aanbevolen. De traagheid van de vertelling en de archaïsch-poëtische stijl zullen N4-lezers afschrikken.",
+    "N5": "Vergevorderde N5-lezers kunnen de impliciete tijdsprongen volgen mits zij bereid zijn zich in te spannen. De metaforische stijl en de hoge leeftijd van de ik-persoon vormen drempels. De vele cultureel-historische verwijzingen en het gedateerde vocabulaire zijn een extra belemmering. Beginners N5 wordt het boek expliciet ontraden.",
+    "N6": "De historische achtergrond, de bijzondere stijl en de complexe, associatieve structuur zullen N6-lezers aanspreken en uitdagen. Kennis van de klassieke oudheid, bijbelse verhalen en van Hugo Claus' Het verdriet van België verdiept het begrip. De brede literair-historische kennis die de roman veronderstelt, is een uitdaging en geen obstakel voor de N6-lezer."
+  },
+  "mondelingvragen": {
+    "basics": [
+      {
+        "vraag": "Wat is de situatie aan het begin van het boek?",
+        "anker": "De bijna honderdjarige Helena Demont zit thuis, verzorgd door Rachida, en blikt schrijvend terug op haar leven.",
+        "doorvraag": "Waarom kiest Mortier voor een ik-verteller die zo oud is?"
+      },
+      {
+        "vraag": "Hoe eindigt het boek?",
+        "anker": "Op de laatste pagina's verschuift het perspectief naar Rachida, die aan Helena het verhaal vertelt van haar overgrootvader Saïd.",
+        "doorvraag": "Wat voegt dit perspectiefverschuiving toe aan het thema van de roman?"
+      },
+      {
+        "vraag": "Wie zijn de belangrijkste personages?",
+        "anker": "Helena Demont (ik-verteller), haar broer Edgard, haar echtgenoot Matthew Herbert, haar moeder en verzorgster Rachida.",
+        "doorvraag": "Welk personage vond jij het meest overtuigend uitgewerkt?"
+      },
+      {
+        "vraag": "Wat betekent de titel Godenslaap?",
+        "anker": "titelverklaring oppervlakkig en dieper",
+        "doorvraag": "Wie of wat slaapt er volgens jou in dit boek?"
+      },
+      {
+        "vraag": "Wat voor soort roman is Godenslaap?",
+        "anker": "Historische roman, psychologische roman, oorlogsroman; primair N6",
+        "doorvraag": "Is dit boek in de eerste plaats een oorlogsroman of een psychologisch portret?"
+      }
+    ],
+    "plot_en_structuur": [
+      {
+        "vraag": "Hoe is het verhaal opgebouwd?",
+        "anker": "Associatieve structuur met wisselende tijdlagen; geen lineaire chronologie; heden en verleden wisselen af; herinneringen duiken op als brokstukken.",
+        "doorvraag": "Waarom kiest Mortier voor een niet-lineaire structuur? Wat voor effect heeft dat op jou als lezer?"
+      },
+      {
+        "vraag": "Vat de plot samen in vijf zinnen.",
+        "anker": "samenvatting.kort"
+      },
+      {
+        "vraag": "Hoe verhouden het heden en het verleden zich in dit boek tot elkaar?",
+        "anker": "Het heden (Helena oud, verzorgd door Rachida) dient als kader; het verleden (1914-1918) vormt de inhoud van de herinneringen; de nadruk ligt op de oorlogsjaren."
+      }
+    ],
+    "perspectief_en_vertelling": [
+      {
+        "vraag": "Vanuit welk perspectief is het boek geschreven?",
+        "anker": "Ik-verteller Helena, overwegend vertellend ik; perspectiefwisseling naar Rachida op het einde.",
+        "doorvraag": "Wat is het effect van een verteller die zo oud is en terugblikt? Wat weet zij wel en niet meer?"
+      },
+      {
+        "vraag": "Waarom verschuift het perspectief naar Rachida aan het einde?",
+        "anker": "Verbindt de Eerste Wereldoorlog met postkoloniale geschiedenissen; breidt het thema van herinnering en geweld uit over culturele grenzen."
+      },
+      {
+        "vraag": "Is Helena een betrouwbare verteller?",
+        "anker": "Zij vertelt vanuit hoge leeftijd en schrijvend geheugen; herinneringen zijn fragmentarisch en associatief; het reconstrueren van het verleden is zelf een thema.",
+        "doorvraag": "Welke invloed heeft haar leeftijd op wat en hoe zij vertelt?"
+      }
+    ],
+    "thematiek": [
+      {
+        "vraag": "Wat zijn de hoofdthema's van Godenslaap?",
+        "anker": "thematiek.hoofdthemas: oorlog als vormende kracht, herinnering en reconstructie van het verleden, gebroken familiebanden, liefde en geweld als onlosmakelijk verbonden, maatschappijkritiek.",
+        "doorvraag": "Welk thema sprak jou het meest aan?"
+      },
+      {
+        "vraag": "Hoe werkt het thema herinnering in dit boek?",
+        "anker": "thematiek.hoofdthemas[1]: associatieve fragmenten, niet-lineaire structuur weerspiegelt de werking van het geheugen.",
+        "doorvraag": "Denk je dat Mortier wil zeggen dat het verleden ooit volledig te reconstrueren is?"
+      },
+      {
+        "vraag": "Is Godenslaap een oorlogsroman of een familieroman?",
+        "anker": "Beide: de oorlog dient als context waarbinnen familiebanden en persoonlijke ontwikkeling centraal staan.",
+        "doorvraag": "Welke oorlogsscènes zijn jou het meest bijgebleven?"
+      }
+    ],
+    "motieven": [
+      {
+        "vraag": "Welke motieven herken je in Godenslaap?",
+        "anker": "motieven: beeld en fotografie, de rivier en water, mythologische en bijbelse verwijzingen, de archaïsch-poëtische zin, slaap en bewusteloosheid."
+      },
+      {
+        "vraag": "Welke rol speelt fotografie in het boek?",
+        "anker": "Matthew als oorlogsfotograaf; fotografie als bemiddeling tussen werkelijkheid en beeld; spanning tussen esthetische blik en verschrikking.",
+        "doorvraag": "Wat zegt Mortier hiermee over de verhouding tussen kunst en geweld?"
+      },
+      {
+        "vraag": "Wat betekent de slaap in de titel als motief in het verhaal?",
+        "anker": "motieven: slaap en bewusteloosheid; de zelfgenoegzame vooroorlogse beschaving als slapende wereld; slaap als dood en vergetelheid.",
+        "doorvraag": "Wordt er in het boek ook wakker geworden? Door wie?"
+      }
+    ],
+    "personages": [
+      {
+        "vraag": "Hoe ontwikkelt Helena zich in het boek?",
+        "anker": "personages.hoofdpersoon.Helena: de eigenlijke ontwikkeling speelt zich af in de oorlogsjaren; in het heden is zij schrijvend terugblikkend.",
+        "doorvraag": "Is Helena een actieve of een passieve hoofdpersoon?"
+      },
+      {
+        "vraag": "Welke functie heeft Edgard in het verhaal?",
+        "anker": "Broer van Helena, homoseksueel, raakt zwaar gewond; representeert de idealist die door de oorlog gebroken wordt; wordt in De spiegelingen de hoofdpersoon.",
+        "doorvraag": "Waarom kiest Mortier ervoor Edgard later een eigen roman te geven?"
+      },
+      {
+        "vraag": "Wat is de betekenis van Rachida als personage?",
+        "anker": "Jonge Vlaams-Marokkaanse verzorgster; verbindt de roman met het hedendaagse multiculturele België; haar verhaal van Saïd aan het einde opent het boek naar postkoloniale thematiek.",
+        "doorvraag": "Had Mortier dit effect ook anders kunnen bereiken?"
+      }
+    ],
+    "tijd_en_context": [
+      {
+        "vraag": "In welke periode speelt het verhaal zich af?",
+        "anker": "Hoofdzakelijk 1914-1918; kader in het hedendaagse België (Helena bijna honderd jaar).",
+        "doorvraag": "Waarom is het van belang dat Helena bijna honderd jaar oud is? Wat voegt dat toe?"
+      },
+      {
+        "vraag": "Hoe heeft Mortier research gedaan voor dit boek?",
+        "anker": "historische_context.research_context: ontdekking van Ellen Newbold La Mottes The backwash of war; vertaling als Het kielzog van de oorlog (2009); twee verdere vertalingen van oorlogsgetuigenissen.",
+        "doorvraag": "Waarom is het relevant te weten welke bronnen een schrijver gebruikt?"
+      },
+      {
+        "vraag": "Hoe wordt de Eerste Wereldoorlog in dit boek anders verbeeldt dan in een schoolboek?",
+        "anker": "Niet als externe historische gebeurtenis maar als ingrijpende persoonlijke ervaring die de binnenkant van mensen vormt."
+      }
+    ],
+    "stroming_en_oeuvre": [
+      {
+        "vraag": "Hoe past Godenslaap in het oeuvre van Mortier?",
+        "anker": "auteur.hoofdwerken: Godenslaap is zijn vijfde roman, gevolgd door het vervolg De spiegelingen; samen vormen zij een panorama van België rond de Eerste Wereldoorlog; constante in oeuvre: taal als drager van herinnering.",
+        "doorvraag": "Wat zegt het over een schrijver dat hij het thema van de Eerste Wereldoorlog in twee romans uitwerkt vanuit twee verschillende perspectieven?"
+      },
+      {
+        "vraag": "Waarom wordt Mortiers stijl vergeleken met proza uit de jaren dertig?",
+        "anker": "stijl_en_taal: archaïsch-poëtische zinsbouw, gedateerd vocabulaire, brede vergelijkingen; critici spreken van een stijl die aan oudere romans doet denken.",
+        "doorvraag": "Vind jij die stijl een voordeel of een nadeel voor de leeservaring?"
+      },
+      {
+        "vraag": "Welke prijzen won Godenslaap en wat zegt dat over de ontvangst?",
+        "anker": "receptie_en_prijzen.prijzen: AKO-Literatuurprijs 2009, Tzum-prijs 2009 voor de beste literaire zin.",
+        "doorvraag": "Waarom wordt juist een zin uit dit boek bekroond? Wat zegt dat over de roman?"
+      }
+    ],
+    "mening_en_waardering": [
+      {
+        "vraag": "Wat vond je van het boek?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "stijl: archaïsch en poëtisch - vond je dat verrijkend of vermoeiend?",
+          "structuur: niet-lineaire opbouw - maakte dat de roman interessanter of moeilijker te volgen?",
+          "thema: oorlog vanuit binnenperspectief - raak je daardoor meer of minder betrokken?",
+          "personage: identificatie met Helena - lukte dat ondanks haar hoge leeftijd?"
+        ]
+      },
+      {
+        "vraag": "Zou je Godenslaap aanraden aan een medeleerling?",
+        "anker": "(persoonlijk)",
+        "onderbouwingsrichtingen": [
+          "niveau-passendheid: niet voor iedereen",
+          "leesbaarheid: vereist geduld en literaire belezenheid",
+          "relevantie: wat zegt een roman over WOI over onze eigen tijd?"
+        ]
+      },
+      {
+        "vraag": "Wat was het sterkste onderdeel van de roman?",
+        "onderbouwingsrichtingen": [
+          "de stijl en de taal",
+          "de oorlogsbeelden via Matthews fotografie",
+          "de perspectiefwisseling naar Rachida aan het einde",
+          "de verhouding tussen Helena en haar broer Edgard"
+        ]
+      }
+    ],
+    "cross_book": [
+      {
+        "vraag": "Welk ander boek op je lijst heeft een vergelijkbaar thema?",
+        "anker": "cross_book_verbindingen"
+      },
+      {
+        "vraag": "Vergelijk Godenslaap met De aanslag van Mulisch wat betreft de verwerking van oorlogstrauma.",
+        "anker": "Beide romans gaan over hoe de Eerste respectievelijk Tweede Wereldoorlog doorwerkt in het latere leven van de hoofdpersoon; Mulisch kiest voor een lineaire structuur met tijdsprongen, Mortier voor associatieve fragmenten."
+      },
+      {
+        "vraag": "Vergelijk Godenslaap met Oorlog en terpentijn van Stefan Hertmans.",
+        "anker": "Beide zijn gebaseerd op herinneringen aan de Eerste Wereldoorlog, reconstrueren een leven via fragmenten en stellen vragen over de betrouwbaarheid van herinnering; beide zijn bestemd voor de gevorderde lezer."
+      }
+    ],
+    "leesechtheid": [
+      {
+        "vraag": "Als je één passage aan een klasgenoot zou voorlezen, welke kies je dan? En wat staat er in die passage?",
+        "tactiek": "scene-voorkeur forceren",
+        "signaal_gelezen": "Noemt een moment dat niet in de standaardsamenvatting staat: een detail over de sfeer in het huis van de moeder, een waarneming tijdens een tocht met Matthew, een alledaags moment van verzorging door Rachida. Beschrijft de passage met aandacht voor sfeer en taalgebruik.",
+        "signaal_niet_gelezen": "Kiest de opening of het slot (perspectiefwisseling naar Rachida, bekend uit elke bespreking). Beschrijft de passage in abstracte termen zonder zintuiglijke details."
+      },
+      {
+        "vraag": "Was er een deel waar je dacht: nu moet er echt iets gebeuren?",
+        "tactiek": "tempo-vraag",
+        "signaal_gelezen": "Benoemt een concrete sectie en legt kort uit waarom het tempo daar stagneerde; kan dat verbinden met de associatieve structuur of het gedateerde vocabulaire.",
+        "signaal_niet_gelezen": "Geeft een generieke klacht over traagheid zonder specificatie, of zegt van niet zonder verdere toelichting."
+      },
+      {
+        "vraag": "Is er iets in het boek waarvan je dacht: dat had ik niet verwacht?",
+        "tactiek": "verrassingsvraag",
+        "signaal_gelezen": "Noemt een detail buiten de plotlijn: een specifiek woord of woordgebruik dat verraste, een bijzondere vergelijking, iets over de vader die in de stad bleef, of iets in de verhouding tussen Helena en haar moeder dat onverwacht was.",
+        "signaal_niet_gelezen": "Verwijst naar de grote structuurkenmerken (perspectiefwisseling naar Rachida, de niet-lineaire opbouw) die in elke samenvatting vermeld staan."
+      },
+      {
+        "vraag": "Behalve Helena, welk personage is jou het meest bijgebleven en waarom?",
+        "tactiek": "bij-personage-check",
+        "signaal_gelezen": "Noemt Edgard, Matthew, de moeder of Rachida met een concrete reden die voortkomt uit de tekst, niet uit de flaptekst.",
+        "signaal_niet_gelezen": "Noemt alleen Edgard omdat die op de flaptekst van De spiegelingen staat vermeld, of noemt Rachida puur vanwege de perspectiefwisseling zonder verdere duiding."
+      },
+      {
+        "vraag": "Vond je het woordgebruik moeilijk? Kun je een woord noemen dat je moest opzoeken?",
+        "tactiek": "vocabulaire-check",
+        "signaal_gelezen": "Noemt een concreet woord uit het boek (bij voorkeur uit de lijst gedateerde woorden: harpij, wegel, nervatuur, obus, zerp, vestimentair of vergelijkbaar) en kan omschrijven in welke context het voorkwam.",
+        "signaal_niet_gelezen": "Zegt 'af en toe' of 'soms' zonder een specifiek woord te kunnen noemen."
+      }
+    ],
+    "verrassingsvragen": [
+      {
+        "vraag": "Wat zou je Erwin Mortier willen vragen als je hem kon spreken?",
+        "type": "open/persoonlijk"
+      },
+      {
+        "vraag": "Is er iets in het boek dat je niet begreep of dat je anders had willen zien?",
+        "anker": "mondeling_aandachtspunten_per_niveau: gedateerd vocabulaire, impliciete tijdsprongen, cultureel-historische verwijzingen"
+      },
+      {
+        "vraag": "Welk personage zou jij willen zijn in dit verhaal, en waarom juist niet?",
+        "type": "open/reflectief"
+      }
+    ]
+  },
+  "_meta": {
+    "bronnen_geconsulteerd": [
+      "lezenvoordelijst.nl docenteninfo N6 Godenslaap",
+      "scholieren.com ZWG-verslag De spiegelingen door Cees (2014) - gebruikt voor oeuvrecontext en vervolgroman",
+      "nl.wikipedia.org/wiki/Erwin_Mortier"
+    ],
+    "samenstelling": "Eigen synthese van meerdere bronnen; geen letterlijke overnames met uitzondering van het sleutelcitaat (blz. 67) en de flaptekst-passage onder citeerrecht. Bron 2 betreft De spiegelingen, niet Godenslaap; gebruikt uitsluitend voor oeuvrecontext en personage-continuïteit.",
+    "geharvest": "2026-04-20",
+    "schema_versie": "0.2-uitgebreid",
+    "waarschuwing": "Bron 2 (scholieren.com) betreft het vervolg De spiegelingen (2014), niet Godenslaap zelf. Informatie over Godenslaap is uitsluitend gebaseerd op Bron 1 (lezenvoordelijst.nl) en Bron 3 (Wikipedia). Gegevens die alleen in De spiegelingen zijn bevestigd, zijn als zodanig gemarkeerd of weggelaten."
+  }
+}
