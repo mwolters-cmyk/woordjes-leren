@@ -59,6 +59,17 @@ npm run dev
 - **Sonnet 4.5** (`claude-sonnet-4-5`) — gekozen omdat MVP. Later evt. 4.6.
 - Prompt-caching op system-prompt (~15K tokens) — opvolgende turns 10% kost
 - Max 1024 output tokens per turn
+- Runtime: **`nodejs`** (NIET edge — Edge Runtime in Next.js 16 leest niet
+  alle env vars goed in dev-mode). `maxDuration: 60s` op Vercel Pro,
+  default 10s op Hobby — voldoende voor ~80 woord output.
+
+### End-to-end getest met Playwright (2026-04-25)
+- ✅ Login mwolters → mondelingen → De aanslag → start sessie
+- ✅ Examinator-opening: "Vertel eens: welke scène is je het meest bijgebleven?"
+- ✅ User-antwoord verstuurd → streaming response binnen ~3s
+- ✅ Examinator gedraagt zich volgens prompt: "Hmm. En wat gebeurt er precies
+  nadat Ploeg is neergeschoten?" — geen oordeel, doorvragen op specificiteit
+- Dus: technisch end-to-end klaar. Nu uitgebreider testen door gebruiker.
 
 ### Open punten voor mondeling-MVP
 - Geen Web Speech API (spraak) — alleen typen voor nu. Add later.
@@ -66,7 +77,7 @@ npm run dev
 - Geen kost-logging — wel mogelijk via Supabase `mondeling_sessions` tabel
   die al bestaat in schema, maar nog niet gebruikt
 - 266 boeken nog te synthetiseren (zit in Mondelingen-project, ~€90 totaal)
-- Examinator-prompt geeft nu max ~80 woorden — als 25s te krap blijkt:
+- Examinator-prompt geeft nu max ~80 woorden — als ooit te krap blijkt:
   korten naar 50 woorden, of switch naar Haiku
 
 ---
@@ -111,6 +122,12 @@ ANTHROPIC_API_KEY=sk-ant-api03-...
 
 Alleen `ANTHROPIC_API_KEY` is nu actief in gebruik (mondeling-API).
 Supabase vars staan klaar voor latere reactivatie.
+
+⚠️ **Bekend issue**: Windows had user-scope env var `ANTHROPIC_API_KEY=""`
+(leeg) van een eerdere installatie. Die overschrijft `.env.local`. Verwijderd
+via PowerShell `[Environment]::SetEnvironmentVariable('ANTHROPIC_API_KEY', $null, 'User')`.
+Mocht opnieuw "ANTHROPIC_API_KEY missing" verschijnen op deze machine:
+check `Get-ChildItem env: | Where { $_.Name -like '*ANTHROP*' }`.
 
 Op Vercel moeten dezelfde vars gezet worden voordat mondelingen op
 productie werkt: `npx vercel env add ANTHROPIC_API_KEY production`

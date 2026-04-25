@@ -12,7 +12,8 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { NextRequest } from "next/server";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
+export const maxDuration = 60; // sec — Vercel Hobby = max 10s, Pro = 60s, Hetzner = unlimited
 
 const MODEL = "claude-sonnet-4-5"; // Sonnet 4.5 voor MVP; later evt. 4.6
 
