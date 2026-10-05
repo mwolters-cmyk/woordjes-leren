@@ -203,7 +203,10 @@ export default function SchrijvenPage() {
             autoCapitalize="off"
           />
 
-          <AccentHelper language={list.language.from} onInsert={handleInsertAccent} />
+          <AccentHelper
+            language={currentWord.reversed ? list.language.from : list.language.to}
+            onInsert={handleInsertAccent}
+          />
 
           {!feedback && (
             <button

@@ -52,7 +52,7 @@ export function applyDirectionToWords(words: Word[], direction: Direction): Word
   return words.map((w) => {
     const reverse = direction === "nl-vt" || (direction === "mix" && Math.random() < 0.5);
     if (reverse) {
-      return { ...w, term: w.definition, definition: w.term };
+      return { ...w, term: w.definition, definition: w.term, reversed: true };
     }
     return w;
   });

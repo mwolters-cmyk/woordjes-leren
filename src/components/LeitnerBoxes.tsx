@@ -30,7 +30,7 @@ const BOX_TOOLTIPS: Record<number, string> = {
   2: "1× goed gehad",
   3: "2× goed gehad",
   4: "3× goed gehad",
-  5: "4× goed gehad — geleerd!",
+  5: "4× goed, op 2 verschillende dagen — geleerd!",
 };
 
 export default function LeitnerBoxes({ distribution }: LeitnerBoxesProps) {

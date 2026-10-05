@@ -253,7 +253,10 @@ export default function ToetsPage() {
                 autoComplete="off"
                 autoCapitalize="off"
               />
-              <AccentHelper language={list.language.from} onInsert={handleInsertAccent} />
+              <AccentHelper
+                language={currentQ.word.reversed ? list.language.from : list.language.to}
+                onInsert={handleInsertAccent}
+              />
               {!feedback && (
                 <button
                   type="submit"

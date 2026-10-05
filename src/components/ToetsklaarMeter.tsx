@@ -63,7 +63,8 @@ export default function ToetsklaarMeter({ readiness }: Props) {
             woorden je vaker goed dan fout had.
           </p>
           <p className="pt-1 border-t border-gray-200">
-            Tip: oefen net zo lang door tot alles in box 4 of 5 zit!
+            Een woord komt pas in &quot;Geleerd&quot; als je het op twee
+            verschillende dagen goed had. Kom dus morgen nog even terug!
           </p>
         </div>
       )}

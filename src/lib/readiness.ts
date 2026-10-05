@@ -28,11 +28,13 @@ const LEVEL_CONFIG: Record<
   begin: { label: "Je bent op weg", color: "#e67e22", min: 26 },
   bijna: { label: "Bijna klaar!", color: "#f1c40f", min: 51 },
   goed: { label: "Goed voorbereid", color: "#2980b9", min: 76 },
-  klaar: { label: "Toetsklaar!", color: "#27ae60", min: 90 },
+  // 95+: one session (everything in box 4) maxes out at 90, so "Toetsklaar!"
+  // needs words that reached box 5 on a second day.
+  klaar: { label: "Toetsklaar!", color: "#27ae60", min: 95 },
 };
 
 function getLevel(score: number): ReadinessLevel {
-  if (score >= 90) return "klaar";
+  if (score >= LEVEL_CONFIG.klaar.min) return "klaar";
   if (score >= 76) return "goed";
   if (score >= 51) return "bijna";
   if (score >= 26) return "begin";

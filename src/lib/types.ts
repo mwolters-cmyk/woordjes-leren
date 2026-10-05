@@ -51,6 +51,7 @@ export interface Word {
   definition: string;
   hint?: string;
   extra?: string; // for Latin/Greek: declension info, gender, etc.
+  reversed?: boolean; // set by applyDirectionToWords: term/definition swapped (answer is in the foreign language)
 }
 
 export interface WordList {

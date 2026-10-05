@@ -43,19 +43,27 @@ export function getInitialProgress(
   };
 }
 
+// A word only reaches box 5 ("Geleerd") once it has been answered correctly
+// on at least this many different days. Cramming in one evening tops out at box 4.
+export const MIN_CORRECT_DAYS_FOR_LEARNED = 2;
+
 export function promoteWord(progress: WordProgress): WordProgress {
   const now = new Date().toISOString();
+  const correctDays = addCorrectDay(progress.correctDays);
   const promoted = canPromote(progress);
-  const newBox = promoted
+  let newBox = promoted
     ? (Math.min(progress.box + 1, 5) as LeitnerBox)
     : progress.box;
+  if (newBox === 5 && progress.box < 5 && correctDays.length < MIN_CORRECT_DAYS_FOR_LEARNED) {
+    newBox = 4;
+  }
 
   return {
     ...progress,
     box: newBox,
     lastSeen: now,
     correctCount: progress.correctCount + 1,
-    correctDays: addCorrectDay(progress.correctDays),
+    correctDays,
     lastPromotedAt: promoted && newBox !== progress.box ? now : progress.lastPromotedAt,
   };
 }
